@@ -1,87 +1,58 @@
-90 [GEN:90] Lucatiel of Mirrah
-91 [GEN:91] Lucatiel of Mirrah
-135 [GEN:135] Carhillion of the Fold
-136 [GEN:136] Carhillion of the Fold
-245 [GEN:245] Lonesome Gavlan
-246 [GEN:246] Lonesome Gavlan
-566 [GEN:566] Lucatiel of Mirrah
-567 [GEN:567] Bradley of the Old Guard
-844 [GEN:844] Flexile Sentry
-938 [GEN:938] Forlorn
-1000 [GEN:1000] Hollow Infantry
-1100 [GEN:1100] Hollow Infantry
-1110 [GEN:1110] Hollow Infantry
-1220 [GEN:1220] Varangian Sailor
-1500 [GEN:1500] Hollow Infantry
-1510 [GEN:1510] Varangian Sailor
-1600 [GEN:1600] Varangian Sailor
-2000 [GEN:2000] Varangian Sailor
-2100 [GEN:2100] Undead Laborer
-2110 [GEN:2110] NO MATCH
-2200 [GEN:2200] Hollow Infantry
-2201 [GEN:2201] Hollow Infantry
-2300 [GEN:2300] Hollow Infantry
-2301 [GEN:2301] Hollow Infantry
-2500 [GEN:2500] Varangian Sailor
-2600 [GEN:2600] Varangian Sailor
-2605 [GEN:2605] Varangian Sailor
-2610 [GEN:2610] Varangian Sailor
-3010 [GEN:3010] Stray Dog
-3500 [GEN:3500] Stray Dog
-3501 [GEN:3501] Stray Dog
-3502 [GEN:3502] Stray Dog
-3510 [GEN:3510] Varangian Sailor
-3511 [GEN:3511] Varangian Sailor
-3520 [GEN:3520] Varangian Sailor
-3600 [GEN:3600] Varangian Sailor
-3620 [GEN:3620] Varangian Sailor
-3630 [GEN:3630] Varangian Sailor
-3700 [GEN:3700] Varangian Sailor
-3710 [GEN:3710] Varangian Sailor
-3800 [GEN:3800] Varangian Sailor
-3810 [GEN:3810] Varangian Sailor
-4100 [GEN:4100] Dark Stalker
-4110 [GEN:4110] Dark Stalker
-4120 [GEN:4120] Dark Stalker
-4200 [GEN:4200] Dark Stalker
-4210 [GEN:4210] Dark Stalker
-4220 [GEN:4220] Dark Stalker
-4230 [GEN:4230] Dark Stalker
-4300 [GEN:4300] Varangian Sailor
-4301 [GEN:4301] NO MATCH
-4302 [GEN:4302] Varangian Sailor
-4500 [GEN:4500] Varangian Sailor
-4540 [GEN:4540] Varangian Sailor
-4550 [GEN:4550] Bradley of the Old Guard
-4560 [GEN:4560] Varangian Sailor
-4600 [GEN:4600] Dark Stalker
-4610 [GEN:4610] Dark Stalker
-4720 [GEN:4720] Varangian Sailor
-4800 [GEN:4800] Varangian Sailor
-4810 [GEN:4810] Varangian Sailor
-4850 [GEN:4850] Crystal Lizard
-5000 [GEN:5000] Dark Stalker
-5010 [GEN:5010] Suspicious Shadow
-5011 [GEN:5011] Suspicious Shadow
-5030 [GEN:5030] Dark Stalker
-5040 [GEN:5040] Varangian Sailor
-5041 [GEN:5041] Varangian Sailor
-5050 [GEN:5050] Varangian Sailor
-5200 [GEN:5200] Varangian Sailor
-5201 [GEN:5201] Varangian Sailor
-5210 [GEN:5210] NO MATCH
-5211 [GEN:5211] NO MATCH
-5220 [GEN:5220] Suspicious Shadow
-5221 [GEN:5221] Suspicious Shadow
-5230 [GEN:5230] Undead Jailer
-6000 [GEN:6000] Hollow Infantry
-6010 [GEN:6010] Hollow Infantry
-6020 [GEN:6020] NO MATCH
-6030 [GEN:6030] Hollow Infantry
-6040 [GEN:6040] NO MATCH
-6050 [GEN:6050] Hollow Infantry
-6100 [GEN:6100] Stray Dog
-6110 [GEN:6110] Stray Dog
-6120 [GEN:6120] Stray Dog
-9000 [GEN:9000] Invisible Hollow
-9001 [GEN:9001] NO MATCH
+90 【NPC】女騎士
+91 【NPC】女騎士（亡霊）
+135 【NPC】魔術屋
+136 【NPC】魔術屋（亡霊）
+245 【NPC】ドワーフ
+246 【NPC】ドワーフ（亡霊）
+566 【NPC】女騎士：白霊
+844 【BOSS】両面戦士：ヘビ頭
+1000 【スタート洞窟抜けた先で寝てる】下級兵士（亡者）：片手斧
+1100 【最初の小屋_1F】下級兵士（亡者）片手剣：小盾
+1110 【最初の小屋_1F】下級兵士（亡者）片手斧
+1220 【最初の小屋2F_油壷投げ】水兵（亡者）
+1500 【メインルート桟橋_狙撃】【下級兵士（亡者）】弓
+1510 【メインルート桟橋_近接】水兵（亡者）剣
+2000 【灯火台１の左側の小屋_屋根上から奇襲】水兵（亡者）片手剣
+2110 【灯火台１近くの暗い部屋】闇に隠れし者
+2200 【灯火台１の左側の小屋_入ると奇襲】下級兵士（亡者）：片手剣：盾
+2300 【灯火台１の左側の小屋_入ると奇襲】下級兵士（亡者）：片手剣：盾
+2500 【最上層左側の建物_階段待ち伏せ】【水兵（亡者）】曲剣
+2600 【中央階段上_油瓶投げ】水兵（亡者）片手剣
+2605 【中央階段上の右】水兵（亡者）曲剣ｘ2
+2610 【中央階段を登った先の広場_開かない扉前】水兵（亡者）：曲剣ｘ2
+3010 【灯火台２近くの建物_小屋の中】野犬
+3500 【井戸広場_井戸前】野犬
+3510 【井戸広場_虫鍵前】水兵（亡者）片手剣
+3600 【バーの建物１F_机で寝てる1】水兵（亡者）：曲剣ｘ2
+3620 【バーの建物１F_机で寝てる1】水兵（亡者）：曲剣ｘ2
+3630 【バーの建物１F_机で寝てる1】水兵（亡者）：曲剣ｘ2
+3700 【バーの建物２F_扉や階段の裏から奇襲】水兵（亡者）曲剣
+3800 【バーの建物２F_狙撃】水兵（亡者）弓
+3810 【バーの建物２F_上下を狙撃】水兵（亡者）弓
+4100 【最上層通路1】闇に隠れし者
+4110 【最上層通路_2】闇に隠れし者
+4120 【最上層通路_3】闇に隠れし者
+4200 【壁破壊部屋1F奥】闇に隠れし者
+4210 【壁破壊部屋1F奥_扉反応で壁破壊】闇に隠れし者
+4220 【壁破壊部屋２F_落下奇襲】闇に隠れし者
+4230 【壁破壊部屋２F_壁を壊させる】闇に隠れし者
+4500 【レバーへの家1F】水兵（亡者）片手剣
+4540 【レバーへの家上】水兵（亡者）曲剣ｘ2
+4550 【ボス船】NPC赤霊
+4600 【船レバーから落ちた先の小屋1】闇に隠れし者
+4610 【船レバーから落ちた先の小屋2】闇に隠れし者
+4720 【３階建ての建物3F】水兵（亡者）曲剣ｘ2
+4800 【船着き場近くの飲んだくれハウス1】水兵（亡者）片手剣
+4810 【船着き場近くの飲んだくれハウス2】水兵（亡者）片手剣
+4850 【船着き場近くの飲んだくれハウス_壁の奥】石守
+5000 【屋根なし部屋】闇に隠れし者：虫鍵で明かりを点けると屋根あり部屋へ逃げる
+5030 【ボス船前】闇に潜むもの：ボス船に向かう桟橋の手前
+5040 【ボス前桟橋_エルード】水兵：亡者：片手剣
+5041 【ボス前桟橋_エルード】水兵：亡者：片手剣
+5050 【ボス前水場_潜り_水入ったら起動】水兵：亡者：曲剣ｘ2
+5200 【ボス船】水兵：亡者：弓
+5201 【ボス船】水兵：亡者：弓
+5210 【ボス船】水兵：亡者：曲剣
+5211 【ボス船】水兵：亡者：片手剣
+5220 【ボス船】異形の影：２週目ボスお供01
+5221 【ボス船】異形の影：２週目ボスお供02

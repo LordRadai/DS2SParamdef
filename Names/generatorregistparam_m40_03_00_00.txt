@@ -1,13 +1,13 @@
-12900000 [REG:12900000] Forest Spirit
-12903000 [REG:12903000] Forest Spirit
-50610000 [REG:50610000] Darklurker (Boss)
-50610001 [REG:50610001] Darklurker (Clone)
-50620000 [REG:50620000] Darklurker (Portal)
-81200000 [REG:81200000] Underworld Deadeye
-81210000 [REG:81210000] Abyss Ironclad
-81220000 [REG:81220000] Pretender to the Xanthous Throne (Male)
-81230000 [REG:81230000] Pretender to the Xanthous Throne (Female)
-81240000 [REG:81240000] Tenebrous Rogue
-81250000 [REG:81250000] The Ghost of Princes Past
-81260000 [REG:81260000] A Chip Off the Ol Rock
-81270000 [REG:81270000] Shadowveil Assasin
+12900000 【森の番人：杖】
+12903000 【森の番人：ベル】
+50610000 【BOSS】アガドゥランのスタンド
+50610001 【BOSS】アガドゥランのスタンドの分身
+50620000 ワームホール
+81200000 古き闇の穴：深淵霊１：スナイパー
+81210000 古き闇の穴：深淵霊２：アックスマン
+81220000 古き闇の穴：深淵霊３：黄衣夫
+81230000 古き闇の穴：深淵霊４：黄衣妻
+81240000 古き闇の穴：深淵霊５：旅人
+81250000 古き闇の穴：深淵霊６：騎士
+81260000 古き闇の穴：深淵霊７：重戦士
+81270000 古き闇の穴：深淵霊８：女王様

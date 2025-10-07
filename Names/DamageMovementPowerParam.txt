@@ -1,6 +1,6 @@
-0 No -- 無
-1 Minimal -- 極小
-2 Small -- 小
-3 In -- 中
-4 Large -- 大
-5 Oversized -- 特大
+0 無
+1 極小
+2 小
+3 中
+4 大
+5 特大

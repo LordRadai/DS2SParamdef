@@ -1,40 +1,24 @@
-10100000 [REG:10100000] Kobold
-11500000 [REG:11500000] Undead Traveler
-13701000 [REG:13701000] Prowling Magus
-13900000 [REG:13900000] Artificial Undead
-14100000 [REG:14100000] Undead Aberration
-15300000 [REG:15300000] Syan Knight
-20400200 [REG:20400200] Poison Moth
-20900000 [REG:20900000] Hunting Dog
-21000010 [REG:21000010] Basilisk
-21000011 [REG:21000011] Basilisk
-21200000 [REG:21200000] Guardian Dragon [Boss]
-21310000 [REG:21310000] Red Crystal Lizard
-22000000 [REG:22000000] Giant Acid Horn Beetle
-22200000 [REG:22200000] Giant Basilisk
-22200001 [REG:22200001] Giant Basilisk
-30000000 [REG:30000000] Ogre
-30000001 [REG:30000001] Ogre
-30000050 [REG:30000050] Ogre
-31700000 [REG:31700000] Dragon Acolyte
-31700001 [REG:31700001] Dragon Acolyte
-32100000 [REG:32100000] Mimic
-32100010 [REG:32100010] Mimic
-32100011 [REG:32100011] Mimic
-32100012 [REG:32100012] Mimic
-32401000 [REG:32401000] Belfry Gargoyle
-32700000 [REG:32700000] Dragon Skeleton
-69400000 [REG:69400000] Forlorn
-69400001 [REG:69400001] Forlorn
-69600000 [REG:69600000] Invisible Hollow
-70000000 [REG:70000000] Emerald Herald
-73000000 [REG:73000000] Phantom
-73100000 [REG:73100000] Phantom
-75200000 [REG:75200000] Lucatiel of Mirrah
-75200001 [REG:75200001] Lucatiel of Mirrah
-77100000 [REG:77100000] Royal Sorcerer Navlaan
-77100001 [REG:77100001] Royal Sorcerer Navlaan
-77100002 [REG:77100002] Royal Sorcerer Navlaan
-82400000 [REG:82400000] Aslatiel of Mirrah
-85000000 [REG:85000000] Painting Guardian Phantom
-86600000 [REG:86600000] Sellsword Luet
+10100000 【コボルト】イベントテスト用
+14100000 【強化不死人】戦闘
+20900000 【狩猟犬】牢屋徘徊
+21000010 【バジリスク】護送車の中
+21200000 【ワイバーン】BOSS
+21310000 【石守：爆発】2Ｆ廊下
+22000000 【巨大毒角虫：酸】檻の中
+22200000 【巨大バジリスク】檻の中
+30000000 オーガ（生者）：色①
+30000001 【オーガ（生者）：色①】ホール上階の檻の中
+30000050 【オーガ（生者）：色①】石化ストップ用
+31700000 【龍の教授】メモとり
+32100000 【ν-ミミック】戦闘
+32700000 骨ドラゴン
+70000000 【竜の巫女】NPC：接続用
+73000000 【ミラーナイトの下僕：特大剣】
+73100000 【ミラーナイトの下僕：両手長斧】
+75200000 【女騎士】NPC
+75200001 【女騎士】NPC（亡霊）
+77100000 【封じられた人】NPC
+77100001 【封じられた人】NPC（亡霊）
+77100002 【封じられた人】NPC（黒霊）
+82400000 【マルチ用NPC：女剣士の兄】ＮＰＣ（黒霊）
+85000000 絵画守（男）

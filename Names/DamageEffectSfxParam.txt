@@ -1,29 +1,29 @@
-0 Without -- なし
-1 General-purpose smoke -- 汎用煙
-3 Spark -- 火花
-4 Flame -- 炎
-6 Lighting -- 雷光
-7 Seoul -- ソウル
-8 Blood -- 血
-9 Fluid -- 体液
-11 Wood -- 木片
-12 Bone fragments -- 骨片
-15 Gravel -- 砂利
-16 Water splash -- 水飛沫
-17 Viscous splash -- 粘性飛沫
-18 Lava Splash -- 溶岩飛沫
-19 Magic Shock -- 魔力衝撃
-20 Dark Shock -- 闇衝撃
-21 Boss Petrified -- ボス石化
-22 Stone water -- 石水
-23 Stone Energy -- 石エネルギー
-24 Behind The Spirit -- 背後霊
-25 Poison Swamp -- 毒沼
-26 Oil -- 油
-27 Acid -- 酸
-28 Mud -- 泥
-29 Soil -- 土
-30 Sand -- 砂
-31 General-purpose smoke (raw meat) -- 汎用煙（生者肉）
-1008 Blood: Green -- 血：緑
-2008 Blood: None -- 血：なし
+0 なし
+1 汎用煙
+3 火花
+4 炎
+6 雷光
+7 ソウル
+8 血
+9 体液
+11 木片
+12 骨片
+15 砂利
+16 水飛沫
+17 粘性飛沫
+18 溶岩飛沫
+19 魔力衝撃
+20 闇衝撃
+21 ボス石化
+22 石水
+23 石エネルギー
+24 背後霊
+25 毒沼
+26 油
+27 酸
+28 泥
+29 土
+30 砂
+31 汎用煙（生者肉）
+1008 血：緑
+2008 血：なし

@@ -1,225 +1,173 @@
-10 UNKNOWN
-9400 UNKNOWN
-100000 Forest Grotesque
-101000 Kobold
-102000 Hollow Soldier
-102100 Royal Soldier
-102130 Royal Soldier
-103000 Hollow Infantry
-103100 Drangleic Infantry
-105000 Amana Shrine Maiden
-106000 Hollow Priest
-107000 Parasitized Undead
-108000 Hollow Rogue
-113000 Varangian Sailor
-115000 Undead Traveler
-117000 Stone Soldier
-118000 Black Hollow Mage
-118001 Black Hollow Mage
-119000 Lion Clan Mage
-121000 Giant
-123000 Suspicious Shadow
-124000 Manikin
-125000 Rupturing Hollow
-125010 Rupturing Hollow
-127000 Captive Undead
-127001 Captive Undead
-127010 Captive Undead (Ivory King DLC)
-127011 Captive Undead (Ivory King DLC)
-129000 Forest Spirit
-129010 Forest Spirit (Ivory King DLC)
-131000 Lindelt Cleric
-132000 Skeleton
-133000 Skeleton
-134000 Gyrm
-135000 Gyrm Warrior
-137000 Prowling Magus
-138000 Torturer
-139000 Artificial Undead
-141000 Undead Aberration
-146000 Lord Tseldora
-147000 Undead Supplicant
-148000 Undead Peasant
-149000 Undead Steelworker
-150000 Stone Knight
-151000 Ironclad Soldier
-152000 Royal Soldier
-153000 Syan Knight
-154000 Skeleton Lord
-155000 Amana Aberration
-156000 UNKNOWN
-157000 Dual-wielding Skeleton
-201100 Small Boar
-202000 Undead Boar
-203000 Parasite Spider
-204000 Poison Moth
-205000 Poison Horn Beetle
-206000 Razorback Nightcrawler
-209000 Hunting Dog
-210000 Basilisk
-212000 Guardian Dragon
-213000 Crystal Lizard
-214000 Giant Undead Boar
-216000 Wall Ghost
-217000 Dark Stalker
-220000 Giant Acid Horn Beetle
-222000 Giant Basilisk
-223000 Mongrel Rat
-223500 Royal Rat Authority
-224000 Darksucker
-225000 UNKNOWN
-226000 Corpse Rat
-226001 Corpse Rat
-226100 Corpse Rat
-227000 Stray Dog
-227010 Stray Dog
-300000 Ogre
-301000 Heide Knight
-302000 Undead Jailer
-303300 Flexile Sentry
-303310 Flexile Sentry (Ivory King DLC)
-304000 Milfanito
-305000 Smelter Demon
-305001 Blue Smelter Demon
-306000 Alonne Captain
-306001 Alonne Captain (Old Iron King DLC)
-307000 Headless Vengarl
-307100 Headless Vengarl
-307110 Vengarl
-308000 Lion Clan Warrior
-309000 Forgotten Giant
-309600 Last Giant
-309700 Giant Lord
-311000 Mounted Overseer
-312000 Grave Warden
-313000 Hollow Falconer
-314000 Hollow Primal Knight
-315000 Primal Knight
-316000 Desert Sorceress
-317000 Dragon Acolyte
-318000 The Pursuer
-319000 Alonne Knight
-319001 Alonne Knight (Old Iron King DLC)
-321000 Mimic
-321010 Mimic
-324000 Belfry Gargoyle
-325000 Ruin Sentinel
-326000 The Rotten
-327000 Dragon Skeleton
-330000 Old Knight
-331000 Drakekeeper
-332000 Throne Defender
-333000 Velstadt
-334000 Throne Watcher
-337000 Captive Undead
-500000 Covetous Demon
-500010 Snowy Covetous Demon
-501000 Mytha- the Baneful Queen
-502000 Manscorpion Tark
-502001 Manscorpion Tark
-502002 Manscorpion Tark
-503000 Scorpioness Najka
-504000 Looking Glass Knight
-506100 Darklurker
-506200 Darklurker (Clone)
-506500 Grave Warden Agdayne
-509000 Leydia Witch
-511000 Imperious Knight
-512000 Leydia Pyromancer
-514600 Vendrick (hollow)
-600000 Ancient Dragon
-601000 Flame Lizard
-601001 Flame Lizard (Old Iron King DLC)
-602000 Demon of Song
-603000 The Duke's Dear Freja
-603100 The Duke's Dear Freja
-607000 Old Iron King
-608000 Corrosive Ant
-611000 Dragonrider
-611001 Dragonrider (Archer)
-611010 Dragonrider
-619100 Executioner's Chariot
-619110 Executioner's Chariot
-625000 Old Dragonslayer
-626000 Lost Sinner
-627000 Nashandra
-650000 Iron Warrior
-651000 Fume Sorcerer
-653000 Ashen Warrior
-654000 Ashen Crawler
-656000 Possessed Armor
-657000 Barrel Carrier
-658000 Retainer
-659000 Rampart Golem
-660000 Crystal Golem
-661000 Frozen Reindeer
-662000 Rampart Hedgehog
-663000 Rampart Spearman
-663010 Rampart Spearman
-665000 Sanctum Knight
-666000 Sanctum Soldier
-670000 Sanctum Priestess
-671000 Poison Statue Cluster
-672000 Corrosive Ant Queen
-674000 Pagan Tree
-675000 Fume Knight
-677000 Retainer Sorcerer
-678000 Ice Golem
-679000 Aava- the King's Pet
-680000 Sir Alonne
-681000 Sinh- the Slumbering Dragon
-681001 Sinh- the Slumbering Dragon
-682000 Elana- Squalid Queen
-683000 Imperfect
-684000 Vendrick (NPC)
-685000 Skeleton (Elana)
-686000 Small Undead Boar (Elana)
-687000 Velstadt (Elana)
-688000 Loyce Knight
-689000 Charred Loyce Knight
-690000 Burnt Ivory King
-692000 Aldia- Scholar of the First Sin
-700000 UNKNOWN
-701000 Emerald Herald
-703600 Nashandra (human)
-704500 Laddersmith Gilligan
-705000 Strowen
-721100 Chancellor Wellager
-723000 Milibeth
-724000 Captain Drummond
-725000 Darkdiver Grandahl
-726000 Lonesome Gavlan
-730000 Looking Glass Phantom (Faraam)
-731000 Looking Glass Phantom (Knight)
-742000 Creighton the Wanderer
-743000 Benhart of Jugo
-744000 Mild Mannered Pate
-751000 Cartographer Cale
-752000 Lucatiel of Mirrah
-753000 Bell Keeper
-754000 Merchant Hag Melentia
-755000 UNKNOWN
-760000 Milfanito
-760200 Imprisoned Milfanito
-761000 Maughlin the Armourer
-762000 Stone Trader Chloanne
-763000 Rosabeth of Melfia
-764000 Blacksmith Lenigrast
-766000 Carhillion of the Fold
-768000 Straid of Olaphis
-769000 Licia of Lindeldt
-770000 Felkin the Outcast
-771000 Royal Sorcerer Navlaan
-772000 Magerold of Lanafir
-776000 Weaponsmith Ornifex
-777000 Sweet Shalquoir
-783000 Titchy Gren
-784000 Cromwell the Pardoner
-785000 Blue Sentinel Targray
-786000 Dyna & Tillo
-800000 Player-based NPC
-800001 Player-based NPC
-800002 Player-based NPC (DLC)
-800003 Player-based NPC (DLC)
-801000 UNKNOWN
-812000 Pilgrim Bellclaire
+10 【データテスト】
+9400 ダメージテスト用
+100000 ゴブリン（生者）
+101000 コボルト
+102000 王国兵士（亡者）
+102100 王国兵士（生者）
+102130 王国兵士（生者）：瀕死
+103000 下級兵士（亡者）
+103100 下級兵士（生者）
+105000 妖精の巫女
+106000 ダークプリースト（亡者）
+107000 パラサイトスパイダー（寄生）
+108000 ローグ（亡者）
+113000 水兵（亡者）
+115000 亡者：旅人の服♂
+117000 スタチュー：ポーン
+118000 ダークウィザード（亡者）
+118001 ダークウィザード（亡者）：不死刑場
+119000 獅子黒魔道士（生者）
+121000 巨人下級兵士（巨人）
+123000 異形の影（生者）
+124000 暗殺者（生者）
+125000 アンデッド市民
+125010 アンデッド市民：ボス後トラップ
+127000 死者の労働者（亡者）
+127001 死者の労働者（亡者）：松明用※カプセル大きめ
+129000 森の番人
+131000 クレリック
+132000 スケルトン
+133000 車輪スケルトン
+134000 ドワーフ
+135000 重ドワーフ
+137000 ネクロマンサー
+138000 拷問人
+139000 人造不死人
+141000 強化不死人
+146000 亡者：富裕層の服♂
+147000 亡者：病人の服♂
+148000 亡者：農民の服♂
+149000 亡者：製鉄所員
+150000 スタチュー：ナイト
+151000 王国兵重戦士
+152000 王国兵戦士
+153000 王国兵護衛兵
+154000 スケルトン貴族
+155000 トカゲ人
+156000 兜スケルトン
+157000 鎧スケルトン
+201100 奴隷獣：子豚
+202000 奴隷獣（野生）
+203000 パラサイトスパイダー
+204000 グレートモス
+205000 毒角虫
+206000 針ウジ虫
+209000 狩猟犬
+210000 バジリスク
+212000 ワイバーン
+213000 石守
+214000 牙獣
+216000 扉憑き
+217000 闇に隠れし者
+220000 巨大毒角虫
+222000 巨大バジリスク
+223000 死体あさりネズミ
+223500 巨大ネズミ
+224000 コールタール
+225000 光虫（NPCで流用）
+226000 犬ネズミ
+226001 犬ネズミ：ボス戦用
+226100 犬ネズミ：色②
+227000 野犬
+300000 オーガ（生者）
+301000 彷徨える騎士（亡者）
+302000 獄吏（亡者）
+303300 両面戦士：ヘビ頭
+304000 バンシー（亡者）
+305000 デーモンナイト（亡者）
+306000 デーモン鎧（亡者）：隊長
+307000 デュラハン（亡者）
+307100 デュラハン（生者）
+307110 デュラハン（生者）：頭だけ
+308000 獅子戦士
+309000 巨人上級兵士（巨人）
+309600 新・巨人上級兵士（亡者）
+309700 新・巨人上級兵士（生者）
+311000 騎人兵：騎乗兵士
+312000 イモータル上級兵士
+313000 鷹匠戦士
+314000 象人（亡者）
+315000 象人（生者）
+316000 捕らわれた魔導士（生者）
+317000 龍の教授
+318000 ベイグラント
+319000 デーモン鎧（亡者）：量産
+321000 ミミック
+324000 ガーゴイル
+325000 鏡の中の戦士
+326000 ブッチャー
+327000 骨ドラゴン
+330000 古代の戦士
+331000 デーモン重兵士
+332000 王妃の騎士A
+333000 王妃の騎士B
+334000 王妃の騎士C
+337000 すごい亡者
+500000 ジャバザハット
+501000 ナーガ
+502000 マンスコーピオン♂
+502001 マンスコーピオン♂：白霊
+502002 マンスコーピオン♂：幽霊
+503000 マンスコーピオン♀
+504000 ミラーナイト
+506100 アガドゥランのスタンド
+506200 ワームホール
+506500 アガドゥラン
+509000 ダークビショップ
+511000 ファントムナイト（霊体）
+512000 ファントムメイジ（霊体）
+514600 年老いた王
+600000 古の龍
+601000 サラマンダー
+602000 美声カエル
+603000 蜘蛛の女王
+603100 蜘蛛の女王（崖）
+607000 熔鉄デーモン
+608000 腐食虫（外殻）：クズ底
+611000 重騎馬兵：兵士のみ
+611010 重騎馬兵：兵士のみ：弓
+619100 シルバーチャリオット：馬のみ
+619110 シルバーチャリオット：合体
+625000 オーンスタイン
+626000 忘れられた罪人
+627000 王妃の鎧形態
+700000 龍の巫女
+701000 龍の巫女（子供）
+703600 新王妃
+704500 梯子屋
+705000 退役の火守女
+721100 宰相の霊
+723000 家政婦
+724000 王国隊長
+725000 深淵の巡礼者
+726000 ドワーフ・ガバランス 
+730000 ミラーナイトの下僕１
+731000 ミラーナイトの下僕２
+742000 放浪の戦士
+743000 月光爺
+744000 パッチ
+751000 地図書き
+752000 海ソラール
+753000 鐘守
+754000 よろずババア
+755000 ストーカー戦士
+760000 吟遊詩人の少女
+760200 虜囚の少女
+761000 防具屋
+762000 素材屋
+763000 呪術屋
+764000 鍛冶屋
+766000 魔術屋
+768000 スペルマニア
+769000 奇跡の人リーシュ
+770000 闇術屋
+771000 封じられた人
+772000 珍品屋
+776000 上位武器屋
+777000 猫
+783000 黒ファントム屋
+784000 免罪の教戒師
+785000 守護の騎士
+786000 キラキラ娘
+800000 汎用NPC
+801000 汎用NPC（幻影擬態）

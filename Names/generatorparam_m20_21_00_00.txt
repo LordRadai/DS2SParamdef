@@ -1,112 +1,98 @@
-1 [GEN:1] Chancellor Wellager
-40 [GEN:40] Darkdiver Grandahl
-41 [GEN:41] Darkdiver Grandahl
-60 [GEN:60] Benhart of Jugo
-61 [GEN:61] Benhart of Jugo
-205 [GEN:205] Emerald Herald
-235 [GEN:235] Nashandra (human)
-305 [GEN:305] Imprisoned Milfanito
-306 [GEN:306] Imprisoned Milfanito
-400 [GEN:400] Emerald Herald
-670 [GEN:670] Royal Sorcerer Navlaan
-671 [GEN:671] Nameless Usurper
-676 [GEN:676] Benhart of Jugo
-677 [GEN:677] Head of Vengarl
-678 [GEN:678] Benhart of Jugo
-679 [GEN:679] Ashen Knight Boyd
-680 [GEN:680] Bradley of the Old Guard
-681 [GEN:681] Pilgrim Bellclaire
-682 [GEN:682] Bashful Ray
-683 [GEN:683] Sellsword Luet
-825 [GEN:825] Looking Glass Knight
-859 [GEN:859] Nashandra
-860 [GEN:860] Throne Defender
-862 [GEN:862] Throne Watcher
-863 [GEN:863] Twin Dragonrider
-864 [GEN:864] Twin Dragonrider
-910 [GEN:910] Aldia- Scholar of the First Sin (boss)
-917 [GEN:917] Aldia- Scholar of the First Sin
-968 [GEN:968] Forlorn
-1000 [GEN:1000] Primal Knight
-1010 [GEN:1010] Primal Knight
-1020 [GEN:1020] Drakekeeper Knight Phantom
-1030 [GEN:1030] Royal Swordsman
-1050 [GEN:1050] Royal Swordsman
-1051 [GEN:1051] Royal Swordsman
-1052 [GEN:1052] Royal Swordsman
-1053 [GEN:1053] Royal Swordsman
-1070 [GEN:1070] Syan Knight
-1071 [GEN:1071] Syan Knight
-1073 [GEN:1073] Syan Knight
-1090 [GEN:1090] Royal Swordsman
-1091 [GEN:1091] Royal Swordsman
-1092 [GEN:1092] Royal Swordsman
-1098 [GEN:1098] Crystal Lizard
-1100 [GEN:1100] Syan Knight
-1220 [GEN:1220] Syan Knight
-1221 [GEN:1221] Syan Knight
-1222 [GEN:1222] Syan Knight
-1230 [GEN:1230] Royal Swordsman
-1296 [GEN:1296] Syan Knight
-1300 [GEN:1300] Stone Soldier
-1302 [GEN:1302] Stone Soldier
-1306 [GEN:1306] Stone Soldier
-1307 [GEN:1307] Stone Soldier
-1308 [GEN:1308] Stone Soldier
-1310 [GEN:1310] Stone Soldier
-1312 [GEN:1312] Stone Soldier
-1313 [GEN:1313] Stone Soldier
-1316 [GEN:1316] Stone Soldier
-1317 [GEN:1317] Stone Soldier
-1320 [GEN:1320] Ruin Sentinel
-1325 [GEN:1325] Ruin Sentinel
-1330 [GEN:1330] Ruin Sentinel
-1335 [GEN:1335] Ruin Sentinel
-1340 [GEN:1340] Ruin Sentinel
-1360 [GEN:1360] Stone Soldier
-1361 [GEN:1361] Stone Soldier
-1362 [GEN:1362] Stone Soldier
-1363 [GEN:1363] Stone Soldier
-1364 [GEN:1364] Stone Soldier
-1365 [GEN:1365] Stone Soldier
-1366 [GEN:1366] Stone Soldier
-1367 [GEN:1367] Stone Soldier
-1368 [GEN:1368] Stone Soldier
-1410 [GEN:1410] Royal Swordsman
-1420 [GEN:1420] Royal Swordsman
-1430 [GEN:1430] Royal Swordsman
-1431 [GEN:1431] Royal Swordsman
-1510 [GEN:1510] Royal Swordsman
-1550 [GEN:1550] Syan Knight
-1560 [GEN:1560] Syan Knight
-1561 [GEN:1561] Syan Knight
-1570 [GEN:1570] Syan Knight
-1591 [GEN:1591] Royal Swordsman
-1610 [GEN:1610] Royal Swordsman
-1703 [GEN:1703] Alonne Captain
-3010 [GEN:3010] Stone Knight
-3020 [GEN:3020] Stone Knight
-3030 [GEN:3030] Stone Knight
-3040 [GEN:3040] Stone Knight
-3100 [GEN:3100] Washing Pole Phantom
-5000 [GEN:5000] Looking Glass Phantom (Faraam)
-5001 [GEN:5001] Looking Glass Phantom (Knight)
-8000 [GEN:8000] The Pursuer
-8010 [GEN:8010] The Pursuer
-9000 [GEN:9000] Belfry Gargoyle
-9010 [GEN:9010] Executioner's Chariot
-9031 [GEN:9031] Old Knight
-9032 [GEN:9032] Old Knight
-9033 [GEN:9033] Old Knight
-9040 [GEN:9040] Dark Stalker
-9050 [GEN:9050] Wall Ghost
-9051 [GEN:9051] Wall Ghost
-9060 [GEN:9060] Desert Sorceress
-9061 [GEN:9061] Desert Sorceress
-9080 [GEN:9080] Manikin
-9081 [GEN:9081] Manikin
-9200 [GEN:9200] Invisible Hollow
-9201 [GEN:9201] Invisible Hollow
-9202 [GEN:9202] Invisible Hollow
-9300 [GEN:9300] Mimic
-9953 [GEN:9953] Royal Swordsman
+1 【べラガー】ＮＰＣ
+40 【ＮＰＣ】深淵の巡礼者（生者）
+41 【ＮＰＣ】深淵の巡礼者（亡者）
+60 【月光爺】NPC
+61 【月光爺】NPC（亡霊）
+205 【龍の巫女】ＮＰＣ
+235 【王妃】ＮＰＣ
+305 【虜囚の少女】NPC
+306 【虜囚の少女】NPC：幽霊
+400 【龍の巫女】ＮＰＣ：２箇所目
+670 【黒霊_道中】封じられた人
+671 【黒霊_道中】王城ドラングレイグ：闇霊１（亡霊）
+676 【白霊_ボス部屋前：ミラーナイト】月光爺
+677 【白霊_ボス部屋前：王妃】デュラハン
+678 【白霊_ボス部屋前：王妃】月光爺
+825 【ボス】ミラーナイト
+859 【王妃の鎧形態】
+860 【王妃の騎士A】
+862 【王妃の騎士C】
+863 【ボス】重騎馬兵：兵士のみＡ
+864 【ボス】重騎馬兵：兵士のみＢ
+1000 【正門前】象兵_生者
+1010 【正門前】象兵_生者
+1020 【正門前】NPC
+1030 【正門前】王国兵士：クロスボウ
+1031 【正門前】王国兵士：クロスボウ　帰還準備17.5
+1050 【正門左】王国兵戦士：両手剣：無限湧き霊体_01
+1051 【正門左】王国兵戦士：両手剣：無限湧き霊体_02　（２周目に）
+1052 【正門左】王国兵戦士：両手剣：無限湧き霊体_02　（２周目に）
+1053 【正門左】王国兵戦士：両手剣：無限湧き霊体_04
+1090 【正門前階段前の道】王国兵戦士：クロスボウ
+1091 【正門前階段前の道】王国兵戦士：クロスボウ
+1092 【正門前階段前の道】王国兵戦士：両手剣
+1098 【正門前階段前の道】石守
+1100 【エントランス】王国護衛兵：斧槍
+1200 【エントランス通路】王国護衛兵：特大剣
+1210 【エントランス通路】王国兵戦士：両手剣
+1211 【エントランス通路】王国兵戦士：両手剣
+1220 【エントランスと通路の間】王国兵護衛兵：特大剣
+1230 【エントランス通路梯子上部屋】王国兵戦士：両手剣_01
+1240 【エントランス通路梯子上部屋】王国兵戦士：両手剣_02
+1290 【王の扉前_扉を開く条件を満たすと登場】赤霊
+1291 【王の扉前_扉を開く条件を満たすと登場】赤霊
+1300 【ゴーレム部屋】スタチュー：ポーン　盾
+1301 【ゴーレム部屋】スタチュー：ポーン
+1302 【ゴーレム部屋】スタチュー：ポーン　盾
+1303 【ゴーレム部屋】スタチュー：ポーン
+1304 【ゴーレム部屋】スタチュー：ポーン　盾
+1305 【ゴーレム部屋】スタチュー：ポーン
+1306 【ゴーレム部屋】スタチュー：ポーン　盾
+1307 【ゴーレム部屋】スタチュー：ポーン
+1308 【ゴーレム部屋】スタチュー：ポーン　盾
+1309 【ゴーレム部屋】スタチュー：ポーン
+1310 【ゴーレム部屋】スタチュー：ポーン　盾
+1311 【ゴーレム部屋】スタチュー：ポーン
+1320 【ゴーレム部屋_右中央の扉奥】鏡の中の戦士
+1325 【ゴーレム部屋_右奥の扉奥】鏡の中の戦士
+1330 【ゴーレム部屋_左手前の扉奥】鏡の中の戦士
+1335 【ゴーレム部屋_左中央の扉奥】鏡の中の戦士
+1340 【ゴーレム部屋_左奥】鏡の中の戦士
+1420 【酸の溜まり】王国兵戦士：クロスボウ
+1510 【隠し篝火そば】王国兵戦士：クロスボウ
+1550 【肖像画の間】王国兵護衛：両手剣
+1560 【肖像画の間】王国兵護衛：両手剣
+1561 【肖像画の間】王国兵護衛：両手剣　出口の守り重視
+1591 【外側通路②前半階段】王国兵戦士：クロスボウ
+1610 【外側通路②】王国兵戦士：クロスボウ
+1702 【一方通行通路】デーモン鎧（亡者）：弓_01
+1703 【一方通行通路】デーモン鎧（亡者）：弓_02
+1704 【一方通行通路】デーモン鎧（亡者）：弓_03
+1710 【一方通行通路】王国護衛兵：特大剣
+1800 【機械室】スタチュー：ポーン　盾
+1801 【機械室】スタチュー：ポーン
+1802 【機械室】スタチュー：ポーン　盾
+1803 【機械室】スタチュー：ポーン
+1804 【機械室】スタチュー：ポーン　盾
+1805 【機械室】スタチュー：ポーン
+1806 【機械室】スタチュー：ポーン　盾
+1910 【大広間】王国兵護衛兵：斧槍
+1911 【大広間】王国兵護衛兵：斧槍
+1920 【大広間出口先】象兵_生者
+1921 【大広間】象兵_生者
+1930 【大広間】デーモン鎧（亡者）：弓_01
+1931 【大広間】デーモン鎧（亡者）：弓_02
+1932 【大広間】デーモン鎧（亡者）：弓_03
+1933 【大広間】デーモン鎧（亡者）：弓_04
+1934 【大広間】デーモン鎧（亡者）：弓_05
+1935 【大広間】デーモン鎧（亡者）：弓_06
+3010 【ミラーナイトの回廊】スタチュー：ナイト
+3020 【ミラーナイトの回廊】スタチュー：ナイト
+3030 【ミラーナイトの回廊】スタチュー：ナイト
+3040 【ミラーナイトの回廊】スタチュー：ナイト
+3100 【回廊の鍵部屋】赤霊
+4900 【ミラーナイト扉前】王国護衛兵
+5000 【ミラーナイト戦_お供】ミラーナイトの下僕：両手剣
+5001 【ミラーナイト戦_お供】ミラーナイトの下僕：両手長斧
+8000 【エントランス部屋】ベイグラント
+8010 【エントランス部屋】ベイグラント

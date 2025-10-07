@@ -1,32 +1,28 @@
-0 UNKNOWN
-11000 [Company of Champions] Awestone
-11010 [Rat King] Pharros' Lockstone
-11020 [Dragon Remnants] Dragon Scale
-11030 [Pilgrims of Dark] Bonfire Ascetic- Human Effigy
-11050 [Blue Sentinels] Token of Fidelity
-11060 [Heirs of the Sun] Sunlight Medal
-11070 [Rat King] Smooth & Silky Stone
-11080 [Rat King] Smooth & Silky Stone
-11090 None
-11100 None
-11110 [Blue Sentinels] Token of Fidelity
-11120 [Blue Sentinels] Token of Fidelity
-11130 None
-11140 [Brotherhood of Blood] Token of Spite
-11150 [Brotherhood of Blood] Token of Spite
-11160 [Brotherhood of Blood] Token of Spite
-11170 [Brotherhood of Blood] Token of Spite
-11180 [Bell Keeper] Titanite Chunk- Titanite Slab- Twinkling Titanite- Petrified Dragon Bone
-11190 [Rat King] Pharros' Lockstone- Smooth & Silky Stone
-11200 [Rat King] Pharros' Lockstone- Smooth & Silky Stone
-11210 [Dragon Remnants] Dragon Scale
-11220 [Pilgrims of Dark] Bonfire Ascetic- Human Effigy
-11230 [Blue Sentinels] Cracked Blue Eye Orb
-11240 [Blue Sentinels] Cracked Red Eye Orb
-11250 [Pilgrims of Dark] Human Effigy
-11260 [Pilgrims of Dark] Human Effigy
-11270 [Pilgrims of Dark] Human Effigy
-11280 [Bell Keeper] Titanite Chunk- Titanite Slab- Twinkling Titanite- Petrified Dragon Bone
-10045500 Torch
-90000000 UNKNOWN
-90000001 UNKNOWN
+0 無効
+11000 ホスト時-「強者」誓約成功報酬_運営イベント用
+11010 ホスト時-「ねずみの王」誓約成功報酬_運営イベント用
+11020 ホスト時-竜霊撃退報酬_運営イベント用
+11030 ホスト時-深淵霊撃退報酬_運営イベント用
+11050 白霊時-白霊：成功帰還（制限時間満了）_運営イベント用
+11060 白霊時-金霊：成功帰還（制限時間満了）_運営イベント用
+11070 小霊時-小霊：成功帰還（制限時間満了）_運営イベント用
+11080 小霊時-小金霊：成功帰還（制限時間満了）_運営イベント用
+11090 救援青霊時-成功帰還（ホストがボス白扉通過）_運営イベント用
+11100 救援青霊時-成功帰還（ホストがゴール白扉通過）_運営イベント用
+11110 救援青霊時-闇霊：成功帰還（闇霊が死亡）_運営イベント用
+11120 救援青霊時-赤霊：成功帰還（闇霊が死亡）_運営イベント用
+11130 報復青霊時-成功帰還（ホスト死亡）_運営イベント用
+11140 闇霊時-闇霊：成功帰還（ホスト死亡）_運営イベント用
+11150 闇霊時-赤霊：成功帰還（ホスト死亡）_運営イベント用
+11160 闇霊時-闇霊：成功帰還（救援青霊死亡）_運営イベント用
+11170 闇霊時-赤霊：成功帰還（救援青霊死亡）_運営イベント用
+11180 鐘守灰霊時-成功帰還（ホスト死亡）_運営イベント用
+11190 ねずみの王灰霊時-成功帰還（ゴール灰扉通過）_運営イベント用
+11200 ねずみの王灰霊時-成功帰還（ホスト死亡）_運営イベント用
+11210 竜霊時-成功帰還（ホスト死亡）_運営イベント用
+11220 深淵霊時-成功帰還（ホストを自身の攻撃で撃破）_運営イベント用
+11230 決闘青霊時-決闘勝利帰還_運営イベント用
+11240 決闘闇霊時-決闘勝利帰還_運営イベント用
+10045500 【サーバー宝箱】
+90000000 清水テスト1
+90000001 清水テスト2

@@ -1,2 +1,2 @@
-0 UNKNOWN
-10 UNKNOWN
+0 
+10 

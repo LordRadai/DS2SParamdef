@@ -1,55 +1,42 @@
-1 UNKNOWN
-212000 Guardian Dragon
-212001 Guardian Dragon
-212002 Guardian Dragon
-212003 Guardian Dragon
-303300 Flexile Sentry
-305000 Smelter Demon
-305200 Blue Smelter Demon
-309600 The Last Giant
-309700 Giant Lord
-318000 The Pursuer
-318010 The Pursuer
-318020 The Pursuer
-325000 Ruin Sentinel
-325010 Ruin Sentinel
-326000 The Rotten
-332000 UNKNOWN
-333000 Velstadt- The Royal Aegis
-334000 Throne Defender
-500000 Covetous Demon
-501000 Mytha- the Baneful Queen
-502000 Manscorpion Tark
-502001 Manscorpion Tark
-502009 Manscorpion Tark
-503000 Scorpioness Najka
-504000 Looking Glass Knight
-506100 Darklurker
-506101 Darklurker
-514600 Vendrick (hollow)
-600000 Ancient Dragon
-601000 Flame Lizard
-602000 Rampart Hedgehog
-603000 The Duke's Dear Freja
-603100 The Duke's Dear Freja
-607000 Old Iron King
-611010 Dragonrider
-611500 Dragonrider
-611510 Dragonrider
-619110 Executioner's Chariot
-625000 Old Dragonslayer
-626000 Lost Sinner
-627000 Nashandra
-628000 Royal Rat Authority
-675000 Fume Knight
-675010 Fume Knight
-679000 Aava
-679002 Aava
-681000 Sinh- the Slumbering Dragon
-682000 Elana- Squalid Queen
-683000 Imperfect
-689000 Charred Loyce Knight
-689010 Charred Loyce Knight
-689020 Charred Loyce Knight
-689030 Charred Loyce Knight
-690000 Burnt Ivory King
+1 テスト
+212000 ワイバーン
+212001 ワイバーン：守り竜の巣①
+212002 ワイバーン：守り竜の巣②
+212003 ワイバーン：守り竜の巣③
+303300 両面戦士：ヘビ頭
+305000 デーモンナイト
+309600 新・巨人上級兵士（亡者）
+309700 新・巨人上級兵士（生者）
+318000 ベイグラント
+318010 ベイグラント
+318020 ベイグラント
+325000 鏡の中の戦士：忘却の牢
+325010 鏡の中の戦士：王城ドラングレイグ
+326000 ブッチャー
+332000 王妃の騎士A
+333000 王妃の騎士B
+334000 王妃の騎士C
+500000 ジャバザハット
+501000 ナーガ
+502000 マンスコーピオン♂
+502001 マンスコーピオン♂
+502009 マンスコーピオン♂
+503000 マンスコーピオン♀
+504000 ミラーナイト
+506100 アガドゥランのスタンド
+506101 アガドゥランのスタンド（分身用）
+514600 年老いた王
+600000 古の龍
+601000 サラマンダー
+602000 美声カエル
+603000 蜘蛛の女王
+603100 蜘蛛の女王（崖）
+607000 熔鉄デーモン
+611010 重騎馬兵：兵士のみ（弓）
+611500 重騎馬兵：兵士のみ（赤）：王城
+611510 重騎馬兵：兵士のみ（赤）：ハイデ
+619110 シルバーチャリオット：馬のみ
+625000 オーンスタイン
+626000 忘れられた罪人
+627000 王妃の鎧形態
+628000 巨大ネズミ

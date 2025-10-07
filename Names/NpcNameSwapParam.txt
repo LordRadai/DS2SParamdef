@@ -1,34 +1,34 @@
-91 UNKNOWN
-7000 UNKNOWN
-7211 Chancellor Wellager
-7220 UNKNOWN
-7240 Captain Drummond
-7400 UNKNOWN
-7410 Crestfallen Saulden
-7420 Creighton the Wanderer
-7440 Mild Mannered Pate
-7460 UNKNOWN
-7510 Cartographer Cale
-7520 Lucatiel of Mirrah
-7550 UNKNOWN
-7600 Milfanito
-7601 Milfanito
-7602 Milfanito
-7603 Milfanito
-7604 Milfanito
-7610 Maughlin the Armourer
-7620 Stone Trader Chloanne
-7630 Rosabeth of Melfia
-7640 Blacksmith Lenigrast
-7643 Steady Hand McDuff
-7650 UNKNOWN
-7660 Carhillion of the Fold
-7670 UNKNOWN
-7720 Magerold of Lanafir
-7740 UNKNOWN
-7780 UNKNOWN
-7800 UNKNOWN
-7831 UNKNOWN
-7840 Cromwell the Pardoner
-7860 Dyna & Tillo
-7870 UNKNOWN
+91 テスト
+7000 龍の巫女
+7211 王国軍師（現代）
+7220 刻の研究者
+7240 親衛隊長
+7400 刻印の在りし者
+7410 心折れた戦士
+7420 敵討ちの戦士 （蜘蛛の街）
+7440 パッチ
+7460 追跡する戦士：廃墟の城
+7510 妹を探す兄：廃墟の城
+7520 海ソラール（蜘蛛の街）
+7550 ストーカー戦士
+7600 吟遊詩人の少女１ 
+7601 吟遊詩人の少女２
+7602 バンシーのブラフ１
+7603 バンシーのブラフ２
+7604 バンシーのブラフ３
+7610 防具屋：マデューラ（現代）
+7620 カバン屋（マデューラ：現代）
+7630 本屋（マデューラ：現代）
+7640 武器鍛冶屋１（現代）
+7643 防具鍛冶屋１:マデューラ（現代）
+7650 道具屋
+7660 スペル屋１＆４（マデューラ：現代）
+7670 スペル屋２＆３（現代）
+7720 中位武器屋１
+7740 中位武器屋２
+7780 よろず屋（現代）
+7800 素材屋（現代）
+7831 青ファントム屋
+7840 免罪の司祭（蜘蛛の街）
+7860 キラキラ娘
+7870 刻のダンジョンの妖精

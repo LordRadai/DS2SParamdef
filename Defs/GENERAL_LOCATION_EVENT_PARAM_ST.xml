@@ -12,15 +12,16 @@
     <Field Def="f32 RotationX" />
     <Field Def="f32 RotationY" />
     <Field Def="f32 RotationZ" />
-    <Field Def="u8 RegionTypeMaybe" />
-    <Field Def="u8 Unk19" />
-    <Field Def="u8 Unk1A" />
-    <Field Def="u8 Unk1B" />
+    <Field Def="u8 RegionType" />
+    <Field Def="u8 Red" />
+    <Field Def="u8 Green" />
+    <Field Def="u8 Blue" />
     <Field Def="f32 ScaleX" />
     <Field Def="f32 ScaleY" />
     <Field Def="f32 ScaleZ" />
     <Field Def="u16 Unk28" />
-    <Field Def="u16 Unk2A" />
+    <Field Def="u8 Unk2A" />
+    <Field Def="u8 EventType" />
     <Field Def="u32 Unk2C" />
   </Fields>
 </PARAMDEF>

@@ -1,64 +1,42 @@
-11500000 [REG:11500000] Undead Traveler
-12501300 [REG:12501300] Rupturing Hollow
-12501304 [REG:12501304] Rupturing Hollow
-12501600 [REG:12501600] Rupturing Hollow
-20400000 [REG:20400000] Poison Moth
-20500100 [REG:20500100] Poison Horn Beetle
-20600000 [REG:20600000] Razorback Nightcrawler
-20900200 [REG:20900200] Hunting Dog
-22400000 [REG:22400000] Darksucker
-30100000 [REG:30100000] Heide Knight
-30900100 [REG:30900100] Forgotten Giant
-32100000 [REG:32100000] Mimic
-32600000 [REG:32600000] The Rotten [Boss]
-33700200 [REG:33700200] Captive Undead
-33700203 [REG:33700203] Captive Undead
-33700204 [REG:33700204] Captive Undead
-33700207 [REG:33700207] Captive Undead
-33700210 [REG:33700210] Captive Undead
-33700211 [REG:33700211] Captive Undead
-33700212 [REG:33700212] Captive Undead
-33700213 [REG:33700213] Captive Undead
-33700214 [REG:33700214] Captive Undead
-33700215 [REG:33700215] Captive Undead
-33700217 [REG:33700217] Captive Undead
-33700220 [REG:33700220] Captive Undead
-33700221 [REG:33700221] Captive Undead
-33700222 [REG:33700222] Captive Undead
-33700225 [REG:33700225] Captive Undead
-33700226 [REG:33700226] Captive Undead
-33700227 [REG:33700227] Captive Undead
-33700228 [REG:33700228] Captive Undead
-33701101 [REG:33701101] Captive Undead
-33701102 [REG:33701102] Captive Undead
-33701105 [REG:33701105] Captive Undead
-33701110 [REG:33701110] Captive Undead
-33702200 [REG:33702200] Captive Undead
-33702201 [REG:33702201] Captive Undead
-33702210 [REG:33702210] Captive Undead
-33702211 [REG:33702211] Captive Undead
-33702212 [REG:33702212] Captive Undead
-33702213 [REG:33702213] Captive Undead
-33702214 [REG:33702214] Captive Undead
-33702217 [REG:33702217] Captive Undead
-33702220 [REG:33702220] Captive Undead
-33702221 [REG:33702221] Captive Undead
-33702222 [REG:33702222] Captive Undead
-60800000 [REG:60800000] Corrosive Ant Queen
-67100000 [REG:67100000] Poison Statue Cluster
-67200000 [REG:67200000] Corrosive Egg Insect
-69300000 [REG:69300000] Aldia- Scholar of the First Sin
-69500000 [REG:69500000] Forlorn
-69600000 [REG:69600000] Invisible Hollow
-72500100 [REG:72500100] Darkdiver Grandahl
-72500200 [REG:72500200] Darkdiver Grandahl
-75200100 [REG:75200100] Lucatiel of Mirrah
-75200500 [REG:75200500] Lucatiel of Mirrah
-75200600 [REG:75200600] Lucatiel of Mirrah
-77100500 [REG:77100500] Royal Sorcerer Navlaan
-81100000 [REG:81100000] Lone Hunter Schmidt
-81400900 [REG:81400900] Melinda the Butcher
-82950000 [REG:82950000] Bashful Ray
-88700000 [REG:88700000] Gutter Denizen
-89600000 [REG:89600000] Woodland Child Victor
-89650000 [REG:89650000] Woodland Child Gully
+12501300 【アンデッド市民】
+12501600 【アンデッド市民：ソウルブラック】
+20500100 【毒角蟲：状態異常なし】
+20600000 針ウジ虫
+20900200 【狩猟犬】
+22400000 【コールタール】
+30900100 【巨人上級兵士】戦闘
+32600000 【ブッチャー】
+33700203 【すごい亡者（素手）】あぐら
+33700204 【すごい亡者（素手）】うつぶせ
+33700207 【すごい亡者（素手）】エルード
+33700210 【すごい亡者（素手）】はやい・戦闘
+33700211 【すごい亡者（素手）】はやい・あぐら
+33700212 【すごい亡者（素手）】はやい・うつぶせ
+33700213 【すごい亡者（素手）】はやい・立ち崇め
+33700214 【すごい亡者（素手）】はやい・座り崇め
+33700215 【すごい亡者（素手）】はやい・エルード
+33700217 【すごい亡者（素手）】はやい・松明反応
+33700220 【すごい亡者（素手）】３倍はやい・戦闘
+33700221 【すごい亡者（素手）】３倍はやい・あぐら
+33700222 【すごい亡者（素手）】３倍はやい・うつぶせ
+33700225 【すごい亡者（素手）】３倍はやい・エルード
+33700226 【すごい亡者（素手）】戦闘_ゲロ吐き
+33700227 【すごい亡者（素手）】うつぶせ_ゲロ吐き
+33701101 【すごい亡者（松明）】はやい・崇められ⇒ハブられ
+33702201 【すごい亡者（剣）】あぐら
+33702210 【すごい亡者（剣）】はやい・戦闘
+33702211 【すごい亡者（剣）】はやい・あぐら
+33702212 【すごい亡者（剣）】はやい・うつぶせ
+33702213 【すごい亡者（剣）】はやい・立ち崇め
+33702214 【すごい亡者（剣）】はやい・座り崇め
+33702217 【すごい亡者（剣）】はやい・松明反応
+33702220 【すごい亡者（剣）】３倍はやい・戦闘
+60800000 【腐食虫（外殻）】
+72500100 【深淵の巡礼者】（亡霊）ＮＰＣ
+72500200 【深淵の巡礼者】（生者）ＮＰＣ
+75200100 【女騎士】NPC（亡霊）
+75200500 【女騎士】NPC
+75200600 【女騎士】NPC（白霊）
+77100500 【封じられた人】NPC（黒霊）
+81100000 【マルチ用NPC：弓兵（男）】白霊
+81400900 【マルチ用NPC：肉断ち（女）】黒霊

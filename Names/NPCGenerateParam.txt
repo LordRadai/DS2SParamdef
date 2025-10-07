@@ -1,72 +1,72 @@
-7010 UNKNOWN
-7020 UNKNOWN
-7030 UNKNOWN
-7110 UNKNOWN
-7120 UNKNOWN
-7130 UNKNOWN
-7140 UNKNOWN
-7150 UNKNOWN
-7160 UNKNOWN
-7170 UNKNOWN
-7210 UNKNOWN
-7220 UNKNOWN
-7230 UNKNOWN
-7240 UNKNOWN
-7250 UNKNOWN
-7260 UNKNOWN
-7270 UNKNOWN
-7280 UNKNOWN
-9150 UNKNOWN
-9500 UNKNOWN
-9700 UNKNOWN
-9701 UNKNOWN
-9702 UNKNOWN
-9703 UNKNOWN
-9704 UNKNOWN
-9705 UNKNOWN
-9706 UNKNOWN
-9707 UNKNOWN
-732000 Unknown NPC
-733000 Unknown NPC
-741000 Crestfallen Saulden
-761000 Maughlin the Armourer
-761010 Maughlin the Armourer
-763000 Rosabeth of Melfia
-763010 Rosabeth of Melfia
-765000 UNKNOWN
-766000 Carhillion of the Fold
-766010 Carhillion of the Fold
-772000 Magerold of Lanafir
-784000 Cromwell the Pardoner
-810000 Masterless Glencour
-811000 Lone Hunter Schmidt
-812000 Pilgrim Bellclaire
-813000 Felicia the Brave
-814000 Melinda the Butcher
-814009 Melinda the Butcher
-820000 Vorgel the Sinner
-821000 Merciless Roenna
-822000 Peculiar Kindalur
-823000 Dragonfang Villard
-831000 Dingy Cleric Phantom
-831100 Faraam Knight Phantom
-832000 Underworld Deadeye
-832100 Pretender to the Xanthous Throne
-832200 Abyss Ironclad
-832300 Abyss Ironclad
-832400 Tenebrous Rogue
-832500 The Ghost of Princes Past
-832600 A Chip Off the Ol Rock
-832700 Shadowveil Assasin
-833000 Peculiar Kindalur Phantom
-834000 UNKNOWN
-834100 UNKNOWN
-835000 Black Dragon Knight
-835100 Black Dragon Knight
-835200 Black Dragon Knight
-836000 Mad Warrior Phantom
-836100 Greatsword Bell Keeper Phantom
-836200 Dual Avelyn Bell Keeper Phantom
-836300 Bell Keeper Mage Phantom
-836400 Ironclad Warrior Phantom
-837000 Foreign Wanderer Phantom
+7010 プレイアブルキャラＡ
+7020 プレイアブルキャラＢ
+7030 プレイアブルキャラＣ
+7110 MIN裸0％
+7120 軽量30％
+7130 中量50％
+7140 重量70％
+7150 最大重量100％
+7160 超過重量150％
+7170 MAX重量200％
+7210 旅人
+7220 兵士
+7230 軽装戦士
+7240 アイテム師
+7250 盗賊
+7260 魔術師
+7270 聖職者
+7280 狩人
+9150 NPCテスト用
+9500 闇霊ダブルソードマン
+9700 幻影-裸（男）
+9701 幻影-服（男）
+9702 幻影-軽装（男）
+9703 幻影-重装（男）
+9704 幻影-裸（女）
+9705 幻影-服（女）
+9706 幻影-軽装（女）
+9707 幻影-重装（女）
+732000 呪術師の罪人１
+733000 呪術師の罪人２
+741000 心折れた戦士
+761000 防具屋：マデューラ（現代）
+761010 防具屋：妖精のほとり
+763000 本屋（マデューラ：現代）
+763010 本屋（蜘蛛の街）
+765000 道具屋
+766000 スペル屋１＆４（マデューラ：現代）
+766010 スペル屋１＆４（抵抗の砦：現代）
+772000 中位武器屋１
+784000 免罪の司祭（蜘蛛の街）
+810000 マルチ用NPC：剣士（男）
+811000 マルチ用NPC：弓兵（男）
+812000 マルチ用NPC：賢者（女）
+813000 マルチ用NPC：ランサー（女）
+814000 マルチ用NPC：肉断ち（女）：白霊
+814009 マルチ用NPC：肉断ち（女）：黒霊
+820000 マルチ用NPC：槍兵（男）
+821000 マルチ用NPC：死神（女）
+822000 マルチ用NPC：魔導士（男）
+823000 マルチ用NPC：古龍剣士（男）
+831000 聖人墓所：捨てられた聖女
+831100 聖人墓所：聖女の騎士
+832000 古き闇の穴：深淵霊１：スナイパー
+832100 古き闇の穴：深淵霊２：アックスマン
+832200 古き闇の穴：深淵霊３：黄衣夫
+832300 古き闇の穴：深淵霊４：黄衣妻
+832400 古き闇の穴：深淵霊５：旅人
+832500 古き闇の穴：深淵霊６：騎士
+832600 古き闇の穴：深淵霊７：重戦士
+832700 古き闇の穴：深淵霊８：女王様
+833000 アマナの祠：人食い番長
+834000 忘却の牢：呪術師
+834100 忘却の牢：闇騎士
+835000 祭祀場：絵画守（男）
+835100 祭祀場：絵画守（女）
+835200 祭祀場：竜騎士
+836000 熔鉄城：侍ソーサラー
+836100 熔鉄城：鐘守１：
+836200 熔鉄城：鐘守２：
+836300 熔鉄城：鐘守３：
+836400 熔鉄城：軽快重兵士
+837000 隙間の洞：２周目狩り
