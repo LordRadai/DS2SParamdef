@@ -6,7 +6,7 @@
     <Enums>
     <Enum Name="EventType">
       <Option Value="0" Name="None" />
-      <Option Value="1" Name="Intrude point" />
+      <Option Value="1" Name="IntrudePoint" />
       <Option Value="2" Name="Logic" />
       <Option Value="3" Name="Trigger" />
       <Option Value="4" Name="Bullet" />
@@ -31,7 +31,7 @@
       <Option Value="23" Name="BackreadSafety" />
       <Option Value="24" Name="EventType_24" />
       <Option Value="25" Name="EventType_25" />
-      <Option Value="26" Name="EventType_26" />
+      <Option Value="26" Name="Aldia" />
     </Enum>
   </Enums> 
   <DisplayNames>
