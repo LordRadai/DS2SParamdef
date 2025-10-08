@@ -3,7 +3,37 @@
   <Self 
   Wiki=""
   Row0Dummy="" />
-  
+    <Enums>
+    <Enum Name="EventType">
+      <Option Value="0" Name="None" />
+      <Option Value="1" Name="Intrude point" />
+      <Option Value="2" Name="Logic" />
+      <Option Value="3" Name="Trigger" />
+      <Option Value="4" Name="Bullet" />
+      <Option Value="5" Name="Navigation" />
+      <Option Value="6" Name="Gas" />
+      <Option Value="7" Name="ChangeNaviMesh" />
+      <Option Value="8" Name="LockOff" />
+      <Option Value="9" Name="Generator" />
+      <Option Value="10" Name="EventJudgment" />
+      <Option Value="11" Name="LogicNoEntry" />
+      <Option Value="12" Name="BloodMsg_0" />
+      <Option Value="13" Name="BloodMsg_1" />
+      <Option Value="14" Name="Wind" />
+      <Option Value="15" Name="SlideFloor" />
+      <Option Value="16" Name="Vagrant" />
+      <Option Value="17" Name="Damage" />
+      <Option Value="18" Name="Bright" />
+      <Option Value="19" Name="DisableBloodMsg_0" />
+      <Option Value="20" Name="DisableBloodMsg_1" />
+      <Option Value="21" Name="Statue" />
+      <Option Value="22" Name="ResidentBloodMsg" />
+      <Option Value="23" Name="BackreadSafety" />
+      <Option Value="24" Name="EventType_24" />
+      <Option Value="25" Name="EventType_25" />
+      <Option Value="26" Name="EventType_26" />
+    </Enum>
+  </Enums> 
   <DisplayNames>
     <NameEntry 
     Param="eventlocation_m10_02_00_00" 
@@ -130,46 +160,7 @@
     Name="Event Locations: m20_10_00_00" />
     
   </DisplayNames>
-  
   <Field>
-    <PositionX 
-    AltName="Position: X" 
-    Wiki="" />
-    
-    <PositionY 
-    AltName="Position: Y" 
-    Wiki="" />
-    
-    <PositionZ 
-    AltName="Position: Z" 
-    Wiki="" />
-    
-    <RotationX 
-    AltName="Rotation: X" 
-    Wiki="" />
-    
-    <RotationY 
-    AltName="Rotation: Y" 
-    Wiki="" />
-    
-    <RotationZ 
-    AltName="Rotation: Z" 
-    Wiki="" />
-    
-    <RegionTypeMaybe 
-    AltName="Region Type" 
-    Wiki="" />
-    
-    <ScaleX 
-    AltName="Scale: X" 
-    Wiki="" />
-    
-    <ScaleY 
-    AltName="Scale: Y" 
-    Wiki="" />
-    
-    <ScaleZ 
-    AltName="Scale: Z" 
-    Wiki="" />
+    <event_type AltName="Event Type" Enum="EventType" Wiki="The event type."/>
   </Field>
 </PARAMMETA>

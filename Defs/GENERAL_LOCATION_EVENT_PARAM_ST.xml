@@ -6,22 +6,22 @@
   <Unicode>True</Unicode>
   <Version>201</Version>
   <Fields>
-    <Field Def="f32 PositionX" />
-    <Field Def="f32 PositionY" />
-    <Field Def="f32 PositionZ" />
-    <Field Def="f32 RotationX" />
-    <Field Def="f32 RotationY" />
-    <Field Def="f32 RotationZ" />
-    <Field Def="u8 RegionType" />
-    <Field Def="u8 Red" />
-    <Field Def="u8 Green" />
-    <Field Def="u8 Blue" />
-    <Field Def="f32 ScaleX" />
-    <Field Def="f32 ScaleY" />
-    <Field Def="f32 ScaleZ" />
+    <Field Def="f32 position_x" />
+    <Field Def="f32 position_y" />
+    <Field Def="f32 position_z" />
+    <Field Def="f32 rotation_x" />
+    <Field Def="f32 rotation_y" />
+    <Field Def="f32 rotation_z" />
+    <Field Def="u8 region_type" />
+    <Field Def="u8 red" />
+    <Field Def="u8 green" />
+    <Field Def="u8 blue" />
+    <Field Def="f32 scale_x" />
+    <Field Def="f32 scale_y" />
+    <Field Def="f32 scale_z" />
     <Field Def="u16 Unk28" />
     <Field Def="u8 Unk2A" />
-    <Field Def="u8 EventType" />
-    <Field Def="u32 Unk2C" />
+    <Field Def="u8 event_type" />
+    <Field Def="u32 type_argument" />
   </Fields>
 </PARAMDEF>
