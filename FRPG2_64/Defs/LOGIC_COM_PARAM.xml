@@ -14,8 +14,8 @@
     <Field Def="f32 vision_cone_vertical_angle" />
     <Field Def="f32 Unk18" />
     <Field Def="f32 Unk1C" />
-    <Field Def="f32 Unk20" />
-    <Field Def="s32 Unk24" />
+    <Field Def="f32 hearing_sensitivity" />
+    <Field Def="s32 category_threshold" />
     <Field Def="f32 Unk28" />
     <Field Def="f32 Unk2C" />
     <Field Def="u8 thought_weight_offset" />
