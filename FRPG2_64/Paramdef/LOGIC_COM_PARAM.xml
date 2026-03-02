@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="LOGIC_COM_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="128">
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="sight_distance" type="f32">
+        <DisplayName>Sight Distance</DisplayName>
+    </Field>
+    <Field name="detect_distance" type="f32">
+        <DisplayName>Detection Distance</DisplayName>
+    </Field>
+    <Field name="vision_cone_horizontal_angle" type="f32">
+        <DisplayName>Vision Cone - Horizontal Angle</DisplayName>
+    </Field>
+    <Field name="vision_cone_vertical_angle" type="f32">
+        <DisplayName>Vision Cone - Vertical Angle</DisplayName>
+    </Field>
+    <Field name="Unk18" type="f32"/>
+    <Field name="Unk1C" type="f32"/>
+    <Field name="hearing_sensitivity" type="f32"/>
+    <Field name="category_threshold" type="s32"/>
+    <Field name="Unk28" type="f32"/>
+    <Field name="Unk2C" type="f32"/>
+    <Field name="thought_weight_offset" type="u8"/>
+    <Field name="thought_weight_offset_2" type="u8"/>
+    <Field name="Unk32" type="u8"/>
+    <Field name="Unk33" type="u8"/>
+    <Field name="Unk34" type="u8"/>
+    <Field name="Unk35" type="u8"/>
+    <Field name="Unk36" type="u8"/>
+    <Field name="Unk37" type="u8"/>
+    <Field name="Unk38" type="u8"/>
+    <Field name="Unk39" type="u8"/>
+    <Field name="Unk3A" type="u8"/>
+    <Field name="Unk3B" type="u8"/>
+    <Field name="Unk3C" type="u8"/>
+    <Field name="Unk3D" type="u8"/>
+    <Field name="Unk3E" type="u8"/>
+    <Field name="Unk3F" type="u8"/>
+    <Field name="Unk40" type="u8"/>
+    <Field name="Unk41" type="u8"/>
+    <Field name="Unk42" type="u8"/>
+    <Field name="Unk43" type="u8"/>
+    <Field name="Unk44" type="f32"/>
+    <Field name="Unk48" type="f32"/>
+    <Field name="Unk4C" type="f32"/>
+    <Field name="Unk50" type="f32"/>
+    <Field name="Unk54" type="f32"/>
+    <Field name="Unk58" type="f32"/>
+    <Field name="Unk5C" type="u8"/>
+    <Field name="Unk5D" type="u8"/>
+    <Field name="Unk5E" type="u8"/>
+    <Field name="Unk5F" type="u8"/>
+    <Field name="Unk60" type="f32"/>
+    <Field name="Unk64" type="u8"/>
+    <Field name="Unk65" type="u8"/>
+    <Field name="Unk66" type="u8"/>
+    <Field name="Unk67" type="u8"/>
+    <Field name="Unk68" type="s32"/>
+    <Field name="Unk6C" type="f32"/>
+    <Field name="Unk70" type="f32"/>
+    <Field name="Unk74" type="f32"/>
+    <Field name="Unk78" type="f32"/>
+    <Field name="Unk7C" type="f32"/>
+</ParamDef>

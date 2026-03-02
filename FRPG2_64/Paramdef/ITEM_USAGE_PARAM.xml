@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="ITEM_USAGE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="8">
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk01" type="u8"/>
+    <Field name="Unk02" type="u8"/>
+    <Field name="item_no_trade" type="u8">
+        <DisplayName>No Trade</DisplayName>
+    </Field>
+    <Field name="item_can_discard" type="u8">
+        <DisplayName>Can Discard</DisplayName>
+    </Field>
+</ParamDef>

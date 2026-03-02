@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="DAMAGE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="131">
+    <Field name="damage_ctrl_id" type="s32">
+        <DisplayName>Damage Control ID</DisplayName>
+    </Field>
+    <Field name="damage_id_followup" type="s32">
+        <DisplayName>Damage ID - Follow-up</DisplayName>
+    </Field>
+    <Field name="damage_id_origin " type="s32"/>
+    <Field name="damage_0" type="s32">
+        <DisplayName>Damage [0]</DisplayName>
+        <Description>Direct damage, not used if damage is derived from weapon.</Description>
+    </Field>
+    <Field name="damage_1" type="s32">
+        <DisplayName>Damage [1]</DisplayName>
+        <Description>Direct damage, not used if damage is derived from weapon.</Description>
+    </Field>
+    <Field name="damage_2" type="s32">
+        <DisplayName>Damage [2]</DisplayName>
+        <Description>Direct damage, not used if damage is derived from weapon.</Description>
+    </Field>
+    <Field name="physical_damage_floor" type="u8">
+        <DisplayName>Physical Damage Floor</DisplayName>
+        <Description>Lowest physical damage that this attack can deal, regardless of target's physical defense. This value is divided by Absorption %: Physical in DamageAdjustParam.</Description>
+    </Field>
+    <Field name="damage_type_0" type="u8">
+        <DisplayName>Damage Type [0]</DisplayName>
+    </Field>
+    <Field name="damage_type_1" type="u8">
+        <DisplayName>Damage Type [1]</DisplayName>
+    </Field>
+    <Field name="damage_type_2" type="u8">
+        <DisplayName>Damage Type [2]</DisplayName>
+    </Field>
+    <Field name="damage_mult" type="f32">
+        <DisplayName>Damage %: All</DisplayName>
+    </Field>
+    <Field name="counter_damage_mult" type="f32">
+        <DisplayName>Damage %: Counter</DisplayName>
+    </Field>
+    <Field name="stamina_damage_mult" type="u16">
+        <DisplayName>Stamina Damage</DisplayName>
+    </Field>
+    <Field name="durability_damage_mult" type="u16">
+        <DisplayName>Durability Damage</DisplayName>
+    </Field>
+    <Field name="knockback_amount" type="f32">
+        <DisplayName>Knockback Amount</DisplayName>
+    </Field>
+    <Field name="knockback_speed" type="f32">
+        <DisplayName>Knockback Speed</DisplayName>
+    </Field>
+    <Field name="is_spawn_on_weapon" type="u8">
+        <DisplayName>Derive Damage from Weapon</DisplayName>
+        <Description>When enabled, damage is derived from the weapon, instead of using the damage fields directly.</Description>
+    </Field>
+    <Field name="hitbox_origin_dummy_poly_id" type="u8">
+        <DisplayName>Hitbox Origin Dummy Poly ID</DisplayName>
+    </Field>
+    <Field name="guardbreak_type" type="s8">
+        <DisplayName>Guard Break Type</DisplayName>
+    </Field>
+    <Field name="hitbox_shape" type="u8">
+        <DisplayName>Hitbox Shape</DisplayName>
+    </Field>
+    <Field name="hitbox_radius_mult" type="f32">
+        <DisplayName>Hitbox Radius %</DisplayName>
+    </Field>
+    <Field name="hitbox_length_mult" type="f32">
+        <DisplayName>Hitbox Length %</DisplayName>
+    </Field>
+    <Field name="cycle_period" type="f32">
+        <DisplayName>Cycle Period</DisplayName>
+    </Field>
+    <Field name="target_disable_damage:1 = 1" type="u8"/>
+    <Field name="target2:1 = 1" type="u8"/>
+    <Field name="target_self:1 = 1" type="u8"/>
+    <Field name="target4:1 = 1" type="u8"/>
+    <Field name="target_characters:1 = 1" type="u8"/>
+    <Field name="target6:1 = 1" type="u8"/>
+    <Field name="target_map:1 = 1" type="u8"/>
+    <Field name="target8:1 = 1" type="u8"/>
+    <Field name="Unk01" type="u8"/>
+    <Field name="Unk02" type="u8"/>
+    <Field name="Unk03" type="u8"/>
+    <Field name="Unk04" type="u8"/>
+    <Field name="Unk05" type="u8"/>
+    <Field name="Unk06" type="u8"/>
+    <Field name="Unk07" type="u8"/>
+    <Field name="speffect_id" type="s32">
+        <DisplayName>SpEffect ID</DisplayName>
+    </Field>
+    <Field name="apply_speffect" type="u8">
+        <DisplayName>Apply SpEffect</DisplayName>
+    </Field>
+    <Field name="speffect_type" type="u8">
+        <DisplayName>SpEffect Type</DisplayName>
+    </Field>
+    <Field name="speffect_apply_mode" type="u8">
+        <DisplayName>SpEffect Apply Mode</DisplayName>
+    </Field>
+    <Field name="Unk08" type="u8"/>
+    <Field name="damage_effect_material_param_id" type="s32">
+        <DisplayName>Damage Effect Material ID</DisplayName>
+    </Field>
+    <Field name="Unk10" type="s32"/>
+    <Field name="Unk11" type="s32"/>
+    <Field name="Unk12" type="u8"/>
+    <Field name="Unk13" type="u8"/>
+    <Field name="damage_movement_power_param_id" type="u8">
+        <DisplayName>Damage Movement Power ID</DisplayName>
+    </Field>
+    <Field name="Unk15" type="u8"/>
+    <Field name="Unk16" type="u8"/>
+    <Field name="Unk17" type="u8"/>
+    <Field name="hitback_is_spawn_on_weapon" type="u8">
+        <DisplayName>Hitback - Derive from Weapon</DisplayName>
+    </Field>
+    <Field name="hitback_hitbox_origin_dummy_poly_id" type="u8">
+        <DisplayName>Hitback - Hitbox Origin DmyPoly ID</DisplayName>
+    </Field>
+    <Field name="hitback_hitbox_shape" type="u8">
+        <DisplayName>Hitback - Hitbox Shape</DisplayName>
+    </Field>
+    <Field name="sfx_opacity_adjustment" type="u8">
+        <DisplayName>Affects SFX Opacity</DisplayName>
+    </Field>
+    <Field name="Unk20" type="u8"/>
+    <Field name="Unk21" type="u8"/>
+    <Field name="hitback_hitbox_radius_mult" type="f32">
+        <DisplayName>Hitback - Hitbox Radius %</DisplayName>
+    </Field>
+    <Field name="hitback_hitbox_length_mult" type="f32">
+        <DisplayName>Hitback - Hitbox Length %</DisplayName>
+    </Field>
+    <Field name="grab_param_id" type="s32">
+        <DisplayName>Grab ID</DisplayName>
+    </Field>
+    <Field name="hitbox_max_size" type="f32">
+        <DisplayName>Hitbox Max Size</DisplayName>
+    </Field>
+    <Field name="hitbox_expand_speed" type="f32">
+        <DisplayName>Hitbox Expansion Speed</DisplayName>
+    </Field>
+</ParamDef>

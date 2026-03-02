@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="ITEM_LOT_PARAM2" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="124">
+    <Field name="lots_dropped_order" type="u8">
+        <DisplayName>Lots Dropped Order</DisplayName>
+        <Description>Determines the order lots are granted.</Description>
+    </Field>
+    <Field name="lots_dropped_num" type="u8">
+        <DisplayName>Lots Dropped</DisplayName>
+        <Description>Number of lots this itemLot will provide.</Description>
+    </Field>
+    <Field name="Unk02" type="u8"/>
+    <Field name="Unk03" type="u8"/>
+    <Field name="amount_lot_0" type="u8">
+        <DisplayName>[0] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_1" type="u8">
+        <DisplayName>[1] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_2" type="u8">
+        <DisplayName>[2] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_3" type="u8">
+        <DisplayName>[3] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_4" type="u8">
+        <DisplayName>[4] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_5" type="u8">
+        <DisplayName>[5] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_6" type="u8">
+        <DisplayName>[6] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_7" type="u8">
+        <DisplayName>[7] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_8" type="u8">
+        <DisplayName>[8] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="amount_lot_9" type="u8">
+        <DisplayName>[9] Amount</DisplayName>
+        <Description>Determines the amount of the lot item awarded.</Description>
+    </Field>
+    <Field name="reinforcement_lot_0" type="u8">
+        <DisplayName>[0] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_1" type="u8">
+        <DisplayName>[1] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_2" type="u8">
+        <DisplayName>[2] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_3" type="u8">
+        <DisplayName>[3] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_4" type="u8">
+        <DisplayName>[4] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_5" type="u8">
+        <DisplayName>[5] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_6" type="u8">
+        <DisplayName>[6] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_7" type="u8">
+        <DisplayName>[7] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_8" type="u8">
+        <DisplayName>[8] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="reinforcement_lot_9" type="u8">
+        <DisplayName>[9] Reinforcement Level</DisplayName>
+        <Description>The reinforcement level to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_0" type="u8">
+        <DisplayName>[0] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_1" type="u8">
+        <DisplayName>[1] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_2" type="u8">
+        <DisplayName>[2] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_3" type="u8">
+        <DisplayName>[3] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_4" type="u8">
+        <DisplayName>[4] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_5" type="u8">
+        <DisplayName>[5] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_6" type="u8">
+        <DisplayName>[6] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_7" type="u8">
+        <DisplayName>[7] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_8" type="u8">
+        <DisplayName>[8] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infusion_lot_9" type="u8">
+        <DisplayName>[9] Infusion</DisplayName>
+        <Description>The infusion to apply to the lot item</Description>
+    </Field>
+    <Field name="infinite_lot_0" type="u8">
+        <DisplayName>[0] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_1" type="u8">
+        <DisplayName>[1] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_2" type="u8">
+        <DisplayName>[2] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_3" type="u8">
+        <DisplayName>[3] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_4" type="u8">
+        <DisplayName>[4] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_5" type="u8">
+        <DisplayName>[5] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_6" type="u8">
+        <DisplayName>[6] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_7" type="u8">
+        <DisplayName>[7] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_8" type="u8">
+        <DisplayName>[8] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="infinite_lot_9" type="u8">
+        <DisplayName>[9] Is Dropped Infinitely</DisplayName>
+        <Description>Determines if this item may continue to drop after dropping once.</Description>
+    </Field>
+    <Field name="item_lot_0" type="s32">
+        <DisplayName>[0] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_1" type="s32">
+        <DisplayName>[1] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_2" type="s32">
+        <DisplayName>[2] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_3" type="s32">
+        <DisplayName>[3] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_4" type="s32">
+        <DisplayName>[4] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_5" type="s32">
+        <DisplayName>[5] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_6" type="s32">
+        <DisplayName>[6] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_7" type="s32">
+        <DisplayName>[7] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_8" type="s32">
+        <DisplayName>[8] Item ID</DisplayName>
+    </Field>
+    <Field name="item_lot_9" type="s32">
+        <DisplayName>[9] Item ID</DisplayName>
+    </Field>
+    <Field name="chance_lot_0" type="f32">
+        <DisplayName>[0] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_1" type="f32">
+        <DisplayName>[1] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_2" type="f32">
+        <DisplayName>[2] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_3" type="f32">
+        <DisplayName>[3] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_4" type="f32">
+        <DisplayName>[4] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_5" type="f32">
+        <DisplayName>[5] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_6" type="f32">
+        <DisplayName>[6] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_7" type="f32">
+        <DisplayName>[7] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_8" type="f32">
+        <DisplayName>[8] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+    <Field name="chance_lot_9" type="f32">
+        <DisplayName>[9] Chance</DisplayName>
+        <Description>The base percentage for this item.\nEach base percentage is added together, the result is the overall chance for an item to drop for the itemlot.\nThen during a second roll, the individual percentages are used to determine which item to drop.</Description>
+    </Field>
+</ParamDef>

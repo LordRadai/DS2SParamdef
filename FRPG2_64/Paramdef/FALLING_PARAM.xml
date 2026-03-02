@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="FALLING_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="32">
+    <Field name="breakpoint_1_damage_mult" type="f32">
+        <DisplayName>Breakpoint [1] - Damage %</DisplayName>
+        <Description>Percentage of HP lost if fall distance is at the first breakpoint.</Description>
+    </Field>
+    <Field name="breakpoint_2_damage_mult" type="f32">
+        <DisplayName>Breakpoint [2] - Damage %</DisplayName>
+        <Description>Percentage of HP lost if fall distance is at the second breakpoint.</Description>
+    </Field>
+    <Field name="breakpoint_3_damage_mult" type="f32">
+        <DisplayName>Breakpoint [3] - Damage %</DisplayName>
+        <Description>Percentage of HP lost if fall distance is at the third breakpoint.</Description>
+    </Field>
+    <Field name="breakpoint_4_damage_mult" type="f32">
+        <DisplayName>Breakpoint [4] - Damage %</DisplayName>
+        <Description>Percentage of HP lost if fall distance is at the fourth breakpoint.</Description>
+    </Field>
+    <Field name="Unk10" type="f32"/>
+    <Field name="Unk14" type="f32"/>
+    <Field name="Unk18" type="f32"/>
+    <Field name="Unk1C" type="f32"/>
+</ParamDef>

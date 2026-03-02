@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_EQUIP_WEAPON_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="76">
+    <Field name="chr_id" type="s32">
+        <DisplayName>Chr ID</DisplayName>
+    </Field>
+    <Field name="Unk00" type="s16"/>
+    <Field name="Unk02" type="s16"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk08" type="s32"/>
+    <Field name="Unk0C" type="s32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="Unk14" type="f32"/>
+    <Field name="Unk18" type="s16"/>
+    <Field name="Unk1A" type="s16"/>
+    <Field name="Unk1C" type="s32"/>
+    <Field name="weapon_ffx_id" type="s32">
+        <Description>Weapon Visual Effect Related</Description>
+    </Field>
+    <Field name="unk_ffx" type="s32">
+        <Description>Body Visual Effect Related</Description>
+    </Field>
+    <Field name="Unk28" type="s32"/>
+    <Field name="Unk2C" type="s32"/>
+    <Field name="Unk30" type="s32"/>
+    <Field name="Unk34" type="s32"/>
+    <Field name="Unk38" type="s32"/>
+    <Field name="Unk3C" type="s32"/>
+    <Field name="Unk40" type="s32"/>
+    <Field name="Unk44" type="s32"/>
+</ParamDef>

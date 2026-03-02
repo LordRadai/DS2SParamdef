@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_WET_ASPECT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="20">
+    <Field name="color_r" type="u8">
+        <DisplayName>Color: R</DisplayName>
+    </Field>
+    <Field name="color_g" type="u8">
+        <DisplayName>Color: G</DisplayName>
+    </Field>
+    <Field name="color_b" type="u8">
+        <DisplayName>Color: B</DisplayName>
+    </Field>
+    <Field name="Unk03" type="u8"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="f32"/>
+</ParamDef>

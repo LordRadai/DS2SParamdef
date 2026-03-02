@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="FACE_EDIT_PARAM_COLOR_PRESET" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
+    <Field name="edit_color_R" type="f32">
+        <DisplayName>Color: R</DisplayName>
+    </Field>
+    <Field name="edit_color_G" type="f32">
+        <DisplayName>Color: G</DisplayName>
+    </Field>
+    <Field name="edit_color_B" type="f32">
+        <DisplayName>Color: B</DisplayName>
+    </Field>
+</ParamDef>

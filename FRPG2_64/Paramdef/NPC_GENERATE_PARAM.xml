@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="NPC_GENERATE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="76">
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk01" type="s32"/>
+    <Field name="Unk02" type="s32"/>
+    <Field name="Unk03" type="s32"/>
+    <Field name="Unk04" type="s32"/>
+    <Field name="Unk05" type="s32"/>
+    <Field name="Unk06" type="s32"/>
+    <Field name="right_weapon_id_1" type="s32">
+        <DisplayName>[1] Right Weapon ID</DisplayName>
+    </Field>
+    <Field name="right_weapon_id_2" type="s32">
+        <DisplayName>[2] Right Weapon ID</DisplayName>
+    </Field>
+    <Field name="right_weapon_id_3" type="s32">
+        <DisplayName>[3] Right Weapon ID</DisplayName>
+    </Field>
+    <Field name="left_weapon_id_1" type="s32">
+        <DisplayName>[1] Left Weapon ID</DisplayName>
+    </Field>
+    <Field name="left_weapon_id_2" type="s32">
+        <DisplayName>[2] Left Weapon ID</DisplayName>
+    </Field>
+    <Field name="left_weapon_id_3" type="s32">
+        <DisplayName>[3] Left Weapon ID</DisplayName>
+    </Field>
+    <Field name="head_armor_id" type="s32">
+        <DisplayName>Head Armor ID</DisplayName>
+    </Field>
+    <Field name="chest_armor_id" type="s32">
+        <DisplayName>Chest Armor ID</DisplayName>
+    </Field>
+    <Field name="hands_armor_id" type="s32">
+        <DisplayName>Hands Armor ID</DisplayName>
+    </Field>
+    <Field name="legs_armor_id" type="s32">
+        <DisplayName>Legs Armor ID</DisplayName>
+    </Field>
+    <Field name="Unk07" type="s32"/>
+    <Field name="Unk08" type="s32"/>
+</ParamDef>

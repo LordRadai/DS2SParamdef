@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="ESTUS_FLASK_MAX_REINFORCE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="4">
+    <Field name="estus_reinforcement_min" type="u8">
+        <DisplayName>Estus Reinforcement - Minimum</DisplayName>
+    </Field>
+    <Field name="estus_reinforcement_max" type="u8">
+        <DisplayName>Estus Reinforcement - Maximum</DisplayName>
+    </Field>
+    <Field name="Unk00" type="u8"/>
+    <Field name="Unk01" type="u8"/>
+</ParamDef>

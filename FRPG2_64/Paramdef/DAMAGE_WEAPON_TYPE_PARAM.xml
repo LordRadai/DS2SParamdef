@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="DAMAGE_WEAPON_TYPE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="20">
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk01" type="f32"/>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+</ParamDef>

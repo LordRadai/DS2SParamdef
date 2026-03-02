@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MAP_OBJECT_BONFIRE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="48">
+    <Field name="area_id" type="s32">
+        <DisplayName>Area ID</DisplayName>
+    </Field>
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk01" type="f32"/>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="s32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="fog_door_id" type="s32">
+        <DisplayName>Fog Door ID</DisplayName>
+    </Field>
+    <Field name="Unk06" type="u8"/>
+    <Field name="Unk07" type="u8"/>
+    <Field name="Unk08" type="u8"/>
+    <Field name="menu_sort_id" type="u8">
+        <DisplayName>Menu Sort ID</DisplayName>
+    </Field>
+    <Field name="bonfire_lit_flag" type="s32">
+        <DisplayName>Bonfire Lit ID</DisplayName>
+    </Field>
+    <Field name="Unk10" type="s32"/>
+    <Field name="Unk11" type="s32"/>
+</ParamDef>

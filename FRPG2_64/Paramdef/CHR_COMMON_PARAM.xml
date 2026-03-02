@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_COMMON_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="908">
+    <Field name="chr_size" type="s32">
+        <DisplayName>Chr Size</DisplayName>
+    </Field>
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk01" type="f32"/>
+    <Field name="Unk02" type="f32"/>
+    <Field name="stamina_exhaustion_time" type="f32">
+        <DisplayName>Empty Stamina State Duration</DisplayName>
+    </Field>
+    <Field name="stamina_consumption_sprint" type="f32">
+        <DisplayName>Stamina Consumption %: Sprint</DisplayName>
+    </Field>
+    <Field name="stamina_consumption_sprint_lockon" type="f32">
+        <DisplayName>Stamina Consumption %: Sprint (Lock-on)</DisplayName>
+    </Field>
+    <Field name="stamina_consumption_sprint_ladder" type="f32">
+        <DisplayName>Stamina Consumption %: Ladder Quick Climb</DisplayName>
+    </Field>
+    <Field name="Unk03" type="f32"/>
+    <Field name="stamina_consumption_base_action" type="f32">
+        <DisplayName>Stamina Consumption %: Base Action</DisplayName>
+        <Description>Value is times 10 in-game</Description>
+    </Field>
+    <Field name="stamina_consumption_backstep" type="f32">
+        <DisplayName>Stamina Consumption %: Backstep</DisplayName>
+    </Field>
+    <Field name="stamina_consumption_roll" type="f32">
+        <DisplayName>Stamina Consumption %: Roll</DisplayName>
+    </Field>
+    <Field name="stamina_consumption_jump" type="f32">
+        <DisplayName>Stamina Consumption %: Jump</DisplayName>
+    </Field>
+    <Field name="Unk04" type="f32"/>
+    <Field name="stamina_consumption_sequential_roll" type="f32">
+        <DisplayName>Stamina Consumption %: Chained Roll</DisplayName>
+    </Field>
+    <Field name="stamina_consumption_queued_roll" type="f32">
+        <DisplayName>Stamina Consumption %: Queued Roll</DisplayName>
+    </Field>
+    <Field name="Unk05" type="f32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="f32"/>
+    <Field name="Unk08" type="f32"/>
+    <Field name="Unk09" type="f32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="Unk11" type="f32"/>
+    <Field name="Unk12" type="f32"/>
+    <Field name="Unk13" type="f32"/>
+    <Field name="Unk14" type="f32"/>
+    <Field name="Unk15" type="f32"/>
+    <Field name="Unk16" type="f32"/>
+    <Field name="damage_action_state" type="u8">
+        <DisplayName>Damage Action State</DisplayName>
+    </Field>
+    <Field name="Unk17" type="u8"/>
+    <Field name="Unk18" type="u16"/>
+    <Field name="Unk19" type="f32"/>
+    <Field name="low_hp_state_threshold_max" type="f32">
+        <DisplayName>Low HP Threshold: Max</DisplayName>
+    </Field>
+    <Field name="low_hp_state_threshold_min" type="f32">
+        <DisplayName>Low HP Threshold: Min</DisplayName>
+    </Field>
+    <Field name="Unk20" type="f32"/>
+    <Field name="Unk21" type="f32"/>
+    <Field name="Unk22" type="s32"/>
+    <Field name="hit_capsule_height" type="f32">
+        <DisplayName>Hit Capsule Height</DisplayName>
+    </Field>
+    <Field name="hit_capsule_radius" type="f32">
+        <DisplayName>Hit Capsule Radius</DisplayName>
+    </Field>
+    <Field name="Unk23" type="f32"/>
+    <Field name="block_angle" type="f32">
+        <DisplayName>Blocking Angle</DisplayName>
+        <Description>On the XY axis</Description>
+    </Field>
+    <Field name="parry_angle" type="f32">
+        <DisplayName>Parrying Angle</DisplayName>
+        <Description>On the XY axis</Description>
+    </Field>
+    <Field name="movement_speed_limit" type="f32">
+        <DisplayName>Movement Speed Limit</DisplayName>
+        <Description>Maximum speed a character can move in meters per second</Description>
+    </Field>
+    <Field name="Unk25" type="f32"/>
+    <Field name="Unk26" type="f32"/>
+    <Field name="Unk27" type="f32"/>
+    <Field name="Unk28" type="f32"/>
+    <Field name="Unk29" type="f32"/>
+    <Field name="Unk30" type="f32"/>
+    <Field name="Unk31" type="f32"/>
+    <Field name="lockon_camera_offset_id" type="s32">
+        <DisplayName>Lock-on Camera Offset ID</DisplayName>
+    </Field>
+    <Field name="Unk32" type="f32"/>
+    <Field name="Unk33" type="f32"/>
+    <Field name="Unk34" type="f32"/>
+    <Field name="Unk35" type="f32"/>
+    <Field name="Unk36" type="f32"/>
+    <Field name="Unk37" type="f32"/>
+    <Field name="Unk38" type="f32"/>
+    <Field name="Unk39" type="f32"/>
+    <Field name="Unk40" type="f32"/>
+    <Field name="Unk41" type="f32"/>
+    <Field name="Unk42" type="s32"/>
+    <Field name="Unk43" type="f32"/>
+    <Field name="Unk44" type="f32"/>
+    <Field name="Unk45" type="s32"/>
+    <Field name="Unk46" type="f32"/>
+    <Field name="backstab_hitbox_angle_xy" type="f32">
+        <DisplayName>Backstab Hitbox Angle: XY</DisplayName>
+    </Field>
+    <Field name="backstab_hitbox_angle_z" type="f32">
+        <DisplayName>Backstab Hitbox Angle: Z</DisplayName>
+    </Field>
+    <Field name="backstab_hitbox_height" type="f32">
+        <DisplayName>Backstab Hitbox Height</DisplayName>
+    </Field>
+    <Field name="backstab_hitbox_radius" type="f32">
+        <DisplayName>Backstab Hitbox Radius</DisplayName>
+    </Field>
+    <Field name="riposte_hitbox_angle_xy" type="f32">
+        <DisplayName>Riposte Hitbox Angle: XY</DisplayName>
+    </Field>
+    <Field name="riposte_hitbox_angle_z" type="f32">
+        <DisplayName>Riposte Hitbox Angle: Z</DisplayName>
+    </Field>
+    <Field name="riposte_hitbox_height" type="f32">
+        <DisplayName>Riposte Hitbox Height</DisplayName>
+    </Field>
+    <Field name="riposte_hitbox_radius" type="f32">
+        <DisplayName>Riposte Hitbox Radius</DisplayName>
+    </Field>
+    <Field name="guardbreak_hitbox_angle_xy" type="f32">
+        <DisplayName>Guard Break Hitbox Angle: XY</DisplayName>
+    </Field>
+    <Field name="guardbreak_hitbox_angle_z" type="f32">
+        <DisplayName>Guard Break Hitbox Angle: Z</DisplayName>
+    </Field>
+    <Field name="guardbreak_hitbox_height" type="f32">
+        <DisplayName>Guard Break Hitbox Height</DisplayName>
+    </Field>
+    <Field name="guardbreak_hitbox_radius" type="f32">
+        <DisplayName>Guard Break Hitbox Radius</DisplayName>
+    </Field>
+    <Field name="Unk47" type="s32"/>
+    <Field name="Unk48" type="f32"/>
+    <Field name="Unk49" type="f32"/>
+    <Field name="Unk50" type="f32"/>
+    <Field name="Unk51" type="f32"/>
+    <Field name="Unk52" type="f32"/>
+    <Field name="Unk53" type="f32"/>
+    <Field name="Unk54" type="f32"/>
+    <Field name="Unk55" type="f32"/>
+    <Field name="Unk56" type="f32"/>
+    <Field name="Unk57" type="f32"/>
+    <Field name="Unk58" type="f32"/>
+    <Field name="Unk59" type="f32"/>
+    <Field name="unknown_rotate_speed" type="f32">
+        <DisplayName>Unknown Rotate Speed</DisplayName>
+    </Field>
+    <Field name="poise_break_rotate_speed" type="f32">
+        <DisplayName>Poise Break Rotate Speed</DisplayName>
+    </Field>
+    <Field name="Unk60" type="f32"/>
+    <Field name="Unk61" type="f32"/>
+    <Field name="stance_break_anim_speed" type="f32">
+        <DisplayName>Stance Break Animation Speed</DisplayName>
+    </Field>
+    <Field name="Unk62" type="f32"/>
+    <Field name="Unk63" type="f32"/>
+    <Field name="Unk64" type="f32"/>
+    <Field name="stance_break_anim_wait_speed" type="f32">
+        <DisplayName>Stance Break Animation Wait Speed</DisplayName>
+    </Field>
+    <Field name="Unk65" type="f32"/>
+    <Field name="Unk66" type="f32"/>
+    <Field name="Unk67" type="f32"/>
+    <Field name="Unk68" type="f32"/>
+    <Field name="Unk69" type="f32"/>
+    <Field name="Unk70" type="f32"/>
+    <Field name="Unk71" type="f32"/>
+    <Field name="Unk72" type="s32"/>
+    <Field name="Unk73" type="f32"/>
+    <Field name="Unk74" type="f32"/>
+    <Field name="Unk75" type="f32"/>
+    <Field name="Unk76" type="f32"/>
+    <Field name="Unk77" type="f32"/>
+    <Field name="Unk78" type="f32"/>
+    <Field name="Unk79" type="f32"/>
+    <Field name="Unk80" type="f32"/>
+    <Field name="Unk81" type="f32"/>
+    <Field name="Unk82" type="f32"/>
+    <Field name="Unk83" type="f32"/>
+    <Field name="Unk84" type="f32"/>
+    <Field name="Unk85" type="f32"/>
+    <Field name="Unk86" type="f32"/>
+    <Field name="Unk87" type="f32"/>
+    <Field name="Unk88" type="f32"/>
+    <Field name="Unk89" type="f32"/>
+    <Field name="Unk90" type="f32"/>
+    <Field name="Unk91" type="f32"/>
+    <Field name="Unk92" type="f32"/>
+    <Field name="Unk93" type="f32"/>
+    <Field name="Unk94" type="f32"/>
+    <Field name="Unk95" type="f32"/>
+    <Field name="Unk96" type="s32"/>
+    <Field name="Unk97" type="s32"/>
+    <Field name="Unk98" type="f32"/>
+    <Field name="Unk99" type="f32"/>
+    <Field name="Unk100" type="f32"/>
+    <Field name="Unk101" type="f32"/>
+    <Field name="Unk102" type="f32"/>
+    <Field name="Unk103" type="f32"/>
+    <Field name="Unk104" type="f32"/>
+    <Field name="Unk105" type="f32"/>
+    <Field name="NoiseRadius0" type="u8"/>
+    <Field name="NoiseRadius1" type="u8"/>
+    <Field name="NoiseRadius2" type="u8"/>
+    <Field name="NoiseRadius3" type="u8"/>
+    <Field name="NoiseRadius4" type="u8"/>
+    <Field name="pad0" type="u8"/>
+    <Field name="pad1" type="u8"/>
+    <Field name="pad2" type="u8"/>
+    <Field name="Unk108" type="f32"/>
+    <Field name="Unk109" type="f32"/>
+    <Field name="Unk110" type="f32"/>
+    <Field name="Unk111" type="f32"/>
+    <Field name="Unk112" type="f32"/>
+    <Field name="Unk113" type="f32"/>
+    <Field name="Unk114" type="f32"/>
+    <Field name="Unk115" type="f32"/>
+    <Field name="Unk116" type="s32">
+        <DisplayName>Related to Boss Status</DisplayName>
+    </Field>
+    <Field name="Unk117" type="f32"/>
+    <Field name="Unk118" type="f32"/>
+    <Field name="Unk119" type="f32"/>
+    <Field name="headshot_damage_mult" type="f32">
+        <DisplayName>Headshot Damage Adjustment</DisplayName>
+    </Field>
+    <Field name="Unk120" type="f32"/>
+    <Field name="crit_damage_mult" type="f32">
+        <DisplayName>Critical Damage Adjustment</DisplayName>
+    </Field>
+    <Field name="absorption_slash" type="f32">
+        <DisplayName>Absorption: Slash</DisplayName>
+    </Field>
+    <Field name="absorption_thrust" type="f32">
+        <DisplayName>Absorption: Thrust</DisplayName>
+    </Field>
+    <Field name="absorption_strike" type="f32">
+        <DisplayName>Absorption: Strike</DisplayName>
+    </Field>
+    <Field name="Unk121" type="f32"/>
+    <Field name="Unk122" type="f32"/>
+    <Field name="Unk123" type="s32"/>
+    <Field name="Unk124" type="f32"/>
+    <Field name="Unk125" type="f32"/>
+    <Field name="Unk126" type="f32"/>
+    <Field name="Unk127" type="f32"/>
+    <Field name="Unk128" type="s32"/>
+    <Field name="Unk129" type="s32"/>
+    <Field name="equip_weapon_id" type="s32">
+        <DisplayName>Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="Unk130" type="s32"/>
+    <Field name="Unk131" type="f32"/>
+    <Field name="Unk132" type="f32"/>
+    <Field name="Unk133" type="f32"/>
+    <Field name="Unk134" type="f32"/>
+    <Field name="Unk135" type="f32"/>
+    <Field name="Unk136" type="f32"/>
+    <Field name="Unk137" type="f32"/>
+    <Field name="Unk138" type="f32"/>
+    <Field name="Unk139" type="f32"/>
+    <Field name="Unk140" type="f32"/>
+    <Field name="Unk141" type="f32"/>
+    <Field name="Unk142" type="f32"/>
+    <Field name="Unk143" type="f32"/>
+    <Field name="Unk144" type="f32"/>
+    <Field name="Unk145" type="f32"/>
+    <Field name="Unk146" type="f32"/>
+    <Field name="Unk147" type="f32"/>
+    <Field name="Unk148" type="f32"/>
+    <Field name="Unk149" type="f32"/>
+    <Field name="Unk150" type="f32"/>
+    <Field name="Unk151" type="f32"/>
+    <Field name="Unk152" type="f32"/>
+    <Field name="Unk153" type="f32"/>
+    <Field name="Unk154" type="f32"/>
+    <Field name="Unk155" type="f32"/>
+    <Field name="Unk156" type="f32"/>
+    <Field name="Unk157" type="f32"/>
+    <Field name="Unk158" type="f32"/>
+    <Field name="Unk159" type="f32"/>
+    <Field name="Unk160" type="s32"/>
+    <Field name="Unk161" type="s32"/>
+    <Field name="Unk162" type="s32"/>
+    <Field name="Unk163" type="s32"/>
+    <Field name="Unk164" type="s32"/>
+    <Field name="Unk165" type="f32"/>
+    <Field name="Unk166" type="f32"/>
+    <Field name="Unk167" type="f32"/>
+    <Field name="Unk168" type="f32"/>
+    <Field name="Unk169" type="f32"/>
+    <Field name="Unk170" type="f32"/>
+    <Field name="Unk171" type="s32"/>
+    <Field name="critical_absorption_slash" type="f32">
+        <DisplayName>Critical Absorption: Slash</DisplayName>
+    </Field>
+    <Field name="critical_absorption_thrust" type="f32">
+        <DisplayName>Critical Absorption: Thrust</DisplayName>
+    </Field>
+    <Field name="critical_absorption_strike" type="f32">
+        <DisplayName>Critical Absorption: Strike</DisplayName>
+    </Field>
+    <Field name="critical_absorption_standard" type="f32">
+        <DisplayName>Critical Absorption: Standard</DisplayName>
+    </Field>
+    <Field name="Unk173" type="f32"/>
+    <Field name="Unk174" type="f32"/>
+    <Field name="Unk175" type="f32"/>
+    <Field name="Unk176" type="f32"/>
+    <Field name="Unk177" type="f32"/>
+    <Field name="Unk178" type="f32"/>
+    <Field name="Unk179" type="s32"/>
+    <Field name="bullet_absorption_physical" type="f32">
+        <DisplayName>Bullet Absorption: Physical</DisplayName>
+    </Field>
+    <Field name="bullet_absorption_magic" type="f32">
+        <DisplayName>Bullet Absorption: Magic</DisplayName>
+    </Field>
+    <Field name="bullet_absorption_lightning" type="f32">
+        <DisplayName>Bullet Absorption: Lightning</DisplayName>
+    </Field>
+    <Field name="bullet_absorption_fire" type="f32">
+        <DisplayName>Bullet Absorption: Fire</DisplayName>
+    </Field>
+    <Field name="bullet_absorption_dark" type="f32">
+        <DisplayName>Bullet Absorption: Dark</DisplayName>
+    </Field>
+</ParamDef>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="RELATE_PHYS_STAT_TO_LEVEL_STAT" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="38">
+    <Field name="attunement_slots" type="u8">
+        <DisplayName>Attunement Slots</DisplayName>
+    </Field>
+    <Field name="cast_tier" type="u8">
+        <DisplayName>Cast Tier</DisplayName>
+    </Field>
+    <Field name="Unk02" type="u8"/>
+    <Field name="max_stamina" type="u8">
+        <DisplayName>Max Stamina</DisplayName>
+    </Field>
+    <Field name="max_equip_load" type="u8">
+        <DisplayName>Max Equip Load</DisplayName>
+    </Field>
+    <Field name="strength_bonus" type="u8">
+        <DisplayName>Strength Bonus</DisplayName>
+    </Field>
+    <Field name="dexterity_bonus" type="u8">
+        <DisplayName>Dexterity Bonus</DisplayName>
+    </Field>
+    <Field name="magic_bonus" type="u8">
+        <DisplayName>Magic Bonus</DisplayName>
+    </Field>
+    <Field name="Unk08" type="u8"/>
+    <Field name="lightning_bonus" type="u8">
+        <DisplayName>Lightning Bonus</DisplayName>
+    </Field>
+    <Field name="Unk0A" type="u8"/>
+    <Field name="Unk0B" type="u8"/>
+    <Field name="Unk0C" type="u8"/>
+    <Field name="Unk0D" type="u8"/>
+    <Field name="Unk0E" type="u8"/>
+    <Field name="Unk0F" type="u8"/>
+    <Field name="Unk10" type="u8"/>
+    <Field name="Unk11" type="u8"/>
+    <Field name="Unk12" type="u8"/>
+    <Field name="Unk13" type="u8"/>
+    <Field name="Unk14" type="u8"/>
+    <Field name="Unk15" type="u8"/>
+    <Field name="Unk16" type="u8"/>
+    <Field name="Unk17" type="u8"/>
+    <Field name="magic_defence" type="u8">
+        <DisplayName>Magic Defence</DisplayName>
+    </Field>
+    <Field name="Unk19" type="u8"/>
+    <Field name="lightning_defence" type="u8">
+        <DisplayName>Lightning Defence</DisplayName>
+    </Field>
+    <Field name="Unk1B" type="u8"/>
+    <Field name="Unk1C" type="u8"/>
+    <Field name="Unk1D" type="u8"/>
+    <Field name="Unk1E" type="u8"/>
+    <Field name="Unk1F" type="u8"/>
+    <Field name="Unk20" type="u8"/>
+    <Field name="Unk21" type="u8"/>
+    <Field name="Unk22" type="u8"/>
+    <Field name="Unk23" type="u8"/>
+    <Field name="Unk24" type="u8"/>
+    <Field name="Unk25" type="u8"/>
+</ParamDef>

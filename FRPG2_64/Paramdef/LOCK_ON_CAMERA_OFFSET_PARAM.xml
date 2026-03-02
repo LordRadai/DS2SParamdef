@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="LOCK_ON_CAMERA_OFFSET_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="68">
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk08" type="f32"/>
+    <Field name="camera_vertical_distance" type="f32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="camera_horizontal_distance" type="f32"/>
+    <Field name="Unk18" type="f32"/>
+    <Field name="Unk1C" type="f32"/>
+    <Field name="Unk20" type="f32"/>
+    <Field name="Unk24" type="f32"/>
+    <Field name="Unk28" type="f32"/>
+    <Field name="Unk2C" type="f32"/>
+    <Field name="Unk30" type="f32"/>
+    <Field name="Unk34" type="f32"/>
+    <Field name="Unk38" type="f32"/>
+    <Field name="Unk3C" type="f32"/>
+    <Field name="camera_tilt" type="f32"/>
+</ParamDef>

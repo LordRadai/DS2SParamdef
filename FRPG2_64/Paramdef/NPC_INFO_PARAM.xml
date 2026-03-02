@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="NPC_INFO_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="48">
+    <Field name="deathstone_spawn_delay" type="s32">
+        <DisplayName>Tombstone Spawn Delay Time</DisplayName>
+    </Field>
+    <Field name="Unk00" type="s32"/>
+    <Field name="npc_death_flag" type="s32">
+        <DisplayName>Death Event Flag ID</DisplayName>
+    </Field>
+    <Field name="revival_cost" type="s32">
+        <DisplayName>Revival Cost</DisplayName>
+    </Field>
+    <Field name="npcMenu_DeathstoneMessageID" type="s32">
+        <DisplayName>Tombstone Prompt Text ID</DisplayName>
+        <Description>The text ID for the NPC's name within the tombstone prompt.</Description>
+    </Field>
+    <Field name="Unk02" type="s32"/>
+    <Field name="souls_for_gift_goods_vendor" type="s32">
+        <DisplayName>Souls for Gift (Goods Vendor)</DisplayName>
+    </Field>
+    <Field name="souls_for_gift_blacksmith" type="s32">
+        <DisplayName>Souls for Gift (Blacksmith)</DisplayName>
+    </Field>
+    <Field name="int_requirement_for_gift" type="s32">
+        <DisplayName>INT Requirement for Gift</DisplayName>
+    </Field>
+    <Field name="fth_requirement_for_gift" type="s32">
+        <DisplayName>FTH Requirement for Gift</DisplayName>
+    </Field>
+    <Field name="shop_lineup_souls_for_update_1" type="s32">
+        <DisplayName>Souls for ShopLineup Update [1]</DisplayName>
+    </Field>
+    <Field name="shop_lineup_souls_for_update_2" type="s32">
+        <DisplayName>Souls for ShopLineup Update [2]</DisplayName>
+    </Field>
+</ParamDef>

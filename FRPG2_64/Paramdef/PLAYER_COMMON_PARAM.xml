@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="PLAYER_COMMON_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="440">
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="roll_input_wait_time" type="f32">
+        <DisplayName>Rolling Input Wait Time</DisplayName>
+    </Field>
+    <Field name="sprint_stamina_drain_time" type="f32">
+        <DisplayName>Latent Sprint Stamina Drain Duration</DisplayName>
+    </Field>
+    <Field name="out_of_stamina_state_time" type="f32">
+        <DisplayName>Out of Stamina State Duration</DisplayName>
+    </Field>
+    <Field name="Unk14" type="f32"/>
+    <Field name="Unk18" type="f32"/>
+    <Field name="min_speed_for_jump" type="f32">
+        <DisplayName>Minimum Speed for Jumping</DisplayName>
+    </Field>
+    <Field name="Unk20" type="f32"/>
+    <Field name="Unk24" type="f32"/>
+    <Field name="Unk28" type="f32"/>
+    <Field name="Unk2C" type="f32"/>
+    <Field name="Unk30" type="f32"/>
+    <Field name="Unk34" type="f32"/>
+    <Field name="Unk38" type="f32"/>
+    <Field name="Unk3C" type="f32"/>
+    <Field name="Unk40" type="f32"/>
+    <Field name="Unk44" type="f32"/>
+    <Field name="Unk48" type="f32"/>
+    <Field name="Unk4C" type="f32"/>
+    <Field name="Unk50" type="f32"/>
+    <Field name="Unk54" type="f32"/>
+    <Field name="Unk58" type="f32"/>
+    <Field name="Unk5C" type="f32"/>
+    <Field name="Unk60" type="f32"/>
+    <Field name="Unk64" type="f32"/>
+    <Field name="Unk68" type="f32"/>
+    <Field name="Unk6C" type="s32"/>
+    <Field name="Unk70" type="f32"/>
+    <Field name="Unk74" type="f32"/>
+    <Field name="Unk78" type="f32"/>
+    <Field name="Unk7C" type="f32"/>
+    <Field name="Unk80" type="f32"/>
+    <Field name="Unk84" type="f32"/>
+    <Field name="Unk88" type="f32"/>
+    <Field name="Unk8C" type="f32"/>
+    <Field name="Unk90" type="f32"/>
+    <Field name="Unk94" type="f32"/>
+    <Field name="Unk98" type="f32"/>
+    <Field name="Unk9C" type="f32"/>
+    <Field name="UnkA0" type="f32"/>
+    <Field name="UnkA4" type="f32"/>
+    <Field name="UnkA8" type="f32"/>
+    <Field name="UnkAC" type="f32"/>
+    <Field name="UnkB0" type="f32"/>
+    <Field name="UnkB4" type="f32"/>
+    <Field name="UnkB8" type="f32"/>
+    <Field name="UnkBC" type="f32"/>
+    <Field name="UnkC0" type="f32"/>
+    <Field name="UnkC4" type="f32"/>
+    <Field name="UnkC8" type="s32"/>
+    <Field name="UnkCC" type="s32"/>
+    <Field name="UnkD0" type="f32"/>
+    <Field name="UnkD4" type="f32"/>
+    <Field name="UnkD8" type="f32"/>
+    <Field name="UnkDC" type="f32"/>
+    <Field name="UnkE0" type="f32"/>
+    <Field name="UnkE4" type="f32"/>
+    <Field name="UnkE8" type="f32"/>
+    <Field name="UnkEC" type="f32"/>
+    <Field name="UnkF0" type="f32"/>
+    <Field name="UnkF4" type="f32"/>
+    <Field name="UnkF8" type="f32"/>
+    <Field name="UnkFC" type="f32"/>
+    <Field name="Unk100" type="f32"/>
+    <Field name="Unk104" type="f32"/>
+    <Field name="Unk108" type="f32"/>
+    <Field name="Unk10C" type="f32"/>
+    <Field name="item_discovery_mult_ng0" type="f32">
+        <DisplayName>NG+0 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng1" type="f32">
+        <DisplayName>NG+1 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng2" type="f32">
+        <DisplayName>NG+2 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng3" type="f32">
+        <DisplayName>NG+3 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng4" type="f32">
+        <DisplayName>NG+4 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng5" type="f32">
+        <DisplayName>NG+5 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng6" type="f32">
+        <DisplayName>NG+6 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="item_discovery_mult_ng7" type="f32">
+        <DisplayName>NG+7 Item Discovery %</DisplayName>
+    </Field>
+    <Field name="Unk130" type="f32"/>
+    <Field name="Unk134" type="f32"/>
+    <Field name="Unk138" type="f32"/>
+    <Field name="shield_letter_scaling_S_guard_mult" type="f32">
+        <DisplayName>Shield Guard Bonus (S Scaling)</DisplayName>
+        <Description>Affects guard percents gained via scaling for this scaling letter.</Description>
+    </Field>
+    <Field name="shield_letter_scaling_A_guard_mult" type="f32">
+        <DisplayName>Shield Guard Bonus (A Scaling)</DisplayName>
+        <Description>Affects guard percents gained via scaling for this scaling letter.</Description>
+    </Field>
+    <Field name="shield_letter_scaling_B_guard_mult" type="f32">
+        <DisplayName>Shield Guard Bonus (B Scaling)</DisplayName>
+        <Description>Affects guard percents gained via scaling for this scaling letter.</Description>
+    </Field>
+    <Field name="shield_letter_scaling_C_guard_mult" type="f32">
+        <DisplayName>Shield Guard Bonus (C Scaling)</DisplayName>
+        <Description>Affects guard percents gained via scaling for this scaling letter.</Description>
+    </Field>
+    <Field name="shield_letter_scaling_D_guard_mult" type="f32">
+        <DisplayName>Shield Guard Bonus (D Scaling)</DisplayName>
+        <Description>Affects guard percents gained via scaling for this scaling letter.</Description>
+    </Field>
+    <Field name="shield_letter_scaling_E_guard_mult" type="f32">
+        <DisplayName>Shield Guard Bonus (E Scaling)</DisplayName>
+        <Description>Affects guard percents gained via scaling for this scaling letter.</Description>
+    </Field>
+    <Field name="chr_hit_durability_drain" type="f32">
+        <DisplayName>Character Hit Durability Consumption</DisplayName>
+    </Field>
+    <Field name="map_hit_durability_drain" type="f32">
+        <DisplayName>Map Hit Durability Consumption</DisplayName>
+    </Field>
+    <Field name="spell_use_durability_drain" type="f32">
+        <DisplayName>Spell Use Durability Consumption</DisplayName>
+    </Field>
+    <Field name="move_bullet_durability_drain" type="f32">
+        <DisplayName>Move Bullet Durability Consumption</DisplayName>
+    </Field>
+    <Field name="Unk164" type="f32"/>
+    <Field name="Unk168" type="f32"/>
+    <Field name="Unk16C" type="f32"/>
+    <Field name="Unk170" type="f32"/>
+    <Field name="Unk174" type="f32"/>
+    <Field name="Unk178" type="f32"/>
+    <Field name="Unk17C" type="s32"/>
+    <Field name="pvp_backstab_damage_mult" type="f32">
+        <DisplayName>PvP Backstab Damage Rate</DisplayName>
+    </Field>
+    <Field name="pvp_riposte_damage_mult" type="f32">
+        <DisplayName>PvP Riposte Damage Rate</DisplayName>
+    </Field>
+    <Field name="pvp_guardbreak_damage_mult" type="f32">
+        <DisplayName>PvP Guard Break Stab Damage Rate</DisplayName>
+    </Field>
+    <Field name="Unk18C" type="f32"/>
+    <Field name="Unk190" type="f32"/>
+    <Field name="Unk194" type="f32"/>
+    <Field name="Unk198" type="f32"/>
+    <Field name="Unk19C" type="f32"/>
+    <Field name="Unk1A0" type="f32"/>
+    <Field name="Unk1A4" type="f32"/>
+    <Field name="Unk1A8" type="f32"/>
+    <Field name="Unk1AC" type="f32"/>
+    <Field name="Unk1B0" type="f32"/>
+    <Field name="Unk1B4" type="f32"/>
+</ParamDef>

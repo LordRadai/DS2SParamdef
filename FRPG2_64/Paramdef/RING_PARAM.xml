@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="RING_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="weight" type="f32">
+        <DisplayName>Weight</DisplayName>
+    </Field>
+    <Field name="durability" type="f32">
+        <DisplayName>Durability</DisplayName>
+    </Field>
+    <Field name="repair_cost" type="s32">
+        <DisplayName>Repair Cost</DisplayName>
+    </Field>
+    <Field name="item_discovery" type="s32">
+        <DisplayName>Item Discovery</DisplayName>
+    </Field>
+</ParamDef>

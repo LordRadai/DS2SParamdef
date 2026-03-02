@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_MODEL_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="4">
+    <Field name="Unk00" type="s32"/>
+</ParamDef>

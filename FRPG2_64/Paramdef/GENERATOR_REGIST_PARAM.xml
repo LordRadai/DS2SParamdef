@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="GENERATOR_REGIST_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="EnemyParamID" type="s32"/>
+    <Field name="LogicParamID" type="s32"/>
+    <Field name="DefaultLogicParamID" type="s32"/>
+    <Field name="SpawnState" type="u16">
+        <Description>What position/state the entity takes when spawning.</Description>
+    </Field>
+    <Field name="DrawGroup" type="u8">
+        <Description>Determines when the game renders an entity.</Description>
+    </Field>
+    <Field name="Unk0F" type="u8"/>
+</ParamDef>

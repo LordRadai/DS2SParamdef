@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="FE_COLOR_SET_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="color_set_R" type="s32">
+        <DisplayName>Color Set: R</DisplayName>
+    </Field>
+    <Field name="color_set_G" type="s32">
+        <DisplayName>Color Set: G</DisplayName>
+    </Field>
+    <Field name="color_set_B" type="s32">
+        <DisplayName>Color Set: B</DisplayName>
+    </Field>
+    <Field name="color_set_A" type="s32">
+        <DisplayName>Color Set: A</DisplayName>
+    </Field>
+</ParamDef>

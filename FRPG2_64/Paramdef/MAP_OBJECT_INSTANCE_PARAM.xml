@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MAP_OBJECT_INSTANCE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="40">
+    <Field name="param_id" type="s32">
+        <DisplayName>Param ID</DisplayName>
+    </Field>
+    <Field name="obj_bullet_1" type="s32">
+        <DisplayName>Object Bullet [1]</DisplayName>
+    </Field>
+    <Field name="obj_bullet_2" type="s32">
+        <DisplayName>Object Bullet [2]</DisplayName>
+    </Field>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="map_obj_instance_type_id" type="s32">
+        <DisplayName>Map Object Instance Type ID</DisplayName>
+    </Field>
+    <Field name="Unk04" type="u16"/>
+    <Field name="Unk05" type="u8"/>
+    <Field name="Unk06" type="u8"/>
+    <Field name="Unk07" type="u8"/>
+    <Field name="Unk08" type="u8"/>
+    <Field name="default_state" type="u8">
+        <DisplayName>Default State</DisplayName>
+    </Field>
+    <Field name="Unk09" type="u8"/>
+    <Field name="Unk10" type="s32"/>
+    <Field name="itemlot_id" type="s32">
+        <DisplayName>Itemlot ID</DisplayName>
+    </Field>
+</ParamDef>

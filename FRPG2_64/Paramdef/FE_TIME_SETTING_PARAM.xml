@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="FE_TIME_SETTING_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="4">
+    <Field name="time_duration" type="f32">
+        <DisplayName>Duration</DisplayName>
+    </Field>
+</ParamDef>

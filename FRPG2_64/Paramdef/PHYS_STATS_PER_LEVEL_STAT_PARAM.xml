@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="PHYS_STATS_PER_LEVEL_STAT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="148">
+    <Field name="soul_level" type="u16">
+        <DisplayName>soul Level</DisplayName>
+    </Field>
+    <Field name="attunement_slots" type="u8">
+        <DisplayName>Attunement Slots</DisplayName>
+    </Field>
+    <Field name="cast_amount_tier" type="u8">
+        <DisplayName>Cast Amount Tier</DisplayName>
+    </Field>
+    <Field name="stat_hp" type="u16">
+        <DisplayName>HP</DisplayName>
+    </Field>
+    <Field name="stat_stamina" type="u16">
+        <DisplayName>Stamina</DisplayName>
+    </Field>
+    <Field name="stat_max_equip_load" type="f32">
+        <DisplayName>Max Equip Load</DisplayName>
+    </Field>
+    <Field name="stat_strength_bonus" type="u32">
+        <DisplayName>Strength Bonus</DisplayName>
+    </Field>
+    <Field name="stat_dexterity_bonus" type="u32">
+        <DisplayName>Dexterity Bonus</DisplayName>
+    </Field>
+    <Field name="stat_magic_bonus" type="u32">
+        <DisplayName>Magic Bonus</DisplayName>
+    </Field>
+    <Field name="stat_fire_bonus" type="u32">
+        <DisplayName>Fire Bonus</DisplayName>
+    </Field>
+    <Field name="stat_lightning_bonus" type="u32">
+        <DisplayName>Lightning Bonus</DisplayName>
+    </Field>
+    <Field name="stat_dark_bonus" type="u32">
+        <DisplayName>Dark Bonus</DisplayName>
+    </Field>
+    <Field name="stat_poison_bonus" type="u32">
+        <DisplayName>Poison Bonus</DisplayName>
+    </Field>
+    <Field name="stat_bleed_bonus" type="u32">
+        <DisplayName>Bleed Bonus</DisplayName>
+    </Field>
+    <Field name="Unk00" type="u32"/>
+    <Field name="Unk01" type="f32"/>
+    <Field name="stat_cast_speed" type="f32">
+        <DisplayName>Cast Speed</DisplayName>
+    </Field>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="absorption_bleed" type="f32">
+        <DisplayName>Absorption - Bleed</DisplayName>
+    </Field>
+    <Field name="absorption_poison" type="f32">
+        <DisplayName>Absorption - Poison</DisplayName>
+    </Field>
+    <Field name="absorption_petrify" type="f32">
+        <DisplayName>Absorption - Petrify</DisplayName>
+    </Field>
+    <Field name="absorption_curse" type="f32">
+        <DisplayName>Absorption - Curse</DisplayName>
+    </Field>
+    <Field name="absorption_magic" type="f32">
+        <DisplayName>Absorption - Magic</DisplayName>
+    </Field>
+    <Field name="absorption_fire" type="f32">
+        <DisplayName>Absorption - Fire</DisplayName>
+    </Field>
+    <Field name="absorption_lightning" type="f32">
+        <DisplayName>Absorption - Lightning</DisplayName>
+    </Field>
+    <Field name="absorption_dark" type="f32">
+        <DisplayName>Absorption - Dark</DisplayName>
+    </Field>
+    <Field name="agility_backstep" type="f32">
+        <DisplayName>Invincibility - Backstep</DisplayName>
+    </Field>
+    <Field name="agility_roll" type="f32">
+        <DisplayName>Invincibility - Roll</DisplayName>
+    </Field>
+    <Field name="agility_landing_roll" type="f32">
+        <DisplayName>Invincibility - Landing Roll</DisplayName>
+    </Field>
+    <Field name="agility_weapon_swap" type="f32">
+        <DisplayName>Weapon Swap Speed</DisplayName>
+    </Field>
+    <Field name="agility_item_use" type="f32">
+        <DisplayName>Item Use Speed</DisplayName>
+    </Field>
+    <Field name="agility_block_speed" type="f32">
+        <DisplayName>Blocking Speed</DisplayName>
+    </Field>
+    <Field name="defence_physical" type="u32">
+        <DisplayName>Physical Defense</DisplayName>
+    </Field>
+    <Field name="Unk06" type="u16"/>
+    <Field name="Unk07" type="u16"/>
+    <Field name="Unk08" type="u16"/>
+    <Field name="non_vigor_hp_stat_gain" type="u16">
+        <DisplayName>Non-Vigor HP Per Stat</DisplayName>
+    </Field>
+    <Field name="stat_mundane_scaling" type="u32">
+        <DisplayName>Mundane Scaling</DisplayName>
+    </Field>
+    <Field name="stat_poise" type="f32">
+        <DisplayName>Poise</DisplayName>
+    </Field>
+</ParamDef>

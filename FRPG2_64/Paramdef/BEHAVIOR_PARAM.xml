@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="BEHAVIOR_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="880">
+    <Field name="group_1_enemy_damage_id_0" type="s32">
+        <DisplayName>[1] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_damage_id_1" type="s32">
+        <DisplayName>[1] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_damage_id_2" type="s32">
+        <DisplayName>[1] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_damage_id_3" type="s32">
+        <DisplayName>[1] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_damage_id_4" type="s32">
+        <DisplayName>[1] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_damage_id_5" type="s32">
+        <DisplayName>[1] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_attackmove_id" type="s32">
+        <DisplayName>[1] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_1_damage_action_flag" type="u8">
+        <DisplayName>[1] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_1_unk02" type="u8">
+        <DisplayName>[1] Unk02</DisplayName>
+    </Field>
+    <Field name="group_1_unk03" type="u8">
+        <DisplayName>[1] Unk03</DisplayName>
+    </Field>
+    <Field name="group_1_unk04" type="u8">
+        <DisplayName>[1] Unk04</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_bullet_id_0" type="s32">
+        <DisplayName>[1] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_bullet_id_1" type="s32">
+        <DisplayName>[1] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_1_enemy_bullet_id_2" type="s32">
+        <DisplayName>[1] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_1_unk07" type="f32">
+        <DisplayName>[1] Unk07</DisplayName>
+    </Field>
+    <Field name="group_1_unk08" type="f32">
+        <DisplayName>[1] Unk08</DisplayName>
+    </Field>
+    <Field name="group_1_attack_speed" type="f32">
+        <DisplayName>[1] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_1_recovery_speed" type="f32">
+        <DisplayName>[1] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_1_unk09" type="f32">
+        <DisplayName>[1] Unk09</DisplayName>
+    </Field>
+    <Field name="group_1_unk10" type="f32">
+        <DisplayName>[1] Unk10</DisplayName>
+    </Field>
+    <Field name="group_1_unk11" type="f32">
+        <DisplayName>[1] Unk11</DisplayName>
+    </Field>
+    <Field name="group_1_unk12" type="f32">
+        <DisplayName>[1] Unk12</DisplayName>
+    </Field>
+    <Field name="group_1_unk13" type="s32">
+        <DisplayName>[1] Unk13</DisplayName>
+    </Field>
+    <Field name="group_1_atk_cooldown_min" type="f32">
+        <DisplayName>[1] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_1_atk_cooldown_max" type="f32">
+        <DisplayName>[1] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_2_enemy_damage_id_0" type="s32">
+        <DisplayName>[2] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_damage_id_1" type="s32">
+        <DisplayName>[2] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_damage_id_2" type="s32">
+        <DisplayName>[2] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_damage_id_3" type="s32">
+        <DisplayName>[2] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_damage_id_4" type="s32">
+        <DisplayName>[2] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_damage_id_5" type="s32">
+        <DisplayName>[2] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_attackmove_id" type="s32">
+        <DisplayName>[2] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_2_damage_action_flag" type="u8">
+        <DisplayName>[2] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_2_unk02" type="u8">
+        <DisplayName>[2] Unk02</DisplayName>
+    </Field>
+    <Field name="group_2_unk03" type="u8">
+        <DisplayName>[2] Unk03</DisplayName>
+    </Field>
+    <Field name="group_2_unk04" type="u8">
+        <DisplayName>[2] Unk04</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_bullet_id_0" type="s32">
+        <DisplayName>[2] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_bullet_id_1" type="s32">
+        <DisplayName>[2] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_2_enemy_bullet_id_2" type="s32">
+        <DisplayName>[2] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_2_unk07" type="f32">
+        <DisplayName>[2] Unk07</DisplayName>
+    </Field>
+    <Field name="group_2_unk08" type="f32">
+        <DisplayName>[2] Unk08</DisplayName>
+    </Field>
+    <Field name="group_2_attack_speed" type="f32">
+        <DisplayName>[2] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_2_recovery_speed" type="f32">
+        <DisplayName>[2] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_2_unk09" type="f32">
+        <DisplayName>[2] Unk09</DisplayName>
+    </Field>
+    <Field name="group_2_unk10" type="f32">
+        <DisplayName>[2] Unk10</DisplayName>
+    </Field>
+    <Field name="group_2_unk11" type="f32">
+        <DisplayName>[2] Unk11</DisplayName>
+    </Field>
+    <Field name="group_2_unk12" type="f32">
+        <DisplayName>[2] Unk12</DisplayName>
+    </Field>
+    <Field name="group_2_unk13" type="s32">
+        <DisplayName>[2] Unk13</DisplayName>
+    </Field>
+    <Field name="group_2_atk_cooldown_min" type="f32">
+        <DisplayName>[2] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_2_atk_cooldown_max" type="f32">
+        <DisplayName>[2] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_3_enemy_damage_id_0" type="s32">
+        <DisplayName>[3] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_damage_id_1" type="s32">
+        <DisplayName>[3] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_damage_id_2" type="s32">
+        <DisplayName>[3] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_damage_id_3" type="s32">
+        <DisplayName>[3] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_damage_id_4" type="s32">
+        <DisplayName>[3] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_damage_id_5" type="s32">
+        <DisplayName>[3] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_attackmove_id" type="s32">
+        <DisplayName>[3] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_3_damage_action_flag" type="u8">
+        <DisplayName>[3] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_3_unk02" type="u8">
+        <DisplayName>[3] Unk02</DisplayName>
+    </Field>
+    <Field name="group_3_unk03" type="u8">
+        <DisplayName>[3] Unk03</DisplayName>
+    </Field>
+    <Field name="group_3_unk04" type="u8">
+        <DisplayName>[3] Unk04</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_bullet_id_0" type="s32">
+        <DisplayName>[3] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_bullet_id_1" type="s32">
+        <DisplayName>[3] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_3_enemy_bullet_id_2" type="s32">
+        <DisplayName>[3] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_3_unk07" type="f32">
+        <DisplayName>[3] Unk07</DisplayName>
+    </Field>
+    <Field name="group_3_unk08" type="f32">
+        <DisplayName>[3] Unk08</DisplayName>
+    </Field>
+    <Field name="group_3_attack_speed" type="f32">
+        <DisplayName>[3] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_3_recovery_speed" type="f32">
+        <DisplayName>[3] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_3_unk09" type="f32">
+        <DisplayName>[3] Unk09</DisplayName>
+    </Field>
+    <Field name="group_3_unk10" type="f32">
+        <DisplayName>[3] Unk10</DisplayName>
+    </Field>
+    <Field name="group_3_unk11" type="f32">
+        <DisplayName>[3] Unk11</DisplayName>
+    </Field>
+    <Field name="group_3_unk12" type="f32">
+        <DisplayName>[3] Unk12</DisplayName>
+    </Field>
+    <Field name="group_3_unk13" type="s32">
+        <DisplayName>[3] Unk13</DisplayName>
+    </Field>
+    <Field name="group_3_atk_cooldown_min" type="f32">
+        <DisplayName>[3] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_3_atk_cooldown_max" type="f32">
+        <DisplayName>[3] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_4_enemy_damage_id_0" type="s32">
+        <DisplayName>[4] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_damage_id_1" type="s32">
+        <DisplayName>[4] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_damage_id_2" type="s32">
+        <DisplayName>[4] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_damage_id_3" type="s32">
+        <DisplayName>[4] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_damage_id_4" type="s32">
+        <DisplayName>[4] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_damage_id_5" type="s32">
+        <DisplayName>[4] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_attackmove_id" type="s32">
+        <DisplayName>[4] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_4_damage_action_flag" type="u8">
+        <DisplayName>[4] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_4_unk02" type="u8">
+        <DisplayName>[4] Unk02</DisplayName>
+    </Field>
+    <Field name="group_4_unk03" type="u8">
+        <DisplayName>[4] Unk03</DisplayName>
+    </Field>
+    <Field name="group_4_unk04" type="u8">
+        <DisplayName>[4] Unk04</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_bullet_id_0" type="s32">
+        <DisplayName>[4] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_bullet_id_1" type="s32">
+        <DisplayName>[4] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_4_enemy_bullet_id_2" type="s32">
+        <DisplayName>[4] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_4_unk07" type="f32">
+        <DisplayName>[4] Unk07</DisplayName>
+    </Field>
+    <Field name="group_4_unk08" type="f32">
+        <DisplayName>[4] Unk08</DisplayName>
+    </Field>
+    <Field name="group_4_attack_speed" type="f32">
+        <DisplayName>[4] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_4_recovery_speed" type="f32">
+        <DisplayName>[4] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_4_unk09" type="f32">
+        <DisplayName>[4] Unk09</DisplayName>
+    </Field>
+    <Field name="group_4_unk10" type="f32">
+        <DisplayName>[4] Unk10</DisplayName>
+    </Field>
+    <Field name="group_4_unk11" type="f32">
+        <DisplayName>[4] Unk11</DisplayName>
+    </Field>
+    <Field name="group_4_unk12" type="f32">
+        <DisplayName>[4] Unk12</DisplayName>
+    </Field>
+    <Field name="group_4_unk13" type="s32">
+        <DisplayName>[4] Unk13</DisplayName>
+    </Field>
+    <Field name="group_4_atk_cooldown_min" type="f32">
+        <DisplayName>[4] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_4_atk_cooldown_max" type="f32">
+        <DisplayName>[4] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_5_enemy_damage_id_0" type="s32">
+        <DisplayName>[5] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_damage_id_1" type="s32">
+        <DisplayName>[5] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_damage_id_2" type="s32">
+        <DisplayName>[5] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_damage_id_3" type="s32">
+        <DisplayName>[5] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_damage_id_4" type="s32">
+        <DisplayName>[5] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_damage_id_5" type="s32">
+        <DisplayName>[5] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_attackmove_id" type="s32">
+        <DisplayName>[5] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_5_damage_action_flag" type="u8">
+        <DisplayName>[5] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_5_unk02" type="u8">
+        <DisplayName>[5] Unk02</DisplayName>
+    </Field>
+    <Field name="group_5_unk03" type="u8">
+        <DisplayName>[5] Unk03</DisplayName>
+    </Field>
+    <Field name="group_5_unk04" type="u8">
+        <DisplayName>[5] Unk04</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_bullet_id_0" type="s32">
+        <DisplayName>[5] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_bullet_id_1" type="s32">
+        <DisplayName>[5] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_5_enemy_bullet_id_2" type="s32">
+        <DisplayName>[5] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_5_unk07" type="f32">
+        <DisplayName>[5] Unk07</DisplayName>
+    </Field>
+    <Field name="group_5_unk08" type="f32">
+        <DisplayName>[5] Unk08</DisplayName>
+    </Field>
+    <Field name="group_5_attack_speed" type="f32">
+        <DisplayName>[5] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_5_recovery_speed" type="f32">
+        <DisplayName>[5] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_5_unk09" type="f32">
+        <DisplayName>[5] Unk09</DisplayName>
+    </Field>
+    <Field name="group_5_unk10" type="f32">
+        <DisplayName>[5] Unk10</DisplayName>
+    </Field>
+    <Field name="group_5_unk11" type="f32">
+        <DisplayName>[5] Unk11</DisplayName>
+    </Field>
+    <Field name="group_5_unk12" type="f32">
+        <DisplayName>[5] Unk12</DisplayName>
+    </Field>
+    <Field name="group_5_unk13" type="s32">
+        <DisplayName>[5] Unk13</DisplayName>
+    </Field>
+    <Field name="group_5_atk_cooldown_min" type="f32">
+        <DisplayName>[5] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_5_atk_cooldown_max" type="f32">
+        <DisplayName>[5] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_6_enemy_damage_id_0" type="s32">
+        <DisplayName>[6] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_damage_id_1" type="s32">
+        <DisplayName>[6] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_damage_id_2" type="s32">
+        <DisplayName>[6] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_damage_id_3" type="s32">
+        <DisplayName>[6] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_damage_id_4" type="s32">
+        <DisplayName>[6] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_damage_id_5" type="s32">
+        <DisplayName>[6] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_attackmove_id" type="s32">
+        <DisplayName>[6] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_6_damage_action_flag" type="u8">
+        <DisplayName>[6] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_6_unk02" type="u8">
+        <DisplayName>[6] Unk02</DisplayName>
+    </Field>
+    <Field name="group_6_unk03" type="u8">
+        <DisplayName>[6] Unk03</DisplayName>
+    </Field>
+    <Field name="group_6_unk04" type="u8">
+        <DisplayName>[6] Unk04</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_bullet_id_0" type="s32">
+        <DisplayName>[6] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_bullet_id_1" type="s32">
+        <DisplayName>[6] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_6_enemy_bullet_id_2" type="s32">
+        <DisplayName>[6] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_6_unk07" type="f32">
+        <DisplayName>[6] Unk07</DisplayName>
+    </Field>
+    <Field name="group_6_unk08" type="f32">
+        <DisplayName>[6] Unk08</DisplayName>
+    </Field>
+    <Field name="group_6_attack_speed" type="f32">
+        <DisplayName>[6] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_6_recovery_speed" type="f32">
+        <DisplayName>[6] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_6_unk09" type="f32">
+        <DisplayName>[6] Unk09</DisplayName>
+    </Field>
+    <Field name="group_6_unk10" type="f32">
+        <DisplayName>[6] Unk10</DisplayName>
+    </Field>
+    <Field name="group_6_unk11" type="f32">
+        <DisplayName>[6] Unk11</DisplayName>
+    </Field>
+    <Field name="group_6_unk12" type="f32">
+        <DisplayName>[6] Unk12</DisplayName>
+    </Field>
+    <Field name="group_6_unk13" type="s32">
+        <DisplayName>[6] Unk13</DisplayName>
+    </Field>
+    <Field name="group_6_atk_cooldown_min" type="f32">
+        <DisplayName>[6] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_6_atk_cooldown_max" type="f32">
+        <DisplayName>[6] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_7_enemy_damage_id_0" type="s32">
+        <DisplayName>[7] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_damage_id_1" type="s32">
+        <DisplayName>[7] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_damage_id_2" type="s32">
+        <DisplayName>[7] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_damage_id_3" type="s32">
+        <DisplayName>[7] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_damage_id_4" type="s32">
+        <DisplayName>[7] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_damage_id_5" type="s32">
+        <DisplayName>[7] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_attackmove_id" type="s32">
+        <DisplayName>[7] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_7_damage_action_flag" type="u8">
+        <DisplayName>[7] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_7_unk02" type="u8">
+        <DisplayName>[7] Unk02</DisplayName>
+    </Field>
+    <Field name="group_7_unk03" type="u8">
+        <DisplayName>[7] Unk03</DisplayName>
+    </Field>
+    <Field name="group_7_unk04" type="u8">
+        <DisplayName>[7] Unk04</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_bullet_id_0" type="s32">
+        <DisplayName>[7] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_bullet_id_1" type="s32">
+        <DisplayName>[7] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_7_enemy_bullet_id_2" type="s32">
+        <DisplayName>[7] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_7_unk07" type="f32">
+        <DisplayName>[7] Unk07</DisplayName>
+    </Field>
+    <Field name="group_7_unk08" type="f32">
+        <DisplayName>[7] Unk08</DisplayName>
+    </Field>
+    <Field name="group_7_attack_speed" type="f32">
+        <DisplayName>[7] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_7_recovery_speed" type="f32">
+        <DisplayName>[7] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_7_unk09" type="f32">
+        <DisplayName>[7] Unk09</DisplayName>
+    </Field>
+    <Field name="group_7_unk10" type="f32">
+        <DisplayName>[7] Unk10</DisplayName>
+    </Field>
+    <Field name="group_7_unk11" type="f32">
+        <DisplayName>[7] Unk11</DisplayName>
+    </Field>
+    <Field name="group_7_unk12" type="f32">
+        <DisplayName>[7] Unk12</DisplayName>
+    </Field>
+    <Field name="group_7_unk13" type="s32">
+        <DisplayName>[7] Unk13</DisplayName>
+    </Field>
+    <Field name="group_7_atk_cooldown_min" type="f32">
+        <DisplayName>[7] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_7_atk_cooldown_max" type="f32">
+        <DisplayName>[7] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_8_enemy_damage_id_0" type="s32">
+        <DisplayName>[8] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_damage_id_1" type="s32">
+        <DisplayName>[8] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_damage_id_2" type="s32">
+        <DisplayName>[8] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_damage_id_3" type="s32">
+        <DisplayName>[8] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_damage_id_4" type="s32">
+        <DisplayName>[8] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_damage_id_5" type="s32">
+        <DisplayName>[8] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_attackmove_id" type="s32">
+        <DisplayName>[8] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_8_damage_action_flag" type="u8">
+        <DisplayName>[8] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_8_unk02" type="u8">
+        <DisplayName>[8] Unk02</DisplayName>
+    </Field>
+    <Field name="group_8_unk03" type="u8">
+        <DisplayName>[8] Unk03</DisplayName>
+    </Field>
+    <Field name="group_8_unk04" type="u8">
+        <DisplayName>[8] Unk04</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_bullet_id_0" type="s32">
+        <DisplayName>[8] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_bullet_id_1" type="s32">
+        <DisplayName>[8] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_8_enemy_bullet_id_2" type="s32">
+        <DisplayName>[8] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_8_unk07" type="f32">
+        <DisplayName>[8] Unk07</DisplayName>
+    </Field>
+    <Field name="group_8_unk08" type="f32">
+        <DisplayName>[8] Unk08</DisplayName>
+    </Field>
+    <Field name="group_8_attack_speed" type="f32">
+        <DisplayName>[8] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_8_recovery_speed" type="f32">
+        <DisplayName>[8] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_8_unk09" type="f32">
+        <DisplayName>[8] Unk09</DisplayName>
+    </Field>
+    <Field name="group_8_unk10" type="f32">
+        <DisplayName>[8] Unk10</DisplayName>
+    </Field>
+    <Field name="group_8_unk11" type="f32">
+        <DisplayName>[8] Unk11</DisplayName>
+    </Field>
+    <Field name="group_8_unk12" type="f32">
+        <DisplayName>[8] Unk12</DisplayName>
+    </Field>
+    <Field name="group_8_unk13" type="s32">
+        <DisplayName>[8] Unk13</DisplayName>
+    </Field>
+    <Field name="group_8_atk_cooldown_min" type="f32">
+        <DisplayName>[8] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_8_atk_cooldown_max" type="f32">
+        <DisplayName>[8] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_9_enemy_damage_id_0" type="s32">
+        <DisplayName>[9] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_damage_id_1" type="s32">
+        <DisplayName>[9] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_damage_id_2" type="s32">
+        <DisplayName>[9] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_damage_id_3" type="s32">
+        <DisplayName>[9] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_damage_id_4" type="s32">
+        <DisplayName>[9] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_damage_id_5" type="s32">
+        <DisplayName>[9] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_attackmove_id" type="s32">
+        <DisplayName>[9] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_9_damage_action_flag" type="u8">
+        <DisplayName>[9] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_9_unk02" type="u8">
+        <DisplayName>[9] Unk02</DisplayName>
+    </Field>
+    <Field name="group_9_unk03" type="u8">
+        <DisplayName>[9] Unk03</DisplayName>
+    </Field>
+    <Field name="group_9_unk04" type="u8">
+        <DisplayName>[9] Unk04</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_bullet_id_0" type="s32">
+        <DisplayName>[9] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_bullet_id_1" type="s32">
+        <DisplayName>[9] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_9_enemy_bullet_id_2" type="s32">
+        <DisplayName>[9] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_9_unk07" type="f32">
+        <DisplayName>[9] Unk07</DisplayName>
+    </Field>
+    <Field name="group_9_unk08" type="f32">
+        <DisplayName>[9] Unk08</DisplayName>
+    </Field>
+    <Field name="group_9_attack_speed" type="f32">
+        <DisplayName>[9] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_9_recovery_speed" type="f32">
+        <DisplayName>[9] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_9_unk09" type="f32">
+        <DisplayName>[9] Unk09</DisplayName>
+    </Field>
+    <Field name="group_9_unk10" type="f32">
+        <DisplayName>[9] Unk10</DisplayName>
+    </Field>
+    <Field name="group_9_unk11" type="f32">
+        <DisplayName>[9] Unk11</DisplayName>
+    </Field>
+    <Field name="group_9_unk12" type="f32">
+        <DisplayName>[9] Unk12</DisplayName>
+    </Field>
+    <Field name="group_9_unk13" type="s32">
+        <DisplayName>[9] Unk13</DisplayName>
+    </Field>
+    <Field name="group_9_atk_cooldown_min" type="f32">
+        <DisplayName>[9] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_9_atk_cooldown_max" type="f32">
+        <DisplayName>[9] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_10_enemy_damage_id_0" type="s32">
+        <DisplayName>[10] Enemy Damage ID 0</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_damage_id_1" type="s32">
+        <DisplayName>[10] Enemy Damage ID 1</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_damage_id_2" type="s32">
+        <DisplayName>[10] Enemy Damage ID 2</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_damage_id_3" type="s32">
+        <DisplayName>[10] Enemy Damage ID 3</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_damage_id_4" type="s32">
+        <DisplayName>[10] Enemy Damage ID 4</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_damage_id_5" type="s32">
+        <DisplayName>[10] Enemy Damage ID 5</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_attackmove_id" type="s32">
+        <DisplayName>[10] Enemy Attack Move ID</DisplayName>
+    </Field>
+    <Field name="group_10_damage_action_flag" type="u8">
+        <DisplayName>[10] Damage Action Flag</DisplayName>
+    </Field>
+    <Field name="group_10_unk02" type="u8">
+        <DisplayName>[10] Unk02</DisplayName>
+    </Field>
+    <Field name="group_10_unk03" type="u8">
+        <DisplayName>[10] Unk03</DisplayName>
+    </Field>
+    <Field name="group_10_unk04" type="u8">
+        <DisplayName>[10] Unk04</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_bullet_id_0" type="s32">
+        <DisplayName>[10] Enemy Bullet ID 0</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_bullet_id_1" type="s32">
+        <DisplayName>[10] Enemy Bullet ID 1</DisplayName>
+    </Field>
+    <Field name="group_10_enemy_bullet_id_2" type="s32">
+        <DisplayName>[10] Enemy Bullet ID 2</DisplayName>
+    </Field>
+    <Field name="group_10_unk07" type="f32">
+        <DisplayName>[10] Unk07</DisplayName>
+    </Field>
+    <Field name="group_10_unk08" type="f32">
+        <DisplayName>[10] Unk08</DisplayName>
+    </Field>
+    <Field name="group_10_attack_speed" type="f32">
+        <DisplayName>[10] Attack Speed</DisplayName>
+        <Description>Affects both the windup and start portions of the animation</Description>
+    </Field>
+    <Field name="group_10_recovery_speed" type="f32">
+        <DisplayName>[10] Recovery Speed</DisplayName>
+        <Description>Affects both the recovery and end portions of the animation</Description>
+    </Field>
+    <Field name="group_10_unk09" type="f32">
+        <DisplayName>[10] Unk09</DisplayName>
+    </Field>
+    <Field name="group_10_unk10" type="f32">
+        <DisplayName>[10] Unk10</DisplayName>
+    </Field>
+    <Field name="group_10_unk11" type="f32">
+        <DisplayName>[10] Unk11</DisplayName>
+    </Field>
+    <Field name="group_10_unk12" type="f32">
+        <DisplayName>[10] Unk12</DisplayName>
+    </Field>
+    <Field name="group_10_unk13" type="s32">
+        <DisplayName>[10] Unk13</DisplayName>
+    </Field>
+    <Field name="group_10_atk_cooldown_min" type="f32">
+        <DisplayName>[10] Attack Cooldown Min</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+    <Field name="group_10_atk_cooldown_max" type="f32">
+        <DisplayName>[10] Attack Cooldown Max</DisplayName>
+        <Description>Some attacks require an NPC to wait before repeating them. Time to wait will be a random value between min and max</Description>
+    </Field>
+</ParamDef>

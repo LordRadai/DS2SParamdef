@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="SHOP_LINEUP_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="36">
+    <Field name="item_id" type="s32">
+        <DisplayName>Item ID</DisplayName>
+        <Description>The item to offer.</Description>
+    </Field>
+    <Field name="Unk00" type="s32"/>
+    <Field name="enable_flag" type="s32">
+        <DisplayName>Enable Flag</DisplayName>
+        <Description>The item is visible when this flag is ON.</Description>
+    </Field>
+    <Field name="disable_flag" type="s32">
+        <DisplayName>Disable Flag</DisplayName>
+        <Description>The item is not visible when this flag is ON.</Description>
+    </Field>
+    <Field name="material_id" type="s32">
+        <DisplayName>Material ID</DisplayName>
+    </Field>
+    <Field name="duplicate_item_id" type="s32">
+        <DisplayName>Duplicate Item ID</DisplayName>
+        <Description>Remove all sources of this item if purchased from other vendors.</Description>
+    </Field>
+    <Field name="Unk01" type="s32"/>
+    <Field name="price_rate" type="f32">
+        <DisplayName>Price Rate</DisplayName>
+        <Description>The percentage of the base price the item costs.</Description>
+    </Field>
+    <Field name="quantity" type="s32">
+        <DisplayName>Quantity</DisplayName>
+        <Description>Amount to get.</Description>
+    </Field>
+</ParamDef>

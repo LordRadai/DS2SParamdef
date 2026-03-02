@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="WEAPON_ACTION_CATEGORY_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="256">
+    <Field name="right_1h_light_1" type="u32">
+        <DisplayName>Right - 1H Light #1</DisplayName>
+    </Field>
+    <Field name="right_1h_light_2" type="u32">
+        <DisplayName>Right - 1H Light #2</DisplayName>
+    </Field>
+    <Field name="right_1h_heavy_1" type="u32">
+        <DisplayName>Right - 1H Heavy #1</DisplayName>
+    </Field>
+    <Field name="right_1h_heavy_2" type="u32">
+        <DisplayName>Right - 1H Heavy #2</DisplayName>
+    </Field>
+    <Field name="right_1h_light_run" type="u32">
+        <DisplayName>Right - 1H Light Running</DisplayName>
+    </Field>
+    <Field name="right_1h_light_roll" type="u32">
+        <DisplayName>Right - 1H Light Rolling</DisplayName>
+    </Field>
+    <Field name="right_1h_light_backstep" type="u32">
+        <DisplayName>Right - 1H Light Backstep</DisplayName>
+    </Field>
+    <Field name="right_1h_fall" type="u32">
+        <DisplayName>Right - 1H Falling</DisplayName>
+    </Field>
+    <Field name="right_1h_land" type="u32">
+        <DisplayName>Right - 1H Landing</DisplayName>
+    </Field>
+    <Field name="right_1h_jump" type="u32">
+        <DisplayName>Right - 1H Jumping</DisplayName>
+    </Field>
+    <Field name="right_2h_light_1" type="u32">
+        <DisplayName>Right - 2H Light #1</DisplayName>
+    </Field>
+    <Field name="right_2h_light_2" type="u32">
+        <DisplayName>Right - 2H Light #2</DisplayName>
+    </Field>
+    <Field name="right_2h_heavy_1" type="u32">
+        <DisplayName>Right - 2H Heavy #1</DisplayName>
+    </Field>
+    <Field name="right_2h_heavy_2" type="u32">
+        <DisplayName>Right - 2H Heavy #2</DisplayName>
+    </Field>
+    <Field name="right_2h_light_run" type="u32">
+        <DisplayName>Right - 2H Light Running</DisplayName>
+    </Field>
+    <Field name="right_2h_light_roll" type="u32">
+        <DisplayName>Right - 2H Light Rolling</DisplayName>
+    </Field>
+    <Field name="right_2h_light_backstep" type="u32">
+        <DisplayName>Right - 2H Light Backstep</DisplayName>
+    </Field>
+    <Field name="right_2h_fall" type="u32">
+        <DisplayName>Right - 2H Falling</DisplayName>
+    </Field>
+    <Field name="right_2h_land" type="u32">
+        <DisplayName>Right - 2H Landing</DisplayName>
+    </Field>
+    <Field name="right_2h_jump" type="u32">
+        <DisplayName>Right - 2H Jumping</DisplayName>
+    </Field>
+    <Field name="chain_attack_1_1" type="u32">
+        <DisplayName>Chain 1 #1</DisplayName>
+    </Field>
+    <Field name="chain_attack_1_2" type="u32">
+        <DisplayName>Chain 1 #2</DisplayName>
+    </Field>
+    <Field name="chain_attack_2_1" type="u32">
+        <DisplayName>Chain 2 #1</DisplayName>
+    </Field>
+    <Field name="chain_attack_2_2" type="u32">
+        <DisplayName>Chain 2 #2</DisplayName>
+    </Field>
+    <Field name="chain_attack_run" type="u32">
+        <DisplayName>Chain Running</DisplayName>
+    </Field>
+    <Field name="chain_attack_roll" type="u32">
+        <DisplayName>Chain Rolling</DisplayName>
+    </Field>
+    <Field name="chain_attack_backstep" type="u32">
+        <DisplayName>Chain Backstep</DisplayName>
+    </Field>
+    <Field name="chain_attack_fall" type="u32">
+        <DisplayName>Chain Falling</DisplayName>
+    </Field>
+    <Field name="chain_attack_land" type="u32">
+        <DisplayName>Chain Landing</DisplayName>
+    </Field>
+    <Field name="chain_attack_jump" type="u32">
+        <DisplayName>Chain Jumping</DisplayName>
+    </Field>
+    <Field name="right_powerstance_light_1" type="u32">
+        <DisplayName>Right - Powerstance - Light #1</DisplayName>
+    </Field>
+    <Field name="right_powerstance_light_2" type="u32">
+        <DisplayName>Right - Powerstance - Light #2</DisplayName>
+    </Field>
+    <Field name="right_powerstance_heavy_1" type="u32">
+        <DisplayName>Right - Powerstance - Heavy #1</DisplayName>
+    </Field>
+    <Field name="right_powerstance_heavy_2" type="u32">
+        <DisplayName>Right - Powerstance - Heavy #2</DisplayName>
+    </Field>
+    <Field name="right_powerstance_light_run" type="u32">
+        <DisplayName>Right - Powerstance - Light Running</DisplayName>
+    </Field>
+    <Field name="right_powerstance_light_roll" type="u32">
+        <DisplayName>Right - Powerstance - Light Rolling</DisplayName>
+    </Field>
+    <Field name="right_powerstance_light_backstep" type="u32">
+        <DisplayName>Right - Powerstance - Light Backstep</DisplayName>
+    </Field>
+    <Field name="right_powerstance_fall" type="u32">
+        <DisplayName>Right - Powerstance - Falling</DisplayName>
+    </Field>
+    <Field name="right_powerstance_land" type="u32">
+        <DisplayName>Right - Powerstance - Landing</DisplayName>
+    </Field>
+    <Field name="right_powerstance_jump" type="u32">
+        <DisplayName>Right - Powerstance - Jumping</DisplayName>
+    </Field>
+    <Field name="left_1h_light_1" type="u32">
+        <DisplayName>Left - 1H Light #1</DisplayName>
+    </Field>
+    <Field name="left_1h_light_2" type="u32">
+        <DisplayName>Left - 1H Light #2</DisplayName>
+    </Field>
+    <Field name="left_1h_heavy_1" type="u32">
+        <DisplayName>Left - 1H Heavy #1</DisplayName>
+    </Field>
+    <Field name="left_1h_heavy_2" type="u32">
+        <DisplayName>Left - 1H Heavy #2</DisplayName>
+    </Field>
+    <Field name="left_1h_light_run" type="u32">
+        <DisplayName>Left - 1H Light Running</DisplayName>
+    </Field>
+    <Field name="left_1h_light_roll" type="u32">
+        <DisplayName>Left - 1H Light Rolling</DisplayName>
+    </Field>
+    <Field name="left_1h_light_backstep" type="u32">
+        <DisplayName>Left - 1H Light Backstep</DisplayName>
+    </Field>
+    <Field name="left_1h_light_fall" type="u32">
+        <DisplayName>Left - 1H Falling</DisplayName>
+    </Field>
+    <Field name="left_1h_light_land" type="u32">
+        <DisplayName>Left - 1H Landing</DisplayName>
+    </Field>
+    <Field name="left_1h_light_jump" type="u32">
+        <DisplayName>Left - 1H Jumping</DisplayName>
+    </Field>
+    <Field name="left_2h_light_1" type="u32">
+        <DisplayName>Left - 2H Light</DisplayName>
+    </Field>
+    <Field name="left_2h_heavy_1" type="u32">
+        <DisplayName>Left - 2H Heavy</DisplayName>
+    </Field>
+    <Field name="left_powerstance_light_1" type="u32">
+        <DisplayName>Left - Powerstance - Light #1</DisplayName>
+    </Field>
+    <Field name="left_powerstance_light_2" type="u32">
+        <DisplayName>Left - Powerstance - Light #2</DisplayName>
+    </Field>
+    <Field name="left_powerstance_heavy_1" type="u32">
+        <DisplayName>Left - Powerstance - Heavy</DisplayName>
+    </Field>
+    <Field name="guard_break_1" type="u32">
+        <DisplayName>Guard Break #1</DisplayName>
+    </Field>
+    <Field name="guard_break_2" type="u32">
+        <DisplayName>Guard Break #2</DisplayName>
+    </Field>
+    <Field name="shield_poke_1_1" type="u32">
+        <DisplayName>Shield Poke 1 #1</DisplayName>
+    </Field>
+    <Field name="shield_poke_1_2" type="u32">
+        <DisplayName>Shield Poke 1 #2</DisplayName>
+    </Field>
+    <Field name="shield_poke_2_1" type="u32">
+        <DisplayName>Shield Poke 2 #1</DisplayName>
+    </Field>
+    <Field name="shield_poke_2_2" type="u32">
+        <DisplayName>Shield Poke 2 #2</DisplayName>
+    </Field>
+    <Field name="riposte" type="u32">
+        <DisplayName>Riposte</DisplayName>
+    </Field>
+    <Field name="guard_break_stab" type="u32">
+        <DisplayName>Guard Break Stab</DisplayName>
+    </Field>
+    <Field name="backstab" type="u32">
+        <DisplayName>Backstab</DisplayName>
+    </Field>
+</ParamDef>

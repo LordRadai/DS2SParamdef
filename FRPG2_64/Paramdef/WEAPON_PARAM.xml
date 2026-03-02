@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="WEAPON_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="188">
+    <Field name="item_id" type="s32"/>
+    <Field name="weapon_model_id" type="s32">
+        <DisplayName>Weapon Model ID</DisplayName>
+    </Field>
+    <Field name="weapon_reinforce_id" type="s32">
+        <DisplayName>Weapon Reinforce ID</DisplayName>
+    </Field>
+    <Field name="weapon_action_category_id" type="s32">
+        <DisplayName>Weapon Action Category ID</DisplayName>
+    </Field>
+    <Field name="weapon_type_id" type="s32">
+        <DisplayName>Weapon Type ID</DisplayName>
+    </Field>
+    <Field name="Unk00" type="s32"/>
+    <Field name="str_requirement" type="s16">
+        <DisplayName>STR Requirement</DisplayName>
+    </Field>
+    <Field name="dex_requirement" type="s16">
+        <DisplayName>DEX Requirement</DisplayName>
+    </Field>
+    <Field name="int_requirement" type="s16">
+        <DisplayName>INT Requirement</DisplayName>
+    </Field>
+    <Field name="fth_requirement" type="s16">
+        <DisplayName>FTH Requirement</DisplayName>
+    </Field>
+    <Field name="weight" type="f32">
+        <DisplayName>Weight</DisplayName>
+    </Field>
+    <Field name="recovery_animation_weight" type="f32">
+        <DisplayName>Recovery Animation Weight</DisplayName>
+        <Description>Affects Estus Flash usage</Description>
+    </Field>
+    <Field name="max_durability" type="f32">
+        <DisplayName>Max Durability</DisplayName>
+    </Field>
+    <Field name="base_repair_cost" type="s32">
+        <DisplayName>Base Repair Cost</DisplayName>
+    </Field>
+    <Field name="Unk01" type="s32"/>
+    <Field name="stamina_consumption" type="f32">
+        <DisplayName>Stamina Consumption</DisplayName>
+        <Description>Value is (*10)</Description>
+    </Field>
+    <Field name="stamina_damage" type="f32">
+        <DisplayName>Stamina Damage</DisplayName>
+        <Description>Value is (*10)</Description>
+    </Field>
+    <Field name="weapon_stamina_cost_id" type="s32">
+        <DisplayName>Weapon Stamina Cost ID</DisplayName>
+    </Field>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="player_damage_id_backstab_small" type="s32">
+        <DisplayName>Player Damage ID: Backstab Small</DisplayName>
+    </Field>
+    <Field name="player_damage_id_backstab_medium" type="s32">
+        <DisplayName>Player Damage ID: Backstab Medium</DisplayName>
+    </Field>
+    <Field name="player_damage_id_backstab_large" type="s32">
+        <DisplayName>Player Damage ID: Backstab Large</DisplayName>
+    </Field>
+    <Field name="player_damage_id_guardbreak_small" type="s32">
+        <DisplayName>Player Damage ID: Guard Break Stab Small</DisplayName>
+    </Field>
+    <Field name="player_damage_id_guardbreak_medium" type="s32">
+        <DisplayName>Player Damage ID: Guard Break Stab Medium</DisplayName>
+    </Field>
+    <Field name="player_damage_id_guardbreak_large" type="s32">
+        <DisplayName>Player Damage ID: Guard Break Stab Large</DisplayName>
+    </Field>
+    <Field name="player_damage_id_riposte_small" type="s32">
+        <DisplayName>Player Damage ID: Riposte Small</DisplayName>
+    </Field>
+    <Field name="player_damage_id_riposte_medium" type="s32">
+        <DisplayName>Player Damage ID: Riposte Medium</DisplayName>
+    </Field>
+    <Field name="player_damage_id_riposte_large" type="s32">
+        <DisplayName>Player Damage ID: Riposte Large</DisplayName>
+    </Field>
+    <Field name="parry_frames_duration" type="f32">
+        <DisplayName>Parry Frames Duration</DisplayName>
+    </Field>
+    <Field name="Unk06" type="s32"/>
+    <Field name="Unk07" type="s32"/>
+    <Field name="damage_mult" type="f32">
+        <DisplayName>Damage %</DisplayName>
+    </Field>
+    <Field name="stamina_damage_mult" type="f32">
+        <DisplayName>Stamina Damage %</DisplayName>
+    </Field>
+    <Field name="durability_damage_mult" type="f32">
+        <DisplayName>Equipment Damage %</DisplayName>
+    </Field>
+    <Field name="guard_break_field" type="f32">
+        <DisplayName>Guard Break Related</DisplayName>
+    </Field>
+    <Field name="status_effect_amount" type="f32">
+        <DisplayName>Status Effect Amount</DisplayName>
+    </Field>
+    <Field name="posture_damage_mult" type="f32">
+        <DisplayName>Posture Damage %</DisplayName>
+    </Field>
+    <Field name="hitbox_radius" type="f32">
+        <DisplayName>Hitbox Radius</DisplayName>
+    </Field>
+    <Field name="hitbox_length" type="f32">
+        <DisplayName>Hitbox Length</DisplayName>
+    </Field>
+    <Field name="hitback_radius" type="f32">
+        <DisplayName>Hitback Radius</DisplayName>
+    </Field>
+    <Field name="hitback_length" type="f32">
+        <DisplayName>Hitback Length</DisplayName>
+    </Field>
+    <Field name="damage_type_menu_1" type="u8">
+        <DisplayName>Damage Type Menu 1</DisplayName>
+    </Field>
+    <Field name="damage_type_menu_2" type="u8">
+        <DisplayName>Damage Type Menu 2</DisplayName>
+    </Field>
+    <Field name="poise_damage_menu" type="s16">
+        <DisplayName>Poise Damage Menu</DisplayName>
+    </Field>
+    <Field name="counter_damage_menu" type="s16">
+        <DisplayName>Counter Damage Menu</DisplayName>
+    </Field>
+    <Field name="casting_speed_menu" type="s16">
+        <DisplayName>Casting Speed Menu</DisplayName>
+    </Field>
+    <Field name="poise_damage_pvp" type="f32">
+        <DisplayName>Poise Damage PVP</DisplayName>
+    </Field>
+    <Field name="poise_damage_pve" type="f32">
+        <DisplayName>Poise Damage PVE</DisplayName>
+    </Field>
+    <Field name="hyper_armor_poise_mult" type="f32">
+        <DisplayName>Hyper-Armor Poise Multiplier</DisplayName>
+        <Description>Multiplies poise damage taken during hyper-armor state</Description>
+    </Field>
+</ParamDef>

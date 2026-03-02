@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MAP_VOLUME_FOG_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
+    <Field name="color_r" type="u8">
+        <DisplayName>Color: R</DisplayName>
+    </Field>
+    <Field name="color_b" type="u8">
+        <DisplayName>Color: B</DisplayName>
+    </Field>
+    <Field name="color_g" type="u8">
+        <DisplayName>Color: G</DisplayName>
+    </Field>
+    <Field name="color_alpha" type="u8">
+        <DisplayName>Color: Alpha</DisplayName>
+    </Field>
+    <Field name="fog_size" type="f32">
+        <DisplayName>Fog Size</DisplayName>
+    </Field>
+    <Field name="Unk08" type="f32"/>
+</ParamDef>

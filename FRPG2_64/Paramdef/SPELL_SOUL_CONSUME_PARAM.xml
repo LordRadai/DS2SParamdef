@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="SPELL_SOUL_CONSUME_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="48">
+    <Field name="drain_all_souls" type="s32">
+        <DisplayName>Drain All Souls</DisplayName>
+    </Field>
+    <Field name="max_damage_scale_from_souls" type="s32">
+        <DisplayName>Max Damage Scale (Souls)</DisplayName>
+    </Field>
+    <Field name="bullet_id_1" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_2" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_3" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_4" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_5" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_6" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_7" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_8" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_9" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+    <Field name="bullet_id_10" type="s32">
+        <DisplayName>Bullet ID</DisplayName>
+    </Field>
+</ParamDef>

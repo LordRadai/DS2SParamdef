@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="BOSS_ENEMY_GENERATE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="generator_id_0" type="s32">
+        <DisplayName>Generator ID [0]</DisplayName>
+    </Field>
+    <Field name="generator_id_1" type="s32">
+        <DisplayName>Generator ID [1]</DisplayName>
+    </Field>
+    <Field name="Unk08a" type="u8"/>
+    <Field name="Unk08b" type="u8"/>
+    <Field name="Unk08c" type="u8"/>
+    <Field name="Unk08d" type="u8"/>
+    <Field name="Unk0Ca" type="u8"/>
+    <Field name="Unk0Cb" type="u8"/>
+    <Field name="Unk0Cc" type="u8"/>
+    <Field name="Unk0Cd" type="u8"/>
+</ParamDef>

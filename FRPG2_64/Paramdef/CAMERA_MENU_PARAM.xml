@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CAMERA_MENU_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="152">
+    <Field name="Unk00" type="s8"/>
+    <Field name="Unk01" type="s8"/>
+    <Field name="Unk02" type="s8"/>
+    <Field name="Unk03" type="s8"/>
+    <Field name="camera_horizontal_fov" type="f32">
+        <DisplayName>Camera Horizontal FOV</DisplayName>
+    </Field>
+    <Field name="Unk08" type="f32"/>
+    <Field name="Unk0C" type="f32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="Unk14" type="f32"/>
+    <Field name="camera_horizontal_offset" type="f32">
+        <DisplayName>Camera Horizontal Offset</DisplayName>
+    </Field>
+    <Field name="Unk1C" type="f32"/>
+    <Field name="Unk20" type="f32"/>
+    <Field name="Unk24" type="f32"/>
+    <Field name="Unk28" type="f32"/>
+    <Field name="Unk2C" type="f32"/>
+    <Field name="Unk30" type="f32"/>
+    <Field name="Unk34" type="f32"/>
+    <Field name="Unk38" type="f32"/>
+    <Field name="Unk3C" type="f32"/>
+    <Field name="Unk40" type="f32"/>
+    <Field name="Unk44" type="f32"/>
+    <Field name="Unk48" type="f32"/>
+    <Field name="Unk4C" type="f32"/>
+    <Field name="Unk50" type="f32"/>
+    <Field name="Unk54" type="f32"/>
+    <Field name="Unk58" type="f32"/>
+    <Field name="Unk5C" type="f32"/>
+    <Field name="Unk60" type="f32"/>
+    <Field name="Unk64" type="f32"/>
+    <Field name="Unk68" type="f32"/>
+    <Field name="Unk6C" type="f32"/>
+    <Field name="Unk70" type="f32"/>
+    <Field name="Unk74" type="f32"/>
+    <Field name="Unk78" type="f32"/>
+    <Field name="Unk7C" type="f32"/>
+    <Field name="Unk80" type="f32"/>
+    <Field name="Unk84" type="f32"/>
+    <Field name="Unk88" type="f32"/>
+    <Field name="Unk8C" type="s32"/>
+    <Field name="Unk90" type="f32"/>
+    <Field name="Unk94" type="f32"/>
+</ParamDef>

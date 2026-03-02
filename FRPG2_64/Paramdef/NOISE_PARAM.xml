@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="NOISE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="40">
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk01" type="f32"/>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="s32"/>
+    <Field name="Unk08" type="f32"/>
+    <Field name="Unk09" type="f32"/>
+</ParamDef>

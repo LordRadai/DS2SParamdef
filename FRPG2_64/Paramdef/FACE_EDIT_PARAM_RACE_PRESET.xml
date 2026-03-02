@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="FACE_EDIT_PARAM_RACE_PRESET" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="324">
+    <Field name="edit_Age" type="f32">
+        <DisplayName>Age</DisplayName>
+    </Field>
+    <Field name="edit_Hormones" type="f32">
+        <DisplayName>Hormones</DisplayName>
+    </Field>
+    <Field name="edit_FormEmphasis" type="f32">
+        <DisplayName>Form emphasis</DisplayName>
+    </Field>
+    <Field name="edit_ColorEmphasis" type="f32">
+        <DisplayName>Color emphasis</DisplayName>
+    </Field>
+    <Field name="edit_RelativeNoseSize" type="f32">
+        <DisplayName>Relative nose size</DisplayName>
+    </Field>
+    <Field name="edit_RatioNoseToForehead" type="f32">
+        <DisplayName>Ratio of nose to forehead</DisplayName>
+    </Field>
+    <Field name="edit_FacialWidth" type="f32">
+        <DisplayName>Facial width</DisplayName>
+    </Field>
+    <Field name="edit_FacialRoundness" type="f32">
+        <DisplayName>Facial roundness</DisplayName>
+    </Field>
+    <Field name="edit_VerticalSpacing" type="f32">
+        <DisplayName>Vertical spacing</DisplayName>
+    </Field>
+    <Field name="edit_Placement" type="f32">
+        <DisplayName>Placement</DisplayName>
+    </Field>
+    <Field name="edit_HorizontalSpacing" type="f32">
+        <DisplayName>Horizontal spacing</DisplayName>
+    </Field>
+    <Field name="edit_SkinColor1" type="f32">
+        <DisplayName>Skin color 1</DisplayName>
+    </Field>
+    <Field name="edit_SkinColor2" type="f32">
+        <DisplayName>Skin color 2</DisplayName>
+    </Field>
+    <Field name="edit_SkinColor3" type="f32">
+        <DisplayName>Skin color 3</DisplayName>
+    </Field>
+    <Field name="edit_SkinColor4" type="f32">
+        <DisplayName>Skin color 4</DisplayName>
+    </Field>
+    <Field name="edit_SkinColor5" type="f32">
+        <DisplayName>Skin color 5</DisplayName>
+    </Field>
+    <Field name="edit_NoseRidgeColor" type="f32">
+        <DisplayName>Nose ridge color</DisplayName>
+    </Field>
+    <Field name="edit_CheekColor" type="f32">
+        <DisplayName>Cheek color</DisplayName>
+    </Field>
+    <Field name="edit_GlabellaWidth" type="f32">
+        <DisplayName>Glabella width</DisplayName>
+    </Field>
+    <Field name="edit_GlabellaDepth" type="f32">
+        <DisplayName>Glabella depth</DisplayName>
+    </Field>
+    <Field name="edit_GlabellaProturation" type="f32">
+        <DisplayName>Glabella proturation</DisplayName>
+    </Field>
+    <Field name="edit_GlabellaHeight" type="f32">
+        <DisplayName>Glabella height</DisplayName>
+    </Field>
+    <Field name="edit_NoseRidgeProtrusion1" type="f32">
+        <DisplayName>Nose ridge protrusion 1</DisplayName>
+    </Field>
+    <Field name="edit_NoseRidgeProtrusion2" type="f32">
+        <DisplayName>Nose ridge protrusion 2</DisplayName>
+    </Field>
+    <Field name="edit_GlabellaWidthEyebrows" type="f32">
+        <DisplayName>Glabella width - Eyebrows</DisplayName>
+    </Field>
+    <Field name="edit_BrowHeight" type="f32">
+        <DisplayName>Brow height</DisplayName>
+    </Field>
+    <Field name="edit_InnerBrow" type="f32">
+        <DisplayName>Inner Brow</DisplayName>
+    </Field>
+    <Field name="edit_OuterBrow" type="f32">
+        <DisplayName>Outer Brow</DisplayName>
+    </Field>
+    <Field name="edit_EyePosition" type="f32">
+        <DisplayName>Eye Position</DisplayName>
+    </Field>
+    <Field name="edit_EyeSize" type="f32">
+        <DisplayName>Eye Size</DisplayName>
+    </Field>
+    <Field name="edit_EyeAngle" type="f32">
+        <DisplayName>Eye Angle</DisplayName>
+    </Field>
+    <Field name="edit_EyeSpacing" type="f32">
+        <DisplayName>Eye Spacing</DisplayName>
+    </Field>
+    <Field name="edit_EyeSocketColor1" type="f32">
+        <DisplayName>Eye Socket Color 1</DisplayName>
+    </Field>
+    <Field name="edit_EyeSocketColor2" type="f32">
+        <DisplayName>Eye Socket Color 2</DisplayName>
+    </Field>
+    <Field name="edit_EyeBrightness" type="f32">
+        <DisplayName>Eye Brightness</DisplayName>
+    </Field>
+    <Field name="edit_EyelidColor" type="f32">
+        <DisplayName>Eyelid Color</DisplayName>
+    </Field>
+    <Field name="edit_EyeLiner" type="f32">
+        <DisplayName>Eye Liner</DisplayName>
+    </Field>
+    <Field name="edit_EyeShadow" type="f32">
+        <DisplayName>Eye Shadow</DisplayName>
+    </Field>
+    <Field name="edit_NoseRidgeDepth" type="f32">
+        <DisplayName>Nose Ridge Depth</DisplayName>
+    </Field>
+    <Field name="edit_NoseRidgeLength" type="f32">
+        <DisplayName>Nose Ridge Length</DisplayName>
+    </Field>
+    <Field name="edit_NosePosition" type="f32">
+        <DisplayName>Nose Position</DisplayName>
+    </Field>
+    <Field name="edit_NoseHeight" type="f32">
+        <DisplayName>Nose Height</DisplayName>
+    </Field>
+    <Field name="edit_NoseProtrusion" type="f32">
+        <DisplayName>Nose Protrusion</DisplayName>
+    </Field>
+    <Field name="edit_NoseTipHeight" type="f32">
+        <DisplayName>Nose tip Height</DisplayName>
+    </Field>
+    <Field name="Unk00" type="f32"/>
+    <Field name="edit_NostrilAngle" type="f32">
+        <DisplayName>Nostril Angle</DisplayName>
+    </Field>
+    <Field name="edit_NostrillSize" type="f32">
+        <DisplayName>Nostrill Size</DisplayName>
+    </Field>
+    <Field name="edit_NostrilWidth" type="f32">
+        <DisplayName>Nostril Width</DisplayName>
+    </Field>
+    <Field name="Unk01" type="f32"/>
+    <Field name="edit_CheckboneHeight" type="f32">
+        <DisplayName>Checkbone Height</DisplayName>
+    </Field>
+    <Field name="edit_CheekboneDepth" type="f32">
+        <DisplayName>Cheekbone Depth</DisplayName>
+    </Field>
+    <Field name="edit_CheekboneSpread" type="f32">
+        <DisplayName>Cheekbone spread</DisplayName>
+    </Field>
+    <Field name="edit_CheekFullness" type="f32">
+        <DisplayName>Cheek Fullness</DisplayName>
+    </Field>
+    <Field name="edit_Cheeks" type="f32">
+        <DisplayName>Cheeks</DisplayName>
+    </Field>
+    <Field name="edit_LaughLines" type="f32">
+        <DisplayName>Laugh Lines</DisplayName>
+    </Field>
+    <Field name="edit_LipShape" type="f32">
+        <DisplayName>Lip Shape</DisplayName>
+    </Field>
+    <Field name="edit_MouthExpression" type="f32">
+        <DisplayName>Mouth Expression</DisplayName>
+    </Field>
+    <Field name="edit_Fullness" type="f32">
+        <DisplayName>Fullness</DisplayName>
+    </Field>
+    <Field name="edit_LipSize" type="f32">
+        <DisplayName>Lip Size</DisplayName>
+    </Field>
+    <Field name="edit_LipProtrusion" type="f32">
+        <DisplayName>Lip Protrusion</DisplayName>
+    </Field>
+    <Field name="edit_LipThickness" type="f32">
+        <DisplayName>Lip Thickness</DisplayName>
+    </Field>
+    <Field name="edit_MouthProtrusion" type="f32">
+        <DisplayName>Mouth Protrusion</DisplayName>
+    </Field>
+    <Field name="edit_MouthSlant" type="f32">
+        <DisplayName>Mouth Slant</DisplayName>
+    </Field>
+    <Field name="edit_Occlusion" type="f32">
+        <DisplayName>Occlusion</DisplayName>
+    </Field>
+    <Field name="edit_Position" type="f32">
+        <DisplayName>Position</DisplayName>
+    </Field>
+    <Field name="edit_Width" type="f32">
+        <DisplayName>Width</DisplayName>
+    </Field>
+    <Field name="edit_DistanceMouthToChin" type="f32">
+        <DisplayName>Distance from mouth to chin</DisplayName>
+    </Field>
+    <Field name="edit_CheekFullness2" type="f32">
+        <DisplayName>Cheek Fullness 2</DisplayName>
+    </Field>
+    <Field name="edit_Lipstick1" type="f32">
+        <DisplayName>Lipstick 1</DisplayName>
+    </Field>
+    <Field name="edit_Lipstick2" type="f32">
+        <DisplayName>Lipstick 2</DisplayName>
+    </Field>
+    <Field name="edit_JawPosition" type="f32">
+        <DisplayName>Jaw Position</DisplayName>
+    </Field>
+    <Field name="edit_JawLength" type="f32">
+        <DisplayName>Jaw Length</DisplayName>
+    </Field>
+    <Field name="edit_JawProtrusion" type="f32">
+        <DisplayName>Jaw Protrusion</DisplayName>
+    </Field>
+    <Field name="edit_ChinTipDepth" type="f32">
+        <DisplayName>Chin Tip Depth</DisplayName>
+    </Field>
+    <Field name="edit_JawSize" type="f32">
+        <DisplayName>Jaw Size</DisplayName>
+    </Field>
+    <Field name="edit_JawHeight" type="f32">
+        <DisplayName>Jaw Height</DisplayName>
+    </Field>
+    <Field name="edit_JawSpread" type="f32">
+        <DisplayName>Jaw Spread</DisplayName>
+    </Field>
+    <Field name="Unk02" type="f32"/>
+    <Field name="edit_JawBreadth" type="f32">
+        <DisplayName>Jaw Breadth</DisplayName>
+    </Field>
+    <Field name="edit_Chin" type="f32">
+        <DisplayName>Chin</DisplayName>
+    </Field>
+    <Field name="edit_JawOutline" type="f32">
+        <DisplayName>Jaw Outline</DisplayName>
+    </Field>
+</ParamDef>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="360">
+    <Field name="chr_id" type="s32">
+        <DisplayName>Chr ID</DisplayName>
+    </Field>
+    <Field name="behavior_param_id" type="s32">
+        <DisplayName>Behavior ID</DisplayName>
+    </Field>
+    <Field name="common_param_id" type="s32">
+        <DisplayName>Common ID</DisplayName>
+    </Field>
+    <Field name="move_param_id" type="s32">
+        <DisplayName>Move ID</DisplayName>
+    </Field>
+    <Field name="npc_player_status_param_id" type="s32">
+        <DisplayName>NPC Player Status ID</DisplayName>
+    </Field>
+    <Field name="prevent_resting_related" type="u8"/>
+    <Field name="Unk00_2" type="u8"/>
+    <Field name="Unk01" type="u16"/>
+    <Field name="Unk02" type="s32"/>
+    <Field name="body_hit_sfx1" type="s32">
+        <DisplayName>Body Hit SFX 1</DisplayName>
+        <Description>First sfx produced when struck. Note that BossPartsParam can also determine hit sfx.</Description>
+    </Field>
+    <Field name="chr_phantom_param_id" type="s32">
+        <DisplayName>Chr Phantom ID</DisplayName>
+    </Field>
+    <Field name="Unk04" type="u8"/>
+    <Field name="spawn_limit" type="u8">
+        <DisplayName>Spawn Limit</DisplayName>
+    </Field>
+    <Field name="can_revive_related" type="u8"/>
+    <Field name="Unk06" type="u8"/>
+    <Field name="stat_hp" type="s32">
+        <DisplayName>HP</DisplayName>
+    </Field>
+    <Field name="stat_stamina" type="f32">
+        <DisplayName>Stamina</DisplayName>
+    </Field>
+    <Field name="stat_stamina_regen" type="f32">
+        <DisplayName>Stamina Regeneration</DisplayName>
+    </Field>
+    <Field name="Unk07" type="u8"/>
+    <Field name="Unk08" type="u8"/>
+    <Field name="Unk09" type="u8"/>
+    <Field name="Unk10" type="u8"/>
+    <Field name="Unk11" type="u8"/>
+    <Field name="Unk12" type="u8"/>
+    <Field name="Unk13" type="u8"/>
+    <Field name="Unk14" type="u8"/>
+    <Field name="Unk15" type="f32"/>
+    <Field name="logic_com_id" type="s32">
+        <DisplayName>Logic Com ID</DisplayName>
+    </Field>
+    <Field name="dead_type_id" type="s32">
+        <DisplayName>Dead Type ID</DisplayName>
+    </Field>
+    <Field name="Unk16" type="s32"/>
+    <Field name="equip_weapon_id_0" type="s32">
+        <DisplayName>[0] Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="equip_weapon_id_1" type="s32">
+        <DisplayName>[1] Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="equip_weapon_id_2" type="s32">
+        <DisplayName>[2] Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="equip_weapon_id_3" type="s32">
+        <DisplayName>[3] Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="equip_weapon_id_4" type="s32">
+        <DisplayName>[4] Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="equip_weapon_id_5" type="s32">
+        <DisplayName>[5] Equip Weapon ID</DisplayName>
+    </Field>
+    <Field name="Unk17_1" type="s8"/>
+    <Field name="Unk17_2" type="s8"/>
+    <Field name="Unk17_3" type="s8"/>
+    <Field name="Unk17_4" type="s8"/>
+    <Field name="Unk18" type="s8"/>
+    <Field name="chr_round_damage_param_id" type="s8">
+        <DisplayName>NG+ Damage Adjustment ID</DisplayName>
+    </Field>
+    <Field name="shield_block_level" type="s8">
+        <DisplayName>Shield Block Level</DisplayName>
+    </Field>
+    <Field name="Unk19" type="s8"/>
+    <Field name="Unk20" type="s32"/>
+    <Field name="shield_hit_sfx" type="s32">
+        <DisplayName>Shield Hit SFX</DisplayName>
+        <Description>Sfx produced shield is struck.</Description>
+    </Field>
+    <Field name="shield_stability" type="s32">
+        <DisplayName>Shield Stability</DisplayName>
+    </Field>
+    <Field name="shield_absorption_physical" type="s32">
+        <DisplayName>Shield Absorption: Physical</DisplayName>
+    </Field>
+    <Field name="shield_absorption_magic" type="s32">
+        <DisplayName>Shield Absorption: Magic</DisplayName>
+    </Field>
+    <Field name="shield_absorption_lightning" type="s32">
+        <DisplayName>Shield Absorption: Lightning</DisplayName>
+    </Field>
+    <Field name="shield_absorption_fire" type="s32">
+        <DisplayName>Shield Absorption: Fire</DisplayName>
+    </Field>
+    <Field name="shield_absorption_dark" type="s32">
+        <DisplayName>Shield Absorption: Dark</DisplayName>
+    </Field>
+    <Field name="shield_absorption_poison" type="s32">
+        <DisplayName>Shield Absorption: Poison</DisplayName>
+    </Field>
+    <Field name="shield_absorption_bleed" type="s32">
+        <DisplayName>Shield Absorption: Bleed</DisplayName>
+    </Field>
+    <Field name="Unk22" type="s32"/>
+    <Field name="Unk23" type="s32"/>
+    <Field name="defence_physical" type="s32">
+        <DisplayName>Defence: Physical</DisplayName>
+        <Description>Follows the typical defence formula.</Description>
+    </Field>
+    <Field name="defence_magic" type="s32">
+        <DisplayName>Defence: Magic</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_lightning" type="s32">
+        <DisplayName>Defence: Lightning</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_fire" type="s32">
+        <DisplayName>Defence: Fire</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_dark" type="s32">
+        <DisplayName>Defence: Dark</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_poison" type="s32">
+        <DisplayName>Defence: Poison</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_bleed" type="s32">
+        <DisplayName>Defence: Bleed</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_curse" type="s32">
+        <DisplayName>Defence: Curse</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="defence_petrify" type="s32">
+        <DisplayName>Defence: Petrify</DisplayName>
+        <Description>100 is equal to 100 percent of damage blocked.</Description>
+    </Field>
+    <Field name="body_hit_sfx2" type="s32">
+        <DisplayName>Body Hit SFX 2</DisplayName>
+        <Description>Second sfx produced when struck. Note that BossPartsParam can also determine hit sfx.</Description>
+    </Field>
+    <Field name="Unk25" type="s32"/>
+    <Field name="Unk26" type="s32"/>
+    <Field name="Unk27" type="s32"/>
+    <Field name="souls_held" type="s32">
+        <DisplayName>Souls Held</DisplayName>
+    </Field>
+    <Field name="Unk28" type="s32"/>
+    <Field name="base_damage_mult" type="f32">
+        <DisplayName>Base Damage Multiplier</DisplayName>
+    </Field>
+    <Field name="vs_player_damage_mult" type="f32">
+        <DisplayName>VS Player Damage Multiplier</DisplayName>
+    </Field>
+    <Field name="vs_enemy_damage_mult" type="f32">
+        <DisplayName>VS Enemy Damage Multiplier</DisplayName>
+    </Field>
+    <Field name="vs_npc_damage_mult" type="f32">
+        <DisplayName>VS NPC Damage Multiplier</DisplayName>
+    </Field>
+    <Field name="unknown_damage_mult" type="f32"/>
+    <Field name="Unk32" type="s32"/>
+    <Field name="Unk33" type="s32"/>
+    <Field name="Unk34" type="s32"/>
+    <Field name="Unk35" type="s32"/>
+    <Field name="stat_posture" type="f32">
+        <DisplayName>Posture</DisplayName>
+    </Field>
+    <Field name="stat_posture_regen" type="f32">
+        <DisplayName>Posture Regeneration</DisplayName>
+    </Field>
+    <Field name="Unk36" type="f32"/>
+    <Field name="Unk37" type="f32"/>
+    <Field name="chr_fade_in_on_spawn" type="f32">
+        <DisplayName>Fade-In Time on Spawn</DisplayName>
+    </Field>
+    <Field name="chr_full_body_sfx_param_id" type="s32">
+        <DisplayName>Full Body SFX ID</DisplayName>
+    </Field>
+    <Field name="Unk39" type="f32"/>
+    <Field name="stat_poise" type="f32">
+        <DisplayName>Poise</DisplayName>
+    </Field>
+    <Field name="stat_poise_regen" type="f32">
+        <DisplayName>Poise Regeneration</DisplayName>
+    </Field>
+    <Field name="Unk40" type="s32"/>
+    <Field name="Unk41" type="s32"/>
+    <Field name="Unk42" type="f32"/>
+    <Field name="coop_time_reduction" type="f32">
+        <DisplayName>Co-op Time Reduction on Kill</DisplayName>
+    </Field>
+    <Field name="Unk44" type="u8"/>
+    <Field name="is_hollow" type="u8">
+        <DisplayName>Is Hollow</DisplayName>
+    </Field>
+    <Field name="Unk45" type="u8"/>
+    <Field name="chr_round_drop_soul_param_id" type="u8">
+        <DisplayName>NG+ Soul Adjustment ID</DisplayName>
+    </Field>
+    <Field name="death_itemlot_id" type="s32">
+        <DisplayName>Itemlot ID</DisplayName>
+    </Field>
+    <Field name="overkill_death_itemlot_id" type="s32">
+        <DisplayName>Itemlot ID - Overkill</DisplayName>
+    </Field>
+    <Field name="Unk46" type="f32"/>
+    <Field name="stat_hp_ng1" type="s32">
+        <DisplayName>HP - NG+1</DisplayName>
+    </Field>
+    <Field name="stat_hp_ng2" type="s32">
+        <DisplayName>HP - NG+2</DisplayName>
+    </Field>
+    <Field name="stat_hp_ng3" type="s32">
+        <DisplayName>HP - NG+3</DisplayName>
+    </Field>
+    <Field name="stat_hp_ng4" type="s32">
+        <DisplayName>HP - NG+4</DisplayName>
+    </Field>
+    <Field name="stat_hp_ng5" type="s32">
+        <DisplayName>HP - NG+5</DisplayName>
+    </Field>
+    <Field name="stat_hp_ng6" type="s32">
+        <DisplayName>HP - NG+6</DisplayName>
+    </Field>
+    <Field name="stat_hp_ng7" type="s32">
+        <DisplayName>HP - NG+7</DisplayName>
+    </Field>
+    <Field name="name_text_id" type="s32">
+        <DisplayName>Name Text ID</DisplayName>
+    </Field>
+    <Field name="drops_awestone" type="s8">
+        <DisplayName>Drops Awestone</DisplayName>
+    </Field>
+    <Field name="Unk47" type="u8"/>
+    <Field name="Unk48" type="u8"/>
+    <Field name="Unk49" type="u8"/>
+    <Field name="speffect_id" type="s32">
+        <DisplayName>SpEffect ID</DisplayName>
+    </Field>
+</ParamDef>

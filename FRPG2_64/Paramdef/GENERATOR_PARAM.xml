@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="GENERATOR_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="167">
+    <Field name="SpawnLimit" type="u8">
+        <DisplayName>Spawn Limit</DisplayName>
+    </Field>
+    <Field name="SpawnLimitGameClear" type="u8">
+        <DisplayName>Spawn Limit: Game Clear</DisplayName>
+    </Field>
+    <Field name="Unk02" type="u8"/>
+    <Field name="AggroGroup" type="u8">
+        <DisplayName>Aggression Group</DisplayName>
+        <Description>Used to group entities together so they become aggressive at the same trigger and sometimes used with aggro boundaries.</Description>
+    </Field>
+    <Field name="DeathEventID" type="u32">
+        <DisplayName>Death Event ID</DisplayName>
+    </Field>
+    <Field name="GeneratorRegistParam" type="u32">
+        <DisplayName>Generator Registration ID</DisplayName>
+    </Field>
+    <Field name="Unk0C" type="u8"/>
+    <Field name="Unk0D" type="u8"/>
+    <Field name="Unk0E" type="u8"/>
+    <Field name="Unk0F" type="u8"/>
+    <Field name="AppearanceEventID" type="u32">
+        <DisplayName>Appearance Event ID</DisplayName>
+        <Description>Used in ESD. 1 through to 7 are used to determine NG+ appearance.</Description>
+    </Field>
+    <Field name="PreviousHostileEventID1" type="u32">
+        <DisplayName>Hostile Memory Event ID [1]</DisplayName>
+    </Field>
+    <Field name="PreviousHostileEventID2" type="u32">
+        <DisplayName>Hostile Memory Event ID [2]</DisplayName>
+    </Field>
+    <Field name="Unk1C" type="u32"/>
+    <Field name="Unk20" type="u32"/>
+    <Field name="Unk24" type="u32"/>
+    <Field name="Unk28" type="u32"/>
+    <Field name="LocationEventID1" type="u32">
+        <DisplayName>Location Event ID [1]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="LocationEventID2" type="u32">
+        <DisplayName>Location Event ID [2]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="LocationEventID3" type="u32">
+        <DisplayName>Location Event ID [3]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="LocationEventID4" type="u32">
+        <DisplayName>Location Event ID [4]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="LocationEventID5" type="u32">
+        <DisplayName>Location Event ID [5]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="Unk40" type="u32"/>
+    <Field name="Unk44" type="u32"/>
+    <Field name="Unk48_0:1" type="u8"/>
+    <Field name="Unk48_1:1" type="u8"/>
+    <Field name="Unk48_2:1" type="u8"/>
+    <Field name="Unk48_3:1" type="u8"/>
+    <Field name="Unk48_4:1" type="u8"/>
+    <Field name="Unk48_5:1" type="u8"/>
+    <Field name="Unk48_6:1" type="u8"/>
+    <Field name="Unk48_7:1" type="u8"/>
+    <Field name="Unk49" type="u8"/>
+    <Field name="MapObjectBonfireID" type="u16">
+        <DisplayName>Map Object Bonfire ID</DisplayName>
+        <Description>The ID of the bonfire this entity is linked to. Used with ascetics, effigies, and multi-player.</Description>
+    </Field>
+    <Field name="LeashDistance" type="f32">
+        <DisplayName>Leash Distance</DisplayName>
+    </Field>
+    <Field name="LocationEventID6" type="u32">
+        <DisplayName>Location Event ID [6]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="LocationEventID7" type="u32">
+        <DisplayName>Location Event ID [7]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="AIThinkID" type="u32">
+        <DisplayName>AI Think ID</DisplayName>
+        <Description>The AI for this entity. A boss AI will need to be damaged, changed, or ESD wizardry if you move it elsewhere.</Description>
+    </Field>
+    <Field name="ActivationEventID1" type="u32">
+        <DisplayName>Activation Event ID [1]</DisplayName>
+    </Field>
+    <Field name="ActivationEventID2" type="u32">
+        <DisplayName>Activation Event ID [2]</DisplayName>
+    </Field>
+    <Field name="HostileEventID1" type="u32">
+        <DisplayName>Hostile Event ID [1]</DisplayName>
+        <Description>Flag to be set when the entity becomes hostile towards the player character.</Description>
+    </Field>
+    <Field name="HostileEventID2" type="u32">
+        <DisplayName>Hostile Event ID [2]</DisplayName>
+        <Description>Flag to be set when the entity becomes hostile towards the player character.</Description>
+    </Field>
+    <Field name="Unk6C" type="u16"/>
+    <Field name="Unk71" type="u16"/>
+    <Field name="LocationEventID8" type="u32">
+        <DisplayName>Location Event ID [8]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="LocationEventID9" type="u32">
+        <DisplayName>Location Event ID [9]</DisplayName>
+        <Description>An event ID used by ESD or hardcoded logic. Used for location based events, often for an NPC to move from one place to another.</Description>
+    </Field>
+    <Field name="Unk78" type="u32"/>
+    <Field name="Unk7C" type="u32"/>
+    <Field name="Unk80" type="f32"/>
+    <Field name="Unk84" type="u8"/>
+    <Field name="ModelMask" type="u8">
+        <DisplayName>Model Mask</DisplayName>
+        <Description>Determines which model masks to use. Also decides which model mask set to use in color params.</Description>
+    </Field>
+    <Field name="Unk86" type="u8"/>
+    <Field name="Unk87" type="u8"/>
+    <Field name="ItemLotID1" type="u32">
+        <DisplayName>Itemlot ID</DisplayName>
+        <Description>Typically the itemlot entry that acts as a drop table for this entity.</Description>
+    </Field>
+    <Field name="ItemLotID2" type="u32"/>
+    <Field name="GraveEventID" type="u32">
+        <DisplayName>Grave Event ID</DisplayName>
+        <Description>Flag to be set when the entity is dead and requires a gravestone for the player character to interact with.</Description>
+    </Field>
+    <Field name="Unk94" type="f32"/>
+    <Field name="Unk98" type="u32"/>
+    <Field name="Unk9C" type="u32"/>
+</ParamDef>

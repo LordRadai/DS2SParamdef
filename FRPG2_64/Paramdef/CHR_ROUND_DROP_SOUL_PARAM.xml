@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_ROUND_DROP_SOUL_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="souls_percent_ng0" type="u16">
+        <DisplayName>NG+0 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng1" type="u16">
+        <DisplayName>NG+1 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng2" type="u16">
+        <DisplayName>NG+2 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng3" type="u16">
+        <DisplayName>NG+3 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng4" type="u16">
+        <DisplayName>NG+4 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng5" type="u16">
+        <DisplayName>NG+5 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng6" type="u16">
+        <DisplayName>NG+6 - Soul Absorption %</DisplayName>
+    </Field>
+    <Field name="souls_percent_ng7" type="u16">
+        <DisplayName>NG+7 - Soul Absorption %</DisplayName>
+    </Field>
+</ParamDef>

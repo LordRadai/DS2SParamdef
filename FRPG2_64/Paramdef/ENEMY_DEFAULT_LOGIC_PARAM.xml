@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="ENEMY_DEFAULT_LOGIC_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="Unk00" type="s32"/>
+    <Field name="logic_com_param_id" type="s32">
+        <DisplayName>Logic Com ID</DisplayName>
+    </Field>
+    <Field name="enemy_param_id" type="s32">
+        <DisplayName>Enemy ID</DisplayName>
+    </Field>
+    <Field name="Unk01" type="s32"/>
+</ParamDef>

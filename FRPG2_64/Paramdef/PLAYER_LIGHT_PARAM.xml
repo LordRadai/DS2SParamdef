@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="PLAYER_LIGHT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="60">
+    <Field name="offset_x" type="f32">
+        <DisplayName>Offset: X</DisplayName>
+    </Field>
+    <Field name="offset_y" type="f32">
+        <DisplayName>Offset: Y</DisplayName>
+    </Field>
+    <Field name="offset_z" type="f32">
+        <DisplayName>Offset: Z</DisplayName>
+    </Field>
+    <Field name="diffuse_color_r" type="u8">
+        <DisplayName>Diffuse: R</DisplayName>
+    </Field>
+    <Field name="diffuse_color_g" type="u8">
+        <DisplayName>Diffuse: G</DisplayName>
+    </Field>
+    <Field name="diffuse_color_b" type="u8">
+        <DisplayName>Diffuse: B</DisplayName>
+    </Field>
+    <Field name="diffuse_color_a" type="u8">
+        <DisplayName>Diffuse: A</DisplayName>
+    </Field>
+    <Field name="specular_color_r" type="u8">
+        <DisplayName>Specular: R</DisplayName>
+    </Field>
+    <Field name="specular_color_g" type="u8">
+        <DisplayName>Specular: G</DisplayName>
+    </Field>
+    <Field name="specular_color_b" type="u8">
+        <DisplayName>Specular: B</DisplayName>
+    </Field>
+    <Field name="specular_color_a" type="u8">
+        <DisplayName>Specular: A</DisplayName>
+    </Field>
+    <Field name="diffuse_color_intensity" type="s16">
+        <DisplayName>Diffuse Intensity</DisplayName>
+    </Field>
+    <Field name="specular_color_intensity" type="s16">
+        <DisplayName>Specular Intensity</DisplayName>
+    </Field>
+    <Field name="light_radius" type="f32">
+        <DisplayName>Radius</DisplayName>
+    </Field>
+    <Field name="Unk00" type="f32"/>
+    <Field name="shadow_strength" type="f32">
+        <DisplayName>Shadow Strength</DisplayName>
+    </Field>
+    <Field name="Unk01" type="s16"/>
+    <Field name="Unk02" type="s16"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="can_cast_shadows" type="u32">
+        <DisplayName>Cast Shadows</DisplayName>
+    </Field>
+</ParamDef>

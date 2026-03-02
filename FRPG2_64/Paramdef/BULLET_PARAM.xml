@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="BULLET_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="320">
+    <Field name="sfx_id" type="s32">
+        <DisplayName>SFX ID</DisplayName>
+        <Description>The SFX ID of this particular bullet. Sometimes unlisted here and sometimes provided by the EMEVD.</Description>
+    </Field>
+    <Field name="spawn_location" type="u8">
+        <DisplayName>Spawn Location</DisplayName>
+        <Description>Where the bullet will spawn in relation to the parent.</Description>
+    </Field>
+    <Field name="spawn_direction" type="u8">
+        <DisplayName>Spawn Direction</DisplayName>
+        <Description>Affects how the bullet is spawned.</Description>
+    </Field>
+    <Field name="online_visibility" type="u8">
+        <DisplayName>Is Visible Online</DisplayName>
+    </Field>
+    <Field name="spawn_flag_1" type="u8">
+        <DisplayName>Spawn Flag 1</DisplayName>
+    </Field>
+    <Field name="relative_z_coord" type="f32">
+        <DisplayName>Relative Spawn Position: Z</DisplayName>
+        <Description>Offset the bullet's spawn location. +Z is above the player, -Z is below the player.</Description>
+    </Field>
+    <Field name="relative_y_coord" type="f32">
+        <DisplayName>Relative Spawn Position: Y</DisplayName>
+        <Description>Offset the bullet's spawn location. +Y is to the right of the player, -Y is to the left of the player.</Description>
+    </Field>
+    <Field name="relative_x_coord" type="f32">
+        <DisplayName>Relative Spawn Position: X</DisplayName>
+        <Description>Offset the bullet's spawn location. +X is in front of the player, -X is behind the player.</Description>
+    </Field>
+    <Field name="relative_vertical_angle" type="f32">
+        <DisplayName>Relative Vertical Angle</DisplayName>
+        <Description>In radians.</Description>
+    </Field>
+    <Field name="relative_horizontal_angle" type="f32">
+        <DisplayName>Relative Horizontal Angle</DisplayName>
+        <Description>In radians.</Description>
+    </Field>
+    <Field name="lockon_vertical_angle" type="f32">
+        <DisplayName>Lock-on Vertical Angle</DisplayName>
+        <Description>In radians.</Description>
+    </Field>
+    <Field name="lockon_horizontal_angle" type="f32">
+        <DisplayName>Lock-on Horizontal Angle</DisplayName>
+        <Description>In radians.</Description>
+    </Field>
+    <Field name="vertical_angle_randomizer" type="f32">
+        <DisplayName>Vertical Angle Randomizer</DisplayName>
+        <Description>In radians. Applies random value between 0 and the specified angle here on shoot to the vertical shoot angle.</Description>
+    </Field>
+    <Field name="horizontal_angle_randomizer" type="f32">
+        <DisplayName>Horizontal Angle Randomizer</DisplayName>
+        <Description>In radians. Applies random value between 0 and the specified angle here on shoot to the horizontal shoot angle.</Description>
+    </Field>
+    <Field name="Unk00" type="u8">
+        <Description>Related to lock-on</Description>
+    </Field>
+    <Field name="Unk01" type="u8">
+        <Description>Related to lock-on</Description>
+    </Field>
+    <Field name="shoot_once_count" type="u8">
+        <DisplayName>Shoot Once - Number to Shoot</DisplayName>
+    </Field>
+    <Field name="shoot_sequential_count" type="u8">
+        <DisplayName>Shoot Sequential - Number to Shoot</DisplayName>
+    </Field>
+    <Field name="shoot_once_relative_vertical_angle" type="f32">
+        <DisplayName>Shoot Once Relative Vertical Angle</DisplayName>
+    </Field>
+    <Field name="shoot_once_relative_horizontal_angle" type="f32">
+        <DisplayName>Shoot Once Relative Horizontal Angle</DisplayName>
+    </Field>
+    <Field name="shoot_sequential_interval" type="f32">
+        <DisplayName>Shoot Sequential Interval</DisplayName>
+    </Field>
+    <Field name="shoot_sequential_relative_vertical_angle" type="f32">
+        <DisplayName>Shoot Sequential Relative Vertical Angle</DisplayName>
+    </Field>
+    <Field name="shoot_sequential_relative_horizontal_angle" type="f32">
+        <DisplayName>Shoot Sequential Relative Horizontal Angle</DisplayName>
+    </Field>
+    <Field name="Unk04" type="u8"/>
+    <Field name="Unk05" type="u8"/>
+    <Field name="Unk06" type="u8"/>
+    <Field name="Unk07" type="u8"/>
+    <Field name="max_life" type="f32">
+        <DisplayName>Max Duration</DisplayName>
+    </Field>
+    <Field name="initial_horizontal_velocity" type="f32">
+        <DisplayName>Horizontal: Initial Velocity</DisplayName>
+    </Field>
+    <Field name="horizontal_acceleration_start_delay" type="f32">
+        <DisplayName>Horizontal: Acceleration Start Delay</DisplayName>
+    </Field>
+    <Field name="horizontal_target_velocity" type="f32">
+        <DisplayName>Horizontal: Target Velocity</DisplayName>
+    </Field>
+    <Field name="horizontal_max_velocity" type="f32">
+        <DisplayName>Horizontal: Max Velocity</DisplayName>
+    </Field>
+    <Field name="initial_vertical_velocity" type="f32">
+        <DisplayName>Vertical: Initial Velocity</DisplayName>
+    </Field>
+    <Field name="vertical_acceleration_start_delay" type="f32">
+        <DisplayName>Vertical: Acceleration Start Delay</DisplayName>
+    </Field>
+    <Field name="vertical_target_velocity" type="f32">
+        <DisplayName>Vertical: Target Velocity</DisplayName>
+    </Field>
+    <Field name="vertical_max_velocity" type="f32">
+        <DisplayName>Vertical: Max Velocity</DisplayName>
+    </Field>
+    <Field name="initial_tan_vertical_velocity" type="f32">
+        <DisplayName>Tangential Vertical: Initial Velocity</DisplayName>
+    </Field>
+    <Field name="tan_vertical_acceleration_start_delay" type="f32">
+        <DisplayName>Tangential Vertical: Acceleration Start Delay</DisplayName>
+    </Field>
+    <Field name="tan_vertical_target_velocity" type="f32">
+        <DisplayName>Tangential Vertical: Target Velocity</DisplayName>
+    </Field>
+    <Field name="tan_vertical_max_velocity" type="f32">
+        <DisplayName>Tangential Vertical: Max Velocity</DisplayName>
+    </Field>
+    <Field name="initial_tan_horizontal_velocity" type="f32">
+        <DisplayName>Tangential Horizontal: Initial Velocity</DisplayName>
+    </Field>
+    <Field name="tan_horizontal_acceleration_start_delay" type="f32">
+        <DisplayName>Tangential Horizontal: Acceleration Start Delay</DisplayName>
+    </Field>
+    <Field name="tan_horizontal_target_velocity" type="f32">
+        <DisplayName>Tangential Horizontal: Target Velocity</DisplayName>
+    </Field>
+    <Field name="tan_horizontal_max_velocity" type="f32">
+        <DisplayName>Tangential Horizontal: Max Velocity</DisplayName>
+    </Field>
+    <Field name="Unk08" type="f32"/>
+    <Field name="max_angle_change" type="f32">
+        <DisplayName>Max Angle Adjustment</DisplayName>
+    </Field>
+    <Field name="max_tracking_angle_change" type="f32">
+        <DisplayName>Max Tracking Angle Adjustment</DisplayName>
+        <Description>In radians.</Description>
+    </Field>
+    <Field name="max_tracking_time" type="f32">
+        <DisplayName>Max Tracking Duration</DisplayName>
+    </Field>
+    <Field name="Unk09" type="f32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="Unk11" type="f32"/>
+    <Field name="Unk12" type="f32"/>
+    <Field name="Unk13" type="f32"/>
+    <Field name="hit_character" type="u8">
+        <DisplayName>Collides with Character</DisplayName>
+    </Field>
+    <Field name="hit_wall" type="u8">
+        <DisplayName>Collides with Wall</DisplayName>
+    </Field>
+    <Field name="hit_floor" type="u8">
+        <DisplayName>Collides with Floor/Ceiling</DisplayName>
+    </Field>
+    <Field name="hit_water" type="u8">
+        <DisplayName>Collides with Water</DisplayName>
+    </Field>
+    <Field name="shoot_sfx_id" type="s32">
+        <DisplayName>SFX on Shoot</DisplayName>
+        <Description>SFX to play on shoot.</Description>
+    </Field>
+    <Field name="Unk14" type="u8"/>
+    <Field name="Unk15" type="u8"/>
+    <Field name="Unk16" type="u8"/>
+    <Field name="Unk17" type="u8"/>
+    <Field name="hit_sfx_id" type="s32">
+        <DisplayName>SFX on Hit</DisplayName>
+        <Description>SFX to play when the bullet collides with something.</Description>
+    </Field>
+    <Field name="expire_sfx_id" type="s32">
+        <DisplayName>SFX on Expiration</DisplayName>
+        <Description>SFX to play when the bullet expires.</Description>
+    </Field>
+    <Field name="sfx_duration_on_expiration" type="f32">
+        <DisplayName>SFX Duration after Expiration</DisplayName>
+    </Field>
+    <Field name="Unk18" type="f32"/>
+    <Field name="bullet_attach_param_id" type="s32">
+        <DisplayName>Bullet Attach ID</DisplayName>
+    </Field>
+    <Field name="Unk19" type="s32"/>
+    <Field name="child_bullet_1_bullet_id" type="s32">
+        <DisplayName>Child Bullet [1] - Bullet ID</DisplayName>
+    </Field>
+    <Field name="child_bullet_1_damage_id" type="s32">
+        <DisplayName>Child Bullet [1] - Damage ID</DisplayName>
+    </Field>
+    <Field name="child_bullet_2_bullet_id" type="s32">
+        <DisplayName>Child Bullet [2] - Bullet ID</DisplayName>
+    </Field>
+    <Field name="child_bullet_2_damage_id" type="s32">
+        <DisplayName>Child Bullet [2] - Damage ID</DisplayName>
+    </Field>
+    <Field name="child_bullet_3_bullet_id" type="s32">
+        <DisplayName>Child Bullet [3] - Bullet ID</DisplayName>
+    </Field>
+    <Field name="child_bullet_3_damage_id" type="s32">
+        <DisplayName>Child Bullet [3] - Damage ID</DisplayName>
+    </Field>
+    <Field name="spawn_child_bullet_on_hit" type="u8">
+        <DisplayName>Spawn Child Bullet on Hit</DisplayName>
+    </Field>
+    <Field name="spawn_child_bullet_on_expire" type="u8">
+        <DisplayName>Spawn Child Bullet on Expire</DisplayName>
+    </Field>
+    <Field name="spawn_child_bullet_on_unknown" type="u8">
+        <DisplayName>Spawn Child Bullet on Unknown</DisplayName>
+    </Field>
+    <Field name="spawn_child_bullet_on_alive" type="u8">
+        <DisplayName>Spawn Child Bullet during Life</DisplayName>
+    </Field>
+    <Field name="Unk20" type="s32"/>
+    <Field name="Unk21" type="s32"/>
+    <Field name="Unk22" type="s32"/>
+    <Field name="Unk23" type="s32"/>
+    <Field name="Unk24" type="u8"/>
+    <Field name="Unk25" type="u8"/>
+    <Field name="Unk26" type="u8"/>
+    <Field name="Unk27" type="u8"/>
+    <Field name="Unk28" type="u8"/>
+    <Field name="Unk29" type="u8"/>
+    <Field name="Unk30" type="u8"/>
+    <Field name="Unk31" type="u8"/>
+    <Field name="Unk32" type="f32"/>
+    <Field name="Unk33" type="f32"/>
+    <Field name="Unk34" type="f32"/>
+    <Field name="Unk35" type="s32"/>
+    <Field name="Unk36" type="s32"/>
+    <Field name="Unk37" type="f32"/>
+    <Field name="Unk38" type="f32"/>
+    <Field name="Unk39" type="f32"/>
+    <Field name="child_bullet_spawn_delay" type="f32">
+        <DisplayName>Child Bullet Spawn Delay</DisplayName>
+    </Field>
+    <Field name="Unk40" type="f32"/>
+    <Field name="Unk41" type="s32"/>
+    <Field name="Unk42" type="s32"/>
+    <Field name="Unk43" type="s32"/>
+    <Field name="Unk44" type="s32"/>
+</ParamDef>

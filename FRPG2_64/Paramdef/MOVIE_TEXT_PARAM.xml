@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MOVIE_TEXT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
+    <Field name="start_time" type="f32">
+        <DisplayName>Start Time</DisplayName>
+    </Field>
+    <Field name="end_time" type="f32">
+        <DisplayName>End Time</DisplayName>
+    </Field>
+    <Field name="text_id" type="s32">
+        <DisplayName>Text ID</DisplayName>
+    </Field>
+</ParamDef>

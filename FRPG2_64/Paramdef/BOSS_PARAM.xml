@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="BOSS_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="68">
+    <Field name="Unk00a" type="u8"/>
+    <Field name="Unk00b" type="u8"/>
+    <Field name="Unk00c" type="u8"/>
+    <Field name="Unk00d" type="u8"/>
+    <Field name="Unk04" type="s32"/>
+    <Field name="Unk08" type="s32"/>
+    <Field name="map_object_instance_param_id_1" type="s32">
+        <DisplayName>Map Object Instance ID [1]</DisplayName>
+    </Field>
+    <Field name="Unk10" type="s32"/>
+    <Field name="Unk14" type="s32"/>
+    <Field name="Unk18" type="s32"/>
+    <Field name="map_object_instance_param_id_2" type="s32">
+        <DisplayName>Map Object Instance ID [2]</DisplayName>
+    </Field>
+    <Field name="Unk20" type="s32"/>
+    <Field name="Unk24" type="s32"/>
+    <Field name="Unk28" type="s32"/>
+    <Field name="Unk2C" type="s32"/>
+    <Field name="Unk30" type="s32"/>
+    <Field name="Unk34" type="s32"/>
+    <Field name="Unk38" type="s32"/>
+    <Field name="Unk3C" type="s32"/>
+    <Field name="Unk40" type="s32"/>
+</ParamDef>

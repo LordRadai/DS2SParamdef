@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="GROUND_MATERIAL_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="64">
+    <Field name="material_param_id" type="s32">
+        <DisplayName>Material Param ID</DisplayName>
+    </Field>
+    <Field name="Unk01" type="s32"/>
+    <Field name="move_speed_mult" type="f32">
+        <DisplayName>Move Speed %</DisplayName>
+    </Field>
+    <Field name="turn_speed_mult" type="f32">
+        <DisplayName>Turn Speed %</DisplayName>
+    </Field>
+    <Field name="Unk02a" type="u8"/>
+    <Field name="Unk02b" type="u8"/>
+    <Field name="Unk02c" type="u8"/>
+    <Field name="Unk02d" type="u8"/>
+    <Field name="Unk03a" type="u8"/>
+    <Field name="Unk03b" type="u8"/>
+    <Field name="Unk03c" type="u8"/>
+    <Field name="Unk03d" type="u8"/>
+    <Field name="damage_id" type="s32">
+        <DisplayName>Damage ID</DisplayName>
+    </Field>
+    <Field name="Unk04" type="s32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="f32"/>
+    <Field name="Unk08" type="f32"/>
+    <Field name="Unk09" type="s32"/>
+    <Field name="Unk10" type="s32"/>
+    <Field name="Unk11" type="s32"/>
+    <Field name="Unk12" type="f32"/>
+</ParamDef>

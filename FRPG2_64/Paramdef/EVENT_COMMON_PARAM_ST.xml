@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="EVENT_COMMON_PARAM_ST" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="4">
+    <Field name="event_value" type="s32">
+        <DisplayName>Value</DisplayName>
+    </Field>
+</ParamDef>

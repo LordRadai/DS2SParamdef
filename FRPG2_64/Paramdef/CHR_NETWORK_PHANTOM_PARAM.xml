@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_NETWORK_PHANTOM_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="96">
+    <Field name="chr_phantom_param_id" type="s32">
+        <DisplayName>Phantom Color ID</DisplayName>
+    </Field>
+    <Field name="chr_full_body_sfx_id_0" type="s32">
+        <DisplayName>Full Body SFX ID - 0</DisplayName>
+    </Field>
+    <Field name="chr_full_body_sfx_id_1" type="s32">
+        <DisplayName>Full Body SFX ID - 1</DisplayName>
+    </Field>
+    <Field name="chr_full_body_sfx_id_2" type="s32">
+        <DisplayName>Full Body SFX ID - 2</DisplayName>
+    </Field>
+    <Field name="chr_full_body_sfx_id_3" type="s32">
+        <DisplayName>Full Body SFX ID - 3</DisplayName>
+    </Field>
+    <Field name="Unk18" type="u8"/>
+    <Field name="Unk1C" type="u8"/>
+    <Field name="Unk20" type="u8"/>
+    <Field name="Unk24" type="u8"/>
+    <Field name="chr_physics_texture_id" type="s32">
+        <DisplayName>Physics Texture ID</DisplayName>
+    </Field>
+    <Field name="Unk2C" type="f32"/>
+    <Field name="dead_type_id" type="s32">
+        <DisplayName>Dead Type ID</DisplayName>
+    </Field>
+    <Field name="allotted_time" type="f32">
+        <DisplayName>Allotted Time</DisplayName>
+    </Field>
+    <Field name="Unk38" type="f32"/>
+    <Field name="Unk3C" type="u8"/>
+    <Field name="Unk40" type="u8"/>
+    <Field name="Unk44" type="u8"/>
+    <Field name="Unk48" type="u8"/>
+    <Field name="Unk4C" type="u8"/>
+    <Field name="Unk50" type="u8"/>
+    <Field name="Unk54" type="u8"/>
+    <Field name="Unk58" type="u8"/>
+    <Field name="Unk5C" type="u8"/>
+    <Field name="Unk60" type="u8"/>
+    <Field name="Unk64" type="u8"/>
+    <Field name="Unk68" type="u8"/>
+    <Field name="Unk6C" type="f32"/>
+    <Field name="Unk70" type="s8"/>
+    <Field name="Unk71" type="s8"/>
+    <Field name="Unk72" type="s8"/>
+    <Field name="Unk73" type="s8"/>
+    <Field name="Unk74" type="s8"/>
+    <Field name="Unk75" type="s8"/>
+    <Field name="Unk76" type="s8"/>
+    <Field name="Unk77" type="s8"/>
+    <Field name="Unk78" type="f32"/>
+    <Field name="Unk7C" type="f32"/>
+    <Field name="Unk80" type="f32"/>
+    <Field name="rank_1_color" type="s32">
+        <DisplayName>Rank 1 Color</DisplayName>
+    </Field>
+    <Field name="rank_2_color" type="s32">
+        <DisplayName>Rank 2 Color</DisplayName>
+    </Field>
+    <Field name="rank_3_color" type="s32">
+        <DisplayName>Rank 3 Color</DisplayName>
+    </Field>
+    <Field name="Unk90" type="f32"/>
+</ParamDef>

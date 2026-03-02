@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="EQUIP_CULLING_TARGET_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="64">
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk04" type="s32"/>
+    <Field name="Unk08a" type="u8"/>
+    <Field name="Unk08b" type="u8"/>
+    <Field name="Unk08c" type="u8"/>
+    <Field name="Unk08d" type="u8"/>
+    <Field name="Unk0C" type="s32"/>
+    <Field name="Unk10" type="s32"/>
+    <Field name="Unk14" type="s32"/>
+    <Field name="Unk18" type="s32"/>
+    <Field name="Unk1Ca" type="u8"/>
+    <Field name="Unk1Cb" type="u8"/>
+    <Field name="Unk1Cc" type="u8"/>
+    <Field name="Unk1Cd" type="u8"/>
+    <Field name="Unk20a" type="u8"/>
+    <Field name="Unk20b" type="u8"/>
+    <Field name="Unk20c" type="u8"/>
+    <Field name="Unk20d" type="u8"/>
+    <Field name="Unk24" type="s32"/>
+    <Field name="Unk28" type="s32"/>
+    <Field name="Unk2C" type="s32"/>
+    <Field name="Unk30" type="s32"/>
+    <Field name="Unk34" type="s32"/>
+    <Field name="Unk38" type="s32"/>
+    <Field name="Unk3Ca" type="u8"/>
+    <Field name="Unk3Cb" type="u8"/>
+    <Field name="Unk3Cc" type="u8"/>
+    <Field name="Unk3Cd" type="u8"/>
+</ParamDef>

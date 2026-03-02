@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="AREA_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="108">
+    <Field name="Unk00" type="s32"/>
+    <Field name="lock_on_1" type="s32">
+        <DisplayName>Lock-on [1]</DisplayName>
+    </Field>
+    <Field name="lock_on_2" type="s32">
+        <DisplayName>Lock-on [2]</DisplayName>
+    </Field>
+    <Field name="lock_on_3" type="s32">
+        <DisplayName>Lock-on [3]</DisplayName>
+    </Field>
+    <Field name="Unk01" type="s16"/>
+    <Field name="Unk02" type="s16"/>
+    <Field name="area_flag_id" type="s32">
+        <DisplayName>Area Flag ID</DisplayName>
+    </Field>
+    <Field name="map_id" type="s32">
+        <DisplayName>Map ID</DisplayName>
+    </Field>
+    <Field name="Unk03" type="s16"/>
+    <Field name="Unk04" type="s16"/>
+    <Field name="Unk05" type="s16"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="u8"/>
+    <Field name="Unk08" type="u8"/>
+    <Field name="Unk09" type="f32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="mimicry_map_object_1" type="s32">
+        <DisplayName>Mimicry Map Object [1]</DisplayName>
+        <Description>Objects the player transforms into with Chameleon</Description>
+    </Field>
+    <Field name="mimicry_map_object_2" type="s32">
+        <DisplayName>Mimicry Map Object [2]</DisplayName>
+        <Description>Objects the player transforms into with Chameleon</Description>
+    </Field>
+    <Field name="mimicry_map_object_3" type="s32">
+        <DisplayName>Mimicry Map Object [3]</DisplayName>
+        <Description>Objects the player transforms into with Chameleon</Description>
+    </Field>
+    <Field name="mimicry_map_object_4" type="s32">
+        <DisplayName>Mimicry Map Object [4]</DisplayName>
+        <Description>Objects the player transforms into with Chameleon</Description>
+    </Field>
+    <Field name="mimicry_map_object_5" type="s32">
+        <DisplayName>Mimicry Map Object [5]</DisplayName>
+        <Description>Objects the player transforms into with Chameleon</Description>
+    </Field>
+    <Field name="Unk17" type="f32"/>
+    <Field name="Unk18" type="f32"/>
+    <Field name="Unk19" type="f32"/>
+    <Field name="Unk20" type="f32"/>
+    <Field name="Unk21" type="f32"/>
+    <Field name="Unk22" type="f32"/>
+    <Field name="Unk23" type="f32"/>
+    <Field name="Unk24" type="f32"/>
+    <Field name="Unk25" type="f32"/>
+    <Field name="Unk26" type="f32"/>
+</ParamDef>

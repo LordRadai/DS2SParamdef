@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MAP_OBJECT_WHITE_DOOR_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="32">
+    <Field name="Unk00" type="s32"/>
+    <Field name="entry_delay" type="f32">
+        <DisplayName>Entry Delay</DisplayName>
+    </Field>
+    <Field name="Unk01" type="s32"/>
+    <Field name="Unk02" type="s32"/>
+    <Field name="key_guide_param_id_1" type="s32">
+        <DisplayName>Key Guide ID [1]</DisplayName>
+    </Field>
+    <Field name="key_guide_param_id_2" type="s32">
+        <DisplayName>Key Guide ID [2]</DisplayName>
+    </Field>
+    <Field name="Unk04" type="s32"/>
+    <Field name="Unk05" type="s32"/>
+</ParamDef>

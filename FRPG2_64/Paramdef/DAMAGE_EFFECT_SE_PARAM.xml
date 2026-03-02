@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="DAMAGE_EFFECT_SE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="44">
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk04" type="s32"/>
+    <Field name="Unk08" type="s32"/>
+    <Field name="Unk12" type="s32"/>
+    <Field name="Unk16" type="s32"/>
+    <Field name="Unk20" type="s32"/>
+    <Field name="Unk24" type="s32"/>
+    <Field name="Unk28" type="s32"/>
+    <Field name="Unk32" type="s32"/>
+    <Field name="Unk36" type="s32"/>
+    <Field name="Unk40" type="s32"/>
+</ParamDef>

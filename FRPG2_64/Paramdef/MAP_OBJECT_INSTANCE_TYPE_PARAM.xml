@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MAP_OBJECT_INSTANCE_TYPE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="36">
+    <Field name="Unk00a" type="u8"/>
+    <Field name="Unk00b" type="u8"/>
+    <Field name="Unk00c" type="u8"/>
+    <Field name="Unk00d" type="u8"/>
+    <Field name="object_hp" type="s32">
+        <DisplayName>Object HP</DisplayName>
+    </Field>
+    <Field name="Unk01" type="f32"/>
+    <Field name="Unk02" type="f32"/>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="s32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="f32"/>
+</ParamDef>

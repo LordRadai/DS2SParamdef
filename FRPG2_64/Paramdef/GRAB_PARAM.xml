@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="GRAB_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="128">
+    <Field name="attacker_dummy_poly_id" type="s32">
+        <DisplayName>Attacker Dummy Poly ID</DisplayName>
+    </Field>
+    <Field name="attacker_orientation" type="s32">
+        <DisplayName>Attacker Orientation</DisplayName>
+    </Field>
+    <Field name="Unk08" type="s32"/>
+    <Field name="Unk0C" type="s32"/>
+    <Field name="Unk10" type="s32"/>
+    <Field name="Unk14" type="s32"/>
+    <Field name="defender_dummy_poly_id" type="s32">
+        <DisplayName>Defender Dummy Poly ID</DisplayName>
+    </Field>
+    <Field name="defender_orientation" type="s32">
+        <DisplayName>Defender Orientation</DisplayName>
+    </Field>
+    <Field name="Unk20" type="s32"/>
+    <Field name="Unk24" type="s32"/>
+    <Field name="Unk28" type="s32"/>
+    <Field name="Unk2C" type="s32"/>
+    <Field name="shift_target" type="s32">
+        <DisplayName>Shift Target</DisplayName>
+    </Field>
+    <Field name="Unk34" type="s32"/>
+    <Field name="Unk38" type="s32"/>
+    <Field name="Unk3C" type="u8"/>
+    <Field name="Unk3D" type="u8"/>
+    <Field name="Unk3E" type="u8"/>
+    <Field name="Unk3F" type="u8"/>
+    <Field name="relative_position_x" type="f32">
+        <DisplayName>Relative Position: X</DisplayName>
+    </Field>
+    <Field name="relative_position_z" type="f32">
+        <DisplayName>Relative Position: Z</DisplayName>
+    </Field>
+    <Field name="Unk48" type="s32"/>
+    <Field name="Unk4C" type="s32"/>
+    <Field name="distance_confirmation_type" type="u8">
+        <DisplayName>Distance Confirmation Type</DisplayName>
+    </Field>
+    <Field name="enable_angle_confirmation_type" type="u8">
+        <DisplayName>Enable Angle Confirmation Type</DisplayName>
+    </Field>
+    <Field name="Unk50c" type="u8"/>
+    <Field name="Unk50d" type="u8"/>
+    <Field name="minimum_distance_x" type="f32">
+        <DisplayName>Minimum Distance: X</DisplayName>
+    </Field>
+    <Field name="minimum_distance_y" type="f32">
+        <DisplayName>Minimum Distance: Y</DisplayName>
+    </Field>
+    <Field name="minimum_distance_z" type="f32">
+        <DisplayName>Minimum Distance: Z</DisplayName>
+    </Field>
+    <Field name="Unk60" type="f32"/>
+    <Field name="Unk64" type="f32"/>
+    <Field name="Unk68" type="f32"/>
+    <Field name="angle_difference_unk_1" type="f32">
+        <DisplayName>Angle Difference: Unk 1</DisplayName>
+    </Field>
+    <Field name="angle_difference_unk_2" type="f32">
+        <DisplayName>Angle Difference: Unk 2</DisplayName>
+    </Field>
+    <Field name="angle_difference_unk_3" type="f32">
+        <DisplayName>Angle Difference: Unk 3</DisplayName>
+    </Field>
+    <Field name="Unk78" type="f32"/>
+    <Field name="angle_difference_maximum" type="f32">
+        <DisplayName>Angle Difference: Maximum</DisplayName>
+    </Field>
+</ParamDef>

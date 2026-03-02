@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="VOW_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="8">
+    <Field name="rank_1_requirement" type="u16">
+        <DisplayName>Rank 1 Requirement</DisplayName>
+    </Field>
+    <Field name="rank_2_requirement" type="u16">
+        <DisplayName>Rank 2 Requirement</DisplayName>
+    </Field>
+    <Field name="rank_3_requirement" type="u16">
+        <DisplayName>Rank 3 Requirement</DisplayName>
+    </Field>
+    <Field name="Unk00" type="u16"/>
+</ParamDef>

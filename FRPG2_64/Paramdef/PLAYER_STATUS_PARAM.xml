@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="PLAYER_STATUS_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="296">
+    <Field name="body_type" type="u8">
+        <DisplayName>Body Type</DisplayName>
+    </Field>
+    <Field name="hollowing_type" type="u8">
+        <DisplayName>Hollowing Type</DisplayName>
+    </Field>
+    <Field name="body_build_type" type="u16">
+        <DisplayName>Body Build Type</DisplayName>
+    </Field>
+    <Field name="soul_level" type="u16">
+        <DisplayName>Soul Level</DisplayName>
+    </Field>
+    <Field name="vigor" type="u16">
+        <DisplayName>Vigor</DisplayName>
+    </Field>
+    <Field name="souls" type="s32"/>
+    <Field name="endurance" type="u16">
+        <DisplayName>Endurance</DisplayName>
+    </Field>
+    <Field name="attunement" type="u16">
+        <DisplayName>Attunement</DisplayName>
+    </Field>
+    <Field name="vitality" type="u16">
+        <DisplayName>Vitality</DisplayName>
+    </Field>
+    <Field name="strength" type="u16">
+        <DisplayName>Strength</DisplayName>
+    </Field>
+    <Field name="dexterity" type="u16">
+        <DisplayName>Dexterity</DisplayName>
+    </Field>
+    <Field name="intelligence" type="u16">
+        <DisplayName>Intelligence</DisplayName>
+    </Field>
+    <Field name="faith" type="u16">
+        <DisplayName>Faith</DisplayName>
+    </Field>
+    <Field name="adaptability" type="u16">
+        <DisplayName>Adaptability</DisplayName>
+    </Field>
+    <Field name="unk01" type="u16"/>
+    <Field name="unk02" type="u16"/>
+    <Field name="face_presets" type="u16">
+        <DisplayName>Facial Presets</DisplayName>
+    </Field>
+    <Field name="unk03" type="u16"/>
+    <Field name="item_1" type="s32">
+        <DisplayName>[1] Item ID</DisplayName>
+    </Field>
+    <Field name="item_2" type="s32">
+        <DisplayName>[2] Item ID</DisplayName>
+    </Field>
+    <Field name="item_3" type="s32">
+        <DisplayName>[3] Item ID</DisplayName>
+    </Field>
+    <Field name="item_4" type="s32">
+        <DisplayName>[4] Item ID</DisplayName>
+    </Field>
+    <Field name="item_5" type="s32">
+        <DisplayName>[5] Item ID</DisplayName>
+    </Field>
+    <Field name="item_6" type="s32">
+        <DisplayName>[6] Item ID</DisplayName>
+    </Field>
+    <Field name="item_7" type="s32">
+        <DisplayName>[7] Item ID</DisplayName>
+    </Field>
+    <Field name="item_8" type="s32">
+        <DisplayName>[8] Item ID</DisplayName>
+    </Field>
+    <Field name="item_9" type="s32">
+        <DisplayName>[9] Item ID</DisplayName>
+    </Field>
+    <Field name="item_10" type="s32">
+        <DisplayName>[10] Item ID</DisplayName>
+    </Field>
+    <Field name="item_amount_1" type="u16">
+        <DisplayName>[1] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_2" type="u16">
+        <DisplayName>[2] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_3" type="u16">
+        <DisplayName>[3] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_4" type="u16">
+        <DisplayName>[4] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_5" type="u16">
+        <DisplayName>[5] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_6" type="u16">
+        <DisplayName>[6] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_7" type="u16">
+        <DisplayName>[7] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_8" type="u16">
+        <DisplayName>[8] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_9" type="u16">
+        <DisplayName>[9] Item Amount</DisplayName>
+    </Field>
+    <Field name="item_amount_10" type="u16">
+        <DisplayName>[10] Item Amount</DisplayName>
+    </Field>
+    <Field name="spell_item_1" type="s32">
+        <DisplayName>[1] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_2" type="s32">
+        <DisplayName>[2] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_3" type="s32">
+        <DisplayName>[3] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_4" type="s32">
+        <DisplayName>[4] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_5" type="s32">
+        <DisplayName>[5] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_6" type="s32">
+        <DisplayName>[6] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_7" type="s32">
+        <DisplayName>[7] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_8" type="s32">
+        <DisplayName>[8] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_9" type="s32">
+        <DisplayName>[9] Spell ID</DisplayName>
+    </Field>
+    <Field name="spell_item_10" type="s32">
+        <DisplayName>[10] Spell ID</DisplayName>
+    </Field>
+    <Field name="right_weapon_item_1" type="s32">
+        <DisplayName>[1] Right Weapon ID</DisplayName>
+    </Field>
+    <Field name="right_weapon_item_2" type="s32">
+        <DisplayName>[2] Right Weapon ID</DisplayName>
+    </Field>
+    <Field name="right_weapon_item_3" type="s32">
+        <DisplayName>[3] Right Weapon ID</DisplayName>
+    </Field>
+    <Field name="left_weapon_item_1" type="s32">
+        <DisplayName>[1] Left Weapon ID</DisplayName>
+    </Field>
+    <Field name="left_weapon_item_2" type="s32">
+        <DisplayName>[2] Left Weapon ID</DisplayName>
+    </Field>
+    <Field name="left_weapon_item_3" type="s32">
+        <DisplayName>[3] Left Weapon ID</DisplayName>
+    </Field>
+    <Field name="head_item" type="s32">
+        <DisplayName>Head Armor ID</DisplayName>
+    </Field>
+    <Field name="chest_item" type="s32">
+        <DisplayName>Chest Armor ID</DisplayName>
+    </Field>
+    <Field name="hands_item" type="s32">
+        <DisplayName>Hands Armor ID</DisplayName>
+    </Field>
+    <Field name="legs_item" type="s32">
+        <DisplayName>Legs Armor ID</DisplayName>
+    </Field>
+    <Field name="ring_item_1" type="s32">
+        <DisplayName>[1] Ring ID</DisplayName>
+    </Field>
+    <Field name="ring_item_2" type="s32">
+        <DisplayName>[2] Ring ID</DisplayName>
+    </Field>
+    <Field name="ring_item_3" type="s32">
+        <DisplayName>[3] Ring ID</DisplayName>
+    </Field>
+    <Field name="ring_item_4" type="s32">
+        <DisplayName>[4] Ring ID</DisplayName>
+    </Field>
+    <Field name="right_weapon_reinforcement_1" type="u32">
+        <DisplayName>[1] Right Weapon Reinforcement</DisplayName>
+    </Field>
+    <Field name="right_weapon_reinforcement_2" type="u32">
+        <DisplayName>[2] Right Weapon Reinforcement</DisplayName>
+    </Field>
+    <Field name="right_weapon_reinforcement_3" type="u32">
+        <DisplayName>[3] Right Weapon Reinforcement</DisplayName>
+    </Field>
+    <Field name="left_weapon_reinforcement_1" type="u32">
+        <DisplayName>[1] Left Weapon Reinforcement</DisplayName>
+    </Field>
+    <Field name="left_weapon_reinforcement_2" type="u32">
+        <DisplayName>[2] Left Weapon Reinforcement</DisplayName>
+    </Field>
+    <Field name="left_weapon_reinforcement_3" type="u32">
+        <DisplayName>[3] Left Weapon Reinforcement</DisplayName>
+    </Field>
+    <Field name="unk04" type="s32"/>
+    <Field name="player_status_item_id_1" type="s32">
+        <DisplayName>[1] Player Status Item ID</DisplayName>
+    </Field>
+    <Field name="player_status_item_id_2" type="s32">
+        <DisplayName>[2] Player Status Item ID</DisplayName>
+    </Field>
+    <Field name="player_status_item_id_3" type="s32">
+        <DisplayName>[3] Player Status Item ID</DisplayName>
+    </Field>
+    <Field name="unk05" type="s32"/>
+    <Field name="arrow_item_1" type="s32">
+        <DisplayName>[1] Arrow ID</DisplayName>
+    </Field>
+    <Field name="arrow_item_2" type="s32">
+        <DisplayName>[2] Arrow ID</DisplayName>
+    </Field>
+    <Field name="bolt_item_1" type="s32">
+        <DisplayName>[1] Bolt ID</DisplayName>
+    </Field>
+    <Field name="bolt_item_2" type="s32">
+        <DisplayName>[2] Bolt ID</DisplayName>
+    </Field>
+    <Field name="arrow_amount_1" type="u16">
+        <DisplayName>[1] Arrow Amount</DisplayName>
+    </Field>
+    <Field name="arrow_amount_2" type="u16">
+        <DisplayName>[2] Arrow Amount</DisplayName>
+    </Field>
+    <Field name="bolt_amount_1" type="u16">
+        <DisplayName>[1] Bolt Amount</DisplayName>
+    </Field>
+    <Field name="bolt_amount_2" type="u16">
+        <DisplayName>[2] Bolt Amount</DisplayName>
+    </Field>
+    <Field name="gesture_1" type="s32">
+        <DisplayName>[1] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_2" type="s32">
+        <DisplayName>[2] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_3" type="s32">
+        <DisplayName>[3] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_4" type="s32">
+        <DisplayName>[4] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_5" type="s32">
+        <DisplayName>[5] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_6" type="s32">
+        <DisplayName>[6] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_7" type="s32">
+        <DisplayName>[7] Gesture ID</DisplayName>
+    </Field>
+    <Field name="gesture_8" type="s32">
+        <DisplayName>[8] Gesture ID</DisplayName>
+    </Field>
+    <Field name="covenant" type="u8">
+        <DisplayName>Covenant</DisplayName>
+    </Field>
+    <Field name="covenant_level" type="u8">
+        <DisplayName>Covenant Level</DisplayName>
+    </Field>
+    <Field name="unk06a" type="u8"/>
+    <Field name="unk06b" type="u8"/>
+</ParamDef>

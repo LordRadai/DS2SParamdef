@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="EVENT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="event_id" type="s32">
+        <DisplayName>Event ID</DisplayName>
+    </Field>
+    <Field name="flag_id" type="s32">
+        <DisplayName>Flag ID</DisplayName>
+    </Field>
+    <Field name="Unk08" type="u8"/>
+    <Field name="Unk09" type="u8"/>
+    <Field name="Unk0A" type="u8"/>
+    <Field name="Unk0B" type="u8"/>
+    <Field name="Unk0C" type="u8"/>
+    <Field name="Unk0D" type="u8"/>
+    <Field name="Unk0E" type="u8"/>
+    <Field name="Unk0F" type="u8"/>
+</ParamDef>

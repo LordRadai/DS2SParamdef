@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="TORCH_CTRL_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk01" type="s32"/>
+    <Field name="torch_duration" type="f32">
+        <DisplayName>Torch Duration</DisplayName>
+    </Field>
+</ParamDef>

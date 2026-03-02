@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="LOCK_ON_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="32">
+    <Field name="max_distance_auto_release" type="f32">
+        <DisplayName>Max Distance Auto Release</DisplayName>
+    </Field>
+    <Field name="max_distance_initiate" type="f32">
+        <DisplayName>Max Distance Initiate</DisplayName>
+    </Field>
+    <Field name="max_distance_switch_target" type="f32">
+        <DisplayName>Max Distance Switch Target</DisplayName>
+    </Field>
+    <Field name="fov_0" type="f32">
+        <DisplayName>FOV [0]</DisplayName>
+    </Field>
+    <Field name="fov_1" type="f32">
+        <DisplayName>FOV [1]</DisplayName>
+    </Field>
+    <Field name="max_angle_initiate" type="f32">
+        <DisplayName>Max Angle Initiate</DisplayName>
+    </Field>
+    <Field name="max_angle_switch_target" type="f32">
+        <DisplayName>Max Angle Switch Target</DisplayName>
+    </Field>
+    <Field name="max_dist_behind_player" type="f32"/>
+</ParamDef>

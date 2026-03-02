@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="MAP_OBJECT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="32">
+    <Field name="interact_speed_start" type="f32">
+        <DisplayName>Interact Speed - Start</DisplayName>
+    </Field>
+    <Field name="interact_speed_end" type="f32">
+        <DisplayName>Interact Speed - End</DisplayName>
+    </Field>
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk01" type="s32"/>
+    <Field name="Unk02" type="u8"/>
+    <Field name="Unk03" type="u8"/>
+    <Field name="Unk04" type="u8"/>
+    <Field name="Unk05" type="u8"/>
+    <Field name="Unk06" type="s32"/>
+    <Field name="Unk07" type="u8"/>
+    <Field name="Unk08" type="u8"/>
+    <Field name="Unk09" type="u8"/>
+    <Field name="Unk10" type="u8"/>
+    <Field name="Unk11" type="f32"/>
+</ParamDef>

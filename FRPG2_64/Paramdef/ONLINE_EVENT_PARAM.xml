@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="ONLINE_EVENT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk08" type="f32"/>
+    <Field name="Unk0C" type="f32"/>
+</ParamDef>

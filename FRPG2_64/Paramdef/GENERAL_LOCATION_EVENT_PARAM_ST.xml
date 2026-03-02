@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="GENERAL_LOCATION_EVENT_PARAM_ST" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="48">
+    <Field name="position_x" type="f32"/>
+    <Field name="position_y" type="f32"/>
+    <Field name="position_z" type="f32"/>
+    <Field name="rotation_x" type="f32"/>
+    <Field name="rotation_y" type="f32"/>
+    <Field name="rotation_z" type="f32"/>
+    <Field name="region_type" type="u8">
+        <DisplayName>Region Type</DisplayName>
+        <Description>The region shape type.</Description>
+    </Field>
+    <Field name="red" type="u8"/>
+    <Field name="green" type="u8"/>
+    <Field name="blue" type="u8"/>
+    <Field name="scale_x" type="f32"/>
+    <Field name="scale_y" type="f32"/>
+    <Field name="scale_z" type="f32"/>
+    <Field name="Unk28" type="u16"/>
+    <Field name="group_id" type="u8"/>
+    <Field name="event_type" type="u8">
+        <DisplayName>Event Type</DisplayName>
+        <Description>The event type.</Description>
+    </Field>
+    <Field name="type_argument" type="u32"/>
+</ParamDef>

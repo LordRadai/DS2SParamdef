@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="WEAPON_ATTACK_MOTION_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="80">
+    <Field name="animation_id" type="s32">
+        <DisplayName>Animation ID</DisplayName>
+    </Field>
+    <Field name="attack_type" type="s32">
+        <DisplayName>Attack Type</DisplayName>
+    </Field>
+    <Field name="startup_speed" type="f32">
+        <DisplayName>Startup Speed</DisplayName>
+    </Field>
+    <Field name="recovery_speed" type="f32">
+        <DisplayName>Recovery Speed</DisplayName>
+    </Field>
+    <Field name="tracking_start" type="f32">
+        <DisplayName>Tracking Start</DisplayName>
+    </Field>
+    <Field name="tracking_middle" type="f32">
+        <DisplayName>Tracking Middle</DisplayName>
+    </Field>
+    <Field name="tracking_end" type="f32">
+        <DisplayName>Tracking End</DisplayName>
+    </Field>
+    <Field name="weapon_y_orientation" type="f32">
+        <DisplayName>Weapon Y Orientation</DisplayName>
+    </Field>
+    <Field name="Unk00" type="s32"/>
+    <Field name="Unk01" type="s32"/>
+    <Field name="Unk02" type="u8"/>
+    <Field name="Unk03" type="u8"/>
+    <Field name="self_pushback_1" type="u8">
+        <DisplayName>Self Pushback 1</DisplayName>
+    </Field>
+    <Field name="self_pushback_2" type="u8">
+        <DisplayName>Self Pushback 2</DisplayName>
+    </Field>
+    <Field name="damage_param_id_1" type="s32">
+        <DisplayName>Damage Param ID 1</DisplayName>
+    </Field>
+    <Field name="damage_param_id_2" type="s32">
+        <DisplayName>Damage Param ID 2</DisplayName>
+    </Field>
+    <Field name="damage_param_id_3" type="s32">
+        <DisplayName>Damage Param ID 3</DisplayName>
+    </Field>
+    <Field name="swing_bullet_id_1" type="s32">
+        <DisplayName>Swing - Bullet ID [1]</DisplayName>
+    </Field>
+    <Field name="swing_bullet_damage_id_1" type="s32">
+        <DisplayName>Swing - Bullet Damage ID [1]</DisplayName>
+    </Field>
+    <Field name="swing_bullet_id_2" type="s32">
+        <DisplayName>Swing - Bullet ID [2]</DisplayName>
+    </Field>
+    <Field name="swing_bullet_damage_id_2" type="s32">
+        <DisplayName>Swing - Bullet Damage ID [2]</DisplayName>
+    </Field>
+    <Field name="swing_bullet_id_3" type="s32">
+        <DisplayName>Swing - Bullet ID [3]</DisplayName>
+    </Field>
+    <Field name="swing_bullet_damage_id_3" type="s32">
+        <DisplayName>Swing - Bullet Damage ID [3]</DisplayName>
+    </Field>
+</ParamDef>

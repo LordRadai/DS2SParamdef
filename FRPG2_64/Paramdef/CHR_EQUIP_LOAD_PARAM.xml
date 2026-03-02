@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="CHR_EQUIP_LOAD_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="20">
+    <Field name="load_percent_breakpoint_1" type="f32">
+        <DisplayName>Load % Breakpoint 1</DisplayName>
+    </Field>
+    <Field name="load_percent_breakpoint_2" type="f32">
+        <DisplayName>Load % Breakpoint 2</DisplayName>
+    </Field>
+    <Field name="load_percent_breakpoint_3" type="f32">
+        <DisplayName>Load % Breakpoint 3</DisplayName>
+    </Field>
+    <Field name="load_percent_breakpoint_4" type="f32">
+        <DisplayName>Load % Breakpoint 4</DisplayName>
+    </Field>
+    <Field name="load_percent_breakpoint_5" type="f32">
+        <DisplayName>Load % Breakpoint 5</DisplayName>
+    </Field>
+</ParamDef>

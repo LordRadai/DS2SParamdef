@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="DEMO_SPOT_LIGHT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="56">
+    <Field name="Unk00" type="f32"/>
+    <Field name="Unk01" type="f32"/>
+    <Field name="Unk02" type="f32"/>
+    <Field name="diffuse_color_R" type="u8">
+        <DisplayName>Diffuse Color: R</DisplayName>
+        <Description>The red component of the color.</Description>
+    </Field>
+    <Field name="diffuse_color_G" type="u8">
+        <DisplayName>Diffuse Color: G</DisplayName>
+        <Description>The green component of the color.</Description>
+    </Field>
+    <Field name="diffuse_color_B" type="u8">
+        <DisplayName>Diffuse Color: B</DisplayName>
+        <Description>The blue component of the color.</Description>
+    </Field>
+    <Field name="diffuse_color_A" type="u8">
+        <DisplayName>Diffuse Color: Alpha</DisplayName>
+        <Description>The alpha component of the color.</Description>
+    </Field>
+    <Field name="specular_color_R" type="u8">
+        <DisplayName>Specular Color: R</DisplayName>
+        <Description>The red component of the color.</Description>
+    </Field>
+    <Field name="specular_color_G" type="u8">
+        <DisplayName>Specular Color: G</DisplayName>
+        <Description>The green component of the color.</Description>
+    </Field>
+    <Field name="specular_color_B" type="u8">
+        <DisplayName>Specular Color: B</DisplayName>
+        <Description>The blue component of the color.</Description>
+    </Field>
+    <Field name="specular_color_A" type="u8">
+        <DisplayName>Specular Color: Alpha</DisplayName>
+        <Description>The alpha component of the color.</Description>
+    </Field>
+    <Field name="Unk03" type="f32"/>
+    <Field name="Unk04" type="f32"/>
+    <Field name="Unk05" type="f32"/>
+    <Field name="Unk06" type="f32"/>
+    <Field name="Unk07" type="f32"/>
+    <Field name="Unk08" type="f32"/>
+    <Field name="Unk09" type="f32"/>
+    <Field name="Unk10" type="f32"/>
+    <Field name="Unk11" type="s32"/>
+</ParamDef>

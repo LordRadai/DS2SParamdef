@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="NPC_EVENT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="48">
+    <Field name="Unk00" type="u8"/>
+    <Field name="Unk01" type="u8"/>
+    <Field name="Unk02" type="u8"/>
+    <Field name="Unk03" type="u8"/>
+    <Field name="shopLineupStartRow" type="s32">
+        <DisplayName>Shop Lineup - Start Row ID</DisplayName>
+    </Field>
+    <Field name="shopLineupEndRow" type="s32">
+        <DisplayName>Shop Lineup - End Row ID</DisplayName>
+    </Field>
+    <Field name="Unk04" type="s32"/>
+    <Field name="displayItemTextId" type="s32">
+        <DisplayName>NPC Menu - Item Text ID</DisplayName>
+        <Description>The text ID for 'Offer X' option within the menu.</Description>
+    </Field>
+    <Field name="shopLineupParamId" type="s32">
+        <DisplayName>Unknown Shop Lineup ID</DisplayName>
+    </Field>
+    <Field name="Unk06" type="s32"/>
+    <Field name="npcMenu_NameID" type="u16">
+        <DisplayName>NPC Menu - Name Text ID</DisplayName>
+        <Description>The text ID for the NPC's name within the menu.</Description>
+    </Field>
+    <Field name="Unk07" type="u8"/>
+    <Field name="Unk08" type="u8"/>
+    <Field name="Unk09" type="u8"/>
+    <Field name="Unk10" type="u8"/>
+    <Field name="Unk11" type="u8"/>
+    <Field name="Unk12" type="u8"/>
+    <Field name="Unk13" type="s32"/>
+    <Field name="Unk14" type="s32"/>
+    <Field name="Unk15" type="s32"/>
+</ParamDef>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="ARROW_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="92">
+    <Field name="sort_id" type="s32">
+        <DisplayName>Sort ID</DisplayName>
+    </Field>
+    <Field name="damage_id_0" type="u32">
+        <DisplayName>Damage ID [0]</DisplayName>
+    </Field>
+    <Field name="damage_id_1" type="u32">
+        <DisplayName>Damage ID [1]</DisplayName>
+    </Field>
+    <Field name="damage_id_2" type="u32">
+        <DisplayName>Damage ID [2]</DisplayName>
+    </Field>
+    <Field name="damage_id_3" type="u32">
+        <DisplayName>Damage ID [3]</DisplayName>
+    </Field>
+    <Field name="damage_id_4" type="u32">
+        <DisplayName>Damage ID [4]</DisplayName>
+    </Field>
+    <Field name="damage_id_5" type="u32">
+        <DisplayName>Damage ID [5]</DisplayName>
+    </Field>
+    <Field name="damage_id_6" type="u32">
+        <DisplayName>Damage ID [6]</DisplayName>
+    </Field>
+    <Field name="damage_id_7" type="u32">
+        <DisplayName>Damage ID [7]</DisplayName>
+    </Field>
+    <Field name="damage_id_8" type="u32">
+        <DisplayName>Damage ID [8]</DisplayName>
+    </Field>
+    <Field name="damage_id_9" type="u32">
+        <DisplayName>Damage ID [9]</DisplayName>
+    </Field>
+    <Field name="damage_id_10" type="u32">
+        <DisplayName>Damage ID [10]</DisplayName>
+    </Field>
+    <Field name="damage_id_11" type="u32">
+        <DisplayName>Damage ID [11]</DisplayName>
+    </Field>
+    <Field name="damage_id_12" type="u32">
+        <DisplayName>Damage ID [12]</DisplayName>
+    </Field>
+    <Field name="damage_id_13" type="u32">
+        <DisplayName>Damage ID [13]</DisplayName>
+    </Field>
+    <Field name="damage_id_14" type="u32">
+        <DisplayName>Damage ID [14]</DisplayName>
+    </Field>
+    <Field name="damage_id_15" type="u32">
+        <DisplayName>Damage ID [15]</DisplayName>
+    </Field>
+    <Field name="damage_dead_motion_id" type="u16">
+        <DisplayName>Damage Dead Motion ID</DisplayName>
+    </Field>
+    <Field name="damage_physical" type="u16">
+        <DisplayName>Damage: Physical</DisplayName>
+    </Field>
+    <Field name="damage_magic" type="u16">
+        <DisplayName>Damage: Magic</DisplayName>
+    </Field>
+    <Field name="damage_lightning" type="u16">
+        <DisplayName>Damage: Lightning</DisplayName>
+    </Field>
+    <Field name="damage_fire" type="u16">
+        <DisplayName>Damage: Fire</DisplayName>
+    </Field>
+    <Field name="damage_dark" type="u16">
+        <DisplayName>Damage: Dark</DisplayName>
+    </Field>
+    <Field name="damage_poison" type="u8">
+        <DisplayName>Damage: Poison</DisplayName>
+    </Field>
+    <Field name="apply_poison" type="u8">
+        <DisplayName>Inflict Poison</DisplayName>
+    </Field>
+    <Field name="damage_bleed" type="u8">
+        <DisplayName>Damage: Bleed</DisplayName>
+    </Field>
+    <Field name="apply_bleed" type="u8">
+        <DisplayName>Inflict Bleed</DisplayName>
+    </Field>
+    <Field name="damage_durability" type="u8">
+        <DisplayName>Damage: Durability</DisplayName>
+    </Field>
+    <Field name="Unk55" type="u8"/>
+    <Field name="ammo_type" type="u8">
+        <DisplayName>Ammunition Type</DisplayName>
+    </Field>
+    <Field name="Unk57" type="u8"/>
+    <Field name="Unk58" type="u8"/>
+    <Field name="Unk59" type="u8"/>
+    <Field name="Unk5A" type="u8"/>
+    <Field name="Unk5B" type="u8"/>
+</ParamDef>

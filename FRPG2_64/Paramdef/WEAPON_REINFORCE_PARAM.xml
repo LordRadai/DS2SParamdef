@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamDef paramType="WEAPON_REINFORCE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="244">
+    <Field name="damage_physical" type="f32">
+        <DisplayName>Damage: Physical</DisplayName>
+    </Field>
+    <Field name="damage_magic" type="f32">
+        <DisplayName>Damage: Magic</DisplayName>
+    </Field>
+    <Field name="damage_lightning" type="f32">
+        <DisplayName>Damage: Lightning</DisplayName>
+    </Field>
+    <Field name="damage_fire" type="f32">
+        <DisplayName>Damage: Fire</DisplayName>
+    </Field>
+    <Field name="damage_dark" type="f32">
+        <DisplayName>Damage: Dark</DisplayName>
+    </Field>
+    <Field name="damage_poison" type="f32">
+        <DisplayName>Damage: Poison</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="damage_bleed" type="f32">
+        <DisplayName>Damage: Bleed</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="damage_petrify" type="f32">
+        <DisplayName>Damage: Petrify</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="damage_curse" type="f32">
+        <DisplayName>Damage: Curse</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="max_damage_physical" type="f32">
+        <DisplayName>Max Damage: Physical</DisplayName>
+    </Field>
+    <Field name="max_damage_magic" type="f32">
+        <DisplayName>Max Damage: Magic</DisplayName>
+    </Field>
+    <Field name="max_damage_lightning" type="f32">
+        <DisplayName>Max Damage: Lightning</DisplayName>
+    </Field>
+    <Field name="max_damage_fire" type="f32">
+        <DisplayName>Max Damage: Fire</DisplayName>
+    </Field>
+    <Field name="max_damage_dark" type="f32">
+        <DisplayName>Max Damage: Dark</DisplayName>
+    </Field>
+    <Field name="max_damage_poison" type="f32">
+        <DisplayName>Max Damage: Poison</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="max_damage_bleed" type="f32">
+        <DisplayName>Max Damage: Bleed</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="max_damage_petrify" type="f32">
+        <DisplayName>Max Damage: Petrify</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="max_damage_curse" type="f32">
+        <DisplayName>Max Damage: Curse</DisplayName>
+        <Description> (Float / 5)</Description>
+    </Field>
+    <Field name="max_reinforcement_level" type="s32"/>
+    <Field name="weapon_stats_affect_id" type="s32"/>
+    <Field name="absorption_physical" type="f32">
+        <DisplayName>Absorption: Physical</DisplayName>
+    </Field>
+    <Field name="absorption_magic" type="f32">
+        <DisplayName>Absorption: Magic</DisplayName>
+    </Field>
+    <Field name="absorption_fire" type="f32">
+        <DisplayName>Absorption: Fire</DisplayName>
+    </Field>
+    <Field name="absorption_lightning" type="f32">
+        <DisplayName>Absorption: Lightning</DisplayName>
+    </Field>
+    <Field name="absorption_dark" type="f32">
+        <DisplayName>Absorption: Dark</DisplayName>
+    </Field>
+    <Field name="absorption_poison" type="f32">
+        <DisplayName>Resistance: Poison</DisplayName>
+    </Field>
+    <Field name="absorption_bleed" type="f32">
+        <DisplayName>Resistance: Bleed</DisplayName>
+    </Field>
+    <Field name="absorption_petrify" type="f32">
+        <DisplayName>Resistance: Petrify</DisplayName>
+    </Field>
+    <Field name="absorption_curse" type="f32">
+        <DisplayName>Resistance: Curse</DisplayName>
+    </Field>
+    <Field name="stability_0" type="f32">
+        <DisplayName>Stability: +0</DisplayName>
+    </Field>
+    <Field name="stability_1" type="f32">
+        <DisplayName>Stability: +1</DisplayName>
+    </Field>
+    <Field name="stability_2" type="f32">
+        <DisplayName>Stability: +2</DisplayName>
+    </Field>
+    <Field name="stability_3" type="f32">
+        <DisplayName>Stability: +3</DisplayName>
+    </Field>
+    <Field name="stability_4" type="f32">
+        <DisplayName>Stability: +4</DisplayName>
+    </Field>
+    <Field name="stability_5" type="f32">
+        <DisplayName>Stability: +5</DisplayName>
+    </Field>
+    <Field name="stability_6" type="f32">
+        <DisplayName>Stability: +6</DisplayName>
+    </Field>
+    <Field name="stability_7" type="f32">
+        <DisplayName>Stability: +7</DisplayName>
+    </Field>
+    <Field name="stability_8" type="f32">
+        <DisplayName>Stability: +8</DisplayName>
+    </Field>
+    <Field name="stability_9" type="f32">
+        <DisplayName>Stability: +9</DisplayName>
+    </Field>
+    <Field name="stability_10" type="f32">
+        <DisplayName>Stability: +10</DisplayName>
+    </Field>
+    <Field name="damage_mult_physical" type="f32">
+        <DisplayName>Damage %: Physical</DisplayName>
+    </Field>
+    <Field name="damage_mult_magic" type="f32">
+        <DisplayName>Damage %: Magic</DisplayName>
+    </Field>
+    <Field name="damage_mult_lightning" type="f32">
+        <DisplayName>Damage %: Lightning</DisplayName>
+    </Field>
+    <Field name="damage_mult_fire" type="f32">
+        <DisplayName>Damage %: Fire</DisplayName>
+    </Field>
+    <Field name="damage_mult_dark" type="f32">
+        <DisplayName>Damage %: Dark</DisplayName>
+    </Field>
+    <Field name="damage_mult_poison" type="f32">
+        <DisplayName>Damage %: Poison</DisplayName>
+    </Field>
+    <Field name="damage_mult_bleed" type="f32">
+        <DisplayName>Damage %: Bleed</DisplayName>
+    </Field>
+    <Field name="damage_mult_petrify" type="f32">
+        <DisplayName>Damage %: Petrify</DisplayName>
+    </Field>
+    <Field name="damage_mult_curse" type="f32">
+        <DisplayName>Damage %: Curse</DisplayName>
+    </Field>
+    <Field name="infusion_mult_magic" type="f32">
+        <DisplayName>Infusion Modifier %: Magic</DisplayName>
+    </Field>
+    <Field name="infusion_mult_lightning" type="f32">
+        <DisplayName>Infusion Modifier %: Lightning</DisplayName>
+    </Field>
+    <Field name="infusion_mult_fire" type="f32">
+        <DisplayName>Infusion Modifier %: Fire</DisplayName>
+    </Field>
+    <Field name="infusion_mult_dark" type="f32">
+        <DisplayName>Infusion Modifier %: Dark</DisplayName>
+    </Field>
+    <Field name="infusion_mult_poison" type="f32">
+        <DisplayName>Infusion Modifier %: Poison</DisplayName>
+    </Field>
+    <Field name="infusion_mult_bleed" type="f32">
+        <DisplayName>Infusion Modifier %: Bleed</DisplayName>
+    </Field>
+    <Field name="infusion_mult_raw" type="f32">
+        <DisplayName>Infusion Modifier %: Raw</DisplayName>
+    </Field>
+    <Field name="infusion_mult_enchanted" type="f32">
+        <DisplayName>Infusion Modifier %: Enchanted</DisplayName>
+    </Field>
+    <Field name="infusion_mult_mundane" type="f32">
+        <DisplayName>Infusion Modifier %: Mundane</DisplayName>
+    </Field>
+    <Field name="custom_attr_spec_param_id" type="s32"/>
+    <Field name="custom_attr_cost_param_id" type="s32"/>
+    <Field name="reinforce_cost_id" type="s32"/>
+</ParamDef>
