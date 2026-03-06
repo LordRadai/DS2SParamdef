@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="EZSTATE_SHARED_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="4">
-    <Field name="ezstate_value" type="f32">
-        <DisplayName>Value</DisplayName>
-    </Field>
-</ParamDef>

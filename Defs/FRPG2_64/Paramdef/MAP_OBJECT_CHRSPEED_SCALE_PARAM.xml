@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="MAP_OBJECT_CHRSPEED_SCALE_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="4">
-    <Field name="object_chr_speed_scale" type="f32">
-        <DisplayName>Character Speed Scale</DisplayName>
-    </Field>
-</ParamDef>

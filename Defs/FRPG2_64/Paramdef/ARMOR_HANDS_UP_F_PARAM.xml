@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="ARMOR_HANDS_UP_F_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
-    <Field name="Unk00" type="s8"/>
-    <Field name="Unk01" type="s8"/>
-    <Field name="Unk02" type="s8"/>
-    <Field name="Unk03" type="s8"/>
-    <Field name="Unk04" type="s32"/>
-    <Field name="Unk08" type="s32"/>
-</ParamDef>

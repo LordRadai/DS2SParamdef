@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="ENEMY_SHOT_SFX_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="8">
-    <Field name="sfx_id" type="s32">
-        <DisplayName>SFX ID</DisplayName>
-    </Field>
-    <Field name="dummy_poly_id" type="s32">
-        <DisplayName>Dummy Poly ID</DisplayName>
-    </Field>
-</ParamDef>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>HIT_BACK_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 hitBackDistance">
+            <DisplayName>攻撃弾き 反動 極小</DisplayName>
+            <Description>ヒットバック距離</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="f32 hitBackDuration">
+            <DisplayName>攻撃弾き 硬直 極小</DisplayName>
+            <Description>ヒットバック硬直</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 hitBackDistance">
+            <DisplayName>攻撃弾き 反動 小</DisplayName>
+            <Description>ヒットバック距離?慨?浩求c?????Aクぬヴ　ヒ　?へぶット?????椀?攀?B???l?Aクぬヴ　ヒ　?へぶット?????愀?</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 hitBackDuration">
+            <DisplayName>攻撃弾き 硬直 小</DisplayName>
+            <Description>?????0?0??瘰??????k?d???????????0?0??瘰??????k?g椀???狃?????0?0??瘰???????慥L?e楹?捲??杰????</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="f32 hitBackDistance">
+            <DisplayName>攻撃弾き 反動 中</DisplayName>
+            <Description>?瘰??????k?d???????????0?0??瘰??????k?g椀???狃?????0?0??瘰???????慥L?e楹?捲??杰????</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="f32 hitBackDuration">
+            <DisplayName>攻撃弾き 硬直 中</DisplayName>
+            <Description>?????0?0??瘰??????k?g椀???狃?????0?0??瘰???????慥L?e楹?捲??杰????</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="f32 hitBackDistance">
+            <DisplayName>攻撃弾き 反動 大</DisplayName>
+            <Description>?瘰??????k?g椀???狃?????0?0??瘰???????慥L?e楹?捲??杰????</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="f32 hitBackDuration">
+            <DisplayName>攻撃弾き 硬直 大</DisplayName>
+            <Description>D?￣ぬヴ　ヒ　?へぶットバ?隯?痢?????i?奣??????o?000000xv</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="f32 hitBackDistance">
+            <DisplayName>攻撃弾き 反動 特大</DisplayName>
+            <Description>へぶットバ?隯?痢?????i?奣??????o?000000xv</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="f32 hitBackDuration">
+            <DisplayName>攻撃弾き 硬直 特大</DisplayName>
+            <Description>??o?000000xv</Description>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

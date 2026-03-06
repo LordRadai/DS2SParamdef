@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="MAP_OBJECT_BREAK_ACTION_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
-    <Field name="Unk00" type="s32"/>
-    <Field name="Unk01" type="s32"/>
-    <Field name="Unk02" type="s32"/>
-</ParamDef>

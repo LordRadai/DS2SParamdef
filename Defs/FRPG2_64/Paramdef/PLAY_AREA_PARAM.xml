@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="PLAY_AREA_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="16">
-    <Field name="Unk00" type="s32"/>
-    <Field name="Unk01" type="f32"/>
-    <Field name="Unk02" type="f32"/>
-    <Field name="Unk03" type="s32"/>
-</ParamDef>

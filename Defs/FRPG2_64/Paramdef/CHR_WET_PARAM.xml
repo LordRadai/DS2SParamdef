@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="CHR_WET_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="12">
-    <Field name="Unk00" type="f32"/>
-    <Field name="Unk01" type="f32"/>
-    <Field name="wet_aspect_id" type="s32">
-        <DisplayName>Wet Aspect ID</DisplayName>
-    </Field>
-</ParamDef>

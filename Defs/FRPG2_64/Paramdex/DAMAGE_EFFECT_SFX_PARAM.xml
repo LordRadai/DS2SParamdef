@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DAMAGE_EFFECT_SFX_PARAM</ParamType>
+    <DataVersion>3</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 sfxIdSmall">
+            <DisplayName>SfxID：小</DisplayName>
+            <Description>SfxID：小</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u32 sfxIdNormal">
+            <DisplayName>SfxID：中</DisplayName>
+            <Description>晉?-</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u32 sfxIdLarge">
+            <DisplayName>SfxID：大</DisplayName>
+            <Description>fxID'?奓fxIDyＧ?奓fxIDyｹ??奓fxID??a汨?匀??攀?匀昀?????匀昀??????昀??????y卲晙???????rrYSfxIｄ尚?慴????z匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀?????\戀?敬却??_匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀???????\?祢晤S卸???彙??M??</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSuperLarge">
+            <DisplayName>SfxID：特大</DisplayName>
+            <Description>fxIDyＧ?奓fxIDyｹ??奓fxID??a汨?匀??攀?匀昀?????匀昀??????昀??????y卲晙???????rrYSfxIｄ尚?慴????z匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀?????\戀?敬却??_匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀???????\?祢晤S卸???彙??M??</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u32 sfxIdHyperLarge">
+            <DisplayName>SfxID：特特大</DisplayName>
+            <Description>fxIDyｹ??奓fxID??a汨?匀??攀?匀昀?????匀昀??????昀??????y卲晙???????rrYSfxIｄ尚?慴????z匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀?????\戀?敬却??_匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀???????\?祢晤S卸???彙??M??</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSmall">
+            <DisplayName>SfxID：小</DisplayName>
+            <Description>fxID??a汨?匀??攀?匀昀?????匀昀??????昀??????y卲晙???????rrYSfxIｄ尚?慴????z匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀?????\戀?敬却??_匀昀?????N匀昀?????Y匀昀??????Y匀昀???????Y匀昀???????\?祢晤S卸???彙??M??</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u32 sfxIdNormal">
+            <DisplayName>SfxID：中</DisplayName>
+            <Description>dSfxｉ?-SfxID：大SfxIDyＧ?奓fxIDyｹ???匀昀?????</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u32 sfxIdLarge">
+            <DisplayName>SfxID：大</DisplayName>
+            <Description>SfxID：大SfxIDyＧ?奓fxIDyｹ???匀昀?????</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSuperLarge">
+            <DisplayName>SfxID：特大</DisplayName>
+            <Description>fxIDyＧ?奓fxIDyｹ???匀昀?????</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u32 sfxIdHyperLarge">
+            <DisplayName>SfxID：特特大</DisplayName>
+            <Description>fxIDyｹ???匀昀?????</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSmall">
+            <DisplayName>SfxID：小</DisplayName>
+            <Description>匀昀?????</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u32 sfxIdNormal">
+            <DisplayName>SfxID：中</DisplayName>
+            <Description>SfxID：中</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u32 sfxIdLarge">
+            <DisplayName>SfxID：大</DisplayName>
+            <Description>SfxID：大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSuperLarge">
+            <DisplayName>SfxID：特大</DisplayName>
+            <Description>SfxID：特大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u32 sfxIdHyperLarge">
+            <DisplayName>SfxID：特特大</DisplayName>
+            <Description>SfxID：特特大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSmall">
+            <DisplayName>SfxID：小</DisplayName>
+            <Description>SfxID：小</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u32 sfxIdNormal">
+            <DisplayName>SfxID：中</DisplayName>
+            <Description>SfxID：中</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u32 sfxIdLarge">
+            <DisplayName>SfxID：大</DisplayName>
+            <Description>SfxID：大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSuperLarge">
+            <DisplayName>SfxID：特大</DisplayName>
+            <Description>SfxID：特大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u32 sfxIdHyperLarge">
+            <DisplayName>SfxID：特特大</DisplayName>
+            <Description>SfxID：特特大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSmall">
+            <DisplayName>SfxID：本体小</DisplayName>
+            <Description>SfxID：本体小</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>20</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u32 sfxIdNormal">
+            <DisplayName>SfxID：本体中</DisplayName>
+            <Description>SfxID：本体中</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>20</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="u32 sfxIdLarge">
+            <DisplayName>SfxID：本体大</DisplayName>
+            <Description>SfxID：本体大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>20</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="u32 sfxIdSuperLarge">
+            <DisplayName>SfxID：本体特大</DisplayName>
+            <Description>SfxID：本体特大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="u32 sfxIdHyperLarge">
+            <DisplayName>SfxID：本体特特大</DisplayName>
+            <Description>SfxID：本体特特大</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>10</Increment>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="u32 sfxIdCritical">
+            <DisplayName>SfxID：クリティカル</DisplayName>
+            <Description>SfxID：クリティカル</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>20</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="u8 isTrace">
+            <DisplayName>追従フラグ</DisplayName>
+            <Description>追従フラグ</Description>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>27</SortID>
+        </Field>
+        <Field Def="u8 soundLevelSmall">
+            <DisplayName>音大きさ：小</DisplayName>
+            <Description>音大きさ：小</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>28</SortID>
+        </Field>
+        <Field Def="u8 soundLevelNormal">
+            <DisplayName>音大きさ：中</DisplayName>
+            <Description>音大きさ：中</Description>
+            <Maximum>10</Maximum>
+            <Increment>10</Increment>
+            <SortID>29</SortID>
+        </Field>
+        <Field Def="u8 soundLevelLarge">
+            <DisplayName>音大きさ：大</DisplayName>
+            <Description>音大きさ：大</Description>
+            <Maximum>10</Maximum>
+            <Increment>10</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u8 soundLevelSuperLarge">
+            <DisplayName>音大きさ：特大</DisplayName>
+            <Description>音大きさ：特大</Description>
+            <Maximum>10</Maximum>
+            <Increment>10</Increment>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="u8 soundLevelHyperLarge">
+            <DisplayName>音大きさ：特特大</DisplayName>
+            <Description>音大きさ：特特大</Description>
+            <Maximum>10</Maximum>
+            <Increment>10</Increment>
+            <SortID>32</SortID>
+        </Field>
+        <Field Def="u8 soundLevelBody">
+            <DisplayName>音大きさ：本体</DisplayName>
+            <Description>音大きさ：本体</Description>
+            <Maximum>10</Maximum>
+            <Increment>20</Increment>
+            <SortID>33</SortID>
+        </Field>
+        <Field Def="u8 soundLevelCritical">
+            <DisplayName>音大きさ：クリティカル</DisplayName>
+            <Description>音大きさ：クリティカル</Description>
+            <Maximum>10</Maximum>
+            <Increment>20</Increment>
+            <SortID>34</SortID>
+        </Field>
+        <Field Def="u32 spatterId">
+            <DisplayName>血しぶきID</DisplayName>
+            <Description>血しぶきID</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>35</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>PLURSL_SELECT_MENU_PARAM</ParamType>
+    <DataVersion>0</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 displayTextId">
+            <DisplayName>表示テキストID</DisplayName>
+            <Description>選択肢のテキスト表示に紐づくテキストIDを設定します。</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="u32 consumptionSoul">
+            <DisplayName>選択時消費ソウル</DisplayName>
+            <Description>選択時に消費されるソウルの量です。０に設定した場合はダイアログでの確認、ソウルの消費は行われません。</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s32 kickEventId">
+            <DisplayName>選択時キックイベントID</DisplayName>
+            <Description>選択時にキックされるイベントIDです。　０で無効（何もキックしない）状態となります。</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1100</SortID>
+        </Field>
+        <Field Def="s32 checkEventFlagId">
+            <DisplayName>表示確認用イベントID</DisplayName>
+            <Description>選択肢の表示の有無を決定する際に確認するイベントフラグのIDです。　０で無効（常時表示）となります。</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1150</SortID>
+        </Field>
+        <Field Def="u8 enableFlagType">
+            <DisplayName>項目を消すフラグの状態</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <Description>項目を消すフラグの状態を設定する。　○有効時に項目を消す。　×無効時に項目を消す。</Description>
+            <SortID>1110</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>予約領域</DisplayName>
+            <SortID>1151</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

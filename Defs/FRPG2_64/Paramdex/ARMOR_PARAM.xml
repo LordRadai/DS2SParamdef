@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>ARMOR_PARAM</ParamType>
+    <DataVersion>7</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 armorId">
+            <DisplayName>防具ID</DisplayName>
+            <Description>防具ID、基本的には番号と揃えてください</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="s8 armorType">
+            <DisplayName>防具種別</DisplayName>
+            <Enum>ARMOR_TYPE</Enum>
+            <Description>防具の種別</Description>
+            <Maximum>127</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="s8 armorCategory">
+            <DisplayName>防具系統</DisplayName>
+            <Enum>EQUIP_CATEGORY</Enum>
+            <Description>防具の装備種別(どの部位か)</Description>
+            <Minimum>-1</Minimum>
+            <Maximum>7</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="dummy8 dummy0[2]">
+            <DisplayName>ダミー</DisplayName>
+            <Description>パディング用ダミー変数</Description>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u32 modelId">
+            <DisplayName>防具モデルID</DisplayName>
+            <Description>防具のモデルID</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u8 modelGender">
+            <DisplayName>防具モデル性別</DisplayName>
+            <Enum>EQUIP_MODEL_GENDER</Enum>
+            <Description>防具のモデルが性別ごとに分かれているか</Description>
+            <Maximum>2</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1">
+            <DisplayName>ダミー</DisplayName>
+            <Description>パディング用ダミー変数</Description>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="s16 clothCollidableId">
+            <DisplayName>クロスコリジョンID</DisplayName>
+            <Description>クロスコリダブルデータのID</Description>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u32 interfereId">
+            <DisplayName>干渉データID</DisplayName>
+            <Description>干渉設定データのID</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u32 iconId">
+            <DisplayName>アイコンID</DisplayName>
+            <Description>防具のアイコンID</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u32 armorReinforceId">
+            <DisplayName>防具成長設定</DisplayName>
+            <Description>防具成長パラメータの「番号」</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="f32 defenseStatAffectScale = 1">
+            <DisplayName>ステータス影響倍率 防御力</DisplayName>
+            <Description>防御力ステータスへの影響倍率</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="f32 defenseSlashScale = 1">
+            <DisplayName>物理防御力倍率 斬撃</DisplayName>
+            <Description>斬撃に対する物理防御力倍率</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="f32 defenseThrustScale = 1">
+            <DisplayName>物理防御力倍率 刺突</DisplayName>
+            <Description>刺突に対する物理防御力倍率</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="f32 defenseStrikeScale = 1">
+            <DisplayName>物理防御力倍率 打撃</DisplayName>
+            <Description>打撃に対する物理防御力倍率</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u16 prerequisiteStrength">
+            <DisplayName>必要ステータス 筋力</DisplayName>
+            <Description>防具の性能を100%引き出すのに必要な筋力</Description>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u16 prerequisiteDexterity">
+            <DisplayName>必要ステータス 技量</DisplayName>
+            <Description>防具の性能を100%引き出すのに必要な技量</Description>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u16 prerequisiteIntelligence">
+            <DisplayName>必要ステータス 理力</DisplayName>
+            <Description>防具の性能を100%引き出すのに必要な理力</Description>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u16 prerequisiteFaith">
+            <DisplayName>必要ステータス 信仰</DisplayName>
+            <Description>防具の性能を100%引き出すのに必要な信仰</Description>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="f32 weight">
+            <DisplayName>パラメータ 重量</DisplayName>
+            <Description>防具の重量</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="f32 durability">
+            <DisplayName>パラメータ 耐久値</DisplayName>
+            <Description>防具の耐久値</Description>
+            <Maximum>999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u32 repairCost">
+            <DisplayName>パラメータ 修理コスト [soul]</DisplayName>
+            <Description>耐久値0の時に支払うソウル量</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="f32 strong">
+            <DisplayName>パラメータ 強靱度</DisplayName>
+            <Description>防具の強靱度</Description>
+            <Maximum>999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u8 handsUpWeight">
+            <DisplayName>脇開き量[%]</DisplayName>
+            <Description>脇開き量[%d]</Description>
+            <Maximum>100</Maximum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="u8 handsUpFLevel">
+            <DisplayName>脇上げ</DisplayName>
+            <Description>脇上げ</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="u16 itemDropWeight">
+            <DisplayName>アイテムドロップ率補正[%] x0.01</DisplayName>
+            <Description>アイテムドロップ率補正値[%] （0.01倍されます）</Description>
+            <Maximum>10000</Maximum>
+            <Increment>1</Increment>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="s32 material">
+            <DisplayName>パラメータ 材質</DisplayName>
+            <Enum>MATERIAL_TYPE_ENUM</Enum>
+            <Description>防具の材質</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="u32 brokenSfxId">
+            <DisplayName>破損 SFX ID</DisplayName>
+            <Description>破損時のSFXID</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="s32 brokenSoundType">
+            <DisplayName>破損 サウンドタイプ</DisplayName>
+            <Enum>EQUIP_BREAK_SOUND_MATERIAL_TYPE</Enum>
+            <Description>破損時のサウンド</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>27</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

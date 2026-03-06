@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SHOP_LINEUP_PARAM</ParamType>
+    <DataVersion>4</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 saleItem = -1">
+            <DisplayName>販売アイテムID</DisplayName>
+            <Description>販売アイテムID ： 販売するアイテムのアイテムパラメータIDを入れる</Description>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 price">
+            <DisplayName>販売価格</DisplayName>
+            <Description>削除予定 2013.09.13:hk-manaj</Description>
+            <Maximum>8388607</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="s32 saleFlag = -1">
+            <DisplayName>販売開始フラグ</DisplayName>
+            <Description>販売開始フラグ ： 販売を開始する値フラグ</Description>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 saleEndFlag = -1">
+            <DisplayName>販売終了フラグ</DisplayName>
+            <Description>販売終了フラグ ： 販売を終了する値フラグ</Description>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>410</SortID>
+        </Field>
+        <Field Def="u32 saleFlagItem">
+            <DisplayName>販売開始条件アイテム</DisplayName>
+            <Description>販売開始条件アイテム ： 登録されたアイテムIDを所有していないと、購入できない「0で無効」</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="u32 saleEndFlagItem">
+            <DisplayName>販売終了条件アイテム</DisplayName>
+            <Description>販売終了条件アイテム ： 登録されたアイテムIDを所有していると、購入できない「0で無効」</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>510</SortID>
+        </Field>
+        <Field Def="u32 displayOrder">
+            <DisplayName>陳列順序</DisplayName>
+            <Description>陳列順序 ： アイテムのショップ内での陳列順序、数が小さいほど先に表示される。</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 priceRate = 1">
+            <DisplayName>価格倍率</DisplayName>
+            <Description>価格倍率 ： 販売アイテムのベース価格にかける倍率。</Description>
+            <Maximum>30</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s8 unitSales">
+            <DisplayName>販売個数</DisplayName>
+            <Description>販売個数 ： 販売個数設定「-1で無限購入」　※最大値更新時は、ENUM定義_ショップラインナップパラメータ.xlsmも修正すること</Description>
+            <Minimum>-1</Minimum>
+            <Maximum>127</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="dummy8 padding[3]">
+            <DisplayName>予約</DisplayName>
+            <Description>予約</Description>
+            <SortID>701</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

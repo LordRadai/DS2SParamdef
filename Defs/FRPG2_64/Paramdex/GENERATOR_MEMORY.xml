@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERATOR_MEMORY_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 mainMemSize = 20">
+            <DisplayName>メインメモリ想定サイズ[MB]</DisplayName>
+            <Description>メインメモリ想定サイズ[MB]</Description>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>256</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 graphicMemSize = 15">
+            <DisplayName>VRAM想定サイズ[MB]</DisplayName>
+            <Description>VRAM想定サイズ[MB]</Description>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>256</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

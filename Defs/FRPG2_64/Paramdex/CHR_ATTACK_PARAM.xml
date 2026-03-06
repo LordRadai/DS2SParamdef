@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_ATTACK_PARAM</ParamType>
+    <DataVersion>8</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 fAttackDashAcceleration01 = 12">
+            <DisplayName>近接攻撃制御1 歩行攻撃移動加速度 [m/sec^2]</DisplayName>
+            <Description>近接攻撃移動加速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1004</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashAcceleration02 = 12">
+            <DisplayName>近接攻撃制御2 歩行攻撃移動加速度 [m/sec^2]</DisplayName>
+            <Description>近接攻撃移動加速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2004</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashAcceleration03 = 12">
+            <DisplayName>近接攻撃制御3 歩行攻撃移動加速度 [m/sec^2]</DisplayName>
+            <Description>近接攻撃移動加速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3004</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashAcceleration04 = 12">
+            <DisplayName>近接攻撃制御4 歩行攻撃移動加速度 [m/sec^2]</DisplayName>
+            <Description>近接攻撃移動加速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4004</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashAcceleration05 = 12">
+            <DisplayName>近接攻撃制御5 歩行攻撃移動加速度 [m/sec^2]</DisplayName>
+            <Description>近接攻撃移動加速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5004</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashSpeed01 = 4">
+            <DisplayName>近接攻撃制御1 歩行攻撃移動速度 [m/sec]</DisplayName>
+            <Description>近接攻撃移動速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1005</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashSpeed02 = 4">
+            <DisplayName>近接攻撃制御2 歩行攻撃移動速度 [m/sec]</DisplayName>
+            <Description>近接攻撃移動速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2005</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashSpeed03 = 4">
+            <DisplayName>近接攻撃制御3 歩行攻撃移動速度 [m/sec]</DisplayName>
+            <Description>近接攻撃移動速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3005</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashSpeed04 = 4">
+            <DisplayName>近接攻撃制御4 歩行攻撃移動速度 [m/sec]</DisplayName>
+            <Description>近接攻撃移動速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4005</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashSpeed05 = 4">
+            <DisplayName>近接攻撃制御5 歩行攻撃移動速度 [m/sec]</DisplayName>
+            <Description>近接攻撃移動速度</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationLowSpeed01 = 180">
+            <DisplayName>接近攻撃制御1 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationLowSpeed02 = 180">
+            <DisplayName>接近攻撃制御2 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationLowSpeed03 = 180">
+            <DisplayName>接近攻撃制御3 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationLowSpeed04 = 180">
+            <DisplayName>接近攻撃制御4 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationLowSpeed05 = 180">
+            <DisplayName>接近攻撃制御5 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5005</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationHighSpeed01 = 180">
+            <DisplayName>接近攻撃制御1 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1006</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationHighSpeed02 = 180">
+            <DisplayName>接近攻撃制御2 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2006</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationHighSpeed03 = 180">
+            <DisplayName>接近攻撃制御3 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3006</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationHighSpeed04 = 180">
+            <DisplayName>接近攻撃制御4 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4006</SortID>
+        </Field>
+        <Field Def="angle32 fAttackDashRotationHighSpeed05 = 180">
+            <DisplayName>接近攻撃制御5 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5006</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMinBorder01">
+            <DisplayName>接近攻撃制御1 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1007</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMinBorder02">
+            <DisplayName>接近攻撃制御2 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2007</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMinBorder03">
+            <DisplayName>接近攻撃制御3 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3007</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMinBorder04">
+            <DisplayName>接近攻撃制御4 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4007</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMinBorder05">
+            <DisplayName>接近攻撃制御5 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5007</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMaxBorder01">
+            <DisplayName>接近攻撃制御1 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1008</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMaxBorder02">
+            <DisplayName>接近攻撃制御2 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2008</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMaxBorder03">
+            <DisplayName>接近攻撃制御3 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3008</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMaxBorder04">
+            <DisplayName>接近攻撃制御4 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4008</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRotSpeedMaxBorder05">
+            <DisplayName>接近攻撃制御5 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5008</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRange01">
+            <DisplayName>近接攻撃制御1 歩行攻撃攻撃範囲 [m]</DisplayName>
+            <Description>近接攻撃攻撃範囲</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1009</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRange02">
+            <DisplayName>近接攻撃制御2 歩行攻撃攻撃範囲 [m]</DisplayName>
+            <Description>近接攻撃攻撃範囲</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2009</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRange03">
+            <DisplayName>近接攻撃制御3 歩行攻撃攻撃範囲 [m]</DisplayName>
+            <Description>近接攻撃攻撃範囲</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3009</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRange04">
+            <DisplayName>近接攻撃制御4 歩行攻撃攻撃範囲 [m]</DisplayName>
+            <Description>近接攻撃攻撃範囲</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4009</SortID>
+        </Field>
+        <Field Def="f32 fAttackDashRange05">
+            <DisplayName>近接攻撃制御5 歩行攻撃攻撃範囲 [m]</DisplayName>
+            <Description>近接攻撃攻撃範囲</Description>
+            <Maximum>1000</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5009</SortID>
+        </Field>
+        <Field Def="f32 fAttackBackSwingSpeed01 = 1">
+            <DisplayName>接近攻撃制御1 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="f32 fAttackBackSwingSpeed02 = 1">
+            <DisplayName>接近攻撃制御2 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2010</SortID>
+        </Field>
+        <Field Def="f32 fAttackBackSwingSpeed03 = 1">
+            <DisplayName>接近攻撃制御3 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3010</SortID>
+        </Field>
+        <Field Def="f32 fAttackBackSwingSpeed04 = 1">
+            <DisplayName>接近攻撃制御4 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4010</SortID>
+        </Field>
+        <Field Def="f32 fAttackBackSwingSpeed05 = 1">
+            <DisplayName>接近攻撃制御5 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5010</SortID>
+        </Field>
+        <Field Def="f32 fAttackFollowSwingSpeed01 = 1">
+            <DisplayName>接近攻撃制御1 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="f32 fAttackFollowSwingSpeed02 = 1">
+            <DisplayName>接近攻撃制御2 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2010</SortID>
+        </Field>
+        <Field Def="f32 fAttackFollowSwingSpeed03 = 1">
+            <DisplayName>接近攻撃制御3 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3010</SortID>
+        </Field>
+        <Field Def="f32 fAttackFollowSwingSpeed04 = 1">
+            <DisplayName>接近攻撃制御4 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4010</SortID>
+        </Field>
+        <Field Def="f32 fAttackFollowSwingSpeed05 = 1">
+            <DisplayName>接近攻撃制御5 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5010</SortID>
+        </Field>
+        <Field Def="f32 fAttackSecondRotationRate01">
+            <DisplayName>接近攻撃制御1 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1003</SortID>
+        </Field>
+        <Field Def="f32 fAttackSecondRotationRate02">
+            <DisplayName>接近攻撃制御2 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2003</SortID>
+        </Field>
+        <Field Def="f32 fAttackSecondRotationRate03">
+            <DisplayName>接近攻撃制御3 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3003</SortID>
+        </Field>
+        <Field Def="f32 fAttackSecondRotationRate04">
+            <DisplayName>接近攻撃制御4 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4003</SortID>
+        </Field>
+        <Field Def="f32 fAttackSecondRotationRate05">
+            <DisplayName>接近攻撃制御5 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5003</SortID>
+        </Field>
+        <Field Def="f32 fAttackTimeOut01 = 1">
+            <DisplayName>接近攻撃制御1 タイムアウト時間 [sec]</DisplayName>
+            <Description>タイムアウト時間</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1011</SortID>
+        </Field>
+        <Field Def="f32 fAttackTimeOut02 = 1">
+            <DisplayName>接近攻撃制御2 タイムアウト時間 [sec]</DisplayName>
+            <Description>タイムアウト時間</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2011</SortID>
+        </Field>
+        <Field Def="f32 fAttackTimeOut03 = 1">
+            <DisplayName>接近攻撃制御3 タイムアウト時間 [sec]</DisplayName>
+            <Description>タイムアウト時間</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3011</SortID>
+        </Field>
+        <Field Def="f32 fAttackTimeOut04 = 1">
+            <DisplayName>接近攻撃制御4 タイムアウト時間 [sec]</DisplayName>
+            <Description>タイムアウト時間</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4011</SortID>
+        </Field>
+        <Field Def="f32 fAttackTimeOut05 = 1">
+            <DisplayName>接近攻撃制御5 タイムアウト時間 [sec]</DisplayName>
+            <Description>タイムアウト時間</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5011</SortID>
+        </Field>
+        <Field Def="f32 fAttackEstimateFutureTime01">
+            <DisplayName>接近攻撃制御1 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>1012</SortID>
+        </Field>
+        <Field Def="f32 fAttackEstimateFutureTime02">
+            <DisplayName>接近攻撃制御2 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>2012</SortID>
+        </Field>
+        <Field Def="f32 fAttackEstimateFutureTime03">
+            <DisplayName>接近攻撃制御3 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>3012</SortID>
+        </Field>
+        <Field Def="f32 fAttackEstimateFutureTime04">
+            <DisplayName>接近攻撃制御4 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>4012</SortID>
+        </Field>
+        <Field Def="f32 fAttackEstimateFutureTime05">
+            <DisplayName>接近攻撃制御5 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>5012</SortID>
+        </Field>
+        <Field Def="f32 fShotReserveSpeed01">
+            <DisplayName>射撃制御1 攻撃予備動作倍率 [倍]</DisplayName>
+            <Description>攻撃予備動作倍率</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="f32 fShotReserveSpeed02 = 1">
+            <DisplayName>射撃制御2 攻撃予備動作倍率 [倍]</DisplayName>
+            <Description>攻撃予備動作倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="f32 fShotReserveSpeed03 = 1">
+            <DisplayName>射撃制御3 攻撃予備動作倍率 [倍]</DisplayName>
+            <Description>攻撃予備動作倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="f32 fShotReserveSpeed04 = 1">
+            <DisplayName>射撃制御4 攻撃予備動作倍率 [倍]</DisplayName>
+            <Description>攻撃予備動作倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="f32 fShotReserveSpeed05 = 1">
+            <DisplayName>射撃制御5 攻撃予備動作倍率 [倍]</DisplayName>
+            <Description>攻撃予備動作倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationSpeed01 = 30">
+            <DisplayName>射撃制御1 射撃旋回速度 [deg/sec]</DisplayName>
+            <Description>旋回速度</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10001</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationSpeed02 = 30">
+            <DisplayName>射撃制御2 射撃旋回速度 [deg/sec]</DisplayName>
+            <Description>旋回速度</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20001</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationSpeed03 = 30">
+            <DisplayName>射撃制御3 射撃旋回速度 [deg/sec]</DisplayName>
+            <Description>旋回速度</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30001</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationSpeed04 = 30">
+            <DisplayName>射撃制御4 射撃旋回速度 [deg/sec]</DisplayName>
+            <Description>旋回速度</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40001</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationSpeed05 = 30">
+            <DisplayName>射撃制御5 射撃旋回速度 [deg/sec]</DisplayName>
+            <Description>旋回速度</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50001</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationAngleMax01 = 90">
+            <DisplayName>射撃制御1 射撃旋回角度 [deg]</DisplayName>
+            <Description>旋回角度上限</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10002</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationAngleMax02 = 90">
+            <DisplayName>射撃制御2 射撃旋回角度 [deg]</DisplayName>
+            <Description>旋回角度上限</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20002</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationAngleMax03 = 90">
+            <DisplayName>射撃制御3 射撃旋回角度 [deg]</DisplayName>
+            <Description>旋回角度上限</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30002</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationAngleMax04 = 90">
+            <DisplayName>射撃制御4 射撃旋回角度 [deg]</DisplayName>
+            <Description>旋回角度上限</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40002</SortID>
+        </Field>
+        <Field Def="f32 fShotRotationAngleMax05 = 90">
+            <DisplayName>射撃制御5 射撃旋回角度 [deg]</DisplayName>
+            <Description>旋回角度上限</Description>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50002</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationLowSpeed01 = 180">
+            <DisplayName>射撃制御1 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10003</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationLowSpeed02 = 180">
+            <DisplayName>射撃制御2 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20003</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationLowSpeed03 = 180">
+            <DisplayName>射撃制御3 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30003</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationLowSpeed04 = 180">
+            <DisplayName>射撃制御4 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40003</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationLowSpeed05 = 180">
+            <DisplayName>射撃制御5 低速旋回速度 [deg/sec]</DisplayName>
+            <Description>低速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50003</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationHighSpeed01 = 180">
+            <DisplayName>射撃制御1 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10004</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationHighSpeed02 = 180">
+            <DisplayName>射撃制御2 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20004</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationHighSpeed03 = 180">
+            <DisplayName>射撃制御3 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30004</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationHighSpeed04 = 180">
+            <DisplayName>射撃制御4 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40004</SortID>
+        </Field>
+        <Field Def="angle32 fShotDashRotationHighSpeed05 = 180">
+            <DisplayName>射撃制御5 高速旋回速度 [deg/sec]</DisplayName>
+            <Description>高速歩行中の旋回速度[deg/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50004</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMinBorder01">
+            <DisplayName>射撃制御1 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10005</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMinBorder02">
+            <DisplayName>射撃制御2 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20005</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMinBorder03">
+            <DisplayName>射撃制御3 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30005</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMinBorder04">
+            <DisplayName>射撃制御4 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40005</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMinBorder05">
+            <DisplayName>射撃制御5 低速旋回判定速度[m/sec]</DisplayName>
+            <Description>低速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50005</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMaxBorder01">
+            <DisplayName>射撃制御1 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10006</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMaxBorder02">
+            <DisplayName>射撃制御2 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20006</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMaxBorder03">
+            <DisplayName>射撃制御3 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30006</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMaxBorder04">
+            <DisplayName>射撃制御4 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40006</SortID>
+        </Field>
+        <Field Def="f32 fShotDashRotSpeedMaxBorder05">
+            <DisplayName>射撃制御5 高速旋回判定速度[m/sec]</DisplayName>
+            <Description>高速歩行旋回判定速度[m/sec]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50006</SortID>
+        </Field>
+        <Field Def="f32 fShotUpAngleMax01">
+            <DisplayName>射撃制御1 射撃追尾角度 上方 [deg]</DisplayName>
+            <Description>射撃追尾角度 上方</Description>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10007</SortID>
+        </Field>
+        <Field Def="f32 fShotUpAngleMax02">
+            <DisplayName>射撃制御2 射撃追尾角度 上方 [deg]</DisplayName>
+            <Description>射撃追尾角度 上方</Description>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20007</SortID>
+        </Field>
+        <Field Def="f32 fShotUpAngleMax03">
+            <DisplayName>射撃制御3 射撃追尾角度 上方 [deg]</DisplayName>
+            <Description>射撃追尾角度 上方</Description>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30007</SortID>
+        </Field>
+        <Field Def="f32 fShotUpAngleMax04">
+            <DisplayName>射撃制御4 射撃追尾角度 上方 [deg]</DisplayName>
+            <Description>射撃追尾角度 上方</Description>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40007</SortID>
+        </Field>
+        <Field Def="f32 fShotUpAngleMax05">
+            <DisplayName>射撃制御5 射撃追尾角度 上方 [deg]</DisplayName>
+            <Description>射撃追尾角度 上方</Description>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50007</SortID>
+        </Field>
+        <Field Def="f32 fShotDownAngleMax01">
+            <DisplayName>射撃制御1 射撃追尾角度 下方 [deg]</DisplayName>
+            <Description>射撃追尾角度 下方</Description>
+            <Minimum>-90</Minimum>
+            <Increment>0.1</Increment>
+            <SortID>10008</SortID>
+        </Field>
+        <Field Def="f32 fShotDownAngleMax02">
+            <DisplayName>射撃制御2 射撃追尾角度 下方 [deg]</DisplayName>
+            <Description>射撃追尾角度 下方</Description>
+            <Minimum>-90</Minimum>
+            <Increment>0.1</Increment>
+            <SortID>20008</SortID>
+        </Field>
+        <Field Def="f32 fShotDownAngleMax03">
+            <DisplayName>射撃制御3 射撃追尾角度 下方 [deg]</DisplayName>
+            <Description>射撃追尾角度 下方</Description>
+            <Minimum>-90</Minimum>
+            <Increment>0.1</Increment>
+            <SortID>30008</SortID>
+        </Field>
+        <Field Def="f32 fShotDownAngleMax04">
+            <DisplayName>射撃制御4 射撃追尾角度 下方 [deg]</DisplayName>
+            <Description>射撃追尾角度 下方</Description>
+            <Minimum>-90</Minimum>
+            <Increment>0.1</Increment>
+            <SortID>40008</SortID>
+        </Field>
+        <Field Def="f32 fShotDownAngleMax05">
+            <DisplayName>射撃制御5 射撃追尾角度 下方 [deg]</DisplayName>
+            <Description>射撃追尾角度 下方</Description>
+            <Minimum>-90</Minimum>
+            <Increment>0.1</Increment>
+            <SortID>50008</SortID>
+        </Field>
+        <Field Def="f32 fShotMoveSpeedRate01 = 1">
+            <DisplayName>射撃制御1 移動低下倍率 [倍]</DisplayName>
+            <Description>移動速度補正</Description>
+            <Maximum>1</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10009</SortID>
+        </Field>
+        <Field Def="f32 fShotMoveSpeedRate02 = 1">
+            <DisplayName>射撃制御2 移動低下倍率 [倍]</DisplayName>
+            <Description>移動速度補正</Description>
+            <Maximum>1</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20009</SortID>
+        </Field>
+        <Field Def="f32 fShotMoveSpeedRate03 = 1">
+            <DisplayName>射撃制御3 移動低下倍率 [倍]</DisplayName>
+            <Description>移動速度補正</Description>
+            <Maximum>1</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30009</SortID>
+        </Field>
+        <Field Def="f32 fShotMoveSpeedRate04 = 1">
+            <DisplayName>射撃制御4 移動低下倍率 [倍]</DisplayName>
+            <Description>移動速度補正</Description>
+            <Maximum>1</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40009</SortID>
+        </Field>
+        <Field Def="f32 fShotMoveSpeedRate05 = 1">
+            <DisplayName>射撃制御5 移動低下倍率 [倍]</DisplayName>
+            <Description>移動速度補正</Description>
+            <Maximum>1</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50009</SortID>
+        </Field>
+        <Field Def="f32 fShotSecondRotationSpeed01">
+            <DisplayName>射撃制御1 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>10010</SortID>
+        </Field>
+        <Field Def="f32 fShotSecondRotationSpeed02">
+            <DisplayName>射撃制御2 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>20010</SortID>
+        </Field>
+        <Field Def="f32 fShotSecondRotationSpeed03">
+            <DisplayName>射撃制御3 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>30010</SortID>
+        </Field>
+        <Field Def="f32 fShotSecondRotationSpeed04">
+            <DisplayName>射撃制御4 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>40010</SortID>
+        </Field>
+        <Field Def="f32 fShotSecondRotationSpeed05">
+            <DisplayName>射撃制御5 二次旋回倍率 [倍]</DisplayName>
+            <Description>二次旋回倍率 (0は無効)</Description>
+            <Maximum>9999</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>50010</SortID>
+        </Field>
+        <Field Def="u32 ShotTargetType01">
+            <DisplayName>射撃制御1 ターゲット位置</DisplayName>
+            <Description>ターゲット位置</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>10011</SortID>
+        </Field>
+        <Field Def="u32 ShotTargetType02">
+            <DisplayName>射撃制御2 ターゲット位置</DisplayName>
+            <Description>ターゲット位置</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>20011</SortID>
+        </Field>
+        <Field Def="u32 ShotTargetType03">
+            <DisplayName>射撃制御3 ターゲット位置</DisplayName>
+            <Description>ターゲット位置</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>30011</SortID>
+        </Field>
+        <Field Def="u32 ShotTargetType04">
+            <DisplayName>射撃制御4 ターゲット位置</DisplayName>
+            <Description>ターゲット位置</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>40011</SortID>
+        </Field>
+        <Field Def="u32 ShotTargetType05">
+            <DisplayName>射撃制御5 ターゲット位置</DisplayName>
+            <Description>ターゲット位置</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>50011</SortID>
+        </Field>
+        <Field Def="f32 fShotBackSwingSpeed01 = 1">
+            <DisplayName>射撃制御1 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>10012</SortID>
+        </Field>
+        <Field Def="f32 fShotBackSwingSpeed02 = 1">
+            <DisplayName>射撃制御2 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>20012</SortID>
+        </Field>
+        <Field Def="f32 fShotBackSwingSpeed03 = 1">
+            <DisplayName>射撃制御3 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>30012</SortID>
+        </Field>
+        <Field Def="f32 fShotBackSwingSpeed04 = 1">
+            <DisplayName>射撃制御4 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>40012</SortID>
+        </Field>
+        <Field Def="f32 fShotBackSwingSpeed05 = 1">
+            <DisplayName>射撃制御5 攻撃開始部速度倍率 [倍]</DisplayName>
+            <Description>攻撃開始部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>50012</SortID>
+        </Field>
+        <Field Def="f32 fShotFollowSwingSpeed01 = 1">
+            <DisplayName>射撃制御1 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>10012</SortID>
+        </Field>
+        <Field Def="f32 fShotFollowSwingSpeed02 = 1">
+            <DisplayName>射撃制御2 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>20012</SortID>
+        </Field>
+        <Field Def="f32 fShotFollowSwingSpeed03 = 1">
+            <DisplayName>射撃制御3 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>30012</SortID>
+        </Field>
+        <Field Def="f32 fShotFollowSwingSpeed04 = 1">
+            <DisplayName>射撃制御4 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>40012</SortID>
+        </Field>
+        <Field Def="f32 fShotFollowSwingSpeed05 = 1">
+            <DisplayName>射撃制御5 攻撃終了部速度倍率 [倍]</DisplayName>
+            <Description>攻撃終了部動作速度倍率</Description>
+            <Minimum>0.1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>50012</SortID>
+        </Field>
+        <Field Def="f32 fShotEstimateFutureTime01">
+            <DisplayName>射撃制御1 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>10013</SortID>
+        </Field>
+        <Field Def="f32 fShotEstimateFutureTime02">
+            <DisplayName>射撃制御2 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>20013</SortID>
+        </Field>
+        <Field Def="f32 fShotEstimateFutureTime03">
+            <DisplayName>射撃制御3 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>30013</SortID>
+        </Field>
+        <Field Def="f32 fShotEstimateFutureTime04">
+            <DisplayName>射撃制御4 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>40013</SortID>
+        </Field>
+        <Field Def="f32 fShotEstimateFutureTime05">
+            <DisplayName>射撃制御5 位置予測時間 [sec]</DisplayName>
+            <Description>位置予測時間</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>50013</SortID>
+        </Field>
+        <Field Def="u8 rotationOffsetDummyPoly01">
+            <DisplayName>旋回軸ダミポリ番号1</DisplayName>
+            <Description>旋回軸ダミポリ番号1</Description>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="u8 rotationOffsetDummyPoly02">
+            <DisplayName>旋回軸ダミポリ番号2</DisplayName>
+            <Description>旋回軸ダミポリ番号2</Description>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>200000</SortID>
+        </Field>
+        <Field Def="u8 rotationOffsetDummyPoly03">
+            <DisplayName>旋回軸ダミポリ番号3</DisplayName>
+            <Description>旋回軸ダミポリ番号3</Description>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>300000</SortID>
+        </Field>
+        <Field Def="u8 rotationOffsetDummyPoly04">
+            <DisplayName>旋回軸ダミポリ番号4</DisplayName>
+            <Description>旋回軸ダミポリ番号4</Description>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>400000</SortID>
+        </Field>
+        <Field Def="u8 rotationOffsetDummyPoly05">
+            <DisplayName>旋回軸ダミポリ番号5</DisplayName>
+            <Description>旋回軸ダミポリ番号5</Description>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>500000</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1[3]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>500001</SortID>
+        </Field>
+        <Field Def="dummy8 dummy2[16]">
+            <DisplayName>ダミー</DisplayName>
+            <Description>ダミー (Paramファイルのバイト数を変えたくないときはダミーの要素数を変えて調整してください、ってことだと思う)</Description>
+            <SortID>500002</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

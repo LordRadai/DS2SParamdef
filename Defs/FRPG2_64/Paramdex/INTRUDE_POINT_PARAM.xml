@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>INTRUDE_POINT_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 playAreaId">
+            <DisplayName>プレイ領域ID</DisplayName>
+            <Description>プレイ領域ID</Description>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+08</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u8 intrudePriority">
+            <DisplayName>優先度</DisplayName>
+            <Description>優先度</Description>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved[3]">
+            <DisplayName>予約</DisplayName>
+            <Description>予約</Description>
+            <SortID>201</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

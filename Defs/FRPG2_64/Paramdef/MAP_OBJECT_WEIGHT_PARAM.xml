@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="MAP_OBJECT_WEIGHT_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="8">
-    <Field name="weight" type="f32">
-        <DisplayName>Weight</DisplayName>
-    </Field>
-    <Field name="Unk04" type="f32"/>
-</ParamDef>

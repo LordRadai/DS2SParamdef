@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ParamDef paramType="ESTUS_FLASK_LV_DATA_PARAM" bigEndian="false" unicode="true" version="201" unk06="0" byteSize="8">
-    <Field name="estus_item_id" type="s32">
-        <DisplayName>Estus Item ID</DisplayName>
-    </Field>
-    <Field name="estus_held_count" type="s32">
-        <DisplayName>Estus Held Count</DisplayName>
-    </Field>
-</ParamDef>

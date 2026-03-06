@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>PHYS_STATS_PER_LEVEL_STAT_PARAM</ParamType>
+    <DataVersion>8</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s16 levelStatusValue">
+            <DisplayName>レベルステータス値</DisplayName>
+            <Description>レベルステータス値</Description>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="s8 spellSlot">
+            <DisplayName>スペルスロット</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるスペルスロット数</Description>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="s8 spellUsesLevel = 1">
+            <DisplayName>スペル使用回数レベル</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるスペル使用回数レベル</Description>
+            <Minimum>1</Minimum>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>330</SortID>
+        </Field>
+        <Field Def="s16 hpMax = 1">
+            <DisplayName>最大HP</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における最大HP</Description>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s16 staminaMax">
+            <DisplayName>スタミナ</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における最大スタミナ量</Description>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 equipLoadMax">
+            <DisplayName>装備重量 [kg]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における装備重量[kg]</Description>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="s32 physicalAttackByStrength">
+            <DisplayName>筋力 物理攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における筋力による物理攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 physicalAttackByDexterity">
+            <DisplayName>技量 物理攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における技量による物理攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s32 magicAttack">
+            <DisplayName>魔力 攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における魔力の攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s32 flameAttack">
+            <DisplayName>炎 攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における炎の攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="s32 lightningAttack">
+            <DisplayName>雷 攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における雷の攻撃力[%]</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s32 darkAttack">
+            <DisplayName>闇 攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における闇の攻撃力[%]</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="s32 weaponBreakAdditionalEffect">
+            <DisplayName>武器破壊 追加効果攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における武器破壊の追加効果攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="s32 bleedingAdditionalEffect">
+            <DisplayName>出血 追加効果攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における出血の追加効果攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="s32 poisonAdditionalEffect">
+            <DisplayName>毒 追加効果攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における毒の追加効果攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="s32 curseAdditionalEffect">
+            <DisplayName>呪 追加効果攻撃力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における呪いの追加効果攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 chantingTimeCorrectScale">
+            <DisplayName>詠唱時間 補正倍率</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における詠唱時間補正倍率</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>320</SortID>
+        </Field>
+        <Field Def="f32 criticalAttackCorrectScale">
+            <DisplayName>クリティカル 補正倍率</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるクリティカル補正倍率[倍]</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="f32 fluctuationCorrectScaleMin">
+            <DisplayName>揺らぎ補正倍率 最小</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における最小揺らぎ補正倍率[倍]</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1020</SortID>
+        </Field>
+        <Field Def="f32 fluctuationCorrectScaleMax">
+            <DisplayName>揺らぎ補正倍率 最大</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における最大揺らぎ補正倍率[倍]</Description>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1020</SortID>
+        </Field>
+        <Field Def="f32 weaponBreakResistance">
+            <DisplayName>武器破壊 耐性値[%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における武器破壊への耐性値[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 bleedingResistance">
+            <DisplayName>出血 耐性値 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における出血への耐性値[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>500</SortID>
+        </Field>
+        <Field Def="f32 poisonResistance">
+            <DisplayName>毒 耐性値 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における毒への耐性値[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 petrifactionResistance">
+            <DisplayName>石化 耐性値 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における石化への耐性値[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 curseResistance">
+            <DisplayName>呪 耐性値 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における呪いへの耐性値[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1050</SortID>
+        </Field>
+        <Field Def="f32 magicResistance">
+            <DisplayName>魔力 抵抗力 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における魔力への抵抗力[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 flameResistance">
+            <DisplayName>炎 抵抗力 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における炎への抵抗力[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>600</SortID>
+        </Field>
+        <Field Def="f32 lightningResistance">
+            <DisplayName>雷 抵抗力 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における雷への抵抗力[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="f32 darkResistance">
+            <DisplayName>闇 抵抗力 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における闇への抵抗力[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>700</SortID>
+        </Field>
+        <Field Def="f32 stepInvincibleTimeRate">
+            <DisplayName>ステップ 無敵時間割合 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるステップ時無敵時間割合[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="f32 rollingInvincibleTimeRate">
+            <DisplayName>ローリング 無敵時間割合 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるローリング時無敵時間割合[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="f32 jumpInvincibleTimeRate">
+            <DisplayName>ジャンプ 無敵時間割合 [%]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるジャンプ時無敵時間割合[%]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>800</SortID>
+        </Field>
+        <Field Def="f32 changeEquipSpeedScale">
+            <DisplayName>装備切替 速度倍率 [倍]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における装備切り替え速度倍率[倍]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="f32 useItemSpeedScale">
+            <DisplayName>アイテム使用 速度倍率 [倍]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるアイテム使用速度倍率[倍]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="f32 blockSpeedScale">
+            <DisplayName>ガード構え 速度倍率 [倍]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるガード構え速度倍率[倍]</Description>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>850</SortID>
+        </Field>
+        <Field Def="s32 defense">
+            <DisplayName>防御力</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」における防御力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>900</SortID>
+        </Field>
+        <Field Def="s16 itemDropTicketCount">
+            <DisplayName>アイテムドロップ チケット枚数分母 [枚]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるアイテムドロップチケット数[枚]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="s16 misfireChestTrapTicketCount">
+            <DisplayName>宝箱トラップ不発 チケット枚数分母 [枚]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるトラップ宝箱不発チケット数[枚]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1000</SortID>
+        </Field>
+        <Field Def="s16 criticalTicketCount">
+            <DisplayName>クリティカル チケット枚数分母 [枚]</DisplayName>
+            <Description>影響を受けるレベルステータスが「レベルステータス値」におけるクリティカルチケット数[枚]</Description>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1010</SortID>
+        </Field>
+        <Field Def="u8 additionalHp">
+            <DisplayName>追加最大HP</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>1200</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1">
+            <DisplayName>ダミー</DisplayName>
+            <Description>パディング用のダミー変数</Description>
+            <SortID>1301</SortID>
+        </Field>
+        <Field Def="s32 physicalAttackByAbyss">
+            <DisplayName>深淵攻撃力</DisplayName>
+            <Description>深淵武器使用時の最低レベルステータス値における物理攻撃力</Description>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>1100</SortID>
+        </Field>
+        <Field Def="f32 poise">
+            <DisplayName>強靭度</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1300</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>
