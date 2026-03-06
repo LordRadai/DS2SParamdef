@@ -93,7 +93,7 @@ namespace Paramdex
 
 		doc.InsertEndChild(root);
 
-		tinyxml2::XMLElement* fieldsElement = doc.NewElement("Fields");
+		tinyxml2::XMLElement* fieldsElement = root->InsertNewChildElement("Fields");
 
 		for (const auto& field : m_fields)
 			field.writeXML(fieldsElement);
