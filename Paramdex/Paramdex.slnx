@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Paramdex/Paramdex.vcxproj" Id="f38bd7de-2a4b-4e7f-8a90-a0866496aef7" />
+</Solution>
