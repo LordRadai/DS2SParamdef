@@ -111,14 +111,14 @@ namespace Paramdex
 
         AddChildW("DisplayName", m_displayName);
 
-        if (!m_enumName.empty())
+        if (!m_enumName.empty() && (m_enumName != m_type))
             AddChildS("Enum", m_enumName);
 
         AddChildW("Description", m_description);
         AddChildS("DisplayFormat", m_displayFormat);
 
         std::string flagStr = getEditFlagString(m_editFlags);
-        if (!flagStr.empty()) e->InsertNewChildElement("EditFlags")->SetText(flagStr.c_str());
+        if (m_editFlags && !flagStr.empty()) e->InsertNewChildElement("EditFlags")->SetText(flagStr.c_str());
 
         if (m_minValue != 0.0f) e->InsertNewChildElement("Minimum")->SetText(m_minValue);
         if (m_maxValue != 0.0f) e->InsertNewChildElement("Maximum")->SetText(m_maxValue);
