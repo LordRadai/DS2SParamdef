@@ -109,7 +109,7 @@ namespace Paramdex
         std::stringstream ss;
         ss << m_type << " " << m_name;
         if (m_bitSize != -1) ss << ":" << m_bitSize;
-        if (m_arraySize > 1) ss << "[" << m_arraySize << "]";
+        if (m_arraySize > 1 || (m_type == "dummy8" && m_arraySize == 1)) ss << "[" << m_arraySize << "]";
 
         if (m_defaultValue != 0)
             ss << " = " << m_defaultValue;
