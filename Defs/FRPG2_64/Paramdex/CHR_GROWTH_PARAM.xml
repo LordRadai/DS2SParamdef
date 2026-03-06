@@ -20,7 +20,7 @@
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
-        <Field Def="dummy8 dummy">
+        <Field Def="dummy8 dummy[1]">
             <DisplayName>ダミー</DisplayName>
             <Description>パディング用のダミー変数</Description>
             <SortID>42</SortID>

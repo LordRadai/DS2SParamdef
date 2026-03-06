@@ -57,7 +57,7 @@
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
-        <Field Def="dummy8 dummy0">
+        <Field Def="dummy8 dummy0[1]">
             <DisplayName>ダミー</DisplayName>
             <SortID>24</SortID>
         </Field>
@@ -85,7 +85,7 @@
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
-        <Field Def="dummy8 dummy1">
+        <Field Def="dummy8 dummy1[1]">
             <DisplayName>ダミー</DisplayName>
             <SortID>25</SortID>
         </Field>

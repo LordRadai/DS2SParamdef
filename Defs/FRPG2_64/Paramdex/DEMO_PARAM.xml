@@ -104,7 +104,7 @@
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
-        <Field Def="dummy8 reserved0">
+        <Field Def="dummy8 reserved0[1]">
             <DisplayName>予約領域</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>

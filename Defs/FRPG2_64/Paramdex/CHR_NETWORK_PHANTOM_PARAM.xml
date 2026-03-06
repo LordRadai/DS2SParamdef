@@ -139,7 +139,7 @@
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
-        <Field Def="dummy8 pad1">
+        <Field Def="dummy8 pad1[1]">
             <DisplayName>予約領域</DisplayName>
             <Description>予約領域</Description>
             <Maximum>100</Maximum>
@@ -170,7 +170,7 @@
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
-        <Field Def="dummy8 pad2">
+        <Field Def="dummy8 pad2[1]">
             <DisplayName>予約領域</DisplayName>
             <Description>予約領域</Description>
             <Maximum>100</Maximum>

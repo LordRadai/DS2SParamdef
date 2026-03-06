@@ -29,7 +29,7 @@
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
-        <Field Def="dummy8 pad01">
+        <Field Def="dummy8 pad01[1]">
             <DisplayName>パディング01</DisplayName>
             <SortID>121</SortID>
         </Field>

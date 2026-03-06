@@ -217,7 +217,7 @@
             <Description>デバッグ用全アイテム入手で入手可能か？（ダミーアイテム、テストアイテムならば×）</Description>
             <SortID>99999</SortID>
         </Field>
-        <Field Def="dummy8 padding">
+        <Field Def="dummy8 padding[1]">
             <DisplayName>予約</DisplayName>
             <Description>パディング</Description>
             <SortID>100000</SortID>

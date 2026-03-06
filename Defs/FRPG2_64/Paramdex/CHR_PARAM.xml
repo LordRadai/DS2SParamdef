@@ -956,7 +956,7 @@
             <Increment>1</Increment>
             <SortID>2000</SortID>
         </Field>
-        <Field Def="dummy8 padding">
+        <Field Def="dummy8 padding[1]">
             <DisplayName>予約</DisplayName>
             <Description>予約</Description>
             <SortID>9999</SortID>

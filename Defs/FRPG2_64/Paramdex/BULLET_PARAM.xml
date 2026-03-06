@@ -522,7 +522,7 @@
             <Increment>1</Increment>
             <SortID>7000</SortID>
         </Field>
-        <Field Def="dummy8 pad4">
+        <Field Def="dummy8 pad4[1]">
             <DisplayName>パディング</DisplayName>
             <SortID>7002</SortID>
         </Field>

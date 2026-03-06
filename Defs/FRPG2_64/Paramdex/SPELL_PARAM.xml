@@ -460,7 +460,7 @@
             <Increment>1</Increment>
             <SortID>800</SortID>
         </Field>
-        <Field Def="dummy8 dummy1">
+        <Field Def="dummy8 dummy1[1]">
             <DisplayName>ダミー</DisplayName>
             <SortID>1502</SortID>
         </Field>
@@ -713,7 +713,7 @@
             <Increment>1</Increment>
             <SortID>1400</SortID>
         </Field>
-        <Field Def="dummy8 dummy2">
+        <Field Def="dummy8 dummy2[1]">
             <DisplayName>ダミー</DisplayName>
             <SortID>1503</SortID>
         </Field>

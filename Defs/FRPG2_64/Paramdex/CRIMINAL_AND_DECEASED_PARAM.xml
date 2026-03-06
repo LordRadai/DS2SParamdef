@@ -94,7 +94,7 @@
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
-        <Field Def="dummy8 padding = 1">
+        <Field Def="dummy8 padding[1] = 1">
             <DisplayName>dummy</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>100</Maximum>

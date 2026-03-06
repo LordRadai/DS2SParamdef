@@ -109,7 +109,7 @@
             <Increment>1</Increment>
             <SortID>40</SortID>
         </Field>
-        <Field Def="dummy8 reserved01 = -1">
+        <Field Def="dummy8 reserved01[1] = -1">
             <DisplayName>予備</DisplayName>
             <Description>※カリンググループ予備</Description>
             <DisplayFormat>%d</DisplayFormat>

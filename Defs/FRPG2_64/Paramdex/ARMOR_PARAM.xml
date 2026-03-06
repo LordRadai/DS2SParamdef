@@ -50,7 +50,7 @@
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
-        <Field Def="dummy8 dummy1">
+        <Field Def="dummy8 dummy1[1]">
             <DisplayName>ダミー</DisplayName>
             <Description>パディング用ダミー変数</Description>
             <SortID>31</SortID>

@@ -123,7 +123,7 @@
             <Increment>1</Increment>
             <SortID>1010</SortID>
         </Field>
-        <Field Def="dummy8 dummy1">
+        <Field Def="dummy8 dummy1[1]">
             <DisplayName>ダミー</DisplayName>
             <SortID>100001</SortID>
         </Field>
