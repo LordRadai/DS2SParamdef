@@ -4,4 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="Paramdex/Paramdex.vcxproj" Id="f38bd7de-2a4b-4e7f-8a90-a0866496aef7" />
+  <Project Path="ParamdexTest/ParamdexTest.vcxproj" Id="372c9ee4-9d1f-401e-a10f-e934fa05bfb8" />
 </Solution>

@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
 #include <unordered_map>
-#include <tinyxml2/tinyxml2.h>
 
+#include "tinyxml2/tinyxml2.h"
 #include "Field.h"
 #include "Enum.h"
 
@@ -33,6 +33,13 @@ namespace Paramdex
 		bool isUnicode() const { return m_bUnicode; }
 		int getFormatVersion() const { return m_formatVersion; }
 		const std::vector<Field>& getFields() const { return m_fields; }
+		const std::unordered_map<std::wstring, Enum>& getEnums() const { return m_enums; }
+
+		Enum* getEnum(const std::wstring& name) 
+		{
+			auto it = m_enums.find(name);
+			return (it != m_enums.end()) ? &it->second : nullptr;
+		}
 
 		int getMemoryRequirements() const;
 

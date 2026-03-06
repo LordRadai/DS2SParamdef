@@ -1,7 +1,8 @@
 #pragma once
-#include <tinyxml2/tinyxml2.h>
 #include <string>
 #include <stdexcept>
+
+#include "tinyxml2/tinyxml2.h"
 
 namespace Paramdex
 {

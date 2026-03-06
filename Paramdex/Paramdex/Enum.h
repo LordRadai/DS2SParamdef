@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include <map>
+#include <unordered_map>
 
 namespace Paramdex
 {
@@ -8,7 +8,7 @@ namespace Paramdex
 	{
 		std::string m_name;
 		std::string m_type;
-		std::map<std::string, int> m_enumValues;
+		std::unordered_map<std::string, int> m_enumValues;
 
 	public:
 		Enum() : m_name(""), m_type("") {}
@@ -21,7 +21,7 @@ namespace Paramdex
 
 		const std::string& getName() const { return m_name; }
 		const std::string& getType() const { return m_type; }
-		const std::map<std::string, int>& getEnumValues() const { return m_enumValues; }
+		const std::unordered_map<std::string, int>& getEnumValues() const { return m_enumValues; }
 
 		void addValue(const std::string& name, int value) 
 		{

@@ -64,7 +64,9 @@ namespace Paramdex
 		m_formatVersion = root->IntAttribute("FormatVersion", 0);
 		m_fields.clear();
 
-		for (auto* e = root->FirstChildElement("Field"); e; e = e->NextSiblingElement("Field"))
+		tinyxml2::XMLElement* fieldsElement = root->FirstChildElement("Fields");
+
+		for (auto* e = fieldsElement->FirstChildElement("Field"); e; e = e->NextSiblingElement("Field"))
 		{
 			Field field;
 			if (field.loadFromXML(e))
