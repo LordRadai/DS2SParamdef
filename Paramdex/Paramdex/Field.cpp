@@ -135,17 +135,16 @@ namespace Paramdex
     {
         switch (flags)
         {
-		case EDIT_OPTIONS_NONE: return "NONE";
-        case EDIT_OPTIONS_WRAP: return "WRAP";
-        case EDIT_OPTIONS_LOCK: return "LOCK";
+        case EDIT_OPTIONS_WRAP: return "Wrap";
+        case EDIT_OPTIONS_LOCK: return "Lock";
         default: return "";
         }
     }
 
     EditFlags Field::getEditFlagFromString(const std::wstring& str) 
     {
-		if (str == L"WRAP") return EDIT_OPTIONS_WRAP;
-        else if (str == L"LOCK") return EDIT_OPTIONS_LOCK;
+		if (str == L"Wrap") return EDIT_OPTIONS_WRAP;
+        else if (str == L"Lock") return EDIT_OPTIONS_LOCK;
 		else return EDIT_OPTIONS_NONE;
 	}
 }
