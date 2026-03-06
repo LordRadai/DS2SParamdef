@@ -8,7 +8,7 @@ namespace
 {
 	std::wstring SnakeToPascalCase(const std::wstring& snake) 
 	{
-		std::wstring pascal;
+		std::wstring pascalStr;
 		bool capitalizeNext = true;
 
 		for (wchar_t c : snake) 
@@ -21,17 +21,17 @@ namespace
 			{
 				if (capitalizeNext) 
 				{
-					pascal += static_cast<wchar_t>(std::towupper(c));
+					pascalStr += static_cast<wchar_t>(std::towupper(c));
 					capitalizeNext = false;
 				}
 				else 
 				{
-					pascal += static_cast<wchar_t>(std::towlower(c));
+					pascalStr += static_cast<wchar_t>(std::towlower(c));
 				}
 			}
 		}
 
-		return pascal;
+		return pascalStr;
 	}
 }
 
@@ -57,7 +57,7 @@ namespace Paramdex
 		auto* root = doc.RootElement();
 		if (!root) return false;
 
-		m_paramType = TiXmlHelpers::SToW(root->Attribute("ParamType"));
+		m_paramType = root->Attribute("ParamType");
 		m_dataVersion = root->IntAttribute("DataVersion", 0);
 		m_bBigEndian = root->BoolAttribute("BigEndian", false);
 		m_bUnicode = root->BoolAttribute("Unicode", false);
@@ -83,12 +83,13 @@ namespace Paramdex
 
 		doc.InsertFirstChild(decl);
 		auto* root = doc.NewElement("PARAMDEF");
+		root->SetAttribute("XmlVersion", 0);
 
-		root->SetAttribute("ParamType", TiXmlHelpers::WToS(m_paramType).c_str());
-		root->SetAttribute("DataVersion", m_dataVersion);
-		root->SetAttribute("BigEndian", m_bBigEndian);
-		root->SetAttribute("Unicode", m_bUnicode);
-		root->SetAttribute("FormatVersion", m_formatVersion);
+		root->InsertNewChildElement("ParamType")->SetText(m_paramType.c_str());
+		root->InsertNewChildElement("Unk06")->SetText(0);
+		root->InsertNewChildElement("BigEndian")->SetText(m_bBigEndian);
+		root->InsertNewChildElement("Unicode")->SetText(m_bUnicode);
+		root->InsertNewChildElement("Version")->SetText(m_formatVersion);
 
 		doc.InsertEndChild(root);
 
