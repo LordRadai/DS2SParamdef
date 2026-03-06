@@ -6,6 +6,24 @@
 
 namespace Paramdex
 {
+    Field::Field(const std::string& name, const std::string& type, const std::string& enumName, const std::wstring& displayName, const std::wstring& description, const std::string& displayFormat, EditFlags editFlags, float defaultValue, float minValue, float maxValue, float increment, int sortID)
+        : m_type(type), m_enumName(enumName), m_displayName(displayName), m_description(description), m_displayFormat(displayFormat), m_editFlags(editFlags), m_defaultValue(defaultValue), m_minValue(minValue), m_maxValue(maxValue), m_increment(increment), m_sortID(sortID)
+    {
+        // 1. Extract and Clean
+        std::regex re(R"((\w+)(?::(\d+))?(?:\[(\d+)\])?)");
+        std::smatch match;
+
+        if (std::regex_search(name, match, re))
+        {
+            // match[1] contains only the alphanumeric "name" portion (\w+)
+            m_name = match[1].str();
+
+            // Extract metadata
+            m_bitSize = match[2].matched ? std::stoi(match[2]) : -1;
+            m_arraySize = match[3].matched ? std::stoi(match[3]) : 1;
+        }
+	}
+
 	int Field::getMemoryRequirements() const
 	{
 		if (m_type == "u8" || m_type == "s8" || m_type == "dummy8")
@@ -91,7 +109,7 @@ namespace Paramdex
         std::stringstream ss;
         ss << m_type << " " << m_name;
         if (m_bitSize != -1) ss << ":" << m_bitSize;
-        if (m_arraySize > 1) ss << "[" << m_arraySize << "]";
+        if (m_arraySize > 1 || (m_type == "dummy8" && m_arraySize == 1)) ss << "[" << m_arraySize << "]";
 
         if (m_defaultValue != 0)
             ss << " = " << m_defaultValue;

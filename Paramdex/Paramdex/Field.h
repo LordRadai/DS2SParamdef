@@ -33,11 +33,7 @@ namespace Paramdex
 		std::wstring m_bonusStringB;
 		std::wstring m_bonusStringC;
 	public:
-		Field() : m_name(""), m_type(""), m_bitSize(-1), m_arraySize(0), m_editFlags(EDIT_OPTIONS_NONE), m_defaultValue(0.0f), m_minValue(0.0f), m_maxValue(0.0f), m_increment(0.0f), m_sortID(0) {}
-		Field(const std::string& name, const std::string& type, int bitSize = -1, int arraySize = 1, const std::string& enumName = "", const std::wstring& displayName = L"", const std::wstring& description = L"", const std::string& displayFormat = "%d", EditFlags editFlags = EDIT_OPTIONS_WRAP, float defaultValue = 0.0f, float minValue = 0.0f, float maxValue = 0.0f, float increment = 0.0f, int sortID = 0)
-			: m_name(name), m_type(type), m_bitSize(bitSize), m_arraySize(arraySize), m_enumName(enumName), m_displayName(displayName), m_description(description), m_displayFormat(displayFormat), m_editFlags(editFlags), m_defaultValue(defaultValue), m_minValue(minValue), m_maxValue(maxValue), m_increment(increment), m_sortID(sortID) 
-		{
-		}
+		Field(const std::string& name, const std::string& type, const std::string& enumName = "", const std::wstring& displayName = L"", const std::wstring& description = L"", const std::string& displayFormat = "%d", EditFlags editFlags = EDIT_OPTIONS_WRAP, float defaultValue = 0.0f, float minValue = 0.0f, float maxValue = 0.0f, float increment = 0.0f, int sortID = 0);
 
 		~Field() {}
 

@@ -68,7 +68,7 @@ namespace Paramdex
 
 		for (auto* e = fieldsElement->FirstChildElement("Field"); e; e = e->NextSiblingElement("Field"))
 		{
-			Field field;
+			Field field("placeholder", "");
 			if (field.loadFromXML(e))
 				m_fields.push_back(field);
 		}
