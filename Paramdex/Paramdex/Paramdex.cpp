@@ -89,7 +89,7 @@ namespace Paramdex
 		root->InsertNewChildElement("DataVersion")->SetText(m_dataVersion);
 		root->InsertNewChildElement("BigEndian")->SetText(m_bBigEndian);
 		root->InsertNewChildElement("Unicode")->SetText(m_bUnicode);
-		root->InsertNewChildElement("Version")->SetText(m_formatVersion);
+		root->InsertNewChildElement("FormatVersion")->SetText(m_formatVersion);
 
 		doc.InsertEndChild(root);
 
