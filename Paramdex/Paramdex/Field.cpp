@@ -59,7 +59,7 @@ namespace Paramdex
 			};
 
         m_displayName = GetW("DisplayName");
-        m_enumName = GetW("Enum");
+        m_enumName = GetS("Enum");
         m_description = GetW("Description");
         m_displayFormat = GetS("DisplayFormat");
 
@@ -112,7 +112,7 @@ namespace Paramdex
         AddChildW("DisplayName", m_displayName);
 
         if (!m_enumName.empty())
-            AddChildW("Enum", m_enumName);
+            AddChildS("Enum", m_enumName);
 
         AddChildW("Description", m_description);
         AddChildS("DisplayFormat", m_displayFormat);

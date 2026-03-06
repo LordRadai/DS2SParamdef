@@ -19,7 +19,7 @@ namespace Paramdex
 		std::string m_type;
 		int m_bitSize;
 		int m_arraySize;
-		std::wstring m_enumName;
+		std::string m_enumName;
 		std::wstring m_displayName;
 		std::wstring m_description;
 		std::string m_displayFormat;
@@ -34,7 +34,7 @@ namespace Paramdex
 		std::wstring m_bonusStringC;
 	public:
 		Field() : m_name(""), m_type(""), m_bitSize(-1), m_arraySize(0), m_editFlags(EDIT_OPTIONS_NONE), m_defaultValue(0.0f), m_minValue(0.0f), m_maxValue(0.0f), m_increment(0.0f), m_sortID(0) {}
-		Field(const std::string& name, const std::string& type, int bitSize = -1, int arraySize = 1, const std::wstring& enumName = L"", const std::wstring& displayName = L"", const std::wstring& description = L"", const std::string& displayFormat = "%d", EditFlags editFlags = EDIT_OPTIONS_WRAP, float defaultValue = 0.0f, float minValue = 0.0f, float maxValue = 0.0f, float increment = 0.0f, int sortID = 0)
+		Field(const std::string& name, const std::string& type, int bitSize = -1, int arraySize = 1, const std::string& enumName = "", const std::wstring& displayName = L"", const std::wstring& description = L"", const std::string& displayFormat = "%d", EditFlags editFlags = EDIT_OPTIONS_WRAP, float defaultValue = 0.0f, float minValue = 0.0f, float maxValue = 0.0f, float increment = 0.0f, int sortID = 0)
 			: m_name(name), m_type(type), m_bitSize(bitSize), m_arraySize(arraySize), m_enumName(enumName), m_displayName(displayName), m_description(description), m_displayFormat(displayFormat), m_editFlags(editFlags), m_defaultValue(defaultValue), m_minValue(minValue), m_maxValue(maxValue), m_increment(increment), m_sortID(sortID) 
 		{
 		}
@@ -53,8 +53,8 @@ namespace Paramdex
 		int getArraySize() const { return m_arraySize; }
 		void setArraySize(int arraySize) { m_arraySize = arraySize; }
 
-		const std::wstring& getEnumName() const { return m_enumName; }
-		void setEnumName(const std::wstring& enumName) { m_enumName = enumName; }
+		const std::string& getEnumName() const { return m_enumName; }
+		void setEnumName(const std::string& enumName) { m_enumName = enumName; }
 
 		const std::wstring& getDisplayName() const { return m_displayName; }
 		void setDisplayName(const std::wstring& displayName) { m_displayName = displayName; }

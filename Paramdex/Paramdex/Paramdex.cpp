@@ -86,7 +86,7 @@ namespace Paramdex
 		root->SetAttribute("XmlVersion", 0);
 
 		root->InsertNewChildElement("ParamType")->SetText(m_paramType.c_str());
-		root->InsertNewChildElement("Unk06")->SetText(0);
+		root->InsertNewChildElement("DataVersion")->SetText(m_dataVersion);
 		root->InsertNewChildElement("BigEndian")->SetText(m_bBigEndian);
 		root->InsertNewChildElement("Unicode")->SetText(m_bUnicode);
 		root->InsertNewChildElement("Version")->SetText(m_formatVersion);
