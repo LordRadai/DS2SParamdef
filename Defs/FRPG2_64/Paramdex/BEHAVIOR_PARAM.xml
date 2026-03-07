@@ -1,260 +1,2030 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <PARAMDEF XmlVersion="0">
-  <ParamType>BEHAVIOR_PARAM</ParamType>
-  <Unk06>0</Unk06>
-  <BigEndian>False</BigEndian>
-  <Unicode>True</Unicode>
-  <Version>201</Version>
-  <Fields>
-    <Field Def="s32 group_1_enemy_damage_id_0" />
-    <Field Def="s32 group_1_enemy_damage_id_1" />
-    <Field Def="s32 group_1_enemy_damage_id_2" />
-    <Field Def="s32 group_1_enemy_damage_id_3" />
-    <Field Def="s32 group_1_enemy_damage_id_4" />
-    <Field Def="s32 group_1_enemy_damage_id_5" />
-    <Field Def="s32 group_1_enemy_attackmove_id" />
-    <Field Def="u8 group_1_damage_action_flag" />
-    <Field Def="u8 group_1_unk02" />
-    <Field Def="u8 group_1_unk03" />
-    <Field Def="u8 group_1_unk04" />
-    <Field Def="s32 group_1_enemy_bullet_id_0" />
-    <Field Def="s32 group_1_enemy_bullet_id_1" />
-    <Field Def="s32 group_1_enemy_bullet_id_2" />
-    <Field Def="f32 group_1_unk07" />
-    <Field Def="f32 group_1_unk08" />
-    <Field Def="f32 group_1_attack_speed" />
-    <Field Def="f32 group_1_recovery_speed" />
-    <Field Def="f32 group_1_unk09" />
-    <Field Def="f32 group_1_unk10" />
-    <Field Def="f32 group_1_unk11" />
-    <Field Def="f32 group_1_unk12" />
-    <Field Def="s32 group_1_unk13" />
-    <Field Def="f32 group_1_atk_cooldown_min" />
-    <Field Def="f32 group_1_atk_cooldown_max" />
-    <Field Def="s32 group_2_enemy_damage_id_0" />
-    <Field Def="s32 group_2_enemy_damage_id_1" />
-    <Field Def="s32 group_2_enemy_damage_id_2" />
-    <Field Def="s32 group_2_enemy_damage_id_3" />
-    <Field Def="s32 group_2_enemy_damage_id_4" />
-    <Field Def="s32 group_2_enemy_damage_id_5" />
-    <Field Def="s32 group_2_enemy_attackmove_id" />
-    <Field Def="u8 group_2_damage_action_flag" />
-    <Field Def="u8 group_2_unk02" />
-    <Field Def="u8 group_2_unk03" />
-    <Field Def="u8 group_2_unk04" />
-    <Field Def="s32 group_2_enemy_bullet_id_0" />
-    <Field Def="s32 group_2_enemy_bullet_id_1" />
-    <Field Def="s32 group_2_enemy_bullet_id_2" />
-    <Field Def="f32 group_2_unk07" />
-    <Field Def="f32 group_2_unk08" />
-    <Field Def="f32 group_2_attack_speed" />
-    <Field Def="f32 group_2_recovery_speed" />
-    <Field Def="f32 group_2_unk09" />
-    <Field Def="f32 group_2_unk10" />
-    <Field Def="f32 group_2_unk11" />
-    <Field Def="f32 group_2_unk12" />
-    <Field Def="s32 group_2_unk13" />
-    <Field Def="f32 group_2_atk_cooldown_min" />
-    <Field Def="f32 group_2_atk_cooldown_max" />
-    <Field Def="s32 group_3_enemy_damage_id_0" />
-    <Field Def="s32 group_3_enemy_damage_id_1" />
-    <Field Def="s32 group_3_enemy_damage_id_2" />
-    <Field Def="s32 group_3_enemy_damage_id_3" />
-    <Field Def="s32 group_3_enemy_damage_id_4" />
-    <Field Def="s32 group_3_enemy_damage_id_5" />
-    <Field Def="s32 group_3_enemy_attackmove_id" />
-    <Field Def="u8 group_3_damage_action_flag" />
-    <Field Def="u8 group_3_unk02" />
-    <Field Def="u8 group_3_unk03" />
-    <Field Def="u8 group_3_unk04" />
-    <Field Def="s32 group_3_enemy_bullet_id_0" />
-    <Field Def="s32 group_3_enemy_bullet_id_1" />
-    <Field Def="s32 group_3_enemy_bullet_id_2" />
-    <Field Def="f32 group_3_unk07" />
-    <Field Def="f32 group_3_unk08" />
-    <Field Def="f32 group_3_attack_speed" />
-    <Field Def="f32 group_3_recovery_speed" />
-    <Field Def="f32 group_3_unk09" />
-    <Field Def="f32 group_3_unk10" />
-    <Field Def="f32 group_3_unk11" />
-    <Field Def="f32 group_3_unk12" />
-    <Field Def="s32 group_3_unk13" />
-    <Field Def="f32 group_3_atk_cooldown_min" />
-    <Field Def="f32 group_3_atk_cooldown_max" />
-    <Field Def="s32 group_4_enemy_damage_id_0" />
-    <Field Def="s32 group_4_enemy_damage_id_1" />
-    <Field Def="s32 group_4_enemy_damage_id_2" />
-    <Field Def="s32 group_4_enemy_damage_id_3" />
-    <Field Def="s32 group_4_enemy_damage_id_4" />
-    <Field Def="s32 group_4_enemy_damage_id_5" />
-    <Field Def="s32 group_4_enemy_attackmove_id" />
-    <Field Def="u8 group_4_damage_action_flag" />
-    <Field Def="u8 group_4_unk02" />
-    <Field Def="u8 group_4_unk03" />
-    <Field Def="u8 group_4_unk04" />
-    <Field Def="s32 group_4_enemy_bullet_id_0" />
-    <Field Def="s32 group_4_enemy_bullet_id_1" />
-    <Field Def="s32 group_4_enemy_bullet_id_2" />
-    <Field Def="f32 group_4_unk07" />
-    <Field Def="f32 group_4_unk08" />
-    <Field Def="f32 group_4_attack_speed" />
-    <Field Def="f32 group_4_recovery_speed" />
-    <Field Def="f32 group_4_unk09" />
-    <Field Def="f32 group_4_unk10" />
-    <Field Def="f32 group_4_unk11" />
-    <Field Def="f32 group_4_unk12" />
-    <Field Def="s32 group_4_unk13" />
-    <Field Def="f32 group_4_atk_cooldown_min" />
-    <Field Def="f32 group_4_atk_cooldown_max" />
-    <Field Def="s32 group_5_enemy_damage_id_0" />
-    <Field Def="s32 group_5_enemy_damage_id_1" />
-    <Field Def="s32 group_5_enemy_damage_id_2" />
-    <Field Def="s32 group_5_enemy_damage_id_3" />
-    <Field Def="s32 group_5_enemy_damage_id_4" />
-    <Field Def="s32 group_5_enemy_damage_id_5" />
-    <Field Def="s32 group_5_enemy_attackmove_id" />
-    <Field Def="u8 group_5_damage_action_flag" />
-    <Field Def="u8 group_5_unk02" />
-    <Field Def="u8 group_5_unk03" />
-    <Field Def="u8 group_5_unk04" />
-    <Field Def="s32 group_5_enemy_bullet_id_0" />
-    <Field Def="s32 group_5_enemy_bullet_id_1" />
-    <Field Def="s32 group_5_enemy_bullet_id_2" />
-    <Field Def="f32 group_5_unk07" />
-    <Field Def="f32 group_5_unk08" />
-    <Field Def="f32 group_5_attack_speed" />
-    <Field Def="f32 group_5_recovery_speed" />
-    <Field Def="f32 group_5_unk09" />
-    <Field Def="f32 group_5_unk10" />
-    <Field Def="f32 group_5_unk11" />
-    <Field Def="f32 group_5_unk12" />
-    <Field Def="s32 group_5_unk13" />
-    <Field Def="f32 group_5_atk_cooldown_min" />
-    <Field Def="f32 group_5_atk_cooldown_max" />
-    <Field Def="s32 group_6_enemy_damage_id_0" />
-    <Field Def="s32 group_6_enemy_damage_id_1" />
-    <Field Def="s32 group_6_enemy_damage_id_2" />
-    <Field Def="s32 group_6_enemy_damage_id_3" />
-    <Field Def="s32 group_6_enemy_damage_id_4" />
-    <Field Def="s32 group_6_enemy_damage_id_5" />
-    <Field Def="s32 group_6_enemy_attackmove_id" />
-    <Field Def="u8 group_6_damage_action_flag" />
-    <Field Def="u8 group_6_unk02" />
-    <Field Def="u8 group_6_unk03" />
-    <Field Def="u8 group_6_unk04" />
-    <Field Def="s32 group_6_enemy_bullet_id_0" />
-    <Field Def="s32 group_6_enemy_bullet_id_1" />
-    <Field Def="s32 group_6_enemy_bullet_id_2" />
-    <Field Def="f32 group_6_unk07" />
-    <Field Def="f32 group_6_unk08" />
-    <Field Def="f32 group_6_attack_speed" />
-    <Field Def="f32 group_6_recovery_speed" />
-    <Field Def="f32 group_6_unk09" />
-    <Field Def="f32 group_6_unk10" />
-    <Field Def="f32 group_6_unk11" />
-    <Field Def="f32 group_6_unk12" />
-    <Field Def="s32 group_6_unk13" />
-    <Field Def="f32 group_6_atk_cooldown_min" />
-    <Field Def="f32 group_6_atk_cooldown_max" />
-    <Field Def="s32 group_7_enemy_damage_id_0" />
-    <Field Def="s32 group_7_enemy_damage_id_1" />
-    <Field Def="s32 group_7_enemy_damage_id_2" />
-    <Field Def="s32 group_7_enemy_damage_id_3" />
-    <Field Def="s32 group_7_enemy_damage_id_4" />
-    <Field Def="s32 group_7_enemy_damage_id_5" />
-    <Field Def="s32 group_7_enemy_attackmove_id" />
-    <Field Def="u8 group_7_damage_action_flag" />
-    <Field Def="u8 group_7_unk02" />
-    <Field Def="u8 group_7_unk03" />
-    <Field Def="u8 group_7_unk04" />
-    <Field Def="s32 group_7_enemy_bullet_id_0" />
-    <Field Def="s32 group_7_enemy_bullet_id_1" />
-    <Field Def="s32 group_7_enemy_bullet_id_2" />
-    <Field Def="f32 group_7_unk07" />
-    <Field Def="f32 group_7_unk08" />
-    <Field Def="f32 group_7_attack_speed" />
-    <Field Def="f32 group_7_recovery_speed" />
-    <Field Def="f32 group_7_unk09" />
-    <Field Def="f32 group_7_unk10" />
-    <Field Def="f32 group_7_unk11" />
-    <Field Def="f32 group_7_unk12" />
-    <Field Def="s32 group_7_unk13" />
-    <Field Def="f32 group_7_atk_cooldown_min" />
-    <Field Def="f32 group_7_atk_cooldown_max" />
-    <Field Def="s32 group_8_enemy_damage_id_0" />
-    <Field Def="s32 group_8_enemy_damage_id_1" />
-    <Field Def="s32 group_8_enemy_damage_id_2" />
-    <Field Def="s32 group_8_enemy_damage_id_3" />
-    <Field Def="s32 group_8_enemy_damage_id_4" />
-    <Field Def="s32 group_8_enemy_damage_id_5" />
-    <Field Def="s32 group_8_enemy_attackmove_id" />
-    <Field Def="u8 group_8_damage_action_flag" />
-    <Field Def="u8 group_8_unk02" />
-    <Field Def="u8 group_8_unk03" />
-    <Field Def="u8 group_8_unk04" />
-    <Field Def="s32 group_8_enemy_bullet_id_0" />
-    <Field Def="s32 group_8_enemy_bullet_id_1" />
-    <Field Def="s32 group_8_enemy_bullet_id_2" />
-    <Field Def="f32 group_8_unk07" />
-    <Field Def="f32 group_8_unk08" />
-    <Field Def="f32 group_8_attack_speed" />
-    <Field Def="f32 group_8_recovery_speed" />
-    <Field Def="f32 group_8_unk09" />
-    <Field Def="f32 group_8_unk10" />
-    <Field Def="f32 group_8_unk11" />
-    <Field Def="f32 group_8_unk12" />
-    <Field Def="s32 group_8_unk13" />
-    <Field Def="f32 group_8_atk_cooldown_min" />
-    <Field Def="f32 group_8_atk_cooldown_max" />
-    <Field Def="s32 group_9_enemy_damage_id_0" />
-    <Field Def="s32 group_9_enemy_damage_id_1" />
-    <Field Def="s32 group_9_enemy_damage_id_2" />
-    <Field Def="s32 group_9_enemy_damage_id_3" />
-    <Field Def="s32 group_9_enemy_damage_id_4" />
-    <Field Def="s32 group_9_enemy_damage_id_5" />
-    <Field Def="s32 group_9_enemy_attackmove_id" />
-    <Field Def="u8 group_9_damage_action_flag" />
-    <Field Def="u8 group_9_unk02" />
-    <Field Def="u8 group_9_unk03" />
-    <Field Def="u8 group_9_unk04" />
-    <Field Def="s32 group_9_enemy_bullet_id_0" />
-    <Field Def="s32 group_9_enemy_bullet_id_1" />
-    <Field Def="s32 group_9_enemy_bullet_id_2" />
-    <Field Def="f32 group_9_unk07" />
-    <Field Def="f32 group_9_unk08" />
-    <Field Def="f32 group_9_attack_speed" />
-    <Field Def="f32 group_9_recovery_speed" />
-    <Field Def="f32 group_9_unk09" />
-    <Field Def="f32 group_9_unk10" />
-    <Field Def="f32 group_9_unk11" />
-    <Field Def="f32 group_9_unk12" />
-    <Field Def="s32 group_9_unk13" />
-    <Field Def="f32 group_9_atk_cooldown_min" />
-    <Field Def="f32 group_9_atk_cooldown_max" />
-    <Field Def="s32 group_10_enemy_damage_id_0" />
-    <Field Def="s32 group_10_enemy_damage_id_1" />
-    <Field Def="s32 group_10_enemy_damage_id_2" />
-    <Field Def="s32 group_10_enemy_damage_id_3" />
-    <Field Def="s32 group_10_enemy_damage_id_4" />
-    <Field Def="s32 group_10_enemy_damage_id_5" />
-    <Field Def="s32 group_10_enemy_attackmove_id" />
-    <Field Def="u8 group_10_damage_action_flag" />
-    <Field Def="u8 group_10_unk02" />
-    <Field Def="u8 group_10_unk03" />
-    <Field Def="u8 group_10_unk04" />
-    <Field Def="s32 group_10_enemy_bullet_id_0" />
-    <Field Def="s32 group_10_enemy_bullet_id_1" />
-    <Field Def="s32 group_10_enemy_bullet_id_2" />
-    <Field Def="f32 group_10_unk07" />
-    <Field Def="f32 group_10_unk08" />
-    <Field Def="f32 group_10_attack_speed" />
-    <Field Def="f32 group_10_recovery_speed" />
-    <Field Def="f32 group_10_unk09" />
-    <Field Def="f32 group_10_unk10" />
-    <Field Def="f32 group_10_unk11" />
-    <Field Def="f32 group_10_unk12" />
-    <Field Def="s32 group_10_unk13" />
-    <Field Def="f32 group_10_atk_cooldown_min" />
-    <Field Def="f32 group_10_atk_cooldown_max" />
-  </Fields>
+    <ParamType>BEHAVIOR_PARAM</ParamType>
+    <DataVersion>12</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 action0damageId00 = -1">
+            <DisplayName>《行動0 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="s32 action0damageId01 = -1">
+            <DisplayName>《行動0 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="s32 action0damageId02 = -1">
+            <DisplayName>《行動0 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="s32 action0grabDamageId00 = -1">
+            <DisplayName>《行動0 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="s32 action0grabDamageId01 = -1">
+            <DisplayName>《行動0 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="s32 action0grabDamageId02 = -1">
+            <DisplayName>《行動0 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="u32 action0attackWalkMoveAttack">
+            <DisplayName>《行動0 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="u8 action0attackInvincible">
+            <DisplayName>《行動0 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>10000</SortID>
+        </Field>
+        <Field Def="u8 action0handType">
+            <DisplayName>《行動0 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>11000</SortID>
+        </Field>
+        <Field Def="u8 action0isSpell">
+            <DisplayName>《行動0 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>10210</SortID>
+        </Field>
+        <Field Def="u8 action0bladeCtrlType">
+            <DisplayName>《行動0 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>10110</SortID>
+        </Field>
+        <Field Def="s32 action0bulletId00 = -1">
+            <DisplayName>《行動0 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10100</SortID>
+        </Field>
+        <Field Def="s32 action0bulletId01 = -1">
+            <DisplayName>《行動0 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10100</SortID>
+        </Field>
+        <Field Def="s32 action0bulletId02 = -1">
+            <DisplayName>《行動0 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10100</SortID>
+        </Field>
+        <Field Def="f32 action0shotStanceTime">
+            <DisplayName>《行動0 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10100</SortID>
+        </Field>
+        <Field Def="f32 action0attackRange = 1">
+            <DisplayName>《行動0 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="f32 action0fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動0 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="f32 action0fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動0 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="f32 action0fAttackEstimateFutureTime">
+            <DisplayName>《行動0 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="angle32 action0fAttackAngle">
+            <DisplayName>《行動0 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="f32 action0fAttackRotateHigh">
+            <DisplayName>《行動0 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="f32 action0fAttackRotateLow">
+            <DisplayName>《行動0 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="u32 action0chantSfx">
+            <DisplayName>《行動0 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>10200</SortID>
+        </Field>
+        <Field Def="f32 action0reloadTimeMin">
+            <DisplayName>《行動0 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10300</SortID>
+        </Field>
+        <Field Def="f32 action0reloadTimeMax">
+            <DisplayName>《行動0 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10300</SortID>
+        </Field>
+        <Field Def="s32 action1damageId00 = -1">
+            <DisplayName>《行動1 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="s32 action1damageId01 = -1">
+            <DisplayName>《行動1 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="s32 action1damageId02 = -1">
+            <DisplayName>《行動1 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="s32 action1grabDamageId00 = -1">
+            <DisplayName>《行動1 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="s32 action1grabDamageId01 = -1">
+            <DisplayName>《行動1 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="s32 action1grabDamageId02 = -1">
+            <DisplayName>《行動1 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="u32 action1attackWalkMoveAttack">
+            <DisplayName>《行動1 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="u8 action1attackInvincible">
+            <DisplayName>《行動1 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>20000</SortID>
+        </Field>
+        <Field Def="u8 action1handType">
+            <DisplayName>《行動1 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>21000</SortID>
+        </Field>
+        <Field Def="u8 action1isSpell">
+            <DisplayName>《行動1 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>20210</SortID>
+        </Field>
+        <Field Def="u8 action1bladeCtrlType">
+            <DisplayName>《行動1 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>20110</SortID>
+        </Field>
+        <Field Def="s32 action1bulletId00 = -1">
+            <DisplayName>《行動1 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20100</SortID>
+        </Field>
+        <Field Def="s32 action1bulletId01 = -1">
+            <DisplayName>《行動1 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20100</SortID>
+        </Field>
+        <Field Def="s32 action1bulletId02 = -1">
+            <DisplayName>《行動1 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20100</SortID>
+        </Field>
+        <Field Def="f32 action1shotStanceTime">
+            <DisplayName>《行動1 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20100</SortID>
+        </Field>
+        <Field Def="f32 action1attackRange = 1">
+            <DisplayName>《行動1 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="f32 action1fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動1 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="f32 action1fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動1 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="f32 action1fAttackEstimateFutureTime">
+            <DisplayName>《行動1 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="angle32 action1fAttackAngle">
+            <DisplayName>《行動1 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="f32 action1fAttackRotateHigh">
+            <DisplayName>《行動1 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="f32 action1fAttackRotateLow">
+            <DisplayName>《行動1 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="u32 action1chantSfx">
+            <DisplayName>《行動1 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>20200</SortID>
+        </Field>
+        <Field Def="f32 action1reloadTimeMin">
+            <DisplayName>《行動1 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20300</SortID>
+        </Field>
+        <Field Def="f32 action1reloadTimeMax">
+            <DisplayName>《行動1 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>20300</SortID>
+        </Field>
+        <Field Def="s32 action2damageId00 = -1">
+            <DisplayName>《行動2 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="s32 action2damageId01 = -1">
+            <DisplayName>《行動2 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="s32 action2damageId02 = -1">
+            <DisplayName>《行動2 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="s32 action2grabDamageId00 = -1">
+            <DisplayName>《行動2 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="s32 action2grabDamageId01 = -1">
+            <DisplayName>《行動2 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="s32 action2grabDamageId02 = -1">
+            <DisplayName>《行動2 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="u32 action2attackWalkMoveAttack">
+            <DisplayName>《行動2 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="u8 action2attackInvincible">
+            <DisplayName>《行動2 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>30000</SortID>
+        </Field>
+        <Field Def="u8 action2handType">
+            <DisplayName>《行動2 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>31000</SortID>
+        </Field>
+        <Field Def="u8 action2isSpell">
+            <DisplayName>《行動2 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>30210</SortID>
+        </Field>
+        <Field Def="u8 action2bladeCtrlType">
+            <DisplayName>《行動2 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>30110</SortID>
+        </Field>
+        <Field Def="s32 action2bulletId00 = -1">
+            <DisplayName>《行動2 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30100</SortID>
+        </Field>
+        <Field Def="s32 action2bulletId01 = -1">
+            <DisplayName>《行動2 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30100</SortID>
+        </Field>
+        <Field Def="s32 action2bulletId02 = -1">
+            <DisplayName>《行動2 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30100</SortID>
+        </Field>
+        <Field Def="f32 action2shotStanceTime">
+            <DisplayName>《行動2 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30100</SortID>
+        </Field>
+        <Field Def="f32 action2attackRange = 1">
+            <DisplayName>《行動2 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="f32 action2fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動2 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="f32 action2fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動2 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="f32 action2fAttackEstimateFutureTime">
+            <DisplayName>《行動2 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="angle32 action2fAttackAngle">
+            <DisplayName>《行動2 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="f32 action2fAttackRotateHigh">
+            <DisplayName>《行動2 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="f32 action2fAttackRotateLow">
+            <DisplayName>《行動2 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="u32 action2chantSfx">
+            <DisplayName>《行動2 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>30200</SortID>
+        </Field>
+        <Field Def="f32 action2reloadTimeMin">
+            <DisplayName>《行動2 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30300</SortID>
+        </Field>
+        <Field Def="f32 action2reloadTimeMax">
+            <DisplayName>《行動2 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>30300</SortID>
+        </Field>
+        <Field Def="s32 action3damageId00 = -1">
+            <DisplayName>《行動3 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="s32 action3damageId01 = -1">
+            <DisplayName>《行動3 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="s32 action3damageId02 = -1">
+            <DisplayName>《行動3 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="s32 action3grabDamageId00 = -1">
+            <DisplayName>《行動3 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="s32 action3grabDamageId01 = -1">
+            <DisplayName>《行動3 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="s32 action3grabDamageId02 = -1">
+            <DisplayName>《行動3 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="u32 action3attackWalkMoveAttack">
+            <DisplayName>《行動3 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="u8 action3attackInvincible">
+            <DisplayName>《行動3 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>40000</SortID>
+        </Field>
+        <Field Def="u8 action3handType">
+            <DisplayName>《行動3 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>41000</SortID>
+        </Field>
+        <Field Def="u8 isSpell">
+            <DisplayName>《行動3 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>40210</SortID>
+        </Field>
+        <Field Def="u8 action3bladeCtrlType">
+            <DisplayName>《行動3 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>40110</SortID>
+        </Field>
+        <Field Def="s32 action3bulletId00 = -1">
+            <DisplayName>《行動3 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40100</SortID>
+        </Field>
+        <Field Def="s32 action3bulletId01 = -1">
+            <DisplayName>《行動3 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40100</SortID>
+        </Field>
+        <Field Def="s32 action3bulletId02 = -1">
+            <DisplayName>《行動3 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40100</SortID>
+        </Field>
+        <Field Def="f32 action3shotStanceTime">
+            <DisplayName>《行動3 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40100</SortID>
+        </Field>
+        <Field Def="f32 action3attackRange = 1">
+            <DisplayName>《行動3 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="f32 action3fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動3 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="f32 action3fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動3 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="f32 action3fAttackEstimateFutureTime">
+            <DisplayName>《行動3 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="angle32 action3fAttackAngle">
+            <DisplayName>《行動3 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="f32 action3fAttackRotateHigh">
+            <DisplayName>《行動3 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="f32 action3fAttackRotateLow">
+            <DisplayName>《行動3 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="u32 action3chantSfx">
+            <DisplayName>《行動3 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>40200</SortID>
+        </Field>
+        <Field Def="f32 action3reloadTimeMin">
+            <DisplayName>《行動3 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40300</SortID>
+        </Field>
+        <Field Def="f32 action3reloadTimeMax">
+            <DisplayName>《行動3 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>40300</SortID>
+        </Field>
+        <Field Def="s32 action4damageId00 = -1">
+            <DisplayName>《行動4 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="s32 action4damageId01 = -1">
+            <DisplayName>《行動4 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="s32 action4damageId02 = -1">
+            <DisplayName>《行動4 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="s32 action4grabDamageId00 = -1">
+            <DisplayName>《行動4 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="s32 action4grabDamageId01 = -1">
+            <DisplayName>《行動4 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="s32 action4grabDamageId02 = -1">
+            <DisplayName>《行動4 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="u32 action4attackWalkMoveAttack">
+            <DisplayName>《行動4 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="u8 action4attackInvincible">
+            <DisplayName>《行動4 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>50000</SortID>
+        </Field>
+        <Field Def="u8 action4handType">
+            <DisplayName>《行動4 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>51000</SortID>
+        </Field>
+        <Field Def="u8 action4isSpell">
+            <DisplayName>《行動4 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>50210</SortID>
+        </Field>
+        <Field Def="u8 action4bladeCtrlType">
+            <DisplayName>《行動4 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>50110</SortID>
+        </Field>
+        <Field Def="s32 action4bulletId00 = -1">
+            <DisplayName>《行動4 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50100</SortID>
+        </Field>
+        <Field Def="s32 action4bulletId01 = -1">
+            <DisplayName>《行動4 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50100</SortID>
+        </Field>
+        <Field Def="s32 action4bulletId02 = -1">
+            <DisplayName>《行動4 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50100</SortID>
+        </Field>
+        <Field Def="f32 action4shotStanceTime">
+            <DisplayName>《行動4 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50100</SortID>
+        </Field>
+        <Field Def="f32 action4attackRange = 1">
+            <DisplayName>《行動4 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="f32 action4fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動4 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="f32 action4fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動4 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="f32 action4fAttackEstimateFutureTime">
+            <DisplayName>《行動4 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="angle32 action4fAttackAngle">
+            <DisplayName>《行動4 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="f32 action4fAttackRotateHigh">
+            <DisplayName>《行動4 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="f32 action4fAttackRotateLow">
+            <DisplayName>《行動4 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="u32 action4chantSfx">
+            <DisplayName>《行動4 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>50200</SortID>
+        </Field>
+        <Field Def="f32 action4reloadTimeMin">
+            <DisplayName>《行動4 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50300</SortID>
+        </Field>
+        <Field Def="f32 action4reloadTimeMax">
+            <DisplayName>《行動4 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>50300</SortID>
+        </Field>
+        <Field Def="s32 action5damageId00 = -1">
+            <DisplayName>《行動5 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="s32 action5damageId01 = -1">
+            <DisplayName>《行動5 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="s32 action5damageId02 = -1">
+            <DisplayName>《行動5 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="s32 action5grabDamageId00 = -1">
+            <DisplayName>《行動5 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="s32 action5grabDamageId01 = -1">
+            <DisplayName>《行動5 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="s32 action5grabDamageId02 = -1">
+            <DisplayName>《行動5 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="u32 action5attackWalkMoveAttack">
+            <DisplayName>《行動5 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="u8 action5attackInvincible">
+            <DisplayName>《行動5 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>60000</SortID>
+        </Field>
+        <Field Def="u8 action5handType">
+            <DisplayName>《行動5 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>61000</SortID>
+        </Field>
+        <Field Def="u8 action5isSpell">
+            <DisplayName>《行動5 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>60210</SortID>
+        </Field>
+        <Field Def="u8 action5bladeCtrlType">
+            <DisplayName>《行動5 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>60110</SortID>
+        </Field>
+        <Field Def="s32 action5bulletId00 = -1">
+            <DisplayName>《行動5 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60100</SortID>
+        </Field>
+        <Field Def="s32 action5bulletId01 = -1">
+            <DisplayName>《行動5 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60100</SortID>
+        </Field>
+        <Field Def="s32 action5bulletId02 = -1">
+            <DisplayName>《行動5 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60100</SortID>
+        </Field>
+        <Field Def="f32 action5shotStanceTime">
+            <DisplayName>《行動5 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60100</SortID>
+        </Field>
+        <Field Def="f32 action5attackRange = 1">
+            <DisplayName>《行動5 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="f32 action5fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動5 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="f32 action5fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動5 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="f32 action5fAttackEstimateFutureTime">
+            <DisplayName>《行動5 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="angle32 action5fAttackAngle">
+            <DisplayName>《行動5 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="f32 action5fAttackRotateHigh">
+            <DisplayName>《行動5 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="f32 action5fAttackRotateLow">
+            <DisplayName>《行動5 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="u32 action5chantSfx">
+            <DisplayName>《行動5 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>60200</SortID>
+        </Field>
+        <Field Def="f32 action5reloadTimeMin">
+            <DisplayName>《行動5 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60300</SortID>
+        </Field>
+        <Field Def="f32 action5reloadTimeMax">
+            <DisplayName>《行動5 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>60300</SortID>
+        </Field>
+        <Field Def="s32 action6damageId00 = -1">
+            <DisplayName>《行動6 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="s32 action6damageId01 = -1">
+            <DisplayName>《行動6 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="s32 action6damageId02 = -1">
+            <DisplayName>《行動6 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="s32 action6grabDamageId00 = -1">
+            <DisplayName>《行動6 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="s32 action6grabDamageId01 = -1">
+            <DisplayName>《行動6 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="s32 action6grabDamageId02 = -1">
+            <DisplayName>《行動6 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="u32 action6attackWalkMoveAttack">
+            <DisplayName>《行動6 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="u8 action6attackInvincible">
+            <DisplayName>《行動6 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>70000</SortID>
+        </Field>
+        <Field Def="u8 action6handType">
+            <DisplayName>《行動6 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>71000</SortID>
+        </Field>
+        <Field Def="u8 action6isSpell">
+            <DisplayName>《行動6 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>70210</SortID>
+        </Field>
+        <Field Def="u8 action6bladeCtrlType">
+            <DisplayName>《行動6 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>70110</SortID>
+        </Field>
+        <Field Def="s32 action6bulletId00 = -1">
+            <DisplayName>《行動6 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70100</SortID>
+        </Field>
+        <Field Def="s32 action6bulletId01 = -1">
+            <DisplayName>《行動6 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70100</SortID>
+        </Field>
+        <Field Def="s32 action6bulletId02 = -1">
+            <DisplayName>《行動6 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70100</SortID>
+        </Field>
+        <Field Def="f32 action6shotStanceTime">
+            <DisplayName>《行動6 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70100</SortID>
+        </Field>
+        <Field Def="f32 action6attackRange = 1">
+            <DisplayName>《行動6 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="f32 action6fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動6 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="f32 action6fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動6 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="f32 action6fAttackEstimateFutureTime">
+            <DisplayName>《行動6 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="angle32 action6fAttackAngle">
+            <DisplayName>《行動6 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="f32 action6fAttackRotateHigh">
+            <DisplayName>《行動6 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="f32 action6fAttackRotateLow">
+            <DisplayName>《行動6 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="u32 action6chantSfx">
+            <DisplayName>《行動6 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>70200</SortID>
+        </Field>
+        <Field Def="f32 action6reloadTimeMin">
+            <DisplayName>《行動6 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70300</SortID>
+        </Field>
+        <Field Def="f32 action6reloadTimeMax">
+            <DisplayName>《行動6 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>70300</SortID>
+        </Field>
+        <Field Def="s32 action7damageId00 = -1">
+            <DisplayName>《行動7 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="s32 action7damageId01 = -1">
+            <DisplayName>《行動7 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="s32 action7damageId02 = -1">
+            <DisplayName>《行動7 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="s32 action7grabDamageId00 = -1">
+            <DisplayName>《行動7 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="s32 action7grabDamageId01 = -1">
+            <DisplayName>《行動7 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="s32 action7grabDamageId02 = -1">
+            <DisplayName>《行動7 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="u32 action7attackWalkMoveAttack">
+            <DisplayName>《行動7 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="u8 action7attackInvincible">
+            <DisplayName>《行動7 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>80000</SortID>
+        </Field>
+        <Field Def="u8 action7handType">
+            <DisplayName>《行動7 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>81000</SortID>
+        </Field>
+        <Field Def="u8 action7isSpell">
+            <DisplayName>《行動7 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>80210</SortID>
+        </Field>
+        <Field Def="u8 action7bladeCtrlType">
+            <DisplayName>《行動7 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>80110</SortID>
+        </Field>
+        <Field Def="s32 action7bulletId00 = -1">
+            <DisplayName>《行動7 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80100</SortID>
+        </Field>
+        <Field Def="s32 action7bulletId01 = -1">
+            <DisplayName>《行動7 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80100</SortID>
+        </Field>
+        <Field Def="s32 action7bulletId02 = -1">
+            <DisplayName>《行動7 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80100</SortID>
+        </Field>
+        <Field Def="f32 action7shotStanceTime">
+            <DisplayName>《行動7 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80100</SortID>
+        </Field>
+        <Field Def="f32 action7attackRange = 1">
+            <DisplayName>《行動7 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="f32 action7fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動7 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="f32 action7fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動7 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="f32 action7fAttackEstimateFutureTime">
+            <DisplayName>《行動7 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="angle32 action7fAttackAngle">
+            <DisplayName>《行動7 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="f32 action7fAttackRotateHigh">
+            <DisplayName>《行動7 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="f32 action7fAttackRotateLow">
+            <DisplayName>《行動7 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="u32 action7chantSfx">
+            <DisplayName>《行動7 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>80200</SortID>
+        </Field>
+        <Field Def="f32 action7reloadTimeMin">
+            <DisplayName>《行動7 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80300</SortID>
+        </Field>
+        <Field Def="f32 action7reloadTimeMax">
+            <DisplayName>《行動7 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>80300</SortID>
+        </Field>
+        <Field Def="s32 action8damageId00 = -1">
+            <DisplayName>《行動8 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="s32 action8damageId01 = -1">
+            <DisplayName>《行動8 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="s32 action8damageId02 = -1">
+            <DisplayName>《行動8 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="s32 action8grabDamageId00 = -1">
+            <DisplayName>《行動8 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="s32 action8grabDamageId01 = -1">
+            <DisplayName>《行動8 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="s32 action8grabDamageId02 = -1">
+            <DisplayName>《行動8 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="u32 action8attackWalkMoveAttack">
+            <DisplayName>《行動8 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="u8 action8attackInvincible">
+            <DisplayName>《行動8 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>90000</SortID>
+        </Field>
+        <Field Def="u8 action8handType">
+            <DisplayName>《行動8 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>91000</SortID>
+        </Field>
+        <Field Def="u8 action8isSpell">
+            <DisplayName>《行動8 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>90210</SortID>
+        </Field>
+        <Field Def="u8 action8bladeCtrlType">
+            <DisplayName>《行動8 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>90110</SortID>
+        </Field>
+        <Field Def="s32 action8bulletId00 = -1">
+            <DisplayName>《行動8 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90100</SortID>
+        </Field>
+        <Field Def="s32 action8bulletId01 = -1">
+            <DisplayName>《行動8 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90100</SortID>
+        </Field>
+        <Field Def="s32 action8bulletId02 = -1">
+            <DisplayName>《行動8 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90100</SortID>
+        </Field>
+        <Field Def="f32 action8shotStanceTime">
+            <DisplayName>《行動8 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90100</SortID>
+        </Field>
+        <Field Def="f32 action8attackRange = 1">
+            <DisplayName>《行動8 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="f32 action8fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動8 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="f32 action8fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動8 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="f32 action8fAttackEstimateFutureTime">
+            <DisplayName>《行動8 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="angle32 action8fAttackAngle">
+            <DisplayName>《行動8 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="f32 action8fAttackRotateHigh">
+            <DisplayName>《行動8 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="f32 action8fAttackRotateLow">
+            <DisplayName>《行動8 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="u32 action8chantSfx">
+            <DisplayName>《行動8 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>90200</SortID>
+        </Field>
+        <Field Def="f32 action8reloadTimeMin">
+            <DisplayName>《行動8 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90300</SortID>
+        </Field>
+        <Field Def="f32 action8reloadTimeMax">
+            <DisplayName>《行動8 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>90300</SortID>
+        </Field>
+        <Field Def="s32 action9damageId00 = -1">
+            <DisplayName>《行動9 ダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="s32 action9damageId01 = -1">
+            <DisplayName>《行動9 ダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="s32 action9damageId02 = -1">
+            <DisplayName>《行動9 ダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="s32 action9grabDamageId00 = -1">
+            <DisplayName>《行動9 投げダメージID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="s32 action9grabDamageId01 = -1">
+            <DisplayName>《行動9 投げダメージID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="s32 action9grabDamageId02 = -1">
+            <DisplayName>《行動9 投げダメージID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="u32 action9attackWalkMoveAttack">
+            <DisplayName>《行動9 歩行攻撃ID》</DisplayName>
+            <Enum>ENEMY_ATTACK_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>9999999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="u8 action9attackInvincible">
+            <DisplayName>《行動9 割り込み不可タイプ》</DisplayName>
+            <Enum>NON_INTERRUPTIBLE_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>100000</SortID>
+        </Field>
+        <Field Def="u8 action9handType">
+            <DisplayName>《行動9 攻撃手》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>101000</SortID>
+        </Field>
+        <Field Def="u8 action9isSpell">
+            <DisplayName>《行動9 スペルフラグ》</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>100210</SortID>
+        </Field>
+        <Field Def="u8 action9bladeCtrlType">
+            <DisplayName>《行動9 近接制御タイプ》</DisplayName>
+            <Enum>BLADE_CTRL_TYPE</Enum>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100110</SortID>
+        </Field>
+        <Field Def="s32 action9bulletId00 = -1">
+            <DisplayName>《行動9 BulletID_1》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100100</SortID>
+        </Field>
+        <Field Def="s32 action9bulletId01 = -1">
+            <DisplayName>《行動9 BulletID_2》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100100</SortID>
+        </Field>
+        <Field Def="s32 action9bulletId02 = -1">
+            <DisplayName>《行動9 BulletID_3》</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100100</SortID>
+        </Field>
+        <Field Def="f32 action9shotStanceTime">
+            <DisplayName>《行動9 射撃構え時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>60</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100100</SortID>
+        </Field>
+        <Field Def="f32 action9attackRange = 1">
+            <DisplayName>《行動9 歩行攻撃攻撃範囲》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="f32 action9fAttackBackSwingSpeed = 1">
+            <DisplayName>《行動9 攻撃開始部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="f32 action9fAttackFollowSwingSpeed = 1">
+            <DisplayName>《行動9 攻撃終了部速度倍率》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>0.1</Minimum>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="f32 action9fAttackEstimateFutureTime">
+            <DisplayName>《行動9 位置予測時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="angle32 action9fAttackAngle">
+            <DisplayName>《行動9 角度補正[deg]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="f32 action9fAttackRotateHigh">
+            <DisplayName>《行動9 旋回補間開始距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="f32 action9fAttackRotateLow">
+            <DisplayName>《行動9 旋回補間終了距離[m]》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="u32 action9chantSfx">
+            <DisplayName>《行動9 詠唱SFX》</DisplayName>
+            <Enum>ENEMY_SHOT_SFX_PARAM_ENUM</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>100200</SortID>
+        </Field>
+        <Field Def="f32 action9reloadTimeMin">
+            <DisplayName>《行動9 最小リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100300</SortID>
+        </Field>
+        <Field Def="f32 action9reloadTimeMax">
+            <DisplayName>《行動9 最大リロード時間》</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100300</SortID>
+        </Field>
+    </Fields>
 </PARAMDEF>
