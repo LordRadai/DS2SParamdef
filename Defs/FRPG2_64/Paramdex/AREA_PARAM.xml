@@ -4,7 +4,7 @@
     <DataVersion>6</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
-    <Version>105</Version>
+    <FormatVersion>105</FormatVersion>
     <Fields>
         <Field Def="u8 intrudeEnable">
             <DisplayName>侵入可否</DisplayName>
