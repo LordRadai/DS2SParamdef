@@ -61,7 +61,7 @@ namespace Paramdex
 		m_dataVersion = root->FirstChildElement("DataVersion")->IntText();
 		m_bBigEndian = root->FirstChildElement("BigEndian")->BoolText();
 		m_bUnicode = root->FirstChildElement("Unicode")->BoolText();
-		m_formatVersion = root->FirstChildElement("Version")->IntText();
+		m_formatVersion = root->FirstChildElement("FormatVersion")->IntText();
 
 		m_fields.clear();
 
