@@ -854,5 +854,13 @@
             <DisplayName>予約</DisplayName>
             <SortID>9999</SortID>
         </Field>
+        <Field Def="u32 effectID">
+            <DisplayName>SpEffectID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>2100</SortID>
+        </Field>    
     </Fields>
 </PARAMDEF>

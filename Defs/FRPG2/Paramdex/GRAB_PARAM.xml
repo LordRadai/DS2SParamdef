@@ -285,5 +285,13 @@
             <DisplayName>dummy</DisplayName>
             <SortID>38</SortID>
         </Field>
+        <Field Def="angle32 grabAngleDiff = 90">
+            <DisplayName>Grab angle maximum difference</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>90</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>31</SortID>
+        </Field>
     </Fields>
 </PARAMDEF>

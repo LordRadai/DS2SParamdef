@@ -97,37 +97,37 @@
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="u32 bulletId">
+        <Field Def="u32 bulletId01">
             <DisplayName>バレットID_01</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
-        <Field Def="u32 bulletDamageId">
+        <Field Def="u32 bulletDamageId01">
             <DisplayName>バレットダメージID_01</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1010</SortID>
         </Field>
-        <Field Def="u32 bulletId">
+        <Field Def="u32 bulletId02">
             <DisplayName>バレットID_02</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
-        <Field Def="u32 bulletDamageId">
+        <Field Def="u32 bulletDamageId02">
             <DisplayName>バレットダメージID_02</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1010</SortID>
         </Field>
-        <Field Def="u32 bulletId">
+        <Field Def="u32 bulletId03">
             <DisplayName>バレットID_03</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
-        <Field Def="u32 bulletDamageId">
+        <Field Def="u32 bulletDamageId03">
             <DisplayName>バレットダメージID_03</DisplayName>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

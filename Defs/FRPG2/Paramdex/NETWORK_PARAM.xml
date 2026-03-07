@@ -24,61 +24,61 @@
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
-        <Field Def="f32 keyGuideRange = 1">
+        <Field Def="f32 summonSingKeyGuideRange = 1">
             <DisplayName>キーガイド水平範囲[m]</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
-        <Field Def="f32 keyGuideHeight = 1">
+        <Field Def="f32 summonSingKeyGuideHeight = 1">
             <DisplayName>キーガイド垂直範囲[m]</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>101</SortID>
         </Field>
-        <Field Def="f32 reloadSignIntervalTime1 = 1">
+        <Field Def="f32 summonSignReloadSignIntervalTime1 = 1">
             <DisplayName>召喚サイン再取得待機時間(過疎時)[秒]</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>102</SortID>
         </Field>
-        <Field Def="f32 reloadSignIntervalTime2 = 1">
+        <Field Def="f32 summonSignReloadSignIntervalTime2 = 1">
             <DisplayName>召喚サイン再取得待機時間[秒]</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>103</SortID>
         </Field>
-        <Field Def="u32 reloadSignTotalCount = 1">
+        <Field Def="u32 summonSignReloadSignTotalCount = 1">
             <DisplayName>召喚サイン所持可能数上限(全体)</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>20</Maximum>
             <Increment>1</Increment>
             <SortID>105</SortID>
         </Field>
-        <Field Def="u32 reloadSignCellCount = 1">
+        <Field Def="u32 summonSignReloadSignCellCount = 1">
             <DisplayName>召喚サイン所持可能数上限(セル)</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>106</SortID>
         </Field>
-        <Field Def="f32 updateSignIntervalTime = 1">
+        <Field Def="f32 summonSignUpdateSignIntervalTime = 1">
             <DisplayName>召喚サイン更新待機時間[秒]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>107</SortID>
         </Field>
-        <Field Def="f32 basicExclusiveRange = 1">
+        <Field Def="f32 summonSignBasicExclusiveRange = 1">
             <DisplayName>召喚サイン間描画排他水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>108</SortID>
         </Field>
-        <Field Def="f32 basicExclusiveHeight = 1">
+        <Field Def="f32 summonSignBasicExclusiveHeight = 1">
             <DisplayName>召喚サイン間描画排他垂直範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
@@ -90,25 +90,25 @@
             <Increment>1</Increment>
             <SortID>110</SortID>
         </Field>
-        <Field Def="f32 signVisibleRange = 1">
+        <Field Def="f32 summonSignVisibleRange = 1">
             <DisplayName>召喚サインPC間描画距離[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>112</SortID>
         </Field>
-        <Field Def="u32 cellGroupHorizontalRange = 1">
+        <Field Def="u32 summonSignCellGroupHorizontalRange = 1">
             <DisplayName>召喚サイン取得セル範囲(水平)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>113</SortID>
         </Field>
-        <Field Def="u32 cellGroupTopRange = 1">
+        <Field Def="u32 summonSignCellGroupTopRange = 1">
             <DisplayName>召喚サイン取得セル範囲(上方向)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>114</SortID>
         </Field>
-        <Field Def="u32 cellGroupBottomRange = 1">
+        <Field Def="u32 summonSignCellGroupBottomRange = 1">
             <DisplayName>召喚サイン取得セル範囲(下方向)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -163,205 +163,207 @@
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="f32 keyGuideRange = 1">
+        <Field Def="f32 bloodMessageKeyGuideRange = 1">
             <DisplayName>キーガイド水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="f32 keyGuideHeight = 1">
+        <Field Def="f32 bloodMessageKeyGuideHeight = 1">
             <DisplayName>キーガイド垂直範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>301</SortID>
         </Field>
-        <Field Def="u32 reloadSignTotalCount = 1">
+        <Field Def="u32 bloodMessageReloadSignTotalCount = 1">
             <DisplayName>血文字取得数(全体)</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>302</SortID>
         </Field>
-        <Field Def="u32 reloadNewSignCellCount = 1">
+        <Field Def="u32 bloodMessageReloadNewSignCellCount = 1">
             <DisplayName>血文字取得数(セル、新順)</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>303</SortID>
         </Field>
-        <Field Def="u32 reloadRandomSignCellCount = 1">
+        <Field Def="u32 bloodMessageReloadRandomSignCellCount = 1">
             <DisplayName>血文字取得数(セル、ランダム )</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>304</SortID>
         </Field>
-        <Field Def="u32 maxSignTotalCount = 1">
+        <Field Def="u32 bloodMessageMaxSignTotalCount = 1">
             <DisplayName>血文字所持可能数上限(全体)</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>305</SortID>
         </Field>
-        <Field Def="u32 maxSignCellCount = 1">
+        <Field Def="u32 bloodMessageMaxSignCellCount = 1">
             <DisplayName>血文字所持可能数上限(セル)</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>307</SortID>
         </Field>
-        <Field Def="f32 basicExclusiveRange = 1">
+        <Field Def="f32 bloodMessageBasicExclusiveRange = 1">
             <DisplayName>血文字間描画排他水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>308</SortID>
         </Field>
-        <Field Def="f32 basicExclusiveHeight = 1">
+        <Field Def="f32 bloodMessageBasicExclusiveHeight = 1">
             <DisplayName>血文字間描画排他垂直範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>309</SortID>
         </Field>
-        <Field Def="f32 signVisibleRange = 1">
+        <Field Def="f32 bloodMessageSignVisibleRange = 1">
             <DisplayName>血文字PC間描画距離[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>310</SortID>
         </Field>
-        <Field Def="u32 maxWriteSignCount = 1">
+        <Field Def="u32 bloodMessageMaxWriteSignCount = 1">
             <DisplayName>書いた血文字履歴件数上限</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>311</SortID>
         </Field>
-        <Field Def="u32 maxReadSignCount = 1">
+        <Field Def="u32 bloodMessageMaxReadSignCount = 1">
             <DisplayName>読んだ血文字履歴件数上限</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>312</SortID>
         </Field>
-        <Field Def="f32 reloadSignIntervalTime = 1">
+        <Field Def="f32 bloodMessageReloadSignIntervalTime = 1">
             <DisplayName>血文字再取得待機時間[秒]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>313</SortID>
         </Field>
-        <Field Def="u32 cellGroupHorizontalRange = 1">
+        <Field Def="u32 bloodMessageCellGroupHorizontalRange = 1">
             <DisplayName>血文字取得セル範囲(水平)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>314</SortID>
         </Field>
-        <Field Def="u32 cellGroupTopRange = 1">
+        <Field Def="u32 bloodMessageCellGroupTopRange = 1">
             <DisplayName>血文字取得セル範囲(上方向)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>315</SortID>
         </Field>
-        <Field Def="u32 cellGroupBottomRange = 1">
+        <Field Def="u32 bloodMessageCellGroupBottomRange = 1">
             <DisplayName>血文字取得セル範囲(下方向)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>316</SortID>
         </Field>
-        <Field Def="u32 lifeTime = 1">
+        <Field Def="u32 bloodMessageLifeTime = 1">
             <DisplayName>血文字データ保持期間上限[秒]</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1800</Maximum>
             <Increment>1</Increment>
             <SortID>317</SortID>
         </Field>
-        <Field Def="f32 keyGuideRange = 1">
+        <Field Def="u32 unkA4"/>
+        <Field Def="u32 unkA8"/>
+        <Field Def="f32 bloodstainKeyGuideRange = 1">
             <DisplayName>キーガイド水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>401</SortID>
         </Field>
-        <Field Def="f32 keyGuideHeight = 1">
+        <Field Def="f32 bloodstainKeyGuideHeight = 1">
             <DisplayName>キーガイド垂直範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>402</SortID>
         </Field>
-        <Field Def="f32 keyGuideRangePlayer = 1">
+        <Field Def="f32 bloodstainKeyGuideRangePlayer = 1">
             <DisplayName>プレイヤー血痕キーガイド水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>403</SortID>
         </Field>
-        <Field Def="f32 keyGuideHeightPlayer = 1">
+        <Field Def="f32 bloodstainKeyGuideHeightPlayer = 1">
             <DisplayName>プレイヤー血痕キーガイド垂直範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>404</SortID>
         </Field>
-        <Field Def="u32 reloadSignTotalCount = 1">
+        <Field Def="u32 bloodstainReloadSignTotalCount = 1">
             <DisplayName>血痕取得数(全体)</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 reloadSignCellCount = 1">
+        <Field Def="u32 bloodstainReloadSignCellCount = 1">
             <DisplayName>血痕取得数(セル)</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="u32 maxSignTotalCount = 1">
+        <Field Def="u32 bloodstainMaxSignTotalCount = 1">
             <DisplayName>血痕所持可能数上限(全体)</DisplayName>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>407</SortID>
         </Field>
-        <Field Def="u32 maxSignCellCount = 1">
+        <Field Def="u32 bloodstainMaxSignCellCount = 1">
             <DisplayName>血痕所持可能数上限(セル)</DisplayName>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>408</SortID>
         </Field>
-        <Field Def="f32 reloadSignIntervalTime = 1">
+        <Field Def="f32 bloodstainReloadSignIntervalTime = 1">
             <DisplayName>血痕再取得待機時間[秒]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>409</SortID>
         </Field>
-        <Field Def="f32 signVisibleRange = 1">
+        <Field Def="f32 bloodstainSignVisibleRange = 1">
             <DisplayName>血痕PC間描画距離[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>410</SortID>
         </Field>
-        <Field Def="f32 basicExclusiveRange = 1">
+        <Field Def="f32 bloodstainBasicExclusiveRange = 1">
             <DisplayName>血痕間描画排他水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>411</SortID>
         </Field>
-        <Field Def="f32 basicExclusiveHeight = 1">
+        <Field Def="f32 bloodstainBasicExclusiveHeight = 1">
             <DisplayName>血痕間描画排他垂直範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>412</SortID>
         </Field>
-        <Field Def="u32 cellGroupHorizontalRange = 1">
+        <Field Def="u32 bloodstainCellGroupHorizontalRange = 1">
             <DisplayName>血痕取得セル範囲(水平)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>413</SortID>
         </Field>
-        <Field Def="u32 cellGroupTopRange = 1">
+        <Field Def="u32 bloodstainCellGroupTopRange = 1">
             <DisplayName>血痕取得セル範囲(上方向)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>414</SortID>
         </Field>
-        <Field Def="u32 cellGroupBottomRange = 1">
+        <Field Def="u32 bloodstainCellGroupBottomRange = 1">
             <DisplayName>血痕取得セル範囲(下方向)</DisplayName>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>415</SortID>
         </Field>
-        <Field Def="u32 lifeTime = 1">
+        <Field Def="u32 bloodstainLifeTime = 1">
             <DisplayName>血痕データ保持期間上限[秒]</DisplayName>
             <Minimum>1</Minimum>
             <Maximum>1800</Maximum>
@@ -380,6 +382,11 @@
             <Increment>1</Increment>
             <SortID>418</SortID>
         </Field>
+        <Field Def="u32 unkF4"/>
+        <Field Def="u32 unkF8"/>
+        <Field Def="u32 unkFC"/>
+        <Field Def="u32 unk100"/>
+        <Field Def="f32 unk104"/>
         <Field Def="u32 reloadGhostTotalCount = 1">
             <DisplayName>幻影取得数(全体)</DisplayName>
             <Maximum>99</Maximum>
@@ -795,7 +802,8 @@
             <Increment>1</Increment>
             <SortID>830</SortID>
         </Field>
-        <Field Def="dummy8 pad10[136]">
+        <Field Def="f32 unk1E0"/>
+        <Field Def="dummy8 pad10[132]">
             <DisplayName>予約</DisplayName>
             <SortID>832</SortID>
         </Field>

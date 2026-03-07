@@ -417,99 +417,99 @@
             <Increment>1</Increment>
             <SortID>111</SortID>
         </Field>
-        <Field Def="u8 enhanced">
+        <Field Def="u8 rightWeapon01Enhanced">
             <DisplayName>右武器 01 強化段階</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>58</SortID>
         </Field>
-        <Field Def="u8 attribute">
+        <Field Def="u8 rightWeapon01Attribute">
             <DisplayName>右武器 01 付与属性</DisplayName>
             <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>60</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
+        <Field Def="dummy8 dummyR1[2]">
             <DisplayName>パディング用ダミー</DisplayName>
             <SortID>123</SortID>
         </Field>
-        <Field Def="u8 enhanced">
+        <Field Def="u8 rightWeapon02Enhanced">
             <DisplayName>右武器 02 強化段階</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>62</SortID>
         </Field>
-        <Field Def="u8 attribute">
+        <Field Def="u8 rightWeapon02Attribute">
             <DisplayName>右武器 02 付与属性</DisplayName>
             <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>64</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
+        <Field Def="dummy8 dummyR2[2]">
             <DisplayName>パディング用ダミー</DisplayName>
             <SortID>124</SortID>
         </Field>
-        <Field Def="u8 enhanced">
+        <Field Def="u8 rightWeapon03Enhanced">
             <DisplayName>右武器 03 強化段階</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>66</SortID>
         </Field>
-        <Field Def="u8 attribute">
+        <Field Def="u8 rightWeapon03Attribute">
             <DisplayName>右武器 03 付与属性</DisplayName>
             <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>68</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
+        <Field Def="dummy8 dummyR3[2]">
             <DisplayName>パディング用ダミー</DisplayName>
             <SortID>125</SortID>
         </Field>
-        <Field Def="u8 enhanced">
+        <Field Def="u8 leftWeapon01Enhanced">
             <DisplayName>左武器 01 強化段階</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>70</SortID>
         </Field>
-        <Field Def="u8 attribute">
+        <Field Def="u8 leftWeapon01Attribute">
             <DisplayName>左武器 01 付与属性</DisplayName>
             <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>72</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
+        <Field Def="dummy8 dummyL1[2]">
             <DisplayName>パディング用ダミー</DisplayName>
             <SortID>126</SortID>
         </Field>
-        <Field Def="u8 enhanced">
+        <Field Def="u8 leftWeapon02Enhanced">
             <DisplayName>左武器 02 強化段階</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>74</SortID>
         </Field>
-        <Field Def="u8 attribute">
+        <Field Def="u8 leftWeapon02Attribute">
             <DisplayName>左武器 02 付与属性</DisplayName>
             <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>76</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
+        <Field Def="dummy8 dummyL2[2]">
             <DisplayName>パディング用ダミー</DisplayName>
             <SortID>127</SortID>
         </Field>
-        <Field Def="u8 enhanced">
+        <Field Def="u8 leftWeapon03Enhanced">
             <DisplayName>左武器 03 強化段階</DisplayName>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>78</SortID>
         </Field>
-        <Field Def="u8 attribute">
+        <Field Def="u8 leftWeapon03Attribute">
             <DisplayName>左武器 03 付与属性</DisplayName>
             <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
             <Increment>1</Increment>
             <SortID>80</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
+        <Field Def="dummy8 dummyL3[2]">
             <DisplayName>パディング用ダミー</DisplayName>
             <SortID>128</SortID>
         </Field>

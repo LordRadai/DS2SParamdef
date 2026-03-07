@@ -206,5 +206,21 @@
             <Increment>1</Increment>
             <SortID>25</SortID>
         </Field>
+        <Field Def="u8 unk0">
+            <DisplayName>Dual-wielding Unknown0</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="u8 unk1">
+            <DisplayName>Dual-wielding Unknown1</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>27</SortID>
+        </Field>
     </Fields>
 </PARAMDEF>

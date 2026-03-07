@@ -40,10 +40,6 @@
             <Increment>1</Increment>
             <SortID>51000</SortID>
         </Field>
-        <Field Def="dummy8 reserved:7[1]">
-            <DisplayName>予約</DisplayName>
-            <SortID>60016</SortID>
-        </Field>
         <Field Def="u8 memoryBlock1:1">
             <DisplayName>メモリ1</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>

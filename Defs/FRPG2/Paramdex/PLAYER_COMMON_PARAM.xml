@@ -571,5 +571,26 @@
             <Increment>0.0099999998</Increment>
             <SortID>90</SortID>
         </Field>
+        <Field Def="f32 unk164" />
+        <Field Def="f32 unk168" />
+        <Field Def="f32 unk16C" />
+        <Field Def="f32 unk170" />
+        <Field Def="f32 unk174" />
+        <Field Def="f32 unk178" />
+        <Field Def="s32 unk17C" />
+        <Field Def="f32 pcBackstabDamageRate" />
+        <Field Def="f32 pcParryBreakStabDamageRate" />
+        <Field Def="f32 pcGuardBreakStabDamageRate" />
+        <Field Def="f32 Unk18C" />
+        <Field Def="f32 Unk190" />
+        <Field Def="f32 Unk194" />
+        <Field Def="f32 Unk198" />
+        <Field Def="f32 Unk19C" />
+        <Field Def="f32 Unk1A0" />
+        <Field Def="f32 Unk1A4" />
+        <Field Def="f32 Unk1A8" />
+        <Field Def="f32 Unk1AC" />
+        <Field Def="f32 Unk1B0" />
+        <Field Def="f32 Unk1B4" />
     </Fields>
 </PARAMDEF>

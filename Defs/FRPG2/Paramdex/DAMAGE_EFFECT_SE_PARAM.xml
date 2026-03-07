@@ -278,9 +278,81 @@
             <Increment>1</Increment>
             <SortID>34</SortID>
         </Field>
-        <Field Def="dummy8 dummy[2]">
-            <DisplayName>予約領域</DisplayName>
+        <Field Def="u8 unkMaterial0">
+            <DisplayName>美声カエル</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>35</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial1">
+            <DisplayName>美声カエル [1]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
             <SortID>36</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial2">
+            <DisplayName>美声カエル [2]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>37</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial3">
+            <DisplayName>美声カエル [3]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>38</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial4">
+            <DisplayName>美声カエル [4]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>39</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial5">
+            <DisplayName>美声カエル [5]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial6">
+            <DisplayName>美声カエル [6]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>41</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial7">
+            <DisplayName>美声カエル [7]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>42</SortID>
+        </Field>
+        <Field Def="u8 unkMaterial8">
+            <DisplayName>美声カエル [8]</DisplayName>
+            <Enum>DAMAGE_EFFECT_MATERIAL</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>60</Maximum>
+            <Increment>1</Increment>
+            <SortID>43</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[1]">
+            <DisplayName>予約領域</DisplayName>
+            <SortID>44</SortID>
         </Field>
     </Fields>
 </PARAMDEF>

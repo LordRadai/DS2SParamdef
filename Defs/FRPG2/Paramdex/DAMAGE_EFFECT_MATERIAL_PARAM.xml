@@ -1098,5 +1098,257 @@
             <DisplayName>ダミー</DisplayName>
             <SortID>401</SortID>
         </Field>
+        <Field Def="u32 unkMat0Effect01">
+            <DisplayName>肩代わり：SFX1</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 unkMat0Effect02">
+            <DisplayName>肩代わり：SFX2</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u8 unkMat0Size01">
+            <DisplayName>肩代わり：サイズ1</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 unkMat0Size02">
+            <DisplayName>肩代わり：サイズ2</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat0Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>401</SortID>
+        </Field>
+        <Field Def="u32 unkMat1Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat1]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u32 unkMat1Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat1]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u8 unkMat1Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat1]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u8 unkMat1Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat1]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat1Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>402</SortID>
+        </Field>
+        <Field Def="u32 unkMat2Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat2]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u32 unkMat2Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat2]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u8 unkMat2Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat2]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u8 unkMat2Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat2]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat2Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>403</SortID>
+        </Field>
+        <Field Def="u32 unkMat3Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat3]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u32 unkMat3Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat3]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u8 unkMat3Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat3]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u8 unkMat3Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat3]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat3Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>404</SortID>
+        </Field>
+        <Field Def="u32 unkMat4Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat4]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u32 unkMat4Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat4]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u8 unkMat4Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat4]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u8 unkMat4Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat4]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat4Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>405</SortID>
+        </Field>
+        <Field Def="u32 unkMat5Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat5]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u32 unkMat5Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat5]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u8 unkMat5Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat5]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u8 unkMat5Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat5]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat5Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>406</SortID>
+        </Field>
+        <Field Def="u32 unkMat6Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat6]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u32 unkMat6Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat6]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="u8 unkMat6Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat6]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u8 unkMat6Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat6]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat6Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>407</SortID>
+        </Field>
+        <Field Def="u32 unkMat7Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat7]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u32 unkMat7Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat7]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u8 unkMat7Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat7]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u8 unkMat7Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat7]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat7Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>408</SortID>
+        </Field>
+        <Field Def="u32 unkMat8Effect01">
+            <DisplayName>肩代わり：SFX1 [Mat8]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u32 unkMat8Effect02">
+            <DisplayName>肩代わり：SFX2 [Mat8]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="u8 unkMat8Size01">
+            <DisplayName>肩代わり：サイズ1 [Mat8]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u8 unkMat8Size02">
+            <DisplayName>肩代わり：サイズ2 [Mat8]</DisplayName>
+            <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="dummy8 unkMat8Dummy[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>409</SortID>
+        </Field>
     </Fields>
 </PARAMDEF>

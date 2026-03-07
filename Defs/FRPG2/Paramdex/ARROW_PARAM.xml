@@ -14,7 +14,7 @@
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId0">
             <DisplayName>弱バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -22,7 +22,7 @@
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId0">
             <DisplayName>強バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -30,7 +30,7 @@
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId0">
             <DisplayName>弱ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -38,7 +38,7 @@
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId0">
             <DisplayName>強ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -46,7 +46,7 @@
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId1">
             <DisplayName>弱バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -54,7 +54,7 @@
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId1">
             <DisplayName>強バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -62,7 +62,7 @@
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId1">
             <DisplayName>弱ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -70,7 +70,7 @@
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId1">
             <DisplayName>強ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -78,7 +78,7 @@
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId2">
             <DisplayName>弱バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -86,7 +86,7 @@
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId2">
             <DisplayName>強バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -94,7 +94,7 @@
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId2">
             <DisplayName>弱ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -102,7 +102,7 @@
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId2">
             <DisplayName>強ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -110,7 +110,7 @@
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId3">
             <DisplayName>弱バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -118,7 +118,7 @@
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId3">
             <DisplayName>強バレットID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -126,7 +126,7 @@
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId3">
             <DisplayName>弱ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -134,7 +134,7 @@
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId3">
             <DisplayName>強ダメージID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>

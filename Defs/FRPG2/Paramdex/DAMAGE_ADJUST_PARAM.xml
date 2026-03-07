@@ -522,5 +522,83 @@
             <Increment>0.1</Increment>
             <SortID>103</SortID>
         </Field>
+        <Field Def="f32 pcAttributeAdjustNormalMul = 1">
+            <DisplayName>Player physical attribute adjustment multiplication factor</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustNormalDiv = 1">
+            <DisplayName>Player physical attribute adjustment division magnification</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>301</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustMagic = 1">
+            <DisplayName>Player magic attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>302</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustThunder = 1">
+            <DisplayName>Player thunder attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>303</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustFire = 1">
+            <DisplayName>Player fire attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>304</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustDark = 1">
+            <DisplayName>Player dark attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>305</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustPoison = 1">
+            <DisplayName>Player poison attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>306</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustBleed = 1">
+            <DisplayName>Player bleeding attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>307</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustWeaponBreak = 1">
+            <DisplayName>Player weapon break attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>308</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustCurse = 1">
+            <DisplayName>Player curse attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>309</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustBurning = 1">
+            <DisplayName>Player burning attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>310</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustDeadlyPoison = 1">
+            <DisplayName>Player deadly poison attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>311</SortID>
+        </Field>
+        <Field Def="f32 pcAttributeAdjustPetrified = 1">
+            <DisplayName>Player petrified attribute adjustment magnification</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>312</SortID>
+        </Field>
     </Fields>
 </PARAMDEF>

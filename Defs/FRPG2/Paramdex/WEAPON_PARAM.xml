@@ -335,5 +335,12 @@
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
+        <Field Def="f32 uninterruptibleRate = 1">
+            <DisplayName>Uninterruptible poise damage rate</DisplayName>
+            <Minimum>0.0099999998</Minimum>
+            <Maximum>600</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
     </Fields>
 </PARAMDEF>

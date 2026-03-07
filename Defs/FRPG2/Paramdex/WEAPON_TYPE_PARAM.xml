@@ -34,56 +34,56 @@
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
-        <Field Def="u32 rightStanceMotionId">
+        <Field Def="u32 rightStance1HMotionId">
             <DisplayName>装備アニメ 片手 右手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="u32 leftStanceMotionId">
+        <Field Def="u32 leftStance1HMotionId">
             <DisplayName>装備アニメ 片手 左手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="u32 rightStanceMotionId">
+        <Field Def="u32 rightStance2HMotionId">
             <DisplayName>装備アニメ 両手 右手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="u32 leftStanceMotionId">
+        <Field Def="u32 leftStance2HMotionId">
             <DisplayName>装備アニメ 両手 左手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="u32 rightStanceMotionId">
+        <Field Def="u32 rightStanceDual1HMotionId">
             <DisplayName>装備アニメ 二刀流 片手 右手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="u32 leftStanceMotionId">
+        <Field Def="u32 leftStanceDual1HMotionId">
             <DisplayName>装備アニメ 二刀流 片手 左手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="u32 rightStanceMotionId">
+        <Field Def="u32 rightStanceDual2HMotionId">
             <DisplayName>装備アニメ 二刀流 両手 右手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="u32 leftStanceMotionId">
+        <Field Def="u32 leftStanceDual2HMotionId">
             <DisplayName>装備アニメ 二刀流 両手 左手 構え</DisplayName>
             <Enum>PLAYER_WEAPON_STANCE_MOTION</Enum>
             <Maximum>1e+09</Maximum>
@@ -279,37 +279,37 @@
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
-        <Field Def="f32 damageScale = 1">
+        <Field Def="f32 leftDamageScale = 1">
             <DisplayName>左装備時 ダメージ 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1450</SortID>
         </Field>
-        <Field Def="f32 staminaDamageScale = 1">
+        <Field Def="f32 leftStaminaDamageScale = 1">
             <DisplayName>左装備時 スタミナ奪取量 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1450</SortID>
         </Field>
-        <Field Def="f32 durabilityDamageScale = 1">
+        <Field Def="f32 leftDurabilityDamageScale = 1">
             <DisplayName>左装備時 耐久削り値 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1450</SortID>
         </Field>
-        <Field Def="f32 damageScale = 1">
+        <Field Def="f32 rightDamageScale = 1">
             <DisplayName>右装備時 ダメージ 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1400</SortID>
         </Field>
-        <Field Def="f32 staminaDamageScale = 1">
+        <Field Def="f32 rightDtaminaDamageScale = 1">
             <DisplayName>右装備時 スタミナ奪取量 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1400</SortID>
         </Field>
-        <Field Def="f32 durabilityDamageScale = 1">
+        <Field Def="f32 rightDurabilityDamageScale = 1">
             <DisplayName>右装備時 耐久削り値 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -503,13 +503,13 @@
             <Increment>0.1</Increment>
             <SortID>1700</SortID>
         </Field>
-        <Field Def="f32 autoPivotRotationSpeedScale = 1">
+        <Field Def="f32 meleeAutoPivotRotationSpeedScale = 1">
             <DisplayName>旋回ホーミング 速度 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1800</SortID>
         </Field>
-        <Field Def="f32 autoPivotLimitAngleScale = 1">
+        <Field Def="f32 meleeAutoPivotLimitAngleScale = 1">
             <DisplayName>旋回ホーミング 限界角度 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -569,13 +569,13 @@
             <DisplayName>ダミー</DisplayName>
             <SortID>5001</SortID>
         </Field>
-        <Field Def="f32 autoPivotRotationSpeedScale">
+        <Field Def="f32 rangedAutoPivotRotationSpeedScale">
             <DisplayName>自動旋回 速度 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1900</SortID>
         </Field>
-        <Field Def="f32 manualPivotRotationSpeedScale">
+        <Field Def="f32 rangedManualPivotRotationSpeedScale">
             <DisplayName>その場旋回 速度 補正倍率 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -653,9 +653,16 @@
             <Increment>1</Increment>
             <SortID>5000</SortID>
         </Field>
-        <Field Def="dummy8 dummy1[3]">
-            <DisplayName>ダミー</DisplayName>
+        <Field Def="u8 unk138">
+            <SortID>5001</SortID>
+        </Field>
+        <Field Def="u8 mundaneRate">
+            <DisplayName>mundaneRate</DisplayName>
             <SortID>5002</SortID>
+        </Field>
+        <Field Def="dummy8 dummy1[1]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>5003</SortID>
         </Field>
     </Fields>
 </PARAMDEF>

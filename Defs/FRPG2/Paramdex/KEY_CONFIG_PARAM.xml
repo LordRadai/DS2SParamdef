@@ -390,9 +390,27 @@
             <Increment>1</Increment>
             <SortID>57</SortID>
         </Field>
+        <Field Def="u8 unk58" />
+        <Field Def="u8 unk59" />
+        <Field Def="u8 unk60" />
+        <Field Def="u8 unk61" />
+        <Field Def="u8 unk62" />
+        <Field Def="u8 unk63" />
+        <Field Def="u8 unk64" />
+        <Field Def="u8 unk65" />
+        <Field Def="u8 unk66" />
+        <Field Def="u8 unk67" />
+        <Field Def="u8 unk68" />
+        <Field Def="u8 unk69" />
+        <Field Def="u8 unk70" />
+        <Field Def="u8 unk71" />
+        <Field Def="u8 unk72" />
+        <Field Def="u8 unk73" />
+        <Field Def="u8 unk74" />
+        <Field Def="u8 unk75" />
         <Field Def="dummy8 padding[2]">
             <DisplayName>パディング</DisplayName>
-            <SortID>58</SortID>
+            <SortID>76</SortID>
         </Field>
     </Fields>
 </PARAMDEF>

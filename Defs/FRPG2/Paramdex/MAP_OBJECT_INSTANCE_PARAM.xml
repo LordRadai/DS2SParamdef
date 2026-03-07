@@ -164,7 +164,7 @@
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <SortID>41</SortID>
         </Field>
-        <Field Def="dummy8 dummy1:2[1]">
+        <Field Def="dummy8 dummy1:2">
             <DisplayName>ダミー</DisplayName>
             <SortID>2001</SortID>
         </Field>

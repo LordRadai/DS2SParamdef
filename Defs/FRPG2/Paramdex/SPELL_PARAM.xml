@@ -64,7 +64,7 @@
             <Increment>1</Increment>
             <SortID>210</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 single1HNormalChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 片手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -72,7 +72,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 single1HNormalHoldCastTime">
             <DisplayName>発動時間 片手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -80,7 +80,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 single1HNormalAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -88,7 +88,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 single1HNormalAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -96,7 +96,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 single1HNormalStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 片手 弱 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -104,7 +104,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 single1HStrongChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 片手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -112,7 +112,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 single1HStrongHoldCastTime">
             <DisplayName>発動時間 片手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -120,7 +120,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 single1HStrongAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -128,7 +128,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 single1HStrongAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -136,7 +136,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 single1HStrongStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 片手 強 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -144,7 +144,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 single2HNormalChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 両手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -152,7 +152,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 single2HNormalHoldCastTime">
             <DisplayName>発動時間 両手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -160,7 +160,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 single2HNormalAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -168,7 +168,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 single2HNormalAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -176,7 +176,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 single2HNormalStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 両手 弱 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -184,7 +184,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 single2HStrongChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 両手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -192,7 +192,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 single2HHoldCastTime">
             <DisplayName>発動時間 両手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -200,7 +200,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 single2HAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -208,7 +208,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 single2HAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -216,7 +216,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 single2HStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 両手 強 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -224,7 +224,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 dual1HNormalChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流片手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -232,7 +232,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 dual1HNormalHoldCastTime">
             <DisplayName>発動時間 二刀流片手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -240,7 +240,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 dual1HNormalAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -248,7 +248,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 dual1HNormalAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -256,7 +256,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 dual1HNormalStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流片手 弱 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -264,7 +264,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 dual1HStrongChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流片手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -272,7 +272,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 dual1HStrongHoldCastTime">
             <DisplayName>発動時間 二刀流片手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -280,7 +280,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 dual1HStrongAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -288,7 +288,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 dual1HStrongAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -296,7 +296,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 dual1HStrongStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流片手 強 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -304,7 +304,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 dual2HNormalChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流両手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -312,7 +312,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 dual2HNormalHoldCastTime">
             <DisplayName>発動時間 二刀流両手 弱 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -320,7 +320,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 dual2HNormalAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -328,7 +328,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 dual2HNormalAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -336,7 +336,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 dual2HNormalStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流両手 弱 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -344,7 +344,7 @@
             <Increment>0.1</Increment>
             <SortID>430</SortID>
         </Field>
-        <Field Def="f32 chantTimeScale">
+        <Field Def="f32 dual2HStrongChantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流両手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -352,7 +352,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="f32 holdCastTime">
+        <Field Def="f32 dual2HStrongHoldCastTime">
             <DisplayName>発動時間 二刀流両手 強 [sec]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -360,7 +360,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>440</SortID>
         </Field>
-        <Field Def="u32 animIdSpellChanting">
+        <Field Def="u32 dual2HStrongAnimIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -368,7 +368,7 @@
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
-        <Field Def="u32 animIdSpellCasting">
+        <Field Def="u32 dual2HStrongAnimIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
             <EditFlags>Wrap</EditFlags>
@@ -376,7 +376,7 @@
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
-        <Field Def="f32 staminaCostScale">
+        <Field Def="f32 dual2HStrongStaminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流両手 強 [倍]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -419,7 +419,7 @@
             <DisplayName>ダミー</DisplayName>
             <SortID>1502</SortID>
         </Field>
-        <Field Def="s32 seId">
+        <Field Def="s32 se0Id">
             <DisplayName>詠唱中SE0 ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -427,7 +427,7 @@
             <Increment>1</Increment>
             <SortID>910</SortID>
         </Field>
-        <Field Def="s32 sfxId">
+        <Field Def="s32 sfx0Id">
             <DisplayName>詠唱中SFX0 ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -435,7 +435,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxAttachTarget">
+        <Field Def="u8 sfx0AttachTarget">
             <DisplayName>詠唱中SFX0 アタッチ対象</DisplayName>
             <Enum>SPELL_CHANT_SFX_ATTACH_TYPE</Enum>
             <DisplayFormat>%u</DisplayFormat>
@@ -444,7 +444,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxAttachDummyPolyIdRight">
+        <Field Def="u8 sfx0AttachDummyPolyIdRight">
             <DisplayName>詠唱中SFX0 右装備 ダミポリID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -452,7 +452,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxAttachDummyPolyIdLeft">
+        <Field Def="u8 sfx0AttachDummyPolyIdLeft">
             <DisplayName>詠唱中SFX0 左装備 ダミポリID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -460,13 +460,13 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxDisableEraseFade">
+        <Field Def="u8 sfx0DisableEraseFade">
             <DisplayName>詠唱SFX0 即削除</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>900</SortID>
         </Field>
-        <Field Def="s32 seId">
+        <Field Def="s32 se1Id">
             <DisplayName>詠唱中SE1 ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -474,7 +474,7 @@
             <Increment>1</Increment>
             <SortID>910</SortID>
         </Field>
-        <Field Def="s32 sfxId">
+        <Field Def="s32 sfx1Id">
             <DisplayName>詠唱中SFX1 ID</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -482,7 +482,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxAttachTarget">
+        <Field Def="u8 sfx1AttachTarget">
             <DisplayName>詠唱中SFX1 アタッチ対象</DisplayName>
             <Enum>SPELL_CHANT_SFX_ATTACH_TYPE</Enum>
             <DisplayFormat>%u</DisplayFormat>
@@ -491,7 +491,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxAttachDummyPolyIdRight">
+        <Field Def="u8 sfx1AttachDummyPolyIdRight">
             <DisplayName>詠唱中SFX1 右装備 ダミポリID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -499,7 +499,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxAttachDummyPolyIdLeft">
+        <Field Def="u8 sfx1AttachDummyPolyIdLeft">
             <DisplayName>詠唱中SFX1 左装備 ダミポリID</DisplayName>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -507,7 +507,7 @@
             <Increment>1</Increment>
             <SortID>900</SortID>
         </Field>
-        <Field Def="u8 sfxDisableEraseFade">
+        <Field Def="u8 sfx1DisableEraseFade">
             <DisplayName>詠唱SFX1 即削除</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>

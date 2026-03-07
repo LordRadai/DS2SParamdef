@@ -206,7 +206,7 @@
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="f32 attackExtraLackOfStatsRate">
+        <Field Def="f32 emptyStaminaAttackExtraLackOfStatsRate">
             <DisplayName>スタミナ切れ攻撃 ステータス不足割合 [%]</DisplayName>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1033,7 +1033,7 @@
             <DisplayName>ダミー</DisplayName>
             <SortID>254</SortID>
         </Field>
-        <Field Def="angle32 fLookAtRotationLeftMax">
+        <Field Def="angle32 fShootingLookAtRotationLeftMax">
             <DisplayName>射撃 LookAt 旋回限界角度 左 [deg]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1041,7 +1041,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtRotationRightMax">
+        <Field Def="angle32 fShootingLookAtRotationRightMax">
             <DisplayName>射撃 LookAt 旋回限界角度 右 [deg]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1049,7 +1049,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtRotationUpperMax">
+        <Field Def="angle32 fShootingLookAtRotationUpperMax">
             <DisplayName>射撃 LookAt 旋回限界角度 上 [deg]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1057,7 +1057,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtRotationLownerMax">
+        <Field Def="angle32 fShootingLookAtRotationLownerMax">
             <DisplayName>射撃 LookAt 旋回限界角度 下 [deg]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1065,7 +1065,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtVisibilitySideMax">
+        <Field Def="angle32 fShootingLookAtVisibilitySideMax">
             <DisplayName>射撃 LookAt 認識限界角度 左右 [deg]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1073,7 +1073,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtVisibilityUpperMax">
+        <Field Def="angle32 fShootingLookAtVisibilityUpperMax">
             <DisplayName>射撃 LookAt 認識限界角度 上下 [deg]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1082,7 +1082,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtRotationSideSpeedMax">
+        <Field Def="angle32 fShootingLookAtRotationSideSpeedMax">
             <DisplayName>射撃 LookAt 左右旋回速度 [deg/sec]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1090,7 +1090,7 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="angle32 fLookAtRotationUpperSpeedMax">
+        <Field Def="angle32 fShootingLookAtRotationUpperSpeedMax">
             <DisplayName>射撃 LookAt 上下旋回速度 [deg/sec]</DisplayName>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
@@ -1098,13 +1098,13 @@
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
-        <Field Def="u8 isLookAtDummyPolyBasePos">
+        <Field Def="u8 shootingIsLookAtDummyPolyBasePos">
             <DisplayName>射撃 LookAt ダミポリ位置を基準にする</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
             <EditFlags>Wrap</EditFlags>
             <SortID>0</SortID>
         </Field>
-        <Field Def="dummy8 lookAtDummy[3]">
+        <Field Def="dummy8 shootingLookAtDummy[3]">
             <DisplayName>ダミー</DisplayName>
             <SortID>255</SortID>
         </Field>
@@ -1942,6 +1942,46 @@
         <Field Def="dummy8 takeWaterDummy[3]">
             <DisplayName>ダミー</DisplayName>
             <SortID>259</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRatePhysical = 1">
+            <DisplayName>Bullet damage rate [Physical]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRateMagic = 1">
+            <DisplayName>Bullet damage rate [Magic]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRateMiracle = 1">
+            <DisplayName>Bullet damage rate [Miracle]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRatePyromancy = 1">
+            <DisplayName>Bullet damage rate [Pytomancy]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="f32 bulletDamageRateDark = 1">
+            <DisplayName>Bullet damage rate [Hex]</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>10</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>0</SortID>
         </Field>
     </Fields>
 </PARAMDEF>
