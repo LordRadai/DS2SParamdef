@@ -67,7 +67,7 @@ namespace Paramdex
         auto GetW = [&](const char* tag) 
             {
             auto* e = element->FirstChildElement(tag);
-            return (e && e->GetText()) ? TiXmlHelpers::SToW(e->GetText()) : L"";
+            return (e && e->GetText()) ? TiXmlHelpers::ShiftJisToW(TiXmlHelpers::SToShiftJIS(e->GetText()).c_str()) : L"";
             };
 
         auto GetS = [&](const char* tag) 
