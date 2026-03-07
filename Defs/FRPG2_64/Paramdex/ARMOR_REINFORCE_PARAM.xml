@@ -6,145 +6,145 @@
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>
     <Fields>
-        <Field Def="f32 slash">
+        <Field Def="f32 minSlash">
             <DisplayName>強化ベース値 最小 斬撃</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 thrust">
+        <Field Def="f32 minThrust">
             <DisplayName>強化ベース値 最小 刺突</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 strike">
+        <Field Def="f32 minStrike">
             <DisplayName>強化ベース値 最小 打撃</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 physical">
+        <Field Def="f32 minPhysical">
             <DisplayName>強化ベース値 最小 物理</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 magic">
+        <Field Def="f32 minMagic">
             <DisplayName>強化ベース値 最小 魔力</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
-        <Field Def="f32 thunder">
+        <Field Def="f32 minThunder">
             <DisplayName>強化ベース値 最小 雷</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
-        <Field Def="f32 fire">
+        <Field Def="f32 minFire">
             <DisplayName>強化ベース値 最小 炎</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
-        <Field Def="f32 dark">
+        <Field Def="f32 minDark">
             <DisplayName>強化ベース値 最小 闇</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
-        <Field Def="f32 poison">
+        <Field Def="f32 minPoison">
             <DisplayName>強化ベース値 最小 毒</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>60</SortID>
         </Field>
-        <Field Def="f32 bleeding">
+        <Field Def="f32 minBleeding">
             <DisplayName>強化ベース値 最小 出血</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
-        <Field Def="f32 petrifaction">
+        <Field Def="f32 minPetrifaction">
             <DisplayName>強化ベース値 最小 石化</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
         </Field>
-        <Field Def="f32 curse">
+        <Field Def="f32 minCurse">
             <DisplayName>強化ベース値 最小 呪</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>90</SortID>
         </Field>
-        <Field Def="f32 slash">
+        <Field Def="f32 maxSlash">
             <DisplayName>強化ベース値 最大 斬撃</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 thrust">
+        <Field Def="f32 maxThrust">
             <DisplayName>強化ベース値 最大 刺突</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 strike">
+        <Field Def="f32 maxStrike">
             <DisplayName>強化ベース値 最大 打撃</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 physical">
+        <Field Def="f32 maxPhysical">
             <DisplayName>強化ベース値 最大 物理</DisplayName>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 magic">
+        <Field Def="f32 maxMagic">
             <DisplayName>強化ベース値 最大 魔力</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
-        <Field Def="f32 thunder">
+        <Field Def="f32 maxThunder">
             <DisplayName>強化ベース値 最大 雷</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
-        <Field Def="f32 fire">
+        <Field Def="f32 maxFire">
             <DisplayName>強化ベース値 最大 炎</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
-        <Field Def="f32 dark">
+        <Field Def="f32 maxDark">
             <DisplayName>強化ベース値 最大 闇</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
-        <Field Def="f32 poison">
+        <Field Def="f32 maxPoison">
             <DisplayName>強化ベース値 最大 毒</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>60</SortID>
         </Field>
-        <Field Def="f32 bleeding">
+        <Field Def="f32 maxBleeding">
             <DisplayName>強化ベース値 最大 出血</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
-        <Field Def="f32 petrifaction">
+        <Field Def="f32 maxPetrifaction">
             <DisplayName>強化ベース値 最大 石化</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
         </Field>
-        <Field Def="f32 curse">
+        <Field Def="f32 maxCurse">
             <DisplayName>強化ベース値 最大 呪</DisplayName>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
