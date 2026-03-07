@@ -274,7 +274,7 @@
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="dummy8 aReserved">
+        <Field Def="dummy8 aReserved[1]">
             <DisplayName>予約</DisplayName>
             <SortID>30012</SortID>
         </Field>
