@@ -57,11 +57,12 @@ namespace Paramdex
 		auto* root = doc.RootElement();
 		if (!root) return false;
 
-		m_paramType = root->Attribute("ParamType");
-		m_dataVersion = root->IntAttribute("DataVersion", 0);
-		m_bBigEndian = root->BoolAttribute("BigEndian", false);
-		m_bUnicode = root->BoolAttribute("Unicode", false);
-		m_formatVersion = root->IntAttribute("FormatVersion", 0);
+		m_paramType = root->FirstChildElement("ParamType")->GetText();
+		m_dataVersion = root->FirstChildElement("DataVersion")->IntText();
+		m_bBigEndian = root->FirstChildElement("BigEndian")->BoolText();
+		m_bUnicode = root->FirstChildElement("Unicode")->BoolText();
+		m_formatVersion = root->FirstChildElement("Version")->IntText();
+
 		m_fields.clear();
 
 		tinyxml2::XMLElement* fieldsElement = root->FirstChildElement("Fields");
@@ -89,7 +90,7 @@ namespace Paramdex
 		root->InsertNewChildElement("DataVersion")->SetText(m_dataVersion);
 		root->InsertNewChildElement("BigEndian")->SetText(m_bBigEndian);
 		root->InsertNewChildElement("Unicode")->SetText(m_bUnicode);
-		root->InsertNewChildElement("FormatVersion")->SetText(m_formatVersion);
+		root->InsertNewChildElement("Version")->SetText(m_formatVersion);
 
 		doc.InsertEndChild(root);
 
