@@ -6,86 +6,110 @@
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>
     <Fields>
-        <Field Def="u16 hpPercent = 100">
+        <Field Def="u16 oneClientHpPercent = 100">
             <DisplayName>クライアント1名時 エネミー最大HP補正</DisplayName>
-            <Description>味方の人数に応じた最大HP補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>1</SortID>
         </Field>
-        <Field Def="u16 hpDamagePercent = 100">
+        <Field Def="u16 oneClientHpDamagePercent = 100">
             <DisplayName>クライアント1名時 エネミーHPダメージ補正</DisplayName>
-            <Description>味方の人数に応じたHPダメージ補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>2</SortID>
         </Field>
-        <Field Def="u16 ailmentDamagePercent = 100">
+        <Field Def="u16 oneClientAilmentDamagePercent = 100">
             <DisplayName>クライアント1名時 エネミー耐性ダメージ補正</DisplayName>
-            <Description>味方の人数に応じた耐性ダメージ補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>3</SortID>
         </Field>
-        <Field Def="u16 staminaDamagePercent = 100">
+        <Field Def="u16 oneClientStaminaDamagePercent = 100">
             <DisplayName>クライアント1名時 エネミー被スタミナ奪取量補正</DisplayName>
-            <Description>味方の人数に応じた被スタミナ奪取量補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>4</SortID>
         </Field>
-        <Field Def="u16 poiseDamagePercent = 100">
+        <Field Def="u16 oneClientPoiseDamagePercent = 100">
             <DisplayName>クライアント1名時 エネミー被強靭削り値補正</DisplayName>
-            <Description>味方の人数に応じた被強靭削り値補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>5</SortID>
         </Field>
-        <Field Def="u16 stunDamagePercent = 100">
+        <Field Def="u16 oneClientStunDamagePercent = 100">
             <DisplayName>クライアント1名時 エネミー被気絶値補正</DisplayName>
-            <Description>味方の人数に応じた被気絶値補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>6</SortID>
         </Field>
-        <Field Def="u16 hpPercent = 100">
+        <Field Def="u16 twoClientsHpPercent = 100">
             <DisplayName>クライアント2名時 エネミー最大HP補正</DisplayName>
-            <Description>味方の人数に応じた最大HP補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>7</SortID>
         </Field>
-        <Field Def="u16 hpDamagePercent = 100">
+        <Field Def="u16 twoClientsHpDamagePercent = 100">
             <DisplayName>クライアント2名時 エネミーHPダメージ補正</DisplayName>
-            <Description>味方の人数に応じたHPダメージ補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>8</SortID>
         </Field>
-        <Field Def="u16 ailmentDamagePercent = 100">
+        <Field Def="u16 twoClientsAilmentDamagePercent = 100">
             <DisplayName>クライアント2名時 エネミー耐性ダメージ補正</DisplayName>
-            <Description>味方の人数に応じた耐性ダメージ補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>9</SortID>
         </Field>
-        <Field Def="u16 staminaDamagePercent = 100">
+        <Field Def="u16 twoClientsStaminaDamagePercent = 100">
             <DisplayName>クライアント2名時 エネミー被スタミナ奪取量補正</DisplayName>
-            <Description>味方の人数に応じた被スタミナ奪取量補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="u16 poiseDamagePercent = 100">
+        <Field Def="u16 twoClientsPoiseDamagePercent = 100">
             <DisplayName>クライアント2名時 エネミー被強靭削り値補正</DisplayName>
-            <Description>味方の人数に応じた被強靭削り値補正[%]</Description>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>11</SortID>
         </Field>
-        <Field Def="u16 stunDamagePercent = 100">
+        <Field Def="u16 twoClientsStunDamagePercent = 100">
             <DisplayName>クライアント2名時 エネミー被気絶値補正</DisplayName>
-            <Description>味方の人数に応じた被気絶値補正[%]</Description>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u16 threeClientsHpPercent = 100">
+            <DisplayName>クライアント3名時 エネミー最大HP補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u16 threeClientsHpDamagePercent = 100">
+            <DisplayName>クライアント3名時 エネミーHPダメージ補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u16 threeClientsAilmentDamagePercent = 100">
+            <DisplayName>クライアント3名時 エネミー耐性ダメージ補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u16 threeClientsStaminaDamagePercent = 100">
+            <DisplayName>クライアント3名時 エネミー被スタミナ奪取量補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u16 threeClientsPoiseDamagePercent = 100">
+            <DisplayName>クライアント3名時 エネミー被強靭削り値補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u16 threeClientsStunDamagePercent = 100">
+            <DisplayName>クライアント3名時 エネミー被気絶値補正</DisplayName>
             <Maximum>30000</Maximum>
             <Increment>10</Increment>
             <SortID>12</SortID>

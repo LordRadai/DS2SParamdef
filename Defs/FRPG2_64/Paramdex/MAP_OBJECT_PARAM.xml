@@ -1,97 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <PARAMDEF XmlVersion="0">
-    <ParamType>MAP_OBJECT_PARAM</ParamType>
-    <DataVersion>3</DataVersion>
-    <BigEndian>true</BigEndian>
-    <Unicode>true</Unicode>
-    <FormatVersion>105</FormatVersion>
-    <Fields>
-        <Field Def="f32 animSpeedBaseRate">
-            <DisplayName>《アニメ速度ベース》</DisplayName>
-            <Description>TimeActから速度変更が指定されていないときの再生倍率</Description>
-            <Maximum>10</Maximum>
-            <Increment>0.0099999998</Increment>
-            <SortID>300</SortID>
-        </Field>
-        <Field Def="f32 animSpeedOverwrteRate">
-            <DisplayName>《アニメ速度可変》</DisplayName>
-            <Description>TimeActから速度変更が指定されているときの再生倍率</Description>
-            <Maximum>10</Maximum>
-            <Increment>0.0099999998</Increment>
-            <SortID>400</SortID>
-        </Field>
-        <Field Def="f32 animSpeedSharplyRate">
-            <DisplayName>《急開放アクション アニメ再生速度倍率》</DisplayName>
-            <Description>外的要因による急にアニメ速度が変わった際の再生倍率</Description>
-            <Maximum>10</Maximum>
-            <Increment>0.0099999998</Increment>
-            <SortID>450</SortID>
-        </Field>
-        <Field Def="u32 material">
-            <DisplayName>《材質》</DisplayName>
-            <Enum>MATERIAL_TYPE_ENUM</Enum>
-            <Description>材質</Description>
-            <SortID>500</SortID>
-        </Field>
-        <Field Def="u8 moveDumyPolyId">
-            <DisplayName>《位置修正 ダミポリID》</DisplayName>
-            <Description>位置修正用のダミポリID</Description>
-            <Maximum>255</Maximum>
-            <Increment>1</Increment>
-            <SortID>600</SortID>
-        </Field>
-        <Field Def="u8 moveType">
-            <DisplayName>《移動設定》</DisplayName>
-            <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
-            <Description>移動設定</Description>
-            <SortID>700</SortID>
-        </Field>
-        <Field Def="u8 weaponStorage">
-            <DisplayName>《武器収納設定》</DisplayName>
-            <Enum>GIMMIC_STORAGE_TYPE_ENUM</Enum>
-            <Description>武器収納</Description>
-            <SortID>800</SortID>
-        </Field>
-        <Field Def="u8 rotationType">
-            <DisplayName>《旋回設定》</DisplayName>
-            <Enum>GIMMIC_ROTATION_TYPE</Enum>
-            <Description>旋回設定</Description>
-            <SortID>900</SortID>
-        </Field>
-        <Field Def="u32 timeActId">
-            <DisplayName>《タイムアクトID》</DisplayName>
-            <Description>OBJに設定されるTimeActのID。0の場合モデルIDと同じ値のTimeActが使用される。</Description>
-            <Maximum>999999</Maximum>
-            <Increment>1</Increment>
-            <SortID>200</SortID>
-        </Field>
-        <Field Def="s8 breakLogicSoundVolume = -1">
-            <DisplayName>《破壊時音量》</DisplayName>
-            <Description>OBJが壊れたときにロジックに通知する音のボリューム。実際に鳴る音とは無関係。</Description>
-            <Minimum>-1</Minimum>
-            <Maximum>10</Maximum>
-            <Increment>1</Increment>
-            <SortID>1000</SortID>
-        </Field>
-        <Field Def="u8 naviCtrlType">
-            <DisplayName>《ナビ制御タイプ》</DisplayName>
-            <Enum>OBJ_NAVI_CTRL_TYPE_ENUM</Enum>
-            <Description>オブジェをナビメッシュからボックス形状で切り抜くか</Description>
-            <SortID>1100</SortID>
-        </Field>
-        <Field Def="u8 sharplyAnimEnable">
-            <DisplayName>《急開放アクション許可》</DisplayName>
-            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>急開放アクションを許可するか</Description>
-            <Increment>1</Increment>
-            <SortID>470</SortID>
-        </Field>
-        <Field Def="u8 enableDecal">
-            <DisplayName>《デカール貼り付けを許可》</DisplayName>
-            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>デカール貼り付けを許可</Description>
-            <Increment>1</Increment>
-            <SortID>1200</SortID>
-        </Field>
-    </Fields>
+  <ParamType>MAP_OBJECT_PARAM</ParamType>
+  <Unk06>0</Unk06>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <Version>201</Version>
+  <Fields>
+    <Field Def="f32 interact_speed_start" />
+    <Field Def="f32 interact_speed_end" />
+    <Field Def="f32 Unk00" />
+    <Field Def="s32 Unk01" />
+    <Field Def="u8 Unk02" />
+    <Field Def="u8 Unk03" />
+    <Field Def="u8 Unk04" />
+    <Field Def="u8 Unk05" />
+    <Field Def="s32 Unk06" />
+    <Field Def="u8 Unk07" />
+    <Field Def="u8 Unk08" />
+    <Field Def="u8 Unk09" />
+    <Field Def="u8 Unk10" />
+    <Field Def="f32 Unk11" />
+  </Fields>
 </PARAMDEF>

@@ -8,151 +8,134 @@
     <Fields>
         <Field Def="s32 sfxId = 1">
             <DisplayName>構え中表示弾SFXID</DisplayName>
-            <Description>構え中表示弾SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId0">
             <DisplayName>弱バレットID</DisplayName>
-            <Description>弱バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId0">
             <DisplayName>強バレットID</DisplayName>
-            <Description>強バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId0">
             <DisplayName>弱ダメージID</DisplayName>
-            <Description>弱ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId0">
             <DisplayName>強ダメージID</DisplayName>
-            <Description>強ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId1">
             <DisplayName>弱バレットID</DisplayName>
-            <Description>弱バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId1">
             <DisplayName>強バレットID</DisplayName>
-            <Description>強バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId1">
             <DisplayName>弱ダメージID</DisplayName>
-            <Description>弱ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId1">
             <DisplayName>強ダメージID</DisplayName>
-            <Description>強ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId2">
             <DisplayName>弱バレットID</DisplayName>
-            <Description>弱バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId2">
             <DisplayName>強バレットID</DisplayName>
-            <Description>強バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId2">
             <DisplayName>弱ダメージID</DisplayName>
-            <Description>弱ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId2">
             <DisplayName>強ダメージID</DisplayName>
-            <Description>強ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
         </Field>
-        <Field Def="s32 lightBulletId">
+        <Field Def="s32 lightBulletId3">
             <DisplayName>弱バレットID</DisplayName>
-            <Description>弱バレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="s32 heavyBulletId">
+        <Field Def="s32 heavyBulletId3">
             <DisplayName>強バレットID</DisplayName>
-            <Description>????000??????</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="s32 lightDamageId">
+        <Field Def="s32 lightDamageId3">
             <DisplayName>弱ダメージID</DisplayName>
-            <Description>?????</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
-        <Field Def="s32 heavyDamageId">
+        <Field Def="s32 heavyDamageId3">
             <DisplayName>強ダメージID</DisplayName>
-            <Description>強ダメージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -161,7 +144,6 @@
         </Field>
         <Field Def="u16 modelIdInQuiver">
             <DisplayName>矢筒の中の矢モデルID</DisplayName>
-            <Description>矢筒の中の矢モデルID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>65535</Maximum>
@@ -170,7 +152,6 @@
         </Field>
         <Field Def="u16 menuPhysicalAttack">
             <DisplayName>物理攻撃力</DisplayName>
-            <Description>物理攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -179,7 +160,6 @@
         </Field>
         <Field Def="u16 menuMagicAttack">
             <DisplayName>魔力攻撃力</DisplayName>
-            <Description>魔力攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -188,7 +168,6 @@
         </Field>
         <Field Def="u16 menuThunderAttack">
             <DisplayName>雷攻撃力</DisplayName>
-            <Description>雷攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -197,7 +176,6 @@
         </Field>
         <Field Def="u16 menufireAttack">
             <DisplayName>炎攻撃力</DisplayName>
-            <Description>炎攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -206,7 +184,6 @@
         </Field>
         <Field Def="u16 menudarkAttack">
             <DisplayName>闇攻撃力</DisplayName>
-            <Description>闇攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -215,7 +192,6 @@
         </Field>
         <Field Def="u16 menuPoisonAttack">
             <DisplayName>毒攻撃力</DisplayName>
-            <Description>毒攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -224,7 +200,6 @@
         </Field>
         <Field Def="u16 menuBleedAttack">
             <DisplayName>出血攻撃力</DisplayName>
-            <Description>出血攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -233,7 +208,6 @@
         </Field>
         <Field Def="u16 menuWeaponBreakAttack">
             <DisplayName>武器破壊攻撃力</DisplayName>
-            <Description>武器破壊攻撃力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -243,24 +217,20 @@
         <Field Def="u8 arrowType">
             <DisplayName>矢の種類</DisplayName>
             <Enum>ARROW_TYPE</Enum>
-            <Description>矢の種類</Description>
             <SortID>120</SortID>
         </Field>
         <Field Def="u8 menuAttackCategory1">
             <DisplayName>攻撃属性1</DisplayName>
             <Enum>WEAPON_ATTACK_CATEGORY</Enum>
-            <Description>攻撃属性1</Description>
             <SortID>1100</SortID>
         </Field>
         <Field Def="u8 menuAttackCategory2">
             <DisplayName>攻撃属性2</DisplayName>
             <Enum>WEAPON_ATTACK_CATEGORY</Enum>
-            <Description>攻撃属性2</Description>
             <SortID>1101</SortID>
         </Field>
         <Field Def="dummy8 padding[3]">
             <DisplayName>パディング</DisplayName>
-            <Description>パディング</Description>
             <SortID>1208</SortID>
         </Field>
     </Fields>
