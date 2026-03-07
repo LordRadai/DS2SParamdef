@@ -9,7 +9,6 @@
         <Field Def="s8 spellSlot">
             <DisplayName>スペルスロット</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>スペルスロット数が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>310</SortID>
@@ -17,7 +16,6 @@
         <Field Def="s8 spellUsesLevel">
             <DisplayName>スペル使用回数レベル</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>スペル使用回数レベルが影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>330</SortID>
@@ -25,7 +23,6 @@
         <Field Def="s8 hpMax">
             <DisplayName>最大HP</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>最大HPが影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
@@ -33,7 +30,6 @@
         <Field Def="s8 staminaMax">
             <DisplayName>スタミナ</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>最大スタミナ量が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>300</SortID>
@@ -41,7 +37,6 @@
         <Field Def="s8 equipLoadMax">
             <DisplayName>装備重量</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>最大装備重量が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>200</SortID>
@@ -49,7 +44,6 @@
         <Field Def="s8 physicalAttackByStrength">
             <DisplayName>筋力 物理攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>筋力による物理攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
@@ -57,7 +51,6 @@
         <Field Def="s8 physicalAttackByDexterity">
             <DisplayName>技量 物理攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>技量による物理攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
@@ -65,7 +58,6 @@
         <Field Def="s8 magicAttack">
             <DisplayName>魔力 攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>魔力攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>600</SortID>
@@ -73,7 +65,6 @@
         <Field Def="s8 flameAttack">
             <DisplayName>炎 攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>炎攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>600</SortID>
@@ -81,7 +72,6 @@
         <Field Def="s8 lightningAttack">
             <DisplayName>雷 攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>雷攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
@@ -89,7 +79,6 @@
         <Field Def="s8 darkAttack">
             <DisplayName>闇 攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>闇攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
@@ -97,7 +86,6 @@
         <Field Def="s8 weaponBreakAdditionalEffect">
             <DisplayName>武器破壊 追加効果攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>武器破壊の追加効果攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
@@ -105,7 +93,6 @@
         <Field Def="s8 bleedingAdditionalEffect">
             <DisplayName>出血 追加効果攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>出血の追加効果攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
@@ -113,7 +100,6 @@
         <Field Def="s8 poisonAdditionalEffect">
             <DisplayName>毒 追加効果攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>毒の追加効果攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1050</SortID>
@@ -121,7 +107,6 @@
         <Field Def="s8 curseAdditionalEffect">
             <DisplayName>呪 追加効果攻撃力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>呪いの追加効果攻撃力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1050</SortID>
@@ -129,7 +114,6 @@
         <Field Def="s8 chantingTimeCorrectScale">
             <DisplayName>詠唱時間 補正倍率</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>スペル詠唱時間補正倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>320</SortID>
@@ -137,7 +121,6 @@
         <Field Def="s8 criticalAttackCorrectScale">
             <DisplayName>クリティカル 補正倍率</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>クリティカル補正倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1010</SortID>
@@ -145,7 +128,6 @@
         <Field Def="s8 fluctuationCorrectScaleMin">
             <DisplayName>揺らぎ補正倍率 最小</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>最小揺らぎ補正倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1020</SortID>
@@ -153,7 +135,6 @@
         <Field Def="s8 fluctuationCorrectScaleMax">
             <DisplayName>揺らぎ補正倍率 最大</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>最大揺らぎ補正倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1020</SortID>
@@ -161,7 +142,6 @@
         <Field Def="s8 weaponBreakResistance">
             <DisplayName>武器破壊 耐性値</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>武器破壊への耐性値が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>400</SortID>
@@ -169,7 +149,6 @@
         <Field Def="s8 bleedingResistance">
             <DisplayName>出血 耐性値</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>出血への耐性値が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
@@ -177,7 +156,6 @@
         <Field Def="s8 poisonResistance">
             <DisplayName>毒 耐性値</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>毒の耐性値が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1050</SortID>
@@ -185,7 +163,6 @@
         <Field Def="s8 petrifactionResistance">
             <DisplayName>石化 耐性値</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>石化の耐性値が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1050</SortID>
@@ -193,7 +170,6 @@
         <Field Def="s8 curseResistance">
             <DisplayName>呪 耐性値</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>呪いの耐性値が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1050</SortID>
@@ -201,7 +177,6 @@
         <Field Def="s8 magicResistance">
             <DisplayName>魔力 抵抗力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>魔力への抵抗力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>600</SortID>
@@ -209,7 +184,6 @@
         <Field Def="s8 flameResistance">
             <DisplayName>炎 抵抗力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>炎への抵抗力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>600</SortID>
@@ -217,7 +191,6 @@
         <Field Def="s8 lightningResistance">
             <DisplayName>雷 抵抗力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>雷への抵抗力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
@@ -225,7 +198,6 @@
         <Field Def="s8 darkResistance">
             <DisplayName>闇 抵抗力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>闇への抵抗力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>700</SortID>
@@ -233,7 +205,6 @@
         <Field Def="s8 stepInvincibleTimeRate">
             <DisplayName>ステップ 無敵時間割合</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>ステップ時無敵時間割合が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
@@ -241,7 +212,6 @@
         <Field Def="s8 rollingInvincibleTimeRate">
             <DisplayName>ローリング 無敵時間割合</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>ローリング時無敵時間割合が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
@@ -249,7 +219,6 @@
         <Field Def="s8 jumpInvincibleTimeRate">
             <DisplayName>ジャンプ 無敵時間割合</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>ジャンプ時無敵時間割合が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>800</SortID>
@@ -257,7 +226,6 @@
         <Field Def="s8 changeEquipSpeedScale">
             <DisplayName>装備切替 速度倍率</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>装備切り替え速度倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>850</SortID>
@@ -265,7 +233,6 @@
         <Field Def="s8 useItemSpeedScale">
             <DisplayName>アイテム使用 速度倍率</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>アイテム使用速度倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>850</SortID>
@@ -273,7 +240,6 @@
         <Field Def="s8 blockSpeedScale">
             <DisplayName>ガード構え 速度倍率</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>ガード構え速度倍率が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>850</SortID>
@@ -281,7 +247,6 @@
         <Field Def="s8 defense">
             <DisplayName>防御力</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>防御力が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>900</SortID>
@@ -289,7 +254,6 @@
         <Field Def="s8 itemDropTicketCount">
             <DisplayName>アイテムドロップ チケット枚数分母</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>アイテムドロップチケット枚数の分母が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
@@ -297,7 +261,6 @@
         <Field Def="s8 misfireChestTrapTicketCount">
             <DisplayName>宝箱トラップ不発 チケット枚数分母</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>宝箱トラップ不発チケット枚数の分母が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1000</SortID>
@@ -305,7 +268,6 @@
         <Field Def="s8 criticalTicketCount">
             <DisplayName>クリティカル チケット枚数分母</DisplayName>
             <Enum>LevelStatTypes</Enum>
-            <Description>クリティカルチケット枚数の分母が影響を受けるレベルステータス</Description>
             <Maximum>11</Maximum>
             <Increment>1</Increment>
             <SortID>1010</SortID>

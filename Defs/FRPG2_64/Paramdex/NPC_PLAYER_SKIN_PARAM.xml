@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u8 skinNo = 1">
             <DisplayName>肌番号</DisplayName>
-            <Description>肌番号</Description>
             <Minimum>1</Minimum>
             <Maximum>2</Maximum>
             <Increment>1</Increment>
@@ -20,7 +19,6 @@
         </Field>
         <Field Def="f32 skinR">
             <DisplayName>肌R</DisplayName>
-            <Description>肌Ｒ</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
@@ -28,7 +26,6 @@
         </Field>
         <Field Def="f32 skinG">
             <DisplayName>肌G</DisplayName>
-            <Description>肌Ｇ</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
@@ -36,7 +33,6 @@
         </Field>
         <Field Def="f32 skinB">
             <DisplayName>肌B</DisplayName>
-            <Description>肌Ｂ</Description>
             <Minimum>-1</Minimum>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>

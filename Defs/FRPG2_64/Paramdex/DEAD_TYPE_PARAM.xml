@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 deadChrDeleteTime = -1">
             <DisplayName>死亡時モデル削除時間 [sec]</DisplayName>
-            <Description>死亡時のモデル削除までの時間</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="f32 deadLockOffTime">
             <DisplayName>死亡時ロックオン解除 開始時間 [sec]</DisplayName>
-            <Description>死亡時のロック解除までの時間</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -26,7 +24,6 @@
         </Field>
         <Field Def="f32 deadItemDropTime">
             <DisplayName>死亡時アイテムドロップ時間 [sec]</DisplayName>
-            <Description>死亡時のアイテムドロップ時間</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -35,7 +32,6 @@
         </Field>
         <Field Def="f32 deadHitDisableTime">
             <DisplayName>死亡時ヒット削除時間 [sec]</DisplayName>
-            <Description>死亡時のヒット削除時間</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -44,7 +40,6 @@
         </Field>
         <Field Def="f32 deadSoulDropTime">
             <DisplayName>死亡時ソウルドロップ 開始時間 [sec]</DisplayName>
-            <Description>死亡時のソウルドロップ開始時間</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -53,7 +48,6 @@
         </Field>
         <Field Def="f32 deadSfxTime = -1">
             <DisplayName>死亡時SFX 開始時間 [sec]</DisplayName>
-            <Description>死亡時のSFX開始時間</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -63,12 +57,10 @@
         <Field Def="u32 deadSfxType">
             <DisplayName>死亡時SFXタイプ</DisplayName>
             <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
-            <Description>死亡時SFXタイプ</Description>
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 deadFadeDelay = -1">
             <DisplayName>死亡時フェード開始時間[sec]</DisplayName>
-            <Description>死亡時フェード開始時間[sec]</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>100</Maximum>
@@ -77,7 +69,6 @@
         </Field>
         <Field Def="f32 deadFadeTime">
             <DisplayName>死亡時フェード時間[sec]</DisplayName>
-            <Description>死亡時フェード時間[sec]</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -85,7 +76,6 @@
         </Field>
         <Field Def="u32 deadSeId">
             <DisplayName>死亡時サウンドID</DisplayName>
-            <Description>死亡時サウンドID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -93,7 +83,6 @@
         </Field>
         <Field Def="s8 deadCullingFilterId = -1">
             <DisplayName>死亡時非表示カリングID</DisplayName>
-            <Description>死亡時非表示カリングID</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>64</Maximum>
@@ -103,18 +92,15 @@
         <Field Def="u8 deadDisableParts">
             <DisplayName>死亡時無効部位</DisplayName>
             <Enum>CHR_PARTS_CATEGORY_TYPE</Enum>
-            <Description>死亡時無効部位</Description>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 deadIsNoConstraint">
             <DisplayName>バラバラ死亡</DisplayName>
             <Enum>BOOL_ENABLEDISABLE_TYPE</Enum>
-            <Description>死亡時に部位を外す</Description>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 deadIsChrSe">
             <DisplayName>死亡時キャラSE</DisplayName>
-            <Description>死亡時サウンドにキャラSEを使用するか</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -122,7 +108,6 @@
         </Field>
         <Field Def="u32 deadSoulBulletId">
             <DisplayName>死亡時ソウル弾ID</DisplayName>
-            <Description>死亡時ソウル弾ID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

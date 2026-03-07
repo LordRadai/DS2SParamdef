@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s8 groupMask">
             <DisplayName>表示グループマスク</DisplayName>
-            <Description>表示グループマスクを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>127</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="s8 memoryBlock">
             <DisplayName>メモリブロック</DisplayName>
-            <Description>メモリブロックを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>127</Maximum>
             <Increment>1</Increment>
@@ -25,7 +23,6 @@
         </Field>
         <Field Def="s8 addGroupMask = -1">
             <DisplayName>オブジェクト表示グループマスク</DisplayName>
-            <Description>追加の表示グループマスクを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>127</Maximum>
@@ -34,7 +31,6 @@
         </Field>
         <Field Def="u8 iblTextureId">
             <DisplayName>環境マップテクスチャID</DisplayName>
-            <Description>環境マップテクスチャのIDを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -42,7 +38,6 @@
         </Field>
         <Field Def="u8 img0MulColorR">
             <DisplayName>img0乗算色R</DisplayName>
-            <Description>一枚目絵の乗算色Rを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -50,7 +45,6 @@
         </Field>
         <Field Def="u8 img0MulColorG">
             <DisplayName>img0乗算色G</DisplayName>
-            <Description>一枚目絵の乗算色Gを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -58,7 +52,6 @@
         </Field>
         <Field Def="u8 img0MulColorB">
             <DisplayName>img0乗算色B</DisplayName>
-            <Description>一枚目絵の乗算色Bを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -66,7 +59,6 @@
         </Field>
         <Field Def="u8 filterId">
             <DisplayName>フィルタID</DisplayName>
-            <Description>フィルタのIDを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>15</Maximum>
             <Increment>1</Increment>
@@ -74,7 +66,6 @@
         </Field>
         <Field Def="f32 alpha0Factor">
             <DisplayName>α0係数</DisplayName>
-            <Description>一枚目絵のα係数を設定します。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -82,7 +73,6 @@
         </Field>
         <Field Def="u8 img1MulColorR">
             <DisplayName>img1乗算色R</DisplayName>
-            <Description>二枚目絵の乗算色Rを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -90,7 +80,6 @@
         </Field>
         <Field Def="u8 img1MulColorG">
             <DisplayName>img1乗算色G</DisplayName>
-            <Description>二枚目絵の乗算色Gを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -98,7 +87,6 @@
         </Field>
         <Field Def="u8 img1MulColorB">
             <DisplayName>img1乗算色B</DisplayName>
-            <Description>二枚目絵の乗算色Bを設定します。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -113,7 +101,6 @@
         </Field>
         <Field Def="f32 alpha1Factor">
             <DisplayName>α1係数</DisplayName>
-            <Description>二枚目絵のα係数を設定します。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -121,7 +108,6 @@
         </Field>
         <Field Def="f32 positionFactor">
             <DisplayName>位置係数</DisplayName>
-            <Description>位置の係数を設定します。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -129,7 +115,6 @@
         </Field>
         <Field Def="f32 scaleFactor">
             <DisplayName>スケール係数</DisplayName>
-            <Description>スケールの係数を設定します。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -137,7 +122,6 @@
         </Field>
         <Field Def="f32 uvFactor">
             <DisplayName>UV係数</DisplayName>
-            <Description>UVの係数を設定します。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -145,7 +129,6 @@
         </Field>
         <Field Def="u16 disableLightId0">
             <DisplayName>ID1</DisplayName>
-            <Description>停止させるライトのIDの1つ目です。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -153,7 +136,6 @@
         </Field>
         <Field Def="u16 disableLightId1">
             <DisplayName>ID2</DisplayName>
-            <Description>停止させるライトのIDの2つ目です。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -161,7 +143,6 @@
         </Field>
         <Field Def="u16 disableSfxId0">
             <DisplayName>ID1</DisplayName>
-            <Description>停止させるSFXのIDの1つ目です。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -169,7 +150,6 @@
         </Field>
         <Field Def="u16 disableSfxId1">
             <DisplayName>ID2</DisplayName>
-            <Description>停止させるSFXのIDの2つ目です。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -177,7 +157,6 @@
         </Field>
         <Field Def="f32 lodFactorScale">
             <DisplayName>LOD係数のスケーラ</DisplayName>
-            <Description>LOD係数のスケーラです。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>

@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u32 generatorBeginId">
             <DisplayName>ジェネレータ開始ＩＤ</DisplayName>
-            <Description>ジェネレータ開始ＩＤ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="u32 generatorEndId">
             <DisplayName>ジェネレータ終了ＩＤ</DisplayName>
-            <Description>ジェネレータ終了ＩＤ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -26,7 +24,6 @@
         </Field>
         <Field Def="u16 dummyPolyBeginId">
             <DisplayName>ダミポリ開始ＩＤ</DisplayName>
-            <Description>ダミポリ開始ＩＤ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -35,7 +32,6 @@
         </Field>
         <Field Def="u16 dummyPolyEndId">
             <DisplayName>ダミポリ停止ＩＤ</DisplayName>
-            <Description>ダミポリ停止ＩＤ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -45,14 +41,12 @@
         <Field Def="u8 isCopyPlayerProtector">
             <DisplayName>プレイヤー防具を引き継ぐ</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>プレイヤー防具を引き継ぐ</Description>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 isAnotherWorld">
             <DisplayName>異次元空間生成</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>異次元空間生成</Description>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>

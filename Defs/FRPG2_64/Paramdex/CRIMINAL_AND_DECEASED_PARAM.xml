@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u8 criminalUpNetwork = 1">
             <DisplayName>《罪人カウンター加算値（ネットワーク）》</DisplayName>
-            <Description>《罪人カウンター加算値（ネットワーク）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u8 criminalDownNetwork = 1">
             <DisplayName>《罪人カウンター減算値（ネットワーク）》</DisplayName>
-            <Description>《罪人カウンター減算値（ネットワーク）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u8 criminalUpNpc = 1">
             <DisplayName>《罪人カウンター加算値（NPC）》</DisplayName>
-            <Description>《罪人カウンター加算値（NPC）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u8 criminalThreshold1 = 1">
             <DisplayName>《罪人レベル閾値（一般⇔罪人）》</DisplayName>
-            <Description>《罪人レベル閾値（一般⇔罪人）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="u8 criminalThreshold2 = 1">
             <DisplayName>《大罪人レベル閾値（罪人⇔大罪人）》</DisplayName>
-            <Description>《大罪人レベル閾値（罪人⇔大罪人）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -48,7 +43,6 @@
         </Field>
         <Field Def="u8 deceasedUpNormal = 1">
             <DisplayName>《亡者カウンター加算値（通常）》</DisplayName>
-            <Description>《亡者カウンター加算値（通常）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -56,7 +50,6 @@
         </Field>
         <Field Def="u8 deceasedUpCursed = 1">
             <DisplayName>《亡者カウンター加算値（呪死）》</DisplayName>
-            <Description>《亡者カウンター加算値（呪死）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="u8 deceasedThreshold1 = 1">
             <DisplayName>《亡者レベル閾値（亡者⇔すごい亡者）》</DisplayName>
-            <Description>《亡者レベル閾値（亡者⇔すごい亡者）》</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -72,7 +64,6 @@
         </Field>
         <Field Def="u8 hpLowerBound1 = 1">
             <DisplayName>《HP下限%（一般/罪人）》</DisplayName>
-            <Description>《HP下限%（一般/罪人）》</Description>
             <Minimum>1</Minimum>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -80,7 +71,6 @@
         </Field>
         <Field Def="u8 hpLowerBound2 = 1">
             <DisplayName>《HP下限%（大罪人）》</DisplayName>
-            <Description>《HP下限%（大罪人）》</Description>
             <Minimum>1</Minimum>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -88,7 +78,6 @@
         </Field>
         <Field Def="u8 hpUpperBound1 = 1">
             <DisplayName>《HP上限%（呪い）》</DisplayName>
-            <Description>《HP上限%（呪い）》</Description>
             <Minimum>1</Minimum>
             <Maximum>100</Maximum>
             <Increment>1</Increment>

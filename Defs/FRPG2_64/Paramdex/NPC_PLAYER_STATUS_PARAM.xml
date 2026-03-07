@@ -9,7 +9,6 @@
         <Field Def="u8 genderType">
             <DisplayName>性別</DisplayName>
             <Enum>PLAYER_GENDER_TYPE</Enum>
-            <Description>男女の性別設定</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
@@ -17,13 +16,11 @@
         <Field Def="u8 livingType">
             <DisplayName>生死</DisplayName>
             <Enum>PLAYER_HUMAN_CONDITIONS_TYPE</Enum>
-            <Description>生者、亡者、すごい亡者の設定</Description>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 bodyType">
             <DisplayName>体型</DisplayName>
-            <Description>キャラクタ体型設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
@@ -31,13 +28,11 @@
         <Field Def="u8 faceType">
             <DisplayName>顔タイプ</DisplayName>
             <Enum>NPC_FACE_TYPE</Enum>
-            <Description>キャラクタ顔タイプ設定</Description>
             <Increment>1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="s16 faceId = -1">
             <DisplayName>顔ID</DisplayName>
-            <Description>キャラクタ顔ID設定(モデルID or プリセットID)</Description>
             <Minimum>-1</Minimum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -46,89 +41,76 @@
         <Field Def="u8 vowType">
             <DisplayName>誓約</DisplayName>
             <Enum>VOW_TYPES</Enum>
-            <Description>誓約</Description>
             <SortID>50</SortID>
         </Field>
         <Field Def="u8 vowLevel">
             <DisplayName>誓約レベル</DisplayName>
-            <Description>誓約レベル</Description>
             <Maximum>3</Maximum>
             <Increment>1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="u8 lifeForceLevel">
             <DisplayName>生命力</DisplayName>
-            <Description>生命力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="u8 stayingPowerLevel">
             <DisplayName>持久力</DisplayName>
-            <Description>持久力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="u8 attunementLevel">
             <DisplayName>記憶力</DisplayName>
-            <Description>記憶力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 vitalityLevel">
             <DisplayName>体力</DisplayName>
-            <Description>体力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>100</SortID>
         </Field>
         <Field Def="u8 strengthLevel">
             <DisplayName>筋力</DisplayName>
-            <Description>筋力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>110</SortID>
         </Field>
         <Field Def="u8 dexterityLevel">
             <DisplayName>技量</DisplayName>
-            <Description>技量レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>120</SortID>
         </Field>
         <Field Def="u8 intelligenceLevel">
             <DisplayName>理力</DisplayName>
-            <Description>理力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>130</SortID>
         </Field>
         <Field Def="u8 faithLevel">
             <DisplayName>信仰</DisplayName>
-            <Description>信仰レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>140</SortID>
         </Field>
         <Field Def="u8 enduranceLevel">
             <DisplayName>耐久力</DisplayName>
-            <Description>耐久力レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>150</SortID>
         </Field>
         <Field Def="u8 quicknessLevel">
             <DisplayName>敏捷</DisplayName>
-            <Description>敏捷レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>160</SortID>
         </Field>
         <Field Def="u8 luckLevel">
             <DisplayName>運</DisplayName>
-            <Description>運レベル設定</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>170</SortID>
@@ -139,21 +121,18 @@
         </Field>
         <Field Def="f32 loadWeightPercent">
             <DisplayName>荷重割合 [%]</DisplayName>
-            <Description>荷重割合設定</Description>
             <Maximum>200</Maximum>
             <Increment>0.1</Increment>
             <SortID>180</SortID>
         </Field>
         <Field Def="f32 evasionInvincibleTimePercent">
             <DisplayName>回避無敵期間割合 [%]</DisplayName>
-            <Description>回避無敵期間割合設定</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>190</SortID>
         </Field>
         <Field Def="s32 beltItem01 = -1">
             <DisplayName>ベルトスロット 01 [アイテム]</DisplayName>
-            <Description>ベルトスロット01アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -161,7 +140,6 @@
         </Field>
         <Field Def="s32 beltItem02 = -1">
             <DisplayName>ベルトスロット 02 [アイテム]</DisplayName>
-            <Description>ベルトスロット02アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -169,7 +147,6 @@
         </Field>
         <Field Def="s32 beltItem03 = -1">
             <DisplayName>ベルトスロット 03 [アイテム]</DisplayName>
-            <Description>ベルトスロット03アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -177,7 +154,6 @@
         </Field>
         <Field Def="s32 beltItem04 = -1">
             <DisplayName>ベルトスロット 04 [アイテム]</DisplayName>
-            <Description>ベルトスロット04アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -185,7 +161,6 @@
         </Field>
         <Field Def="s32 beltItem05 = -1">
             <DisplayName>ベルトスロット 05 [アイテム]</DisplayName>
-            <Description>ベルトスロット05アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -193,7 +168,6 @@
         </Field>
         <Field Def="s32 beltItem06 = -1">
             <DisplayName>ベルトスロット 06 [アイテム]</DisplayName>
-            <Description>ベルトスロット06アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -201,7 +175,6 @@
         </Field>
         <Field Def="s32 beltItem07 = -1">
             <DisplayName>ベルトスロット 07 [アイテム]</DisplayName>
-            <Description>ベルトスロット07アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -209,7 +182,6 @@
         </Field>
         <Field Def="s32 beltItem08 = -1">
             <DisplayName>ベルトスロット 08 [アイテム]</DisplayName>
-            <Description>ベルトスロット08アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -217,7 +189,6 @@
         </Field>
         <Field Def="s32 beltItem09 = -1">
             <DisplayName>ベルトスロット 09 [アイテム]</DisplayName>
-            <Description>ベルトスロット09アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -225,7 +196,6 @@
         </Field>
         <Field Def="s32 beltItem10 = -1">
             <DisplayName>ベルトスロット 10 [アイテム]</DisplayName>
-            <Description>ベルトスロット10アイテムの種類設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -233,7 +203,6 @@
         </Field>
         <Field Def="s32 spellSlotItem01 = -1">
             <DisplayName>スペルスロット 01 アイテム</DisplayName>
-            <Description>スペルスロット 01 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -241,7 +210,6 @@
         </Field>
         <Field Def="s32 spellSlotItem02 = -1">
             <DisplayName>スペルスロット 02 アイテム</DisplayName>
-            <Description>スペルスロット 02 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -249,7 +217,6 @@
         </Field>
         <Field Def="s32 spellSlotItem03 = -1">
             <DisplayName>スペルスロット 03 アイテム</DisplayName>
-            <Description>スペルスロット 03 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -257,7 +224,6 @@
         </Field>
         <Field Def="s32 spellSlotItem04 = -1">
             <DisplayName>スペルスロット 04 アイテム</DisplayName>
-            <Description>スペルスロット 04 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -265,7 +231,6 @@
         </Field>
         <Field Def="s32 spellSlotItem05 = -1">
             <DisplayName>スペルスロット 05 アイテム</DisplayName>
-            <Description>スペルスロット 05 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -273,7 +238,6 @@
         </Field>
         <Field Def="s32 spellSlotItem06 = -1">
             <DisplayName>スペルスロット 06 アイテム</DisplayName>
-            <Description>スペルスロット 06 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -281,7 +245,6 @@
         </Field>
         <Field Def="s32 spellSlotItem07 = -1">
             <DisplayName>スペルスロット 07 アイテム</DisplayName>
-            <Description>スペルスロット 07 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -289,7 +252,6 @@
         </Field>
         <Field Def="s32 spellSlotItem08 = -1">
             <DisplayName>スペルスロット 08 アイテム</DisplayName>
-            <Description>スペルスロット 08 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -297,7 +259,6 @@
         </Field>
         <Field Def="s32 spellSlotItem09 = -1">
             <DisplayName>スペルスロット 09 アイテム</DisplayName>
-            <Description>スペルスロット 09 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -305,7 +266,6 @@
         </Field>
         <Field Def="s32 spellSlotItem10 = -1">
             <DisplayName>スペルスロット 10 アイテム</DisplayName>
-            <Description>スペルスロット 10 アイテム</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -313,7 +273,6 @@
         </Field>
         <Field Def="s32 rightWeapon01 = -1">
             <DisplayName>右武器 01</DisplayName>
-            <Description>右手武器装備01設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -321,7 +280,6 @@
         </Field>
         <Field Def="s32 rightWeapon02 = -1">
             <DisplayName>右武器 02</DisplayName>
-            <Description>右手武器装備02設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -329,7 +287,6 @@
         </Field>
         <Field Def="s32 rightWeapon03 = -1">
             <DisplayName>右武器 03</DisplayName>
-            <Description>右手武器装備03設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -337,7 +294,6 @@
         </Field>
         <Field Def="s32 leftWeapon01 = -1">
             <DisplayName>左武器 01</DisplayName>
-            <Description>左手武器装備01設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -345,7 +301,6 @@
         </Field>
         <Field Def="s32 leftWeapon02 = -1">
             <DisplayName>左武器 02</DisplayName>
-            <Description>左手武器装備02設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -353,7 +308,6 @@
         </Field>
         <Field Def="s32 leftWeapon03 = -1">
             <DisplayName>左武器 03</DisplayName>
-            <Description>左手武器装備03設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -361,7 +315,6 @@
         </Field>
         <Field Def="s32 headArmor = -1">
             <DisplayName>頭防具</DisplayName>
-            <Description>頭防具装備設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -369,7 +322,6 @@
         </Field>
         <Field Def="s32 bodyArmor = -1">
             <DisplayName>胴防具</DisplayName>
-            <Description>胴体防具装備設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -377,7 +329,6 @@
         </Field>
         <Field Def="s32 armArmor = -1">
             <DisplayName>腕防具</DisplayName>
-            <Description>腕農具装備設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -385,7 +336,6 @@
         </Field>
         <Field Def="s32 legArmor = -1">
             <DisplayName>足防具</DisplayName>
-            <Description>足防具装備設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -393,7 +343,6 @@
         </Field>
         <Field Def="s32 ringSlot01 = -1">
             <DisplayName>指輪 01 ID</DisplayName>
-            <Description>指輪装備01設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -401,7 +350,6 @@
         </Field>
         <Field Def="s32 ringSlot02 = -1">
             <DisplayName>指輪 02 ID</DisplayName>
-            <Description>指輪装備02設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -409,7 +357,6 @@
         </Field>
         <Field Def="s32 ringSlot03 = -1">
             <DisplayName>指輪 03 ID</DisplayName>
-            <Description>指輪装備03設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -417,7 +364,6 @@
         </Field>
         <Field Def="s32 ringSlot04 = -1">
             <DisplayName>指輪 04 ID</DisplayName>
-            <Description>指輪装備04設定</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -425,7 +371,6 @@
         </Field>
         <Field Def="s32 arrowSlot01 = -1">
             <DisplayName>矢 01 ID</DisplayName>
-            <Description>矢 01 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -433,7 +378,6 @@
         </Field>
         <Field Def="s32 arrowSlot02 = -1">
             <DisplayName>矢 02 ID</DisplayName>
-            <Description>矢 02 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -441,7 +385,6 @@
         </Field>
         <Field Def="s32 boltSlot01 = -1">
             <DisplayName>ボルト 01 ID</DisplayName>
-            <Description>ボルト 01 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -449,7 +392,6 @@
         </Field>
         <Field Def="s32 boltSlot02 = -1">
             <DisplayName>ボルト 02 ID</DisplayName>
-            <Description>ボルト 02 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -457,7 +399,6 @@
         </Field>
         <Field Def="s32 gestureSlot01 = -1">
             <DisplayName>ジェスチャー 01 ID</DisplayName>
-            <Description>ジェスチャー 01 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -465,7 +406,6 @@
         </Field>
         <Field Def="s32 gestureSlot02 = -1">
             <DisplayName>ジェスチャー 02 ID</DisplayName>
-            <Description>ジェスチャー 02 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -473,7 +413,6 @@
         </Field>
         <Field Def="s32 gestureSlot03 = -1">
             <DisplayName>ジェスチャー 03 ID</DisplayName>
-            <Description>ジェスチャー 03 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -481,7 +420,6 @@
         </Field>
         <Field Def="s32 gestureSlot04 = -1">
             <DisplayName>ジェスチャー 04 ID</DisplayName>
-            <Description>ジェスチャー 04 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -489,7 +427,6 @@
         </Field>
         <Field Def="s32 gestureSlot05 = -1">
             <DisplayName>ジェスチャー 05 ID</DisplayName>
-            <Description>ジェスチャー 05 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -497,7 +434,6 @@
         </Field>
         <Field Def="s32 gestureSlot06 = -1">
             <DisplayName>ジェスチャー 06 ID</DisplayName>
-            <Description>ジェスチャー 06 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -505,7 +441,6 @@
         </Field>
         <Field Def="s32 gestureSlot07 = -1">
             <DisplayName>ジェスチャー 07 ID</DisplayName>
-            <Description>ジェスチャー 07 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -513,7 +448,6 @@
         </Field>
         <Field Def="s32 gestureSlot08 = -1">
             <DisplayName>ジェスチャー 08 ID</DisplayName>
-            <Description>ジェスチャー 08 ID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

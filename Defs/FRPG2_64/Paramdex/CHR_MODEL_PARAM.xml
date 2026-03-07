@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="dummy8 aReserved[4]">
             <DisplayName>(予約領域)</DisplayName>
-            <Description>(予約領域)</Description>
             <SortID>2</SortID>
         </Field>
     </Fields>

@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 dataId">
             <DisplayName>データID</DisplayName>
-            <Description>キャラID／オブジェクトインスタンスID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

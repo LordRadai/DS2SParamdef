@@ -9,20 +9,17 @@
         <Field Def="u8 doorType">
             <DisplayName>扉タイプ</DisplayName>
             <Enum>DOOR_TYPE_ENUM</Enum>
-            <Description>扉タイプ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <SortID>100</SortID>
         </Field>
         <Field Def="dummy8 aReserved[3]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>211</SortID>
         </Field>
         <Field Def="u32 openKeyGuideParam">
             <DisplayName>開く際のキーガイドパラメータID</DisplayName>
             <Enum>KEY_GUIDE_PARAM_TYPE</Enum>
-            <Description>開く際のキーガイドパラメータID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -31,7 +28,6 @@
         <Field Def="u32 closeKeyGuideParam">
             <DisplayName>閉じる際のキーガイドパラメータID</DisplayName>
             <Enum>KEY_GUIDE_PARAM_TYPE</Enum>
-            <Description>閉じる際のキーガイドパラメータID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

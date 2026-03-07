@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 positionX">
             <DisplayName>配置位置X</DisplayName>
-            <Description>配置位置X</Description>
             <DisplayFormat>%s</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="f32 positionY">
             <DisplayName>配置位置Y</DisplayName>
-            <Description>配置位置Y</Description>
             <DisplayFormat>%s</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -26,7 +24,6 @@
         </Field>
         <Field Def="f32 positionZ">
             <DisplayName>配置位置Z</DisplayName>
-            <Description>配置位置Z</Description>
             <DisplayFormat>%s</DisplayFormat>
             <Minimum>-100000</Minimum>
             <Maximum>100000</Maximum>
@@ -35,7 +32,6 @@
         </Field>
         <Field Def="f32 angleX">
             <DisplayName>配置角度X</DisplayName>
-            <Description>配置角度X</Description>
             <DisplayFormat>%s</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -44,7 +40,6 @@
         </Field>
         <Field Def="f32 angleY">
             <DisplayName>配置角度Y</DisplayName>
-            <Description>配置角度Y</Description>
             <DisplayFormat>%s</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -53,7 +48,6 @@
         </Field>
         <Field Def="f32 angleZ">
             <DisplayName>配置角度Z</DisplayName>
-            <Description>配置角度Z</Description>
             <DisplayFormat>%s</DisplayFormat>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
@@ -62,7 +56,6 @@
         </Field>
         <Field Def="dummy8 aReserved1[8]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>113</SortID>
         </Field>
     </Fields>

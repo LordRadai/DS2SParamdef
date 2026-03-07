@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u16 modelId">
             <DisplayName>モデルID</DisplayName>
-            <Description>指定IDの際に使用するモデルID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -17,7 +16,6 @@
         <Field Def="u8 type">
             <DisplayName>種類</DisplayName>
             <Enum>SOUND_FOOT_TYPE</Enum>
-            <Description>種類</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -25,7 +23,6 @@
         </Field>
         <Field Def="dummy8 aReserved[1]">
             <DisplayName>予約領域</DisplayName>
-            <Description>予約領域</Description>
             <SortID>2</SortID>
         </Field>
     </Fields>

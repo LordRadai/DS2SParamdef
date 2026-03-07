@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u16 requiredContributionLv1 = 1">
             <DisplayName>誓約レベル1 必要貢献度</DisplayName>
-            <Description>この値以上の貢献度を持っていると誓約レベルは1になる</Description>
             <Minimum>1</Minimum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u16 requiredContributionLv2 = 1">
             <DisplayName>誓約レベル2 必要貢献度</DisplayName>
-            <Description>この値以上の貢献度を持っていると誓約レベルは2になる</Description>
             <Minimum>1</Minimum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u16 requiredContributionLv3 = 1">
             <DisplayName>誓約レベル3 必要貢献度</DisplayName>
-            <Description>この値以上の貢献度を持っていると誓約レベルは3になる</Description>
             <Minimum>1</Minimum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>

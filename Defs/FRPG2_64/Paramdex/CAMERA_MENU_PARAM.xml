@@ -17,7 +17,6 @@
         <Field Def="u8 cameraBasePosType">
             <DisplayName>カメラ基準点タイプ</DisplayName>
             <Enum>CAMERA_BASE_POS_TYPE</Enum>
-            <Description>位置などを計算する基準</Description>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
@@ -29,7 +28,6 @@
         </Field>
         <Field Def="angle32 fovY = 43">
             <DisplayName>画角(deg)</DisplayName>
-            <Description>画角</Description>
             <Minimum>20</Minimum>
             <Maximum>120</Maximum>
             <Increment>0.1</Increment>
@@ -37,14 +35,12 @@
         </Field>
         <Field Def="f32 hitCollision = 0.05">
             <DisplayName>コリジョンサイズ</DisplayName>
-            <Description>カメラ基準点からの回転支点のオフセット</Description>
             <Maximum>5</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 fulcrumOffsetX">
             <DisplayName>支点(X軸) オフセット(m)</DisplayName>
-            <Description>カメラ基準点からの回転支点のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -52,7 +48,6 @@
         </Field>
         <Field Def="f32 fulcrumOffsetY">
             <DisplayName>支点(Y軸) オフセット(m)</DisplayName>
-            <Description>カメラ基準点からの回転支点のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -60,7 +55,6 @@
         </Field>
         <Field Def="f32 fulcrumOffsetZ">
             <DisplayName>支点(Z軸) オフセット(m)</DisplayName>
-            <Description>回転支点からの焦点のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -68,7 +62,6 @@
         </Field>
         <Field Def="f32 lookAtOffsetX">
             <DisplayName>焦点(X軸) オフセット(m)</DisplayName>
-            <Description>回転支点からの焦点のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -76,7 +69,6 @@
         </Field>
         <Field Def="f32 lookAtOffsetY = 0.5">
             <DisplayName>焦点(Y軸) オフセット(m)</DisplayName>
-            <Description>回転支点からの焦点のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -84,7 +76,6 @@
         </Field>
         <Field Def="f32 lookAtOffsetZ = 3">
             <DisplayName>焦点(Z軸) オフセット(m)</DisplayName>
-            <Description>回転支点からの位置のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -92,7 +83,6 @@
         </Field>
         <Field Def="f32 positionOffsetX">
             <DisplayName>位置(X軸) オフセット(m)</DisplayName>
-            <Description>回転支点からの位置のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -100,7 +90,6 @@
         </Field>
         <Field Def="f32 positionOffsetY = 1.5">
             <DisplayName>位置(Y軸) オフセット(m)</DisplayName>
-            <Description>回転支点からの位置のオフセット</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -108,7 +97,6 @@
         </Field>
         <Field Def="f32 positionOffsetZ = -4">
             <DisplayName>位置(Z軸) オフセット(m)</DisplayName>
-            <Description>左右に旋回する最大速度</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -116,14 +104,12 @@
         </Field>
         <Field Def="f32 rotHiSpeedRateIncTime = 0.6">
             <DisplayName>高速回転率増加時間[sec]</DisplayName>
-            <Description>左右に旋回する加速度</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="angle32 rotRangeMinX = -40">
             <DisplayName>X軸回転最小値[deg]</DisplayName>
-            <Description>左右旋回時のブレーキ</Description>
             <Minimum>-360</Minimum>
             <Maximum>360</Maximum>
             <Increment>0.1</Increment>
@@ -131,7 +117,6 @@
         </Field>
         <Field Def="angle32 rotRangeMaxX = 70">
             <DisplayName>X軸回転最大値[deg]</DisplayName>
-            <Description>上下旋回する最大速度</Description>
             <Minimum>-360</Minimum>
             <Maximum>360</Maximum>
             <Increment>0.1</Increment>
@@ -139,28 +124,24 @@
         </Field>
         <Field Def="angle32 rotSpeedX_Min = 80">
             <DisplayName>X軸回転速度[deg/sec]最小値</DisplayName>
-            <Description>上下旋回加速度</Description>
             <Maximum>1080</Maximum>
             <Increment>0.1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="angle32 rotSpeedX_Max = 240">
             <DisplayName>X軸回転速度[deg/sec]最大値</DisplayName>
-            <Description>上下旋回時のブレーキ</Description>
             <Maximum>1080</Maximum>
             <Increment>0.1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="angle32 rotSpeedY_Min = 80">
             <DisplayName>Y軸回転速度[deg/sec]最小値</DisplayName>
-            <Description>上旋回限界</Description>
             <Maximum>1080</Maximum>
             <Increment>0.1</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="angle32 rotSpeedY_Max = 240">
             <DisplayName>Y軸回転速度[deg/sec]最大値</DisplayName>
-            <Description>下旋回限界</Description>
             <Maximum>1080</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>

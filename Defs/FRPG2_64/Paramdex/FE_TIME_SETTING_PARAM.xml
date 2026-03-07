@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 Time">
             <DisplayName>時間</DisplayName>
-            <Description>単位は秒</Description>
             <Maximum>3600</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>

@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u32 globalFlagId">
             <DisplayName>表示開始グルーバルフラグ</DisplayName>
-            <Description>表示開始グルーバルフラグ、フラグが立っている時に表示される。　0をしているすると常時表示扱い</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>

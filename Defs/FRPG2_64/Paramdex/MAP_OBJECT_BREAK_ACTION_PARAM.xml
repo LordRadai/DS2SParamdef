@@ -9,55 +9,46 @@
         <Field Def="u8 sideWalk">
             <DisplayName>《水平移動で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが水平移動で接触すると壊れる</Description>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 walk">
             <DisplayName>《歩行で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが歩行で接触すると壊れる</Description>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 dash">
             <DisplayName>《ダッシュで破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラがダッシュで接触すると壊れる</Description>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 rolling">
             <DisplayName>《回避で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが回避で接触すると壊れる</Description>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 jump">
             <DisplayName>《ジャンプで破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラがジャンプで接触すると壊れる</Description>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 fall">
             <DisplayName>《落下で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが落下で接触すると壊れる</Description>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 damaged">
             <DisplayName>《ダメージ中で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが被ダメ中で接触すると壊れる</Description>
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 attack">
             <DisplayName>《攻撃中で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが攻撃中で接触すると壊れる</Description>
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 fall_attack">
             <DisplayName>《落下攻撃中で破壊》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>キャラが落下攻撃中で接触すると壊れる</Description>
             <SortID>9</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">

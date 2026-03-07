@@ -8,14 +8,12 @@
     <Fields>
         <Field Def="f32 speedScale">
             <DisplayName>《衝突時速度倍率》</DisplayName>
-            <Description>衝突時速度倍率</Description>
             <Maximum>9999</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 gravityFactor = 1">
             <DisplayName>《重力加速度倍率》</DisplayName>
-            <Description>重力加速度にかかる倍率です</Description>
             <Maximum>9999</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>2</SortID>

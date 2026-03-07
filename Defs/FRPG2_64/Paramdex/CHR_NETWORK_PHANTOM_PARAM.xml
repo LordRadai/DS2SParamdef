@@ -9,7 +9,6 @@
         <Field Def="s32 level0ShaderType">
             <DisplayName>制約レベル０シェーダー設定</DisplayName>
             <Enum>CHR_VISUAL_TYPE</Enum>
-            <Description>制約レベル０時の霊体時に適用するシェーダー設定</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
@@ -17,7 +16,6 @@
         <Field Def="u32 level0FullBodySfx">
             <DisplayName>制約レベル０ 適用全身SFX</DisplayName>
             <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
-            <Description>制約レベル０時の適用全身ＳＦＸ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -25,7 +23,6 @@
         <Field Def="u32 level1FullBodySfx">
             <DisplayName>制約レベル１ 適用全身SFX</DisplayName>
             <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
-            <Description>制約レベル１時の適用全身ＳＦＸ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -33,7 +30,6 @@
         <Field Def="u32 level2FullBodySfx">
             <DisplayName>制約レベル２ 適用全身SFX</DisplayName>
             <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
-            <Description>制約レベル２時の適用全身ＳＦＸ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -41,7 +37,6 @@
         <Field Def="u32 level3FullBodySfx">
             <DisplayName>制約レベル３ 適用全身SFX</DisplayName>
             <Enum>CHR_FULLBODY_SFX_PARAM_ENUM</Enum>
-            <Description>制約レベル３時の適用全身ＳＦＸ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -49,14 +44,12 @@
         <Field Def="u8 entryMotionType">
             <DisplayName>出現モーション</DisplayName>
             <Enum>PLAYER_MULTI_ENTRY_MOTION</Enum>
-            <Description>侵入時の出現モーション</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 speedDownHpMinRate">
             <DisplayName>速度低下発生HP 最小[%]</DisplayName>
-            <Description>速度低下発生HP 最小[%]</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="u8 speedDownHpMaxRate = 100">
             <DisplayName>速度低下発生HP 最大[%]</DisplayName>
-            <Description>速度低下発生HP 最大[%]</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -72,7 +64,6 @@
         </Field>
         <Field Def="u8 speedDownRate">
             <DisplayName>速度低下割合[%]</DisplayName>
-            <Description>速度低下割合[%]</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -80,14 +71,12 @@
         </Field>
         <Field Def="u32 entrySfxId">
             <DisplayName>生成SFXID</DisplayName>
-            <Description>侵入時にキャラから発生するSFXID</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 entryFullBodySfx">
             <DisplayName>生成全身SFXパラメータ</DisplayName>
-            <Description>侵入時にキャラから発生する全身SFX</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
@@ -95,14 +84,12 @@
         <Field Def="u32 deadType">
             <DisplayName>死亡タイプ</DisplayName>
             <Enum>DEAD_TYPE_PARAM_ID</Enum>
-            <Description>死亡タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 limitTime = -1">
             <DisplayName>マルチプレイ制限時間[Sec]</DisplayName>
-            <Description>マルチプレイの制限時間</Description>
             <Minimum>-1</Minimum>
             <Maximum>9999.9004</Maximum>
             <Increment>0.1</Increment>
@@ -110,7 +97,6 @@
         </Field>
         <Field Def="f32 returnWaitTime">
             <DisplayName>マルチプレイ終了帰還待ち時間[sec]</DisplayName>
-            <Description>マルチプレイから終了し帰還する際の待ち時間</Description>
             <Maximum>600</Maximum>
             <Increment>0.1</Increment>
             <SortID>12</SortID>
@@ -118,7 +104,6 @@
         <Field Def="u8 respawnPosTypeSuccess">
             <DisplayName>マルチ終了帰還位置 成功</DisplayName>
             <Enum>MULT_END_RESPAWN_POS_TYPE</Enum>
-            <Description>成功時の帰還位置タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
@@ -126,7 +111,6 @@
         <Field Def="u8 respawnPosTypeFaild">
             <DisplayName>マルチ終了帰還位置 失敗</DisplayName>
             <Enum>MULT_END_RESPAWN_POS_TYPE</Enum>
-            <Description>失敗時の帰還位置タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
@@ -134,14 +118,12 @@
         <Field Def="u8 respawnPosTypeDead">
             <DisplayName>マルチ終了帰還位置 死亡</DisplayName>
             <Enum>MULT_END_RESPAWN_POS_TYPE</Enum>
-            <Description>死亡時の帰還位置タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="dummy8 pad1[1]">
             <DisplayName>予約領域</DisplayName>
-            <Description>予約領域</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>101</SortID>
@@ -149,7 +131,6 @@
         <Field Def="u8 respawnConditionTypeSuccess">
             <DisplayName>マルチ終了復帰状態 成功</DisplayName>
             <Enum>MULT_END_RESPAWN_CONDITION_TYPE</Enum>
-            <Description>成功時の復帰状態タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
@@ -157,7 +138,6 @@
         <Field Def="u8 respawnConditionTypeFaild">
             <DisplayName>マルチ終了復帰状態 失敗</DisplayName>
             <Enum>MULT_END_RESPAWN_CONDITION_TYPE</Enum>
-            <Description>失敗時の復帰状態タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
@@ -165,21 +145,18 @@
         <Field Def="u8 respawnConditionTypeDead">
             <DisplayName>マルチ終了復帰状態 死亡</DisplayName>
             <Enum>MULT_END_RESPAWN_CONDITION_TYPE</Enum>
-            <Description>死亡時の復帰状態タイプ</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="dummy8 pad2[1]">
             <DisplayName>予約領域</DisplayName>
-            <Description>予約領域</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>102</SortID>
         </Field>
         <Field Def="u8 voiceChatType">
             <DisplayName>ボイスチャット設定</DisplayName>
-            <Description>ボイスチャット設定</Description>
             <Maximum>2</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
@@ -187,7 +164,6 @@
         <Field Def="u8 hostReturnWarpEnable">
             <DisplayName>ホストからの送還許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>ホストによって送還されるかどうかの設定</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>30</SortID>
@@ -195,7 +171,6 @@
         <Field Def="u8 ownerReturnWarpEnable">
             <DisplayName>自力帰還許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>自身によって帰還が可能かどうかの設定</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>30</SortID>
@@ -203,14 +178,12 @@
         <Field Def="u8 handicapEnable">
             <DisplayName>ハンディ設定</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>特殊効果の効果量と効果時間に設定される補正倍率の影響を受けるか、受けないかを設定する</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 maxHpRate = 1">
             <DisplayName>最大HP補正[倍]</DisplayName>
-            <Description>最大HPに受ける補正割合</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
@@ -218,7 +191,6 @@
         <Field Def="u8 summonEnable">
             <DisplayName>召喚者設定</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>自身が召喚者かどうかを判定し、召喚者に影響する特殊効果の対象となるかの判定に使用</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>60</SortID>
@@ -226,7 +198,6 @@
         <Field Def="u8 summonSupportEnable">
             <DisplayName>召喚者補助許可設定</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>召喚者に影響する特殊効果を発動できるかの判定に使用</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>60</SortID>
@@ -234,7 +205,6 @@
         <Field Def="u8 isEnableBossSoul">
             <DisplayName>獲得ソウル許可 ボス</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>ボスドロップのソウルを取得できるか</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>71</SortID>
@@ -242,7 +212,6 @@
         <Field Def="u8 isEnableEnemySoul">
             <DisplayName>獲得ソウル許可 ザコ</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>ザコドロップのソウルを取得できるか</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>71</SortID>
@@ -250,7 +219,6 @@
         <Field Def="u8 isEnableNpcSoul">
             <DisplayName>獲得ソウル許可 NPC</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>NPCドロップのソウルを取得できるか</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>71</SortID>
@@ -258,7 +226,6 @@
         <Field Def="u8 isEnableHostSoul">
             <DisplayName>獲得ソウル許可 ホスト</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>ホストドロップのソウルを取得できるか</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>71</SortID>
@@ -266,7 +233,6 @@
         <Field Def="u8 isEnableNetPhantomSoul">
             <DisplayName>獲得ソウル許可 霊体</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>霊体ドロップのソウルを取得できるか</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>71</SortID>
@@ -274,26 +240,22 @@
         <Field Def="u8 healItemUsageType">
             <DisplayName>回復アイテム使用タイプ</DisplayName>
             <Enum>HEAL_ITEM_USAGE_TYPE</Enum>
-            <Description>回復アイテム使用タイプ</Description>
             <SortID>100</SortID>
         </Field>
         <Field Def="f32 getSoulRate = 1">
             <DisplayName>獲得ソウル補正倍率[倍]</DisplayName>
-            <Description>獲得ソウル補正倍率</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 fadeOutTimeStep1">
             <DisplayName>マルチプレイ見た目一段階落とす時間[Sec]</DisplayName>
-            <Description>マルチプレイ時に残り時間がこれを切るとシェーダを一段階切り替える時間</Description>
             <Maximum>9999.9004</Maximum>
             <Increment>0.1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="f32 fadeOutTimeStep2">
             <DisplayName>マルチプレイ見た目二段階落とす時間[Sec]</DisplayName>
-            <Description>マルチプレイ時に残り時間がこれを切るとシェーダをさらに一段階切り替える時間</Description>
             <Maximum>9999.9004</Maximum>
             <Increment>0.1</Increment>
             <SortID>11</SortID>
@@ -301,7 +263,6 @@
         <Field Def="s32 level1ShaderType">
             <DisplayName>制約レベル１シェーダー設定</DisplayName>
             <Enum>CHR_VISUAL_TYPE</Enum>
-            <Description>制約レベル１時の霊体時に適用するシェーダー設定</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
@@ -309,7 +270,6 @@
         <Field Def="s32 level2ShaderType">
             <DisplayName>制約レベル２シェーダー設定</DisplayName>
             <Enum>CHR_VISUAL_TYPE</Enum>
-            <Description>制約レベル２時の霊体時に適用するシェーダー設定</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
@@ -317,14 +277,12 @@
         <Field Def="s32 level3ShaderType">
             <DisplayName>制約レベル３シェーダー設定</DisplayName>
             <Enum>CHR_VISUAL_TYPE</Enum>
-            <Description>制約レベル３時の霊体時に適用するシェーダー設定</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 getBossSoulRate = 1">
             <DisplayName>獲得ボスソウル補正倍率[倍]</DisplayName>
-            <Description>獲得ボスソウル補正倍率[倍]</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>

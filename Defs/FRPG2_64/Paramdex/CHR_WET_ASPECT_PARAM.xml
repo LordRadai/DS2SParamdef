@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u8 colorR">
             <DisplayName>R</DisplayName>
-            <Description>色Rです。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u8 colorG">
             <DisplayName>G</DisplayName>
-            <Description>色Rです。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u8 colorB">
             <DisplayName>B</DisplayName>
-            <Description>色Rです。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u8 colorA">
             <DisplayName>A</DisplayName>
-            <Description>色Rです。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="f32 shiness">
             <DisplayName>オーバーライド</DisplayName>
-            <Description>シャイネスのオーバーライドです。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1024</Maximum>
             <Increment>1</Increment>
@@ -48,7 +43,6 @@
         </Field>
         <Field Def="f32 shinessRate">
             <DisplayName>オーバーライド率</DisplayName>
-            <Description>シャイネスのオーバーライド率です。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
@@ -56,7 +50,6 @@
         </Field>
         <Field Def="f32 fresnel">
             <DisplayName>オーバーライド</DisplayName>
-            <Description>フレネルのオーバーライドです。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="f32 fresnelRate">
             <DisplayName>オーバーライド率</DisplayName>
-            <Description>フレネルのオーバーライド率です。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>

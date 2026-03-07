@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 mainMemSize = 20">
             <DisplayName>メインメモリ想定サイズ[MB]</DisplayName>
-            <Description>メインメモリ想定サイズ[MB]</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>256</Maximum>
             <Increment>0.1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 graphicMemSize = 15">
             <DisplayName>VRAM想定サイズ[MB]</DisplayName>
-            <Description>VRAM想定サイズ[MB]</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>256</Maximum>
             <Increment>0.1</Increment>

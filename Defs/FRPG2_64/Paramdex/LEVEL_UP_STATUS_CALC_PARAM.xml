@@ -9,205 +9,171 @@
         <Field Def="u8 maxHp:1">
             <DisplayName>最大HP(≒回復上限値)</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>最大HP(≒回復上限値)</Description>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 maxStamina:1">
             <DisplayName>最大スタミナ</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>最大スタミナ</Description>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 maxLoadWeight:1">
             <DisplayName>最大装備荷重</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>最大装備荷重</Description>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 spellSlotCount:1">
             <DisplayName>スペルスロット数</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>スペルスロット数</Description>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 spellChantingSpeed:1">
             <DisplayName>スペル詠唱速度</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>スペル詠唱速度</Description>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 powerPhysicalByStrength:1">
             <DisplayName>攻撃力 筋力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>攻撃力 筋力</Description>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 powerPhysicalByDexterity:1">
             <DisplayName>攻撃力 技量</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>攻撃力 技量</Description>
             <SortID>7</SortID>
         </Field>
         <Field Def="u8 powerMagic:1">
             <DisplayName>魔力攻撃力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>魔力攻撃力</Description>
             <SortID>8</SortID>
         </Field>
         <Field Def="u8 powerFire:1">
             <DisplayName>炎攻撃力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>炎攻撃力</Description>
             <SortID>9</SortID>
         </Field>
         <Field Def="u8 powerThunder:1">
             <DisplayName>雷攻撃力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>雷攻撃力</Description>
             <SortID>10</SortID>
         </Field>
         <Field Def="u8 powerDark:1">
             <DisplayName>闇攻撃力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>闇攻撃力</Description>
             <SortID>11</SortID>
         </Field>
         <Field Def="u8 powerPoison:1">
             <DisplayName>毒攻撃力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>毒攻撃力</Description>
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 powerBleed:1">
             <DisplayName>出血攻撃力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>出血攻撃力</Description>
             <SortID>13</SortID>
         </Field>
         <Field Def="u8 defense:1">
             <DisplayName>防御力</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>防御力</Description>
             <SortID>14</SortID>
         </Field>
         <Field Def="u8 resistanceMagic:1">
             <DisplayName>魔力耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>魔力耐性</Description>
             <SortID>15</SortID>
         </Field>
         <Field Def="u8 resistanceFire:1">
             <DisplayName>炎耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>炎耐性</Description>
             <SortID>16</SortID>
         </Field>
         <Field Def="u8 resistanceThunder:1">
             <DisplayName>雷耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>雷耐性</Description>
             <SortID>17</SortID>
         </Field>
         <Field Def="u8 resistanceDark:1">
             <DisplayName>闇耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>闇耐性</Description>
             <SortID>18</SortID>
         </Field>
         <Field Def="u8 resistancePoison:1">
             <DisplayName>毒耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>毒耐性</Description>
             <SortID>19</SortID>
         </Field>
         <Field Def="u8 resistanceBleed:1">
             <DisplayName>出血耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>出血耐性</Description>
             <SortID>20</SortID>
         </Field>
         <Field Def="u8 resistancePetrify:1">
             <DisplayName>石化耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>石化耐性</Description>
             <SortID>21</SortID>
         </Field>
         <Field Def="u8 resistanceCurse:1">
             <DisplayName>呪耐性</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>呪耐性</Description>
             <SortID>22</SortID>
         </Field>
         <Field Def="u8 actionSpeed:1">
             <DisplayName>敏捷</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>敏捷</Description>
             <SortID>23</SortID>
         </Field>
         <Field Def="u8 fortitude:1">
             <DisplayName>強靭度</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>強靭度</Description>
             <SortID>24</SortID>
         </Field>
         <Field Def="u8 primaryLeftHand:1">
             <DisplayName>左手第一武器</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>左手第一武器</Description>
             <SortID>25</SortID>
         </Field>
         <Field Def="u8 secondaryLeftHand:1">
             <DisplayName>左手第二武器</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>左手第二武器</Description>
             <SortID>26</SortID>
         </Field>
         <Field Def="u8 thirdlyLeftHand:1">
             <DisplayName>左手第三武器</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>左手第三武器</Description>
             <SortID>27</SortID>
         </Field>
         <Field Def="u8 primaryRightHand:1">
             <DisplayName>右手第一武器</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>右手第一武器</Description>
             <SortID>28</SortID>
         </Field>
         <Field Def="u8 secondaryRightHand:1">
             <DisplayName>右手第二武器</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>右手第二武器</Description>
             <SortID>29</SortID>
         </Field>
         <Field Def="u8 thirdlyRightHan:1">
             <DisplayName>右手第三武器</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>右手第三武器</Description>
             <SortID>30</SortID>
         </Field>
         <Field Def="u8 defenseStrike:1">
             <DisplayName>対打撃</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>対打撃</Description>
             <SortID>31</SortID>
         </Field>
         <Field Def="u8 defenseSlash:1">
             <DisplayName>対斬撃</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>対斬撃</Description>
             <SortID>32</SortID>
         </Field>
         <Field Def="u8 defenseThrust:1">
             <DisplayName>対刺突</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>対刺突</Description>
             <SortID>33</SortID>
         </Field>
         <Field Def="u8 defensePoise:1">
             <DisplayName>強靭度</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>強靭度</Description>
             <SortID>34</SortID>
         </Field>
         <Field Def="dummy8 dummy00:6[1]">

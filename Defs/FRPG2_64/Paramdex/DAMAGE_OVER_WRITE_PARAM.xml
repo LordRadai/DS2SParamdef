@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u8 damageOverWriteNoMotion">
             <DisplayName>ノーモーション</DisplayName>
-            <Description>ノーモーション</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u8 damageOverWriteSmall">
             <DisplayName>極小</DisplayName>
-            <Description>極小</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u8 damageOverWriteSmallKnockBack">
             <DisplayName>小ノックバック</DisplayName>
-            <Description>小ノックバック</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u8 damageOverWriteLargeKnockBack">
             <DisplayName>大ノックバック</DisplayName>
-            <Description>大ノックバック</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="u8 damageOverWriteLarge">
             <DisplayName>特大</DisplayName>
-            <Description>特大</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -48,7 +43,6 @@
         </Field>
         <Field Def="u8 damageOverWriteBlow">
             <DisplayName>吹き飛ばし</DisplayName>
-            <Description>吹き飛ばし</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -56,7 +50,6 @@
         </Field>
         <Field Def="u8 damageOverWriteUpper">
             <DisplayName>打ち上げ</DisplayName>
-            <Description>打ち上げ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="u8 damageOverWriteBreath">
             <DisplayName>ブレス</DisplayName>
-            <Description>ブレス</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -72,7 +64,6 @@
         </Field>
         <Field Def="u8 damageOverWriteStumble">
             <DisplayName>転倒</DisplayName>
-            <Description>転倒</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -80,7 +71,6 @@
         </Field>
         <Field Def="u8 damageOverWriteBreakDown">
             <DisplayName>崩れ落ち</DisplayName>
-            <Description>崩れ落ち</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -88,7 +78,6 @@
         </Field>
         <Field Def="u8 damageOverWriteAerialDown">
             <DisplayName>空中転倒</DisplayName>
-            <Description>空中転倒</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -96,7 +85,6 @@
         </Field>
         <Field Def="u8 damageOverWriteDown">
             <DisplayName>ダウン</DisplayName>
-            <Description>ダウン</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -104,7 +92,6 @@
         </Field>
         <Field Def="u8 damageOverWriteDownAttack">
             <DisplayName>ダウン攻撃</DisplayName>
-            <Description>ダウン攻撃</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -112,7 +99,6 @@
         </Field>
         <Field Def="u8 damageOverWriteLadder">
             <DisplayName>はしご</DisplayName>
-            <Description>はしご</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -120,7 +106,6 @@
         </Field>
         <Field Def="u8 damageOverWriteRope">
             <DisplayName>ロープ</DisplayName>
-            <Description>ロープ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -128,7 +113,6 @@
         </Field>
         <Field Def="u8 damageOverWriteParryBreak">
             <DisplayName>パリィブレイク</DisplayName>
-            <Description>パリィブレイク</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -136,7 +120,6 @@
         </Field>
         <Field Def="u8 damageOverWriteGuardBreak">
             <DisplayName>ガードブレイク</DisplayName>
-            <Description>ガードブレイク</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -144,7 +127,6 @@
         </Field>
         <Field Def="u8 damageOverWriteStun">
             <DisplayName>気絶</DisplayName>
-            <Description>気絶</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -152,7 +134,6 @@
         </Field>
         <Field Def="u8 damageOverWriteBleeding">
             <DisplayName>出血</DisplayName>
-            <Description>出血</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -160,7 +141,6 @@
         </Field>
         <Field Def="u8 damageOverWriteGrab">
             <DisplayName>掴み</DisplayName>
-            <Description>掴み</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -168,7 +148,6 @@
         </Field>
         <Field Def="u8 damageOverWriteHeadShot">
             <DisplayName>ヘッドショット</DisplayName>
-            <Description>ヘッドショット</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -176,7 +155,6 @@
         </Field>
         <Field Def="u8 damageOverWriteFallSmall">
             <DisplayName>落下中小ダメージ</DisplayName>
-            <Description>落下中小ダメージ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -184,7 +162,6 @@
         </Field>
         <Field Def="u8 damageOverWriteFallLarge">
             <DisplayName>落下中大ダメージ</DisplayName>
-            <Description>落下中大ダメージ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -192,7 +169,6 @@
         </Field>
         <Field Def="u8 damageOverWriteAerialSmall">
             <DisplayName>空中小ダメージ</DisplayName>
-            <Description>空中小ダメージ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -200,7 +176,6 @@
         </Field>
         <Field Def="u8 damageOverWriteAerialLarge">
             <DisplayName>空中大ダメージ</DisplayName>
-            <Description>空中大ダメージ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -208,7 +183,6 @@
         </Field>
         <Field Def="u8 damageOverWriteGroundJumpAttack">
             <DisplayName>ジャンプ地上衝突</DisplayName>
-            <Description>ジャンプ地上衝突</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -216,7 +190,6 @@
         </Field>
         <Field Def="u8 damageOverWriteAerialJumpAttack">
             <DisplayName>ジャンプ空中衝突</DisplayName>
-            <Description>ジャンプ空中衝突</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

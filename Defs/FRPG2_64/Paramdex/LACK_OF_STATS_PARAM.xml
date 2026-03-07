@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 minValueByStats">
             <DisplayName>ST不足 最小値</DisplayName>
-            <Description>不足ステータスが0%じゃない場合に使われる最小値</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 maxValueByStats">
             <DisplayName>ST不足 最大値</DisplayName>
-            <Description>不足ステータスが100%の場合に使われる最大値</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="f32 minValueByStamina">
             <DisplayName>スタミナ不足 最小値</DisplayName>
-            <Description>不足スタミナが0%じゃない場合に使われる最小値</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="f32 maxValueByStamina">
             <DisplayName>スタミナ不足 最大値</DisplayName>
-            <Description>不足スタミナが100%の場合に使われる最大値</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>

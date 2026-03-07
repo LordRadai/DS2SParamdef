@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 physical">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>物理</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -23,7 +22,6 @@
         </Field>
         <Field Def="s32 magic">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>??????</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -52,7 +50,6 @@
         </Field>
         <Field Def="s32 bleed">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>?Q?兀?</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -60,7 +57,6 @@
         </Field>
         <Field Def="s32 physicalByCrude">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>物理(粗製)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -68,7 +64,6 @@
         </Field>
         <Field Def="s32 physicalByEnchanted">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>物理(魔力)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -76,7 +71,6 @@
         </Field>
         <Field Def="s32 physicalByAbyss">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>物理(深淵)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -84,7 +78,6 @@
         </Field>
         <Field Def="s32 physical">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>物理</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -92,7 +85,6 @@
         </Field>
         <Field Def="s32 fire">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>??T??</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -100,7 +92,6 @@
         </Field>
         <Field Def="s32 magic">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>T??</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -129,7 +120,6 @@
         </Field>
         <Field Def="s32 bleed">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>?Q???靴???</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -137,7 +127,6 @@
         </Field>
         <Field Def="s32 physicalByCrude">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>??靴???</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -145,7 +134,6 @@
         </Field>
         <Field Def="s32 physicalByEnchanted">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>物理(魔力)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -153,7 +141,6 @@
         </Field>
         <Field Def="s32 physicalByAbyss">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>物理(深淵)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -161,7 +148,6 @@
         </Field>
         <Field Def="s16 physical">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>物理</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -169,7 +155,6 @@
         </Field>
         <Field Def="s16 fire">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>炎</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -177,7 +162,6 @@
         </Field>
         <Field Def="s16 magic">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>魔法</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -185,7 +169,6 @@
         </Field>
         <Field Def="s16 thunder">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>雷</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -193,7 +176,6 @@
         </Field>
         <Field Def="s16 dark">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>闇</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -201,7 +183,6 @@
         </Field>
         <Field Def="s16 poison">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>毒</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -209,7 +190,6 @@
         </Field>
         <Field Def="s16 bleed">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>出血</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -217,7 +197,6 @@
         </Field>
         <Field Def="s16 physicalByCrude">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>物理(粗製)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -225,7 +204,6 @@
         </Field>
         <Field Def="s16 physicalByEnchanted">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>物理(魔力)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -233,7 +211,6 @@
         </Field>
         <Field Def="s16 physicalByAbyss">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>物理(深淵)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>

@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 minValue">
             <DisplayName>最低変動値</DisplayName>
-            <Description>最低変動値</Description>
             <Minimum>-100</Minimum>
             <Maximum>255</Maximum>
             <Increment>0.1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 maxValue">
             <DisplayName>最大変動値</DisplayName>
-            <Description>最大変動値</Description>
             <Minimum>-100</Minimum>
             <Maximum>255</Maximum>
             <Increment>0.1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="fixstr faceParamType[64]">
             <DisplayName>FaceGenParam名</DisplayName>
-            <Description>FaceGenParam名</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
@@ -32,14 +29,12 @@
         <Field Def="u8 faceParamCategory">
             <DisplayName>カテゴリ</DisplayName>
             <Enum>CHR_EDIT_FACE_PARAM_CATEGORY</Enum>
-            <Description>カテゴリ</Description>
             <Maximum>30</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 montageUsed">
             <DisplayName>モンタージュ使用</DisplayName>
-            <Description>モンタージュ使用</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -47,7 +42,6 @@
         </Field>
         <Field Def="u8 menuReverse">
             <DisplayName>メニュー反転操作</DisplayName>
-            <Description>メニュー反転操作</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>

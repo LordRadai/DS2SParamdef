@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 maxSpeed">
             <DisplayName>最大速度[m/s]</DisplayName>
-            <Description>最大速度[m/s]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 startSpeed">
             <DisplayName>初速度[m/s]</DisplayName>
-            <Description>初速度[m/s]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="f32 accel">
             <DisplayName>加速度[m/s^2]</DisplayName>
-            <Description>加速度[m/s^2]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="f32 decel">
             <DisplayName>減速度[m/s^2]</DisplayName>
-            <Description>減速度[m/s^2]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="f32 slideSpeed">
             <DisplayName>すべる判定速度[m/s]</DisplayName>
-            <Description>すべる判定速度[m/s]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>

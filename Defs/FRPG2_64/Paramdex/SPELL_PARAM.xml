@@ -26,7 +26,6 @@
         <Field Def="u8 availableCondition">
             <DisplayName>使用可能条件</DisplayName>
             <Enum>SPELL_AVAILABLE_CONDITION</Enum>
-            <Description>使用可能条件</Description>
             <SortID>110</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
@@ -35,7 +34,6 @@
         </Field>
         <Field Def="u16 intelligence">
             <DisplayName>必要ステータス 理力</DisplayName>
-            <Description>要求理力</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -44,7 +42,6 @@
         </Field>
         <Field Def="u16 faith">
             <DisplayName>必要ステータス 信仰</DisplayName>
-            <Description>要求信仰</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>999</Maximum>
@@ -53,7 +50,6 @@
         </Field>
         <Field Def="u32 baseSpellBulletId">
             <DisplayName>ベースバレットID</DisplayName>
-            <Description>スペル発動時に出すバレットのバレットID</Description>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -62,7 +58,6 @@
         </Field>
         <Field Def="u32 baseSpellDamageId">
             <DisplayName>ベースダメージID</DisplayName>
-            <Description>スペル発動時に出すバレットのダメージID</Description>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -71,7 +66,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 片手 弱 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -80,7 +74,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 片手 弱 [sec]</DisplayName>
-            <Description>跫zフれに??德ョンがあゆする??のあんせび晥?]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -90,7 +83,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -99,7 +91,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -107,7 +98,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 片手 弱 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -116,7 +106,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 片手 強 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -125,7 +114,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 片手 強 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -135,7 +123,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -144,7 +131,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -152,7 +138,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 片手 強 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -161,7 +146,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 両手 弱 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -170,7 +154,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 両手 弱 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -180,7 +163,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -189,7 +171,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -197,7 +178,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 両手 弱 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -206,7 +186,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 両手 強 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -215,7 +194,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 両手 強 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -225,7 +203,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -234,7 +211,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -242,7 +218,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 両手 強 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -251,7 +226,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流片手 弱 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -260,7 +234,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 二刀流片手 弱 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -270,7 +243,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -279,7 +251,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流片手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -287,7 +258,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流片手 弱 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -296,7 +266,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流片手 強 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -305,7 +274,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 二刀流片手 強 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -315,7 +283,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -324,7 +291,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流片手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -332,7 +298,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流片手 強 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -341,7 +306,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流両手 弱 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -350,7 +314,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 二刀流両手 弱 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -360,7 +323,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -369,7 +331,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流両手 弱</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -377,7 +338,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流両手 弱 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -386,7 +346,6 @@
         </Field>
         <Field Def="f32 chantTimeScale">
             <DisplayName>詠唱時間 補正倍率 二刀流両手 強 [sec]</DisplayName>
-            <Description>キャラ攻撃パラの詠唱時間にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -395,7 +354,6 @@
         </Field>
         <Field Def="f32 holdCastTime">
             <DisplayName>発動時間 二刀流両手 強 [sec]</DisplayName>
-            <Description>スペル発動後にモーションが終了するまでの時間[sec]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>
@@ -405,7 +363,6 @@
         <Field Def="u32 animIdSpellChanting">
             <DisplayName>アニメ設定 詠唱 二刀流両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CHANTING_MOTION</Enum>
-            <Description>詠唱アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -414,7 +371,6 @@
         <Field Def="u32 animIdSpellCasting">
             <DisplayName>アニメ設定 発動 二刀流両手 強</DisplayName>
             <Enum>PLAYER_SPELL_CASTING_MOTION</Enum>
-            <Description>発動アニメ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -422,7 +378,6 @@
         </Field>
         <Field Def="f32 staminaCostScale">
             <DisplayName>スタミナ消費量 倍率 二刀流両手 強 [倍]</DisplayName>
-            <Description>キャラ攻撃パラのスタミナ消費量にかける補正倍率</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -615,7 +570,6 @@
         </Field>
         <Field Def="u8 equipSlotNum = 1">
             <DisplayName>装備に必要なスロット数</DisplayName>
-            <Description>?衫僅め彪?ロットば　?(?異噌?1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>1</Minimum>
@@ -625,7 +579,6 @@
         </Field>
         <Field Def="u8 usageCountLv1">
             <DisplayName>使用回数Lv1</DisplayName>
-            <Description>(?異噌?1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -634,7 +587,6 @@
         </Field>
         <Field Def="u8 usageCountLv2">
             <DisplayName>使用回数Lv2</DisplayName>
-            <Description>使用回数Lv2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -643,7 +595,6 @@
         </Field>
         <Field Def="u8 usageCountLv3">
             <DisplayName>使用回数Lv3</DisplayName>
-            <Description>使用回数Lv3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -652,7 +603,6 @@
         </Field>
         <Field Def="u8 usageCountLv4">
             <DisplayName>使用回数Lv4</DisplayName>
-            <Description>使用回数Lv4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -661,7 +611,6 @@
         </Field>
         <Field Def="u8 usageCountLv5">
             <DisplayName>使用回数Lv5</DisplayName>
-            <Description>使用回数Lv5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -670,7 +619,6 @@
         </Field>
         <Field Def="u8 usageCountLv6">
             <DisplayName>使用回数Lv6</DisplayName>
-            <Description>使用回数Lv6</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -679,7 +627,6 @@
         </Field>
         <Field Def="u8 usageCountLv7">
             <DisplayName>使用回数Lv7</DisplayName>
-            <Description>使用回数Lv7</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -688,7 +635,6 @@
         </Field>
         <Field Def="u8 usageCountLv8">
             <DisplayName>使用回数Lv8</DisplayName>
-            <Description>使用回数Lv8</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -697,7 +643,6 @@
         </Field>
         <Field Def="u8 usageCountLv9">
             <DisplayName>使用回数Lv9</DisplayName>
-            <Description>使用回数Lv9</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -706,7 +651,6 @@
         </Field>
         <Field Def="u8 usageCountLv10">
             <DisplayName>使用回数Lv10</DisplayName>
-            <Description>使用回数Lv10</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>99</Maximum>
@@ -719,7 +663,6 @@
         </Field>
         <Field Def="u32 soulConsumeParamId">
             <DisplayName>ソウル消費ID</DisplayName>
-            <Description>バレット発射時の消費ソウル設定への参照(0ならソウル消費無し)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -728,7 +671,6 @@
         </Field>
         <Field Def="u32 baseLeftHandSpellBulletId">
             <DisplayName>ベースバレットID(左手)</DisplayName>
-            <Description>スペル発動時に出すバレットのバレットID</Description>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -737,7 +679,6 @@
         </Field>
         <Field Def="u32 baseLeftHandSpellDamageId">
             <DisplayName>ベースダメージID(左手)</DisplayName>
-            <Description>スペル発動時に出すバレットのダメージID</Description>
             <DisplayFormat>%u</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

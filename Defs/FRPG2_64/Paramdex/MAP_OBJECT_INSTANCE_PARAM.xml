@@ -8,32 +8,27 @@
     <Fields>
         <Field Def="u32 objCtrlId">
             <DisplayName>《OBJ制御ID》</DisplayName>
-            <Description>《OBJ制御ID》</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="u32 bulletId0">
             <DisplayName>《バレットID スロット0》</DisplayName>
-            <Description>《バレットID スロット0》</Description>
             <Maximum>1e+09</Maximum>
             <SortID>1200</SortID>
         </Field>
         <Field Def="u32 damageId0">
             <DisplayName>《ダメージID スロット0》</DisplayName>
-            <Description>《ダメージID スロット0》</Description>
             <Maximum>1e+09</Maximum>
             <SortID>1210</SortID>
         </Field>
         <Field Def="f32 touchRegionScale = 1">
             <DisplayName>《タッチ領域のスケール》</DisplayName>
-            <Description>《タッチ領域のスケール》</Description>
             <Maximum>10</Maximum>
             <SortID>1240</SortID>
         </Field>
         <Field Def="f32 movableRange = -1">
             <DisplayName>《移動可能距離》</DisplayName>
-            <Description>移動可能距離から出ると破壊します（-1だとデフォルト値）</Description>
             <Minimum>-1</Minimum>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -42,7 +37,6 @@
         <Field Def="u32 objType">
             <DisplayName>《OBJタイプ》</DisplayName>
             <Enum>OBJ_TYPE_ENUM</Enum>
-            <Description>《OBJタイプ》</Description>
             <Maximum>999999</Maximum>
             <Increment>1</Increment>
             <SortID>40</SortID>
@@ -50,19 +44,16 @@
         <Field Def="u8 objCtrlType">
             <DisplayName>《OBJ制御タイプ》</DisplayName>
             <Enum>OBJ_CTRL_TYPE_ENUM</Enum>
-            <Description>《OBJ制御タイプ》</Description>
             <SortID>60</SortID>
         </Field>
         <Field Def="u8 objLabbel">
             <DisplayName>《ラベル》</DisplayName>
             <Enum>OBJ_LABBEL_ENUM</Enum>
-            <Description>《ラベル》</Description>
             <SortID>61</SortID>
         </Field>
         <Field Def="u8 usableWhite:1">
             <DisplayName>《白霊使用可能》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>《白霊使用可能》</Description>
             <Increment>1</Increment>
             <SortID>1300</SortID>
         </Field>
@@ -159,14 +150,12 @@
         <Field Def="u8 usableEnemy:1">
             <DisplayName>《敵使用可能》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>《敵使用可能》</Description>
             <Increment>1</Increment>
             <SortID>1420</SortID>
         </Field>
         <Field Def="u8 onlyEventCanBreak:1">
             <DisplayName>《イベントでしか壊せない》</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>《イベントでしか壊せない》</Description>
             <Maximum>1</Maximum>
             <SortID>1260</SortID>
         </Field>
@@ -181,25 +170,21 @@
         </Field>
         <Field Def="u8 breakObjMakeStateId">
             <DisplayName>《ブレイクオブジェ生成ステート》</DisplayName>
-            <Description>ブレイクオブジェを生成するステート</Description>
             <Maximum>255</Maximum>
             <SortID>31</SortID>
         </Field>
         <Field Def="s8 resetType">
             <DisplayName>リセットタイプ</DisplayName>
             <Enum>OBJ_RESET_TYPE_ENUM</Enum>
-            <Description>リセットタイプ</Description>
             <SortID>1500</SortID>
         </Field>
         <Field Def="u8 tmpBreakObjMakeStateId">
             <DisplayName>《(にぎやかし)ブレイクオブジェ生成ステート》</DisplayName>
-            <Description>ブレイクオブジェを生成するステート（にぎやかしオブジェ用）</Description>
             <Maximum>255</Maximum>
             <SortID>30</SortID>
         </Field>
         <Field Def="s8 iblTextureId = -1">
             <DisplayName>環境マップテクスチャID</DisplayName>
-            <Description>デフォルトの環境マップテクスチャID</Description>
             <Minimum>-1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
@@ -211,7 +196,6 @@
         </Field>
         <Field Def="u32 itemLotId">
             <DisplayName>初週アイテム抽選ID</DisplayName>
-            <Description>初週アイテム抽選ID</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>1510</SortID>

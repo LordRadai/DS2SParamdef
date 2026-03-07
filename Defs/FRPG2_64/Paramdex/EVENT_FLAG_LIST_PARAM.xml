@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 flagId">
             <DisplayName>フラグID</DisplayName>
-            <Description>フラグID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

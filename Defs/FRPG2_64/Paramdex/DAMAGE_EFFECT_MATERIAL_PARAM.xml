@@ -9,28 +9,24 @@
         <Field Def="u32 bodyEffect01">
             <DisplayName>本体：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>本体：SFX1</Description>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 bodyEffect02">
             <DisplayName>本体：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>本体：SFX2</Description>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 bodySize01">
             <DisplayName>本体：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>本体：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 bodySize02">
             <DisplayName>本体：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>本体：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
@@ -41,28 +37,24 @@
         <Field Def="u32 petrifiedBossBodyEffect01">
             <DisplayName>石化ボス本体：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石化ボス本体：SFX1</Description>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u32 petrifiedBossBodyEffect02">
             <DisplayName>石化ボス本体：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石化ボス本体：SFX2</Description>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="u8 petrifiedBossBodySize01">
             <DisplayName>石化ボス本体：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石化ボス本体：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 petrifiedBossBodySize02">
             <DisplayName>石化ボス本体：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石化ボス本体：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
@@ -73,28 +65,24 @@
         <Field Def="u32 noneEffect01">
             <DisplayName>なし：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>なし：SFX1</Description>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u32 noneEffect02">
             <DisplayName>なし：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>なし：SFX2</Description>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 noneSize01">
             <DisplayName>なし：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>なし：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="u8 noneSize02">
             <DisplayName>なし：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>なし：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>12</SortID>
         </Field>
@@ -105,28 +93,24 @@
         <Field Def="u32 metalEffect01">
             <DisplayName>鉄：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>鉄：SFX1</Description>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="u32 metalEffect02">
             <DisplayName>鉄：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>鉄：SFX2</Description>
             <Increment>1</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="u8 metalSize01">
             <DisplayName>鉄：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>鉄：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="u8 metalSize02">
             <DisplayName>鉄：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>鉄：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>22</SortID>
         </Field>
@@ -137,28 +121,24 @@
         <Field Def="u32 heavymetalEffect01">
             <DisplayName>重鉄：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>重鉄：SFX1</Description>
             <Increment>1</Increment>
             <SortID>31</SortID>
         </Field>
         <Field Def="u32 heavymetalEffect02">
             <DisplayName>重鉄：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>重鉄：SFX2</Description>
             <Increment>1</Increment>
             <SortID>32</SortID>
         </Field>
         <Field Def="u8 heavymetalSize01">
             <DisplayName>重鉄：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>重鉄：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>31</SortID>
         </Field>
         <Field Def="u8 heavymetalSize02">
             <DisplayName>重鉄：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>重鉄：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>32</SortID>
         </Field>
@@ -169,28 +149,24 @@
         <Field Def="u32 woodEffect01">
             <DisplayName>木：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>木：SFX1</Description>
             <Increment>1</Increment>
             <SortID>41</SortID>
         </Field>
         <Field Def="u32 woodEffect02">
             <DisplayName>木：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>木：SFX2</Description>
             <Increment>1</Increment>
             <SortID>42</SortID>
         </Field>
         <Field Def="u8 woodSize01">
             <DisplayName>木：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>木：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>41</SortID>
         </Field>
         <Field Def="u8 woodSize02">
             <DisplayName>木：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>木：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>42</SortID>
         </Field>
@@ -201,28 +177,24 @@
         <Field Def="u32 waterEffect01">
             <DisplayName>水：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>水：SFX1</Description>
             <Increment>1</Increment>
             <SortID>51</SortID>
         </Field>
         <Field Def="u32 waterEffect02">
             <DisplayName>水：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>水：SFX2</Description>
             <Increment>1</Increment>
             <SortID>52</SortID>
         </Field>
         <Field Def="u8 waterSize01">
             <DisplayName>水：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>水：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>51</SortID>
         </Field>
         <Field Def="u8 waterSize02">
             <DisplayName>水：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>水：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>52</SortID>
         </Field>
@@ -233,28 +205,24 @@
         <Field Def="u32 swampEffect01">
             <DisplayName>沼：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>沼：SFX1</Description>
             <Increment>1</Increment>
             <SortID>61</SortID>
         </Field>
         <Field Def="u32 swampEffect02">
             <DisplayName>沼：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>沼：SFX2</Description>
             <Increment>1</Increment>
             <SortID>62</SortID>
         </Field>
         <Field Def="u8 swampSize01">
             <DisplayName>沼：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>沼：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>61</SortID>
         </Field>
         <Field Def="u8 swampSize02">
             <DisplayName>沼：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>沼：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>62</SortID>
         </Field>
@@ -265,28 +233,24 @@
         <Field Def="u32 lumberEffect01">
             <DisplayName>木材：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>木材：SFX1</Description>
             <Increment>1</Increment>
             <SortID>71</SortID>
         </Field>
         <Field Def="u32 lumberEffect02">
             <DisplayName>木材：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>木材：SFX2</Description>
             <Increment>1</Increment>
             <SortID>72</SortID>
         </Field>
         <Field Def="u8 lumberSize01">
             <DisplayName>木材：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>木材：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>71</SortID>
         </Field>
         <Field Def="u8 lumberSize02">
             <DisplayName>木材：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>木材：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>72</SortID>
         </Field>
@@ -297,28 +261,24 @@
         <Field Def="u32 meatEffect01">
             <DisplayName>生者肉：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>生者肉：SFX1</Description>
             <Increment>1</Increment>
             <SortID>81</SortID>
         </Field>
         <Field Def="u32 meatEffect02">
             <DisplayName>生者肉：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>生者肉：SFX2</Description>
             <Increment>1</Increment>
             <SortID>82</SortID>
         </Field>
         <Field Def="u8 meatSize01">
             <DisplayName>生者肉：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>生者肉：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>81</SortID>
         </Field>
         <Field Def="u8 meatSize02">
             <DisplayName>生者肉：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>生者肉：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>82</SortID>
         </Field>
@@ -329,28 +289,24 @@
         <Field Def="u32 deadmeatEffect01">
             <DisplayName>亡者肉：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>亡者肉：SFX1</Description>
             <Increment>1</Increment>
             <SortID>91</SortID>
         </Field>
         <Field Def="u32 deadmeatEffect02">
             <DisplayName>亡者肉：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>亡者肉：SFX2</Description>
             <Increment>1</Increment>
             <SortID>92</SortID>
         </Field>
         <Field Def="u8 deadmeatSize01">
             <DisplayName>亡者肉：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>亡者肉：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>91</SortID>
         </Field>
         <Field Def="u8 deadmeatSize02">
             <DisplayName>亡者肉：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>亡者肉：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>92</SortID>
         </Field>
@@ -361,28 +317,24 @@
         <Field Def="u32 insectEffect01">
             <DisplayName>虫：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>虫：SFX1</Description>
             <Increment>1</Increment>
             <SortID>101</SortID>
         </Field>
         <Field Def="u32 insectEffect02">
             <DisplayName>虫：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>虫：SFX2</Description>
             <Increment>1</Increment>
             <SortID>102</SortID>
         </Field>
         <Field Def="u8 insectSize01">
             <DisplayName>虫：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>虫：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>101</SortID>
         </Field>
         <Field Def="u8 insectSize02">
             <DisplayName>虫：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>虫：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>102</SortID>
         </Field>
@@ -393,28 +345,24 @@
         <Field Def="u32 giantEffect01">
             <DisplayName>巨人：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>巨人：SFX1</Description>
             <Increment>1</Increment>
             <SortID>111</SortID>
         </Field>
         <Field Def="u32 giantEffect02">
             <DisplayName>巨人：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>巨人：SFX2</Description>
             <Increment>1</Increment>
             <SortID>112</SortID>
         </Field>
         <Field Def="u8 giantSize01">
             <DisplayName>巨人：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>巨人：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>111</SortID>
         </Field>
         <Field Def="u8 giantSize02">
             <DisplayName>巨人：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>巨人：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>112</SortID>
         </Field>
@@ -425,28 +373,24 @@
         <Field Def="u32 boneEffect01">
             <DisplayName>骨：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>骨：SFX1</Description>
             <Increment>1</Increment>
             <SortID>121</SortID>
         </Field>
         <Field Def="u32 boneEffect02">
             <DisplayName>骨：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>骨：SFX2</Description>
             <Increment>1</Increment>
             <SortID>122</SortID>
         </Field>
         <Field Def="u8 boneSize01">
             <DisplayName>骨：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>骨：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>121</SortID>
         </Field>
         <Field Def="u8 boneSize02">
             <DisplayName>骨：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>骨：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>122</SortID>
         </Field>
@@ -457,28 +401,24 @@
         <Field Def="u32 copperEffect01">
             <DisplayName>銅：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>銅：SFX1</Description>
             <Increment>1</Increment>
             <SortID>131</SortID>
         </Field>
         <Field Def="u32 copperEffect02">
             <DisplayName>銅：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>銅：SFX2</Description>
             <Increment>1</Increment>
             <SortID>132</SortID>
         </Field>
         <Field Def="u8 copperSize01">
             <DisplayName>銅：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>銅：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>131</SortID>
         </Field>
         <Field Def="u8 copperSize02">
             <DisplayName>銅：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>銅：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>132</SortID>
         </Field>
@@ -489,28 +429,24 @@
         <Field Def="u32 energyEffect01">
             <DisplayName>エネルギー：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>エネルギー：SFX1</Description>
             <Increment>1</Increment>
             <SortID>141</SortID>
         </Field>
         <Field Def="u32 energyEffect02">
             <DisplayName>エネルギー：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>エネルギー：SFX2</Description>
             <Increment>1</Increment>
             <SortID>142</SortID>
         </Field>
         <Field Def="u8 energySize01">
             <DisplayName>エネルギー：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>エネルギー：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>141</SortID>
         </Field>
         <Field Def="u8 energySize02">
             <DisplayName>エネルギー：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>エネルギー：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>142</SortID>
         </Field>
@@ -521,28 +457,24 @@
         <Field Def="u32 fireEffect01">
             <DisplayName>炎：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>炎：SFX1</Description>
             <Increment>1</Increment>
             <SortID>151</SortID>
         </Field>
         <Field Def="u32 fireEffect02">
             <DisplayName>炎：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>炎：SFX2</Description>
             <Increment>1</Increment>
             <SortID>152</SortID>
         </Field>
         <Field Def="u8 fireSize01">
             <DisplayName>炎：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>炎：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>151</SortID>
         </Field>
         <Field Def="u8 fireSize02">
             <DisplayName>炎：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>炎：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>152</SortID>
         </Field>
@@ -553,28 +485,24 @@
         <Field Def="u32 thunderEffect01">
             <DisplayName>雷：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>雷：SFX1</Description>
             <Increment>1</Increment>
             <SortID>161</SortID>
         </Field>
         <Field Def="u32 thunderEffect02">
             <DisplayName>雷：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>雷：SFX2</Description>
             <Increment>1</Increment>
             <SortID>162</SortID>
         </Field>
         <Field Def="u8 thunderSize01">
             <DisplayName>雷：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>雷：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>161</SortID>
         </Field>
         <Field Def="u8 thunderSize02">
             <DisplayName>雷：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>雷：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>162</SortID>
         </Field>
@@ -585,28 +513,24 @@
         <Field Def="u32 darkEffect01">
             <DisplayName>闇：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>闇：SFX1</Description>
             <Increment>1</Increment>
             <SortID>171</SortID>
         </Field>
         <Field Def="u32 darkEffect02">
             <DisplayName>闇：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>闇：SFX2</Description>
             <Increment>1</Increment>
             <SortID>172</SortID>
         </Field>
         <Field Def="u8 darkSize01">
             <DisplayName>闇：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>闇：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>171</SortID>
         </Field>
         <Field Def="u8 darkSize02">
             <DisplayName>闇：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>闇：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>172</SortID>
         </Field>
@@ -617,28 +541,24 @@
         <Field Def="u32 magicEffect01">
             <DisplayName>魔力：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>魔力：SFX1</Description>
             <Increment>1</Increment>
             <SortID>181</SortID>
         </Field>
         <Field Def="u32 magicEffect02">
             <DisplayName>魔力：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>魔力：SFX2</Description>
             <Increment>1</Increment>
             <SortID>182</SortID>
         </Field>
         <Field Def="u8 magicSize01">
             <DisplayName>魔力：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>魔力：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>181</SortID>
         </Field>
         <Field Def="u8 magicSize02">
             <DisplayName>魔力：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>魔力：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>182</SortID>
         </Field>
@@ -649,28 +569,24 @@
         <Field Def="u32 stoneEffect01">
             <DisplayName>石：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石：SFX1</Description>
             <Increment>1</Increment>
             <SortID>191</SortID>
         </Field>
         <Field Def="u32 stoneEffect02">
             <DisplayName>石：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石：SFX2</Description>
             <Increment>1</Increment>
             <SortID>192</SortID>
         </Field>
         <Field Def="u8 stoneSize01">
             <DisplayName>石：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>191</SortID>
         </Field>
         <Field Def="u8 stoneSize02">
             <DisplayName>石：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>192</SortID>
         </Field>
@@ -681,28 +597,24 @@
         <Field Def="u32 dirtEffect01">
             <DisplayName>土：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>土：SFX1</Description>
             <Increment>1</Increment>
             <SortID>201</SortID>
         </Field>
         <Field Def="u32 dirtEffect02">
             <DisplayName>土：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>土：SFX2</Description>
             <Increment>1</Increment>
             <SortID>202</SortID>
         </Field>
         <Field Def="u8 dirtSize01">
             <DisplayName>土：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>土：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>201</SortID>
         </Field>
         <Field Def="u8 dirtSize02">
             <DisplayName>土：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>土：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>202</SortID>
         </Field>
@@ -713,28 +625,24 @@
         <Field Def="u32 carpetEffect01">
             <DisplayName>カーペット：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>カーペット：SFX1</Description>
             <Increment>1</Increment>
             <SortID>211</SortID>
         </Field>
         <Field Def="u32 carpetEffect02">
             <DisplayName>カーペット：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>カーペット：SFX2</Description>
             <Increment>1</Increment>
             <SortID>212</SortID>
         </Field>
         <Field Def="u8 carpetSize01">
             <DisplayName>カーペット：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>カーペット：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>211</SortID>
         </Field>
         <Field Def="u8 carpetSize02">
             <DisplayName>カーペット：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>カーペット：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>212</SortID>
         </Field>
@@ -745,28 +653,24 @@
         <Field Def="u32 grassEffect01">
             <DisplayName>草：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>草：SFX1</Description>
             <Increment>1</Increment>
             <SortID>221</SortID>
         </Field>
         <Field Def="u32 grassEffect02">
             <DisplayName>草：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>草：SFX2</Description>
             <Increment>1</Increment>
             <SortID>222</SortID>
         </Field>
         <Field Def="u8 grassSize01">
             <DisplayName>草：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>草：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>221</SortID>
         </Field>
         <Field Def="u8 grassSize02">
             <DisplayName>草：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>草：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>222</SortID>
         </Field>
@@ -777,28 +681,24 @@
         <Field Def="u32 gravelEffect01">
             <DisplayName>砂利：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>砂利：SFX1</Description>
             <Increment>1</Increment>
             <SortID>231</SortID>
         </Field>
         <Field Def="u32 gravelEffect02">
             <DisplayName>砂利：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>砂利：SFX2</Description>
             <Increment>1</Increment>
             <SortID>232</SortID>
         </Field>
         <Field Def="u8 gravelSize01">
             <DisplayName>砂利：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>砂利：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>231</SortID>
         </Field>
         <Field Def="u8 gravelSize02">
             <DisplayName>砂利：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>砂利：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>232</SortID>
         </Field>
@@ -809,28 +709,24 @@
         <Field Def="u32 clothEffect01">
             <DisplayName>布：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>布：SFX1</Description>
             <Increment>1</Increment>
             <SortID>241</SortID>
         </Field>
         <Field Def="u32 clothEffect02">
             <DisplayName>布：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>布：SFX2</Description>
             <Increment>1</Increment>
             <SortID>242</SortID>
         </Field>
         <Field Def="u8 clothSize01">
             <DisplayName>布：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>布：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>241</SortID>
         </Field>
         <Field Def="u8 clothSize02">
             <DisplayName>布：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>布：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>242</SortID>
         </Field>
@@ -841,28 +737,24 @@
         <Field Def="u32 sandEffect01">
             <DisplayName>砂：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>砂：SFX1</Description>
             <Increment>1</Increment>
             <SortID>251</SortID>
         </Field>
         <Field Def="u32 sandEffect02">
             <DisplayName>砂：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>砂：SFX2</Description>
             <Increment>1</Increment>
             <SortID>252</SortID>
         </Field>
         <Field Def="u8 sandSize01">
             <DisplayName>砂：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>砂：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>251</SortID>
         </Field>
         <Field Def="u8 sandSize02">
             <DisplayName>砂：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>砂：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>252</SortID>
         </Field>
@@ -873,28 +765,24 @@
         <Field Def="u32 ashEffect01">
             <DisplayName>灰：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>灰：SFX1</Description>
             <Increment>1</Increment>
             <SortID>261</SortID>
         </Field>
         <Field Def="u32 ashEffect02">
             <DisplayName>灰：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>灰：SFX2</Description>
             <Increment>1</Increment>
             <SortID>262</SortID>
         </Field>
         <Field Def="u8 ashSize01">
             <DisplayName>灰：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>灰：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>261</SortID>
         </Field>
         <Field Def="u8 ashSize02">
             <DisplayName>灰：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>灰：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>262</SortID>
         </Field>
@@ -905,28 +793,24 @@
         <Field Def="u32 poisonswampEffect01">
             <DisplayName>毒沼：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>毒沼：SFX1</Description>
             <Increment>1</Increment>
             <SortID>271</SortID>
         </Field>
         <Field Def="u32 poisonswampEffect02">
             <DisplayName>毒沼：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>毒沼：SFX2</Description>
             <Increment>1</Increment>
             <SortID>272</SortID>
         </Field>
         <Field Def="u8 poisonswampSize01">
             <DisplayName>毒沼：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>毒沼：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>271</SortID>
         </Field>
         <Field Def="u8 poisonswampSize02">
             <DisplayName>毒沼：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>毒沼：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>272</SortID>
         </Field>
@@ -937,28 +821,24 @@
         <Field Def="u32 oilEffect01">
             <DisplayName>油：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>油：SFX1</Description>
             <Increment>1</Increment>
             <SortID>281</SortID>
         </Field>
         <Field Def="u32 oilEffect02">
             <DisplayName>油：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>油：SFX2</Description>
             <Increment>1</Increment>
             <SortID>282</SortID>
         </Field>
         <Field Def="u8 oilSize01">
             <DisplayName>油：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>油：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>281</SortID>
         </Field>
         <Field Def="u8 oilSize02">
             <DisplayName>油：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>油：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>282</SortID>
         </Field>
@@ -969,28 +849,24 @@
         <Field Def="u32 coaltarEffect01">
             <DisplayName>コールタール：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>コールタール：SFX1</Description>
             <Increment>1</Increment>
             <SortID>291</SortID>
         </Field>
         <Field Def="u32 coaltarEffect02">
             <DisplayName>コールタール：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>コールタール：SFX2</Description>
             <Increment>1</Increment>
             <SortID>292</SortID>
         </Field>
         <Field Def="u8 coaltarSize01">
             <DisplayName>コールタール：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>コールタール：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>291</SortID>
         </Field>
         <Field Def="u8 coaltarSize02">
             <DisplayName>コールタール：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>コールタール：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>292</SortID>
         </Field>
@@ -1001,28 +877,24 @@
         <Field Def="u32 lavaEffect01">
             <DisplayName>溶岩：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>溶岩：SFX1</Description>
             <Increment>1</Increment>
             <SortID>301</SortID>
         </Field>
         <Field Def="u32 lavaEffect02">
             <DisplayName>溶岩：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>溶岩：SFX2</Description>
             <Increment>1</Increment>
             <SortID>302</SortID>
         </Field>
         <Field Def="u8 lavaSize01">
             <DisplayName>溶岩：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>溶岩：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>301</SortID>
         </Field>
         <Field Def="u8 lavaSize02">
             <DisplayName>溶岩：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>溶岩：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>302</SortID>
         </Field>
@@ -1033,28 +905,24 @@
         <Field Def="u32 stringEffect01">
             <DisplayName>蜘蛛の糸：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>蜘蛛の糸：SFX1</Description>
             <Increment>1</Increment>
             <SortID>311</SortID>
         </Field>
         <Field Def="u32 stringEffect02">
             <DisplayName>蜘蛛の糸：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>蜘蛛の糸：SFX2</Description>
             <Increment>1</Increment>
             <SortID>312</SortID>
         </Field>
         <Field Def="u8 stringSize01">
             <DisplayName>蜘蛛の糸：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>蜘蛛の糸：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>311</SortID>
         </Field>
         <Field Def="u8 stringSize02">
             <DisplayName>蜘蛛の糸：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>蜘蛛の糸：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>312</SortID>
         </Field>
@@ -1065,28 +933,24 @@
         <Field Def="u32 sulfurcrystalEffect01">
             <DisplayName>硫黄結晶：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>硫黄結晶：SFX1</Description>
             <Increment>1</Increment>
             <SortID>321</SortID>
         </Field>
         <Field Def="u32 sulfurcrystalEffect02">
             <DisplayName>硫黄結晶：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>硫黄結晶：SFX2</Description>
             <Increment>1</Increment>
             <SortID>322</SortID>
         </Field>
         <Field Def="u8 sulfurcrystalSize01">
             <DisplayName>硫黄結晶：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>硫黄結晶：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>321</SortID>
         </Field>
         <Field Def="u8 sulfurcrystalSize02">
             <DisplayName>硫黄結晶：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>硫黄結晶：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>322</SortID>
         </Field>
@@ -1097,28 +961,24 @@
         <Field Def="u32 soulEffect01">
             <DisplayName>ソウル：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>ソウル：SFX1</Description>
             <Increment>1</Increment>
             <SortID>331</SortID>
         </Field>
         <Field Def="u32 soulEffect02">
             <DisplayName>ソウル：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>ソウル：SFX2</Description>
             <Increment>1</Increment>
             <SortID>332</SortID>
         </Field>
         <Field Def="u8 soulSize01">
             <DisplayName>ソウル：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>ソウル：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>331</SortID>
         </Field>
         <Field Def="u8 soulSize02">
             <DisplayName>ソウル：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>ソウル：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>332</SortID>
         </Field>
@@ -1129,28 +989,24 @@
         <Field Def="u32 frogEffect01">
             <DisplayName>美声カエル：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>美声カエル：SFX1</Description>
             <Increment>1</Increment>
             <SortID>341</SortID>
         </Field>
         <Field Def="u32 frogEffect02">
             <DisplayName>美声カエル：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>美声カエル：SFX2</Description>
             <Increment>1</Increment>
             <SortID>342</SortID>
         </Field>
         <Field Def="u8 frogSize01">
             <DisplayName>美声カエル：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>美声カエル：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>341</SortID>
         </Field>
         <Field Def="u8 frogSize02">
             <DisplayName>美声カエル：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>美声カエル：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>342</SortID>
         </Field>
@@ -1161,28 +1017,24 @@
         <Field Def="u32 stoneWaterEffect01">
             <DisplayName>石水：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石水：SFX1</Description>
             <Increment>1</Increment>
             <SortID>351</SortID>
         </Field>
         <Field Def="u32 stoneWaterEffect02">
             <DisplayName>石水：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石水：SFX2</Description>
             <Increment>1</Increment>
             <SortID>352</SortID>
         </Field>
         <Field Def="u8 stoneWaterSize01">
             <DisplayName>石水：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石水：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>351</SortID>
         </Field>
         <Field Def="u8 stoneWaterSize02">
             <DisplayName>石水：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石水：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>352</SortID>
         </Field>
@@ -1193,28 +1045,24 @@
         <Field Def="u32 stoneEnergyEffect01">
             <DisplayName>石エネルギー：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石エネルギー：SFX1</Description>
             <Increment>1</Increment>
             <SortID>361</SortID>
         </Field>
         <Field Def="u32 stoneEnergyEffect02">
             <DisplayName>石エネルギー：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>石エネルギー：SFX2</Description>
             <Increment>1</Increment>
             <SortID>362</SortID>
         </Field>
         <Field Def="u8 stoneEnergySize01">
             <DisplayName>石エネルギー：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石エネルギー：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>361</SortID>
         </Field>
         <Field Def="u8 stoneEnergySize02">
             <DisplayName>石エネルギー：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>石エネルギー：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>362</SortID>
         </Field>
@@ -1225,28 +1073,24 @@
         <Field Def="u32 coverEffect01">
             <DisplayName>肩代わり：SFX1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>肩代わり：SFX1</Description>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 coverEffect02">
             <DisplayName>肩代わり：SFX2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_TYPE_ENUM</Enum>
-            <Description>肩代わり：SFX2</Description>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="u8 coverSize01">
             <DisplayName>肩代わり：サイズ1</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>肩代わり：サイズ1</Description>
             <Increment>1</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="u8 coverSize02">
             <DisplayName>肩代わり：サイズ2</DisplayName>
             <Enum>DAMAGE_EFFECT_SFX_SIZE</Enum>
-            <Description>肩代わり：サイズ2</Description>
             <Increment>1</Increment>
             <SortID>6</SortID>
         </Field>

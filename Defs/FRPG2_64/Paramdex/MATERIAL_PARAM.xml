@@ -9,18 +9,15 @@
         <Field Def="u8 isLiquid:1">
             <DisplayName>液体か？</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>液体か？</Description>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 isArrowPenetrate:1">
             <DisplayName>矢が刺さるか？</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>矢が刺さるか？</Description>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 padding[3]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>4</SortID>
         </Field>
     </Fields>

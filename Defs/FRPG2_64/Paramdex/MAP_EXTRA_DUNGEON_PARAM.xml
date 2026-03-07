@@ -8,35 +8,30 @@
     <Fields>
         <Field Def="u8 worldNo = 30">
             <DisplayName>ワールド番号</DisplayName>
-            <Description>ワールド番号</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 areaNo">
             <DisplayName>エリア番号</DisplayName>
-            <Description>エリア番号</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u8 stageNo">
             <DisplayName>ステージ番号</DisplayName>
-            <Description>ステージ番号</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="u8 altNo">
             <DisplayName>オルト番号</DisplayName>
-            <Description>オルト番号</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 damageRate = 1">
             <DisplayName>ダメージ倍率</DisplayName>
-            <Description>ダメージ倍率</Description>
             <Minimum>0.001</Minimum>
             <Maximum>10000</Maximum>
             <Increment>0.001</Increment>
@@ -44,7 +39,6 @@
         </Field>
         <Field Def="f32 hpRate = 1">
             <DisplayName>HP倍率</DisplayName>
-            <Description>HP倍率</Description>
             <Minimum>0.001</Minimum>
             <Maximum>10000</Maximum>
             <Increment>0.001</Increment>
@@ -52,7 +46,6 @@
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>7</SortID>
@@ -60,7 +53,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>??????S礰0ひ詫慧?</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>8</SortID>
@@ -68,21 +60,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>ひ詫慧?</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数??</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>?</Description>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>11</SortID>
@@ -90,7 +79,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>鄰???????譫?一y?歡?N祟?愀??獰</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>12</SortID>
@@ -98,21 +86,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>?一y?歡?N祟?愀??獰</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>?N祟?愀??獰</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>獰</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>15</SortID>
@@ -120,7 +105,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>????妊譓?0礰言??g?k??慟??灑??t???慯???????</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>16</SortID>
@@ -128,21 +112,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>言??g?k??慟??灑??t???慯???????</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>k??慟??灑??t???慯???????</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>??t???慯???????</Description>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>19</SortID>
@@ -150,7 +131,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか?杲一y?a?詫慧???</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>20</SortID>
@@ -158,21 +138,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>杲一y?a?詫慧???</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>?詫慧???</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>23</SortID>
@@ -180,7 +157,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>24</SortID>
@@ -188,21 +164,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>特殊条件</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>25</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>26</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>27</SortID>
@@ -210,7 +183,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>28</SortID>
@@ -218,21 +190,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>特殊条件</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>29</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>31</SortID>
@@ -240,7 +209,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>32</SortID>
@@ -248,21 +216,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>特殊条件</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>33</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>34</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>35</SortID>
@@ -270,7 +235,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>36</SortID>
@@ -278,21 +242,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>特殊条件</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>37</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>38</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>39</SortID>
@@ -300,7 +261,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>40</SortID>
@@ -308,21 +268,18 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>特殊条件</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>41</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>42</SortID>
         </Field>
         <Field Def="u16 randomVal">
             <DisplayName>出現率</DisplayName>
-            <Description>出現率</Description>
             <Maximum>10000</Maximum>
             <Increment>1</Increment>
             <SortID>43</SortID>
@@ -330,7 +287,6 @@
         <Field Def="u8 allowDuplicate">
             <DisplayName>重複を許可</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>重複を許可するか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>44</SortID>
@@ -338,14 +294,12 @@
         <Field Def="u8 condType">
             <DisplayName>特殊条件</DisplayName>
             <Enum>MAP_LOT_COND_TYPE</Enum>
-            <Description>特殊条件</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>45</SortID>
         </Field>
         <Field Def="s32 condVal">
             <DisplayName>特殊条件引数</DisplayName>
-            <Description>特殊条件引数</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>46</SortID>

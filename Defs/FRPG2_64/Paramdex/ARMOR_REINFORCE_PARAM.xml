@@ -8,21 +8,18 @@
     <Fields>
         <Field Def="f32 slash">
             <DisplayName>強化ベース値 最小 斬撃</DisplayName>
-            <Description>未強化時のベース値</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 thrust">
             <DisplayName>強化ベース値 最小 刺突</DisplayName>
-            <Description>??U?徹匤昀?　で????あのベ???</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 strike">
             <DisplayName>強化ベース値 最小 打撃</DisplayName>
-            <Description>????あのベ???</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
@@ -35,147 +32,126 @@
         </Field>
         <Field Def="f32 magic">
             <DisplayName>強化ベース値 最小 魔力</DisplayName>
-            <Description>??湧????0???た???????B????⑧_???_杓て???????????7材?匪?ぐ??B?忙?暹?　??倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 thunder">
             <DisplayName>強化ベース値 最小 雷</DisplayName>
-            <Description>?た???????B????⑧_???_杓て???????????7材?匪?ぐ??B?忙?暹?　??倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 fire">
             <DisplayName>強化ベース値 最小 炎</DisplayName>
-            <Description>????⑧_???_杓て???????????7材?匪?ぐ??B?忙?暹?　??倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 dark">
             <DisplayName>強化ベース値 最小 闇</DisplayName>
-            <Description>杓て???????????7材?匪?ぐ??B?忙?暹?　??倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 poison">
             <DisplayName>強化ベース値 最小 毒</DisplayName>
-            <Description>???7材?匪?ぐ??B?忙?暹?　??倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 bleeding">
             <DisplayName>強化ベース値 最小 出血</DisplayName>
-            <Description>?B?忙?暹?　??倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 petrifaction">
             <DisplayName>強化ベース値 最小 石化</DisplayName>
-            <Description>倖B?忙?暹?　?あ???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="f32 curse">
             <DisplayName>強化ベース値 最小 呪</DisplayName>
-            <Description>???1??匀晧ぐ　??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="f32 slash">
             <DisplayName>強化ベース値 最大 斬撃</DisplayName>
-            <Description>??????????噐??a戀ae??畍??????0杓????0P??????暹?　　???奮忙??f0??????????</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 thrust">
             <DisplayName>強化ベース値 最大 刺突</DisplayName>
-            <Description>すた?ぐ?</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 strike">
             <DisplayName>強化ベース値 最大 打撃</DisplayName>
-            <Description>?⑦00????湧???昤　　??倖B慮旙懼??x戀?????????S杦??卦???0P?????てベース値</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 physical">
             <DisplayName>強化ベース値 最大 物理</DisplayName>
-            <Description>?昤　　??倖B慮旙懼??x戀?????????S杦??卦???0P?????てベース値</Description>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 magic">
             <DisplayName>強化ベース値 最大 魔力</DisplayName>
-            <Description>??慮??徹匤昀です晟こ??ぐ?</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 thunder">
             <DisplayName>強化ベース値 最大 雷</DisplayName>
-            <Description>こ??ぐ?</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 fire">
             <DisplayName>強化ベース値 最大 炎</DisplayName>
-            <Description>????P</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
         <Field Def="f32 dark">
             <DisplayName>強化ベース値 最大 闇</DisplayName>
-            <Description>????P</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>50</SortID>
         </Field>
         <Field Def="f32 poison">
             <DisplayName>強化ベース値 最大 毒</DisplayName>
-            <Description>????P</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>60</SortID>
         </Field>
         <Field Def="f32 bleeding">
             <DisplayName>強化ベース値 最大 出血</DisplayName>
-            <Description>????P</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>70</SortID>
         </Field>
         <Field Def="f32 petrifaction">
             <DisplayName>強化ベース値 最大 石化</DisplayName>
-            <Description>????P</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>80</SortID>
         </Field>
         <Field Def="f32 curse">
             <DisplayName>強化ベース値 最大 呪</DisplayName>
-            <Description>????P</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>90</SortID>
         </Field>
         <Field Def="u8 maxLevel">
             <DisplayName>強化最大レベル</DisplayName>
-            <Description>????0?????</Description>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>0</SortID>
@@ -186,7 +162,6 @@
         </Field>
         <Field Def="f32 menuResistanceScale = 1">
             <DisplayName>メニュー表示用 属性防御力補正倍率 [倍]</DisplayName>
-            <Description>メニュー表示時に属性防御力にかける補正倍率</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>2100</SortID>
@@ -194,19 +169,16 @@
         <Field Def="u32 attrSpec">
             <DisplayName>属性強化可否</DisplayName>
             <Enum>CUSTOM_ATTR_SPEC_PARAM_ENUM</Enum>
-            <Description>属性強化可否</Description>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u32 attrCost">
             <DisplayName>属性強化コスト</DisplayName>
             <Enum>CUSTOM_ATTR_COST_PARAM_ENUM</Enum>
-            <Description>属性強化コスト</Description>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u32 reinforceCost">
             <DisplayName>Lv強化コスト</DisplayName>
             <Enum>REINFORCE_COST_PARAM_ENUM</Enum>
-            <Description>Lv強化コスト</Description>
             <SortID>3000</SortID>
         </Field>
     </Fields>

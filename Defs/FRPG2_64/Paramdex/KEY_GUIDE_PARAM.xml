@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 textId">
             <DisplayName>テキストID</DisplayName>
-            <Description>テキストID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="f32 width_radius = 1">
             <DisplayName>X軸半長or半径</DisplayName>
-            <Description>X軸半長or半径</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>30</Maximum>
             <Increment>0.0099999998</Increment>
@@ -25,7 +23,6 @@
         </Field>
         <Field Def="f32 height = 1">
             <DisplayName>Y軸半長</DisplayName>
-            <Description>Y軸半長</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>30</Maximum>
             <Increment>0.0099999998</Increment>
@@ -33,7 +30,6 @@
         </Field>
         <Field Def="f32 depth = 1">
             <DisplayName>Z軸半長</DisplayName>
-            <Description>Z軸半長</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>30</Maximum>
             <Increment>0.0099999998</Increment>
@@ -41,7 +37,6 @@
         </Field>
         <Field Def="f32 depthOffset">
             <DisplayName>Z軸オフセット</DisplayName>
-            <Description>Z軸オフセット</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-30</Minimum>
             <Maximum>30</Maximum>
@@ -51,7 +46,6 @@
         <Field Def="u8 shapeType">
             <DisplayName>形状</DisplayName>
             <Enum>KEY_GUIDE_SHAPE_TYPE</Enum>
-            <Description>形状</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -60,7 +54,6 @@
         <Field Def="u8 angleType">
             <DisplayName>ダミポリ方向</DisplayName>
             <Enum>KEY_GUIDE_ANGLE_TYPE</Enum>
-            <Description>ダミポリ方向</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -68,7 +61,6 @@
         </Field>
         <Field Def="u8 angleDeg = 180">
             <DisplayName>許容角度</DisplayName>
-            <Description>許容角度</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>180</Maximum>
             <Increment>1</Increment>
@@ -77,7 +69,6 @@
         <Field Def="u8 bFollow">
             <DisplayName>追従</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>オーナーを追従するか</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -85,7 +76,6 @@
         </Field>
         <Field Def="s16 dummyPolyId = 190">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>ダミポリID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1</Minimum>
             <Maximum>255</Maximum>
@@ -95,7 +85,6 @@
         <Field Def="u8 bEnableActing">
             <DisplayName>アクション中表示可能</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>プレイヤーがイベントアクションしている最中に表示可能か</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -103,7 +92,6 @@
         </Field>
         <Field Def="u8 posAngleDeg = 180">
             <DisplayName>位置許容角度</DisplayName>
-            <Description>位置許容角度</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>180</Maximum>
             <Increment>1</Increment>

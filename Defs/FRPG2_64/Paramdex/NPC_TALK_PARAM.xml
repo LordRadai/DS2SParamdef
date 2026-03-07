@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 msgId">
             <DisplayName>メッセージID</DisplayName>
-            <Description>メッセージID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="s32 voiceId">
             <DisplayName>ボイスＩD</DisplayName>
-            <Description>ボイスＩD</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -27,7 +25,6 @@
         <Field Def="s32 actionId = -1">
             <DisplayName>行動ID</DisplayName>
             <Enum>EVENT_VALUE_npc_action</Enum>
-            <Description>行動ID</Description>
             <DisplayFormat>%s</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -38,7 +35,6 @@
         <Field Def="u8 windowType">
             <DisplayName>ウィンドウタイプ</DisplayName>
             <Enum>NPC_TALK_WINDOW_TYPE_ENUM</Enum>
-            <Description>ウィンドウタイプ</Description>
             <DisplayFormat>%s</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -47,7 +43,6 @@
         </Field>
         <Field Def="u8 bNextPlay">
             <DisplayName>連続会話</DisplayName>
-            <Description>連続会話</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -56,7 +51,6 @@
         </Field>
         <Field Def="u16 changeNameNpcId">
             <DisplayName>名前差し替えフラグ変更NPCID</DisplayName>
-            <Description>名前差し替えフラグ変更NPCID（キャラIDの上4桁）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -65,7 +59,6 @@
         </Field>
         <Field Def="f32 endWaitTime">
             <DisplayName>待機時間</DisplayName>
-            <Description>音声が終了してからテキストを消すまで待機時間させる時間</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>60</Maximum>

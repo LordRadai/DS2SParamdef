@@ -9,14 +9,12 @@
         <Field Def="s32 EnemyId">
             <DisplayName>登録エネミー</DisplayName>
             <Enum>ENEMY_LIST_ENUM</Enum>
-            <Description>登録エネミー</Description>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
             <SortID>30000</SortID>
         </Field>
         <Field Def="s32 HighLogicId = -1">
             <DisplayName>上位ロジックID</DisplayName>
-            <Description>上位ロジックID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="s32 LowLogicId = -1">
             <DisplayName>下位ロジックID</DisplayName>
-            <Description>下位ロジックID</Description>
             <Minimum>-1</Minimum>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u8 startUpStateType">
             <DisplayName>起動ステートタイプ</DisplayName>
-            <Description>起動ステートタイプ</Description>
             <Maximum>20</Maximum>
             <Increment>1</Increment>
             <SortID>50000</SortID>
@@ -40,7 +36,6 @@
         <Field Def="u8 bAnotherWorldGenerate:1">
             <DisplayName>異次元空間生成</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>異次元空間生成</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>51000</SortID>
@@ -52,7 +47,6 @@
         <Field Def="u8 memoryBlock1:1">
             <DisplayName>メモリ1</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック1読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60000</SortID>
@@ -60,7 +54,6 @@
         <Field Def="u8 memoryBlock2:1">
             <DisplayName>メモリ2</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック2読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60001</SortID>
@@ -68,7 +61,6 @@
         <Field Def="u8 memoryBlock3:1">
             <DisplayName>メモリ3</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック3読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60002</SortID>
@@ -76,7 +68,6 @@
         <Field Def="u8 memoryBlock4:1">
             <DisplayName>メモリ4</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック4読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60003</SortID>
@@ -84,7 +75,6 @@
         <Field Def="u8 memoryBlock5:1">
             <DisplayName>メモリ5</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック5読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60004</SortID>
@@ -92,7 +82,6 @@
         <Field Def="u8 memoryBlock6:1">
             <DisplayName>メモリ6</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック6読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60005</SortID>
@@ -100,7 +89,6 @@
         <Field Def="u8 memoryBlock7:1">
             <DisplayName>メモリ7</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック7読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60006</SortID>
@@ -108,7 +96,6 @@
         <Field Def="u8 memoryBlock8:1">
             <DisplayName>メモリ8</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック8読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60007</SortID>
@@ -116,7 +103,6 @@
         <Field Def="u8 memoryBlock9:1">
             <DisplayName>メモリ9</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック9読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60008</SortID>
@@ -124,7 +110,6 @@
         <Field Def="u8 memoryBlock10:1">
             <DisplayName>メモリ10</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック10読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60009</SortID>
@@ -132,7 +117,6 @@
         <Field Def="u8 memoryBlock11:1">
             <DisplayName>メモリ11</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック11読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60010</SortID>
@@ -140,7 +124,6 @@
         <Field Def="u8 memoryBlock12:1">
             <DisplayName>メモリ12</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック12読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60011</SortID>
@@ -148,7 +131,6 @@
         <Field Def="u8 memoryBlock13:1">
             <DisplayName>メモリ13</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック13読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60012</SortID>
@@ -156,7 +138,6 @@
         <Field Def="u8 memoryBlock14:1">
             <DisplayName>メモリ14</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック14読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60013</SortID>
@@ -164,7 +145,6 @@
         <Field Def="u8 memoryBlock15:1">
             <DisplayName>メモリ15</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック15読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60014</SortID>
@@ -172,7 +152,6 @@
         <Field Def="u8 memoryBlock16:1">
             <DisplayName>メモリ16</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>メモリブロック16読み込み対象</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>60015</SortID>

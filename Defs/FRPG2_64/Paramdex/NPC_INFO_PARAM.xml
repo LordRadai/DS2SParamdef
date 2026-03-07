@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 graveGenerateTime">
             <DisplayName>お墓生成時間</DisplayName>
-            <Description>お墓生成時間</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -17,7 +16,6 @@
         <Field Def="u32 deadTimeValueId">
             <DisplayName>死亡時間格納先ID</DisplayName>
             <Enum>EVENT_VALUE_global</Enum>
-            <Description>死亡時間格納先ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -26,7 +24,6 @@
         <Field Def="u32 deadFlagId">
             <DisplayName>死亡フラグID</DisplayName>
             <Enum>EVENT_FLAG_GLOBAL_EVENT</Enum>
-            <Description>死亡フラグID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -34,7 +31,6 @@
         </Field>
         <Field Def="u32 graveSoulValue">
             <DisplayName>お墓ソウルコスト</DisplayName>
-            <Description>お墓ソウルコスト</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -42,7 +38,6 @@
         </Field>
         <Field Def="u32 chrNameTextId">
             <DisplayName>キャラテキストID</DisplayName>
-            <Description>キャラテキストID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -54,7 +49,6 @@
         </Field>
         <Field Def="s32 value0">
             <DisplayName>汎用値0</DisplayName>
-            <Description>汎用値0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -63,7 +57,6 @@
         </Field>
         <Field Def="s32 value1">
             <DisplayName>汎用値1</DisplayName>
-            <Description>汎用値1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -72,7 +65,6 @@
         </Field>
         <Field Def="s32 value2">
             <DisplayName>汎用値2</DisplayName>
-            <Description>汎用値2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -81,7 +73,6 @@
         </Field>
         <Field Def="s32 value3">
             <DisplayName>汎用値3</DisplayName>
-            <Description>汎用値3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -90,7 +81,6 @@
         </Field>
         <Field Def="s32 value4">
             <DisplayName>汎用値4</DisplayName>
-            <Description>汎用値4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>
@@ -99,7 +89,6 @@
         </Field>
         <Field Def="s32 value5">
             <DisplayName>汎用値5</DisplayName>
-            <Description>汎用値5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>-1e+09</Minimum>
             <Maximum>1e+09</Maximum>

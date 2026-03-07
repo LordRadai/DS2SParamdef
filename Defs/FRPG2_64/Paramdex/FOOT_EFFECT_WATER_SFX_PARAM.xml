@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u32 standbyLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>足首までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u32 standbyMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>股下までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u32 standbyHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>腰までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u32 lowSpeedLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>足首までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="u32 lowSpeedMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>股下までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -48,7 +43,6 @@
         </Field>
         <Field Def="u32 lowSpeedHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>腰までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -56,7 +50,6 @@
         </Field>
         <Field Def="u32 middleSpeedLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>足首までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="u32 middleSpeedMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>股下までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -72,7 +64,6 @@
         </Field>
         <Field Def="u32 middleSpeedHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>腰までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -80,7 +71,6 @@
         </Field>
         <Field Def="u32 highSpeedLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>足首までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -88,7 +78,6 @@
         </Field>
         <Field Def="u32 highSpeedMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>股下までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -96,7 +85,6 @@
         </Field>
         <Field Def="u32 highSpeedHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>腰までの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -104,7 +92,6 @@
         </Field>
         <Field Def="u32 stepLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>ステップの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -112,7 +99,6 @@
         </Field>
         <Field Def="u32 stepSpeedMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>ステップの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -120,7 +106,6 @@
         </Field>
         <Field Def="u32 stepSpeedHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>ステップの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -128,7 +113,6 @@
         </Field>
         <Field Def="u32 rollingLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>ローリングの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -136,7 +120,6 @@
         </Field>
         <Field Def="u32 rollingMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>ローリングの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -144,7 +127,6 @@
         </Field>
         <Field Def="u32 rollingHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>ローリングの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -152,7 +134,6 @@
         </Field>
         <Field Def="u32 jumpLowSfxId">
             <DisplayName>足首</DisplayName>
-            <Description>ジャンプの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -160,7 +141,6 @@
         </Field>
         <Field Def="u32 jumpMiddleSfxId">
             <DisplayName>股下</DisplayName>
-            <Description>ジャンプの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -168,7 +148,6 @@
         </Field>
         <Field Def="u32 jumpHighSfxId">
             <DisplayName>腰</DisplayName>
-            <Description>ジャンプの際のSFX</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

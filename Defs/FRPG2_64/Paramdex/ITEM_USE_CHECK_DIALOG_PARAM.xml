@@ -9,55 +9,47 @@
         <Field Def="u8 checkType1">
             <DisplayName>確認タイプ１</DisplayName>
             <Enum>ITEM_USED_DIALOG_CHECK_TYPE</Enum>
-            <Description>確認の種類１番目</Description>
             <Increment>1</Increment>
             <SortID>1000</SortID>
         </Field>
         <Field Def="u8 checkType2">
             <DisplayName>確認タイプ２</DisplayName>
             <Enum>ITEM_USED_DIALOG_CHECK_TYPE</Enum>
-            <Description>確認の種類２番目</Description>
             <Increment>1</Increment>
             <SortID>2000</SortID>
         </Field>
         <Field Def="u8 checkType3">
             <DisplayName>確認タイプ３</DisplayName>
             <Enum>ITEM_USED_DIALOG_CHECK_TYPE</Enum>
-            <Description>確認の種類３番目</Description>
             <Increment>1</Increment>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u8 checkType4">
             <DisplayName>確認タイプ４</DisplayName>
             <Enum>ITEM_USED_DIALOG_CHECK_TYPE</Enum>
-            <Description>確認の種類４番目</Description>
             <Increment>1</Increment>
             <SortID>4000</SortID>
         </Field>
         <Field Def="u32 displayTextId1">
             <DisplayName>表示テキストID１</DisplayName>
-            <Description>確認項目１番目が有効な場合の表示メッセージID（０で無効：確認非表示）</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>1500</SortID>
         </Field>
         <Field Def="u32 displayTextId2">
             <DisplayName>表示テキストID２</DisplayName>
-            <Description>確認項目２番目が有効な場合の表示メッセージID（０で無効：確認非表示）</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2500</SortID>
         </Field>
         <Field Def="u32 displayTextId3">
             <DisplayName>表示テキストID３</DisplayName>
-            <Description>確認項目３番目が有効な場合の表示メッセージID（０で無効：確認非表示）</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3500</SortID>
         </Field>
         <Field Def="u32 displayTextId4">
             <DisplayName>表示テキストID４</DisplayName>
-            <Description>確認項目４番目が有効な場合の表示メッセージID（０で無効：確認非表示）</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>4500</SortID>

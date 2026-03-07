@@ -9,7 +9,6 @@
         <Field Def="u8 whiteDoorCategory">
             <DisplayName>白扉カテゴリ</DisplayName>
             <Enum>OBJ_WHITE_DOOR_CATEGORY_ENUM</Enum>
-            <Description>白扉カテゴリ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -18,12 +17,10 @@
         </Field>
         <Field Def="dummy8 aReserved[3]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>801</SortID>
         </Field>
         <Field Def="f32 waitTime">
             <DisplayName>待機時間[秒]</DisplayName>
-            <Description>待機時間[秒]</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -33,7 +30,6 @@
         </Field>
         <Field Def="s32 defaultSfxId">
             <DisplayName>デフォルトSFXID（白・灰）</DisplayName>
-            <Description>デフォルトSFXID（白・灰）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -42,7 +38,6 @@
         </Field>
         <Field Def="s32 multiPlaySfxId">
             <DisplayName>マルチプレイ時SFXID（黒）</DisplayName>
-            <Description>マルチプレイ時SFXID（黒）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -52,7 +47,6 @@
         <Field Def="u32 frontKeyGuideParamId">
             <DisplayName>前から入る際のキーガイドパラメータID</DisplayName>
             <Enum>KEY_GUIDE_PARAM_TYPE</Enum>
-            <Description>前から入る際のキーガイドパラメータID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -62,7 +56,6 @@
         <Field Def="u32 backKeyGuideParamId">
             <DisplayName>後ろから入る際のキーガイドパラメータID</DisplayName>
             <Enum>KEY_GUIDE_PARAM_TYPE</Enum>
-            <Description>後ろから入る際のキーガイドパラメータID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -71,7 +64,6 @@
         </Field>
         <Field Def="s32 passFlagId">
             <DisplayName>開通時イベントフラグ</DisplayName>
-            <Description>開通時イベントフラグ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -80,7 +72,6 @@
         </Field>
         <Field Def="s32 enableKeyGuideFlagId">
             <DisplayName>キーガイド有効フラグ</DisplayName>
-            <Description>キーガイド有効フラグ（未設定の場合は有効あつかい）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

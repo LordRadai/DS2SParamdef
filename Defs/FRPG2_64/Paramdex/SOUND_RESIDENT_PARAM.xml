@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u8 equipId1">
             <DisplayName>装備セットID1</DisplayName>
-            <Description>装備セットID1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>6</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u8 equipId2">
             <DisplayName>装備セットID2</DisplayName>
-            <Description>装備セットID2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>6</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u8 equipId3">
             <DisplayName>装備セットID3</DisplayName>
-            <Description>装備セットID3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>6</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u8 equipId4">
             <DisplayName>装備セットID4</DisplayName>
-            <Description>装備セットID4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>6</Maximum>
             <Increment>1</Increment>

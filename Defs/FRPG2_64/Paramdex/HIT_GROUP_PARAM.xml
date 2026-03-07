@@ -9,7 +9,6 @@
         <Field Def="u8 gameBright0">
             <DisplayName>明るさ設定_スロット0</DisplayName>
             <Enum>HIT_GAME_BRIGHT_TYPE_ENUM</Enum>
-            <Description>明るさ設定_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -18,7 +17,6 @@
         <Field Def="u8 gameBright1">
             <DisplayName>明るさ設定_スロット1</DisplayName>
             <Enum>HIT_GAME_BRIGHT_TYPE_ENUM</Enum>
-            <Description>明るさ設定_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -26,7 +24,6 @@
         </Field>
         <Field Def="u8 generateMaxNum = 15">
             <DisplayName>最大敵生成数</DisplayName>
-            <Description>最大敵生成数</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>20</Maximum>
             <Increment>1</Increment>
@@ -34,12 +31,10 @@
         </Field>
         <Field Def="dummy8 aReserved[1]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>2531</SortID>
         </Field>
         <Field Def="u8 groundMaterial240_0">
             <DisplayName>GM_240_スロット0</DisplayName>
-            <Description>GM_240_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -47,7 +42,6 @@
         </Field>
         <Field Def="u8 groundMaterial240_1">
             <DisplayName>GM_240_スロット1</DisplayName>
-            <Description>GM_240_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -55,7 +49,6 @@
         </Field>
         <Field Def="u8 groundMaterial240_2">
             <DisplayName>GM_240_スロット2</DisplayName>
-            <Description>GM_240_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -63,7 +56,6 @@
         </Field>
         <Field Def="u8 groundMaterial240_3">
             <DisplayName>GM_240_スロット3</DisplayName>
-            <Description>GM_240_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -71,7 +63,6 @@
         </Field>
         <Field Def="u8 groundMaterial241_0">
             <DisplayName>GM_241_スロット0</DisplayName>
-            <Description>GM_241_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -79,7 +70,6 @@
         </Field>
         <Field Def="u8 groundMaterial241_1">
             <DisplayName>GM_241_スロット1</DisplayName>
-            <Description>GM_241_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -87,7 +77,6 @@
         </Field>
         <Field Def="u8 groundMaterial241_2">
             <DisplayName>GM_241_スロット2</DisplayName>
-            <Description>GM_241_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -95,7 +84,6 @@
         </Field>
         <Field Def="u8 groundMaterial241_3">
             <DisplayName>GM_241_スロット3</DisplayName>
-            <Description>GM_241_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -103,7 +91,6 @@
         </Field>
         <Field Def="u8 groundMaterial242_0">
             <DisplayName>GM_242_スロット0</DisplayName>
-            <Description>GM_242_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -111,7 +98,6 @@
         </Field>
         <Field Def="u8 groundMaterial242_1">
             <DisplayName>GM_242_スロット1</DisplayName>
-            <Description>GM_242_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -119,7 +105,6 @@
         </Field>
         <Field Def="u8 groundMaterial242_2">
             <DisplayName>GM_242_スロット2</DisplayName>
-            <Description>GM_242_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -127,7 +112,6 @@
         </Field>
         <Field Def="u8 groundMaterial242_3">
             <DisplayName>GM_242_スロット3</DisplayName>
-            <Description>GM_242_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -135,7 +119,6 @@
         </Field>
         <Field Def="u8 groundMaterial243_0">
             <DisplayName>GM_243_スロット0</DisplayName>
-            <Description>GM_243_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -143,7 +126,6 @@
         </Field>
         <Field Def="u8 groundMaterial243_1">
             <DisplayName>GM_243_スロット1</DisplayName>
-            <Description>GM_243_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -151,7 +133,6 @@
         </Field>
         <Field Def="u8 groundMaterial243_2">
             <DisplayName>GM_243_スロット2</DisplayName>
-            <Description>GM_243_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -159,7 +140,6 @@
         </Field>
         <Field Def="u8 groundMaterial243_3">
             <DisplayName>GM_243_スロット3</DisplayName>
-            <Description>GM_243_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -167,7 +147,6 @@
         </Field>
         <Field Def="u8 groundMaterial244_0">
             <DisplayName>GM_244_スロット0</DisplayName>
-            <Description>GM_244_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -175,7 +154,6 @@
         </Field>
         <Field Def="u8 groundMaterial244_1">
             <DisplayName>GM_244_スロット1</DisplayName>
-            <Description>GM_244_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -183,7 +161,6 @@
         </Field>
         <Field Def="u8 groundMaterial244_2">
             <DisplayName>GM_244_スロット2</DisplayName>
-            <Description>GM_244_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -191,7 +168,6 @@
         </Field>
         <Field Def="u8 groundMaterial244_3">
             <DisplayName>GM_244_スロット3</DisplayName>
-            <Description>GM_244_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -199,7 +175,6 @@
         </Field>
         <Field Def="u8 groundMaterial245_0">
             <DisplayName>GM_245_スロット0</DisplayName>
-            <Description>GM_245_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -207,7 +182,6 @@
         </Field>
         <Field Def="u8 groundMaterial245_1">
             <DisplayName>GM_245_スロット1</DisplayName>
-            <Description>GM_245_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -215,7 +189,6 @@
         </Field>
         <Field Def="u8 groundMaterial245_2">
             <DisplayName>GM_245_スロット2</DisplayName>
-            <Description>GM_245_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -223,7 +196,6 @@
         </Field>
         <Field Def="u8 groundMaterial245_3">
             <DisplayName>GM_245_スロット3</DisplayName>
-            <Description>GM_245_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -231,7 +203,6 @@
         </Field>
         <Field Def="u8 groundMaterial246_0">
             <DisplayName>GM_246_スロット0</DisplayName>
-            <Description>GM_246_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -239,7 +210,6 @@
         </Field>
         <Field Def="u8 groundMaterial246_1">
             <DisplayName>GM_246_スロット1</DisplayName>
-            <Description>GM_246_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -247,7 +217,6 @@
         </Field>
         <Field Def="u8 groundMaterial246_2">
             <DisplayName>GM_246_スロット2</DisplayName>
-            <Description>GM_246_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -255,7 +224,6 @@
         </Field>
         <Field Def="u8 groundMaterial246_3">
             <DisplayName>GM_246_スロット3</DisplayName>
-            <Description>GM_246_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -263,7 +231,6 @@
         </Field>
         <Field Def="u8 groundMaterial247_0">
             <DisplayName>GM_247_スロット0</DisplayName>
-            <Description>GM_247_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -271,7 +238,6 @@
         </Field>
         <Field Def="u8 groundMaterial247_1">
             <DisplayName>GM_247_スロット1</DisplayName>
-            <Description>GM_247_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -279,7 +245,6 @@
         </Field>
         <Field Def="u8 groundMaterial247_2">
             <DisplayName>GM_247_スロット2</DisplayName>
-            <Description>GM_247_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -287,7 +252,6 @@
         </Field>
         <Field Def="u8 groundMaterial247_3">
             <DisplayName>GM_247_スロット3</DisplayName>
-            <Description>GM_247_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -295,7 +259,6 @@
         </Field>
         <Field Def="u8 groundMaterial248_0">
             <DisplayName>GM_248_スロット0</DisplayName>
-            <Description>GM_248_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -303,7 +266,6 @@
         </Field>
         <Field Def="u8 groundMaterial248_1">
             <DisplayName>GM_248_スロット1</DisplayName>
-            <Description>GM_248_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -311,7 +273,6 @@
         </Field>
         <Field Def="u8 groundMaterial248_2">
             <DisplayName>GM_248_スロット2</DisplayName>
-            <Description>GM_248_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -319,7 +280,6 @@
         </Field>
         <Field Def="u8 groundMaterial248_3">
             <DisplayName>GM_248_スロット3</DisplayName>
-            <Description>GM_248_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -327,7 +287,6 @@
         </Field>
         <Field Def="u8 groundMaterial249_0">
             <DisplayName>GM_249_スロット0</DisplayName>
-            <Description>GM_249_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -335,7 +294,6 @@
         </Field>
         <Field Def="u8 groundMaterial249_1">
             <DisplayName>GM_249_スロット1</DisplayName>
-            <Description>GM_249_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -343,7 +301,6 @@
         </Field>
         <Field Def="u8 groundMaterial249_2">
             <DisplayName>GM_249_スロット2</DisplayName>
-            <Description>GM_249_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -351,7 +308,6 @@
         </Field>
         <Field Def="u8 groundMaterial249_3">
             <DisplayName>GM_249_スロット3</DisplayName>
-            <Description>GM_249_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -359,7 +315,6 @@
         </Field>
         <Field Def="u8 groundMaterial250_0">
             <DisplayName>GM_250_スロット0</DisplayName>
-            <Description>GM_250_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -367,7 +322,6 @@
         </Field>
         <Field Def="u8 groundMaterial250_1">
             <DisplayName>GM_250_スロット1</DisplayName>
-            <Description>GM_250_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -375,7 +329,6 @@
         </Field>
         <Field Def="u8 groundMaterial250_2">
             <DisplayName>GM_250_スロット2</DisplayName>
-            <Description>GM_250_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -383,7 +336,6 @@
         </Field>
         <Field Def="u8 groundMaterial250_3">
             <DisplayName>GM_250_スロット3</DisplayName>
-            <Description>GM_250_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -391,7 +343,6 @@
         </Field>
         <Field Def="u8 groundMaterial251_0">
             <DisplayName>GM_251_スロット0</DisplayName>
-            <Description>GM_251_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -399,7 +350,6 @@
         </Field>
         <Field Def="u8 groundMaterial251_1">
             <DisplayName>GM_251_スロット1</DisplayName>
-            <Description>GM_251_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -407,7 +357,6 @@
         </Field>
         <Field Def="u8 groundMaterial251_2">
             <DisplayName>GM_251_スロット2</DisplayName>
-            <Description>GM_251_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -415,7 +364,6 @@
         </Field>
         <Field Def="u8 groundMaterial251_3">
             <DisplayName>GM_251_スロット3</DisplayName>
-            <Description>GM_251_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -423,7 +371,6 @@
         </Field>
         <Field Def="u8 groundMaterial252_0">
             <DisplayName>GM_252_スロット0</DisplayName>
-            <Description>GM_252_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -431,7 +378,6 @@
         </Field>
         <Field Def="u8 groundMaterial252_1">
             <DisplayName>GM_252_スロット1</DisplayName>
-            <Description>GM_252_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -439,7 +385,6 @@
         </Field>
         <Field Def="u8 groundMaterial252_2">
             <DisplayName>GM_252_スロット2</DisplayName>
-            <Description>GM_252_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -447,7 +392,6 @@
         </Field>
         <Field Def="u8 groundMaterial252_3">
             <DisplayName>GM_252_スロット3</DisplayName>
-            <Description>GM_252_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -455,7 +399,6 @@
         </Field>
         <Field Def="u8 groundMaterial253_0">
             <DisplayName>GM_253_スロット0</DisplayName>
-            <Description>GM_253_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -463,7 +406,6 @@
         </Field>
         <Field Def="u8 groundMaterial253_1">
             <DisplayName>GM_253_スロット1</DisplayName>
-            <Description>GM_253_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -471,7 +413,6 @@
         </Field>
         <Field Def="u8 groundMaterial253_2">
             <DisplayName>GM_253_スロット2</DisplayName>
-            <Description>GM_253_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -479,7 +420,6 @@
         </Field>
         <Field Def="u8 groundMaterial253_3">
             <DisplayName>GM_253_スロット3</DisplayName>
-            <Description>GM_253_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -487,7 +427,6 @@
         </Field>
         <Field Def="u8 groundMaterial254_0">
             <DisplayName>GM_254_スロット0</DisplayName>
-            <Description>GM_254_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -495,7 +434,6 @@
         </Field>
         <Field Def="u8 groundMaterial254_1">
             <DisplayName>GM_254_スロット1</DisplayName>
-            <Description>GM_254_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -503,7 +441,6 @@
         </Field>
         <Field Def="u8 groundMaterial254_2">
             <DisplayName>GM_254_スロット2</DisplayName>
-            <Description>GM_254_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -511,7 +448,6 @@
         </Field>
         <Field Def="u8 groundMaterial254_3">
             <DisplayName>GM_254_スロット3</DisplayName>
-            <Description>GM_254_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -519,7 +455,6 @@
         </Field>
         <Field Def="u8 groundMaterial255_0">
             <DisplayName>GM_255_スロット0</DisplayName>
-            <Description>GM_255_スロット0</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -527,7 +462,6 @@
         </Field>
         <Field Def="u8 groundMaterial255_1">
             <DisplayName>GM_255_スロット1</DisplayName>
-            <Description>GM_255_スロット1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -535,7 +469,6 @@
         </Field>
         <Field Def="u8 groundMaterial255_2">
             <DisplayName>GM_255_スロット2</DisplayName>
-            <Description>GM_255_スロット2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -543,7 +476,6 @@
         </Field>
         <Field Def="u8 groundMaterial255_3">
             <DisplayName>GM_255_スロット3</DisplayName>
-            <Description>GM_255_スロット3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>

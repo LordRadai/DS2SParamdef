@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 damageMinimum">
             <DisplayName>ダメージ削り値 発生ダメージ極小</DisplayName>
-            <Description>ダメージ削り値 発生ダメージ極小</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 damageSmall">
             <DisplayName>ダメージ削り値 発生ダメージ小</DisplayName>
-            <Description>ダメージ削り値 発生ダメージ小</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="f32 damageMiddle">
             <DisplayName>ダメージ削り値 発生ダメージ中</DisplayName>
-            <Description>ダメージ削り値 発生ダメージ中</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="f32 damageHeavy">
             <DisplayName>ダメージ削り値 発生ダメージ大</DisplayName>
-            <Description>ダメージ削り値 発生ダメージ大</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="f32 damageSuperHeavy">
             <DisplayName>ダメージ削り値 発生ダメージ特大</DisplayName>
-            <Description>ダメージ削り値 発生ダメージ特大</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -48,7 +43,6 @@
         </Field>
         <Field Def="f32 addValueMinimum">
             <DisplayName>ダメージ削り値 極小</DisplayName>
-            <Description>ダメージ削り値 極小</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -56,7 +50,6 @@
         </Field>
         <Field Def="f32 addValueSmall">
             <DisplayName>ダメージ削り値 小</DisplayName>
-            <Description>ダメージ削り値 小</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="f32 addValueMiddle">
             <DisplayName>ダメージ削り値 中</DisplayName>
-            <Description>ダメージ削り値 中</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -72,7 +64,6 @@
         </Field>
         <Field Def="f32 addValueHeavy">
             <DisplayName>ダメージ削り値 大</DisplayName>
-            <Description>ダメージ削り値 大</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -80,7 +71,6 @@
         </Field>
         <Field Def="f32 addValueSuperHeavy">
             <DisplayName>ダメージ削り値 特大</DisplayName>
-            <Description>ダメージ削り値 特大</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>

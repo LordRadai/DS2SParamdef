@@ -144,7 +144,6 @@
         <Field Def="u8 pledgeType">
             <DisplayName>契約のタイプ</DisplayName>
             <Enum>VOW_TYPES</Enum>
-            <Description>契約対象のタイプ情報</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -237,7 +236,6 @@
         </Field>
         <Field Def="u32 fortifyTyoe">
             <DisplayName>強化タイプ</DisplayName>
-            <Description>強化可能なタイプ設定（仮パラメータ）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -246,7 +244,6 @@
         </Field>
         <Field Def="u32 votiveItemId">
             <DisplayName>奉納アイテムID</DisplayName>
-            <Description>奉納するアイテムのID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -255,7 +252,6 @@
         </Field>
         <Field Def="u32 barterParamBeginId">
             <DisplayName>ラインナップ開始ID（物々交換）</DisplayName>
-            <Description>物々交換パラメータの参照先ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -264,7 +260,6 @@
         </Field>
         <Field Def="u32 gestureId">
             <DisplayName>ジェスチャーID</DisplayName>
-            <Description>取得出来るジェスチャID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -273,7 +268,6 @@
         </Field>
         <Field Def="u16 npcId">
             <DisplayName>NPCキャラID</DisplayName>
-            <Description>NPCキャラID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
@@ -304,7 +298,6 @@
         </Field>
         <Field Def="u32 pluralSelectIdBegin">
             <DisplayName>N択選択肢開始ID</DisplayName>
-            <Description>複数選択肢を表示する際に設定として利用する選択肢の開始ID（表示は開始から終了までの選択肢を表示します。）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -313,7 +306,6 @@
         </Field>
         <Field Def="u32 pluralSelectIdEnd">
             <DisplayName>N択選択肢終了ID</DisplayName>
-            <Description>複数選択肢を表示する際に設定として利用する選択肢の終了ID（表示は開始から終了までの選択肢を表示します。）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -322,7 +314,6 @@
         </Field>
         <Field Def="u32 barterParamEndId">
             <DisplayName>ラインナップ終了ID（物々交換）</DisplayName>
-            <Description>物々交換パラメータの参照先ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>

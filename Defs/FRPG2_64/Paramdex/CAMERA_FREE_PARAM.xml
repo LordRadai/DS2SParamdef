@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="angle32 fovY = 43">
             <DisplayName>画角(deg)</DisplayName>
-            <Description>画角</Description>
             <Minimum>0.0099999998</Minimum>
             <Maximum>160</Maximum>
             <Increment>0.1</Increment>

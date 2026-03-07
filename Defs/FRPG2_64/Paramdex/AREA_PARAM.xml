@@ -9,7 +9,6 @@
         <Field Def="u8 intrudeEnable">
             <DisplayName>侵入可否</DisplayName>
             <Enum>AREA_PARAM_INTRUDE_ENUM</Enum>
-            <Description>侵入可否</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
@@ -18,12 +17,10 @@
         </Field>
         <Field Def="dummy8 aReserved[3]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>825</SortID>
         </Field>
         <Field Def="s32 lockOnId">
             <DisplayName>通常 ロックオン</DisplayName>
-            <Description>ロックオン設定</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -33,7 +30,6 @@
         </Field>
         <Field Def="s32 lockOnIdDark">
             <DisplayName>暗闇 ロックオン</DisplayName>
-            <Description>ロックオン設定（暗闇）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -43,7 +39,6 @@
         </Field>
         <Field Def="s32 lockOnIdTorch">
             <DisplayName>光源 ロックオン</DisplayName>
-            <Description>ロックオン設定（松明）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -54,18 +49,15 @@
         <Field Def="u8 isPriorityLockOnIdTorch">
             <DisplayName>外部光源 最優先</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>外部光源 最優先</Description>
             <SortID>200</SortID>
         </Field>
         <Field Def="u8 isAbyss">
             <DisplayName>深淵か</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>深淵か</Description>
             <SortID>800</SortID>
         </Field>
         <Field Def="u8 waterMaterial">
             <DisplayName>水面材質</DisplayName>
-            <Description>水面のグランドマテリアルID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -74,12 +66,10 @@
         </Field>
         <Field Def="dummy8 aReserved1[1]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>826</SortID>
         </Field>
         <Field Def="s32 cameraId">
             <DisplayName>カメラ設定</DisplayName>
-            <Description>カメラ設定</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -89,7 +79,6 @@
         </Field>
         <Field Def="s32 playerLightSfxId">
             <DisplayName>プレイヤーの光源SFXID</DisplayName>
-            <Description>プレイヤーの光源SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -99,7 +88,6 @@
         </Field>
         <Field Def="f32 logicSoundDistance">
             <DisplayName>音の届く範囲</DisplayName>
-            <Description>音の届く範囲（ロジックで使用）</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1000</Maximum>
@@ -108,7 +96,6 @@
         </Field>
         <Field Def="f32 staminaCostScaleDash = 1">
             <DisplayName>スタミナ消費補正倍率 ダッシュ</DisplayName>
-            <Description>スタミナ消費補正倍率 ダッシュ</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
@@ -117,7 +104,6 @@
         </Field>
         <Field Def="u32 fallWaterSfxId">
             <DisplayName>水中落下SFXID</DisplayName>
-            <Description>水中落下SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -127,7 +113,6 @@
         <Field Def="u8 chameleonEnableRare">
             <DisplayName>擬態オブジェ1レア指定</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>擬態レア指定</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+08</Maximum>
@@ -136,7 +121,6 @@
         </Field>
         <Field Def="u8 chameleonWeight1">
             <DisplayName>擬態オブジェ重み1</DisplayName>
-            <Description>擬態オブジェ重み1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -145,7 +129,6 @@
         </Field>
         <Field Def="u8 chameleonWeight2">
             <DisplayName>擬態オブジェ重み2</DisplayName>
-            <Description>擬態オブジェ重み2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -154,7 +137,6 @@
         </Field>
         <Field Def="u8 chameleonWeight3">
             <DisplayName>擬態オブジェ重み3</DisplayName>
-            <Description>擬態オブジェ重み3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -163,7 +145,6 @@
         </Field>
         <Field Def="u8 chameleonWeight4">
             <DisplayName>擬態オブジェ重み4</DisplayName>
-            <Description>擬態オブジェ重み4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -172,7 +153,6 @@
         </Field>
         <Field Def="u8 chameleonWeight5">
             <DisplayName>擬態オブジェ重み5</DisplayName>
-            <Description>擬態オブジェ重み5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -186,7 +166,6 @@
         </Field>
         <Field Def="s32 chameleonId1">
             <DisplayName>擬態オブジェID1</DisplayName>
-            <Description>擬態オブジェID1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -196,7 +175,6 @@
         </Field>
         <Field Def="s32 chameleonId2">
             <DisplayName>擬態オブジェID2</DisplayName>
-            <Description>擬態オブジェID2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -206,7 +184,6 @@
         </Field>
         <Field Def="s32 chameleonId3">
             <DisplayName>擬態オブジェID3</DisplayName>
-            <Description>擬態オブジェID3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -216,7 +193,6 @@
         </Field>
         <Field Def="s32 chameleonId4">
             <DisplayName>擬態オブジェID4</DisplayName>
-            <Description>擬態オブジェID4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -226,7 +202,6 @@
         </Field>
         <Field Def="s32 chameleonId5">
             <DisplayName>擬態オブジェID5</DisplayName>
-            <Description>擬態オブジェID5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -236,7 +211,6 @@
         </Field>
         <Field Def="f32 chameleonAngle1 = 1">
             <DisplayName>擬態オブジェ1角度補正</DisplayName>
-            <Description>擬態オブジェ1角度補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>360</Maximum>
@@ -245,7 +219,6 @@
         </Field>
         <Field Def="f32 chameleonAngle2 = 1">
             <DisplayName>擬態オブジェ2角度補正</DisplayName>
-            <Description>擬態オブジェ2角度補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>360</Maximum>
@@ -254,7 +227,6 @@
         </Field>
         <Field Def="f32 chameleonAngle3 = 1">
             <DisplayName>擬態オブジェ3角度補正</DisplayName>
-            <Description>擬態オブジェ3角度補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>360</Maximum>
@@ -263,7 +235,6 @@
         </Field>
         <Field Def="f32 chameleonAngle4 = 1">
             <DisplayName>擬態オブジェ4角度補正</DisplayName>
-            <Description>擬態オブジェ4角度補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>360</Maximum>
@@ -272,7 +243,6 @@
         </Field>
         <Field Def="f32 chameleonAngle5 = 1">
             <DisplayName>擬態オブジェ5角度補正</DisplayName>
-            <Description>擬態オブジェ5角度補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>360</Maximum>
@@ -281,7 +251,6 @@
         </Field>
         <Field Def="f32 chameleonHeight1 = 1">
             <DisplayName>擬態オブジェ1高さ補正</DisplayName>
-            <Description>擬態オブジェ1高さ補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -290,7 +259,6 @@
         </Field>
         <Field Def="f32 chameleonHeight2 = 1">
             <DisplayName>擬態オブジェ2高さ補正</DisplayName>
-            <Description>擬態オブジェ2高さ補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -299,7 +267,6 @@
         </Field>
         <Field Def="f32 chameleonHeight3 = 1">
             <DisplayName>擬態オブジェ3高さ補正</DisplayName>
-            <Description>擬態オブジェ3高さ補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -308,7 +275,6 @@
         </Field>
         <Field Def="f32 chameleonHeight4 = 1">
             <DisplayName>擬態オブジェ4高さ補正</DisplayName>
-            <Description>擬態オブジェ4高さ補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
@@ -317,7 +283,6 @@
         </Field>
         <Field Def="f32 chameleonHeight5 = 1">
             <DisplayName>擬態オブジェ5高さ補正</DisplayName>
-            <Description>擬態オブジェ5高さ補正</Description>
             <DisplayFormat>%f</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>

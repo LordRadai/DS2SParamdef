@@ -20,7 +20,6 @@
         </Field>
         <Field Def="u32 consumeSoul">
             <DisplayName>消費ソウル量</DisplayName>
-            <Description>計算式が割合の時は%指定になる</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

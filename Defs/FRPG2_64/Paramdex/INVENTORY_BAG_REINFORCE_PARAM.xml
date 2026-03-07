@@ -8,21 +8,18 @@
     <Fields>
         <Field Def="u8 beltSlot">
             <DisplayName>スロット数</DisplayName>
-            <Description>スロット数（＝ベルトスロット≒装備）</Description>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 bagSlot">
             <DisplayName>容量</DisplayName>
-            <Description>容量（＝バッグスロット≒袋）</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 dummy0[2]">
             <DisplayName>ダミー</DisplayName>
-            <Description>パディング</Description>
             <SortID>4</SortID>
         </Field>
     </Fields>

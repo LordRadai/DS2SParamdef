@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 scale">
             <DisplayName>《倍率》</DisplayName>
-            <Description>倍率</Description>
             <Maximum>9999</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>

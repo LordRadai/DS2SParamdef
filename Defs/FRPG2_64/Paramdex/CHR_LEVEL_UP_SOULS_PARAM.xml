@@ -8,26 +8,22 @@
     <Fields>
         <Field Def="u16 soulLevelThreshold">
             <DisplayName>必要ソウル 閾レベル</DisplayName>
-            <Description>必要ソウルを設定するソウルレベル</Description>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">
             <DisplayName>ダミー</DisplayName>
-            <Description>パディング用のダミー変数</Description>
             <SortID>5</SortID>
         </Field>
         <Field Def="u32 increasedSoulsFromThreshold">
             <DisplayName>必要ソウル 増加量</DisplayName>
-            <Description>一番近い次の「必要ソウル 閾レベル」までの間のレベルでの必要ソウルの増加量</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="u32 necessarySouls">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>この閾レベルにおける次のレベルアップに必要なソウル量</Description>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>

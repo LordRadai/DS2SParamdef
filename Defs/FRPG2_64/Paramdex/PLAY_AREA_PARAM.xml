@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 multiPlayZoneId">
             <DisplayName>マルチプレイ区間ID</DisplayName>
-            <Description>マルチプレイ区間ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+08</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 coopBlueDisableDistance">
             <DisplayName>救援青霊侵入不可能距離</DisplayName>
-            <Description>救援青霊侵入不可能距離</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="f32 otherDisableDistance">
             <DisplayName>その他霊侵入不可能距離</DisplayName>
-            <Description>その他霊侵入不可能距離</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
@@ -41,35 +38,30 @@
         <Field Def="u8 enableSearchBellGuard:1">
             <DisplayName>鐘守検索有効</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>鐘守灰霊として呼ばれ得る場所かどうか</Description>
             <Maximum>1</Maximum>
             <SortID>3000</SortID>
         </Field>
         <Field Def="u8 enableSearchCoopBlue:1">
             <DisplayName>救援青霊検索有効</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>救援青霊として呼ばれる場所かどうか</Description>
             <Maximum>1</Maximum>
             <SortID>3001</SortID>
         </Field>
         <Field Def="u8 enableSearchVsBlue:1">
             <DisplayName>報復青霊検索有効</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>報復青霊の乱入先の検索場所かどうか</Description>
             <Maximum>1</Maximum>
             <SortID>3002</SortID>
         </Field>
         <Field Def="u8 enableSearchAbyss:1">
             <DisplayName>深淵霊検索有効</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>深淵霊の乱入先の検索場所かどうか</Description>
             <Maximum>1</Maximum>
             <SortID>3003</SortID>
         </Field>
         <Field Def="u8 enableBossCheck:1">
             <DisplayName>エリアボス判定有効</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>エリアボスの存在判定を行うかどうか</Description>
             <SortID>3004</SortID>
         </Field>
         <Field Def="dummy8 dummy[2]">

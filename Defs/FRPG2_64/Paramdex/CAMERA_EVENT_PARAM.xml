@@ -9,7 +9,6 @@
         <Field Def="u8 cameraType = 9">
             <DisplayName>カメラ挙動タイプ</DisplayName>
             <Enum>CAMERA_TYPE</Enum>
-            <Description>カメラ挙動タイプ</Description>
             <EditFlags>Lock</EditFlags>
             <Minimum>9</Minimum>
             <Maximum>9</Maximum>
@@ -18,20 +17,17 @@
         <Field Def="u8 cameraBasePosType">
             <DisplayName>カメラ基準点タイプ</DisplayName>
             <Enum>CAMERA_BASE_POS_TYPE</Enum>
-            <Description>カメラ基準点タイプ</Description>
             <Increment>1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="dummy8 reserved[2]">
             <DisplayName>ダミー</DisplayName>
-            <Description>ダミー</Description>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
             <SortID>23</SortID>
         </Field>
         <Field Def="angle32 fovY = 43">
             <DisplayName>画角(deg)</DisplayName>
-            <Description>画角(deg)</Description>
             <Minimum>20</Minimum>
             <Maximum>120</Maximum>
             <Increment>0.1</Increment>
@@ -39,7 +35,6 @@
         </Field>
         <Field Def="f32 axisOffsetX">
             <DisplayName>位置(X軸) オフセット(m)</DisplayName>
-            <Description>位置(X軸) オフセット(m)</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -47,7 +42,6 @@
         </Field>
         <Field Def="f32 axisOffsetY">
             <DisplayName>位置(Y軸) オフセット(m)</DisplayName>
-            <Description>位置(Y軸) オフセット(m)</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -55,7 +49,6 @@
         </Field>
         <Field Def="f32 axisOffsetZ">
             <DisplayName>位置(Z軸) オフセット(m)</DisplayName>
-            <Description>位置(Z軸) オフセット(m)</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -63,21 +56,18 @@
         </Field>
         <Field Def="f32 rayWidth = 0.2">
             <DisplayName>レイ太さ</DisplayName>
-            <Description>レイ太さ</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 hitCollision = 0.05">
             <DisplayName>コリジョンサイズ</DisplayName>
-            <Description>コリジョンサイズ</Description>
             <Maximum>5</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 positionOffsetZ = -4">
             <DisplayName>追加旋回半径(m)</DisplayName>
-            <Description>追加旋回半径(m)</Description>
             <Minimum>-100</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -85,14 +75,12 @@
         </Field>
         <Field Def="f32 fulcrumRate = 0.1">
             <DisplayName>支点位置(0 目標～1　基準点)　</DisplayName>
-            <Description>支点位置(0 目標～1　基準点)　</Description>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="angle32 rotationX">
             <DisplayName>X軸回転量(deg)</DisplayName>
-            <Description>X軸回転量(deg)</Description>
             <Minimum>-90</Minimum>
             <Maximum>90</Maximum>
             <Increment>0.1</Increment>
@@ -100,7 +88,6 @@
         </Field>
         <Field Def="angle32 rotationY = 10">
             <DisplayName>Ｙ軸回転量(deg)</DisplayName>
-            <Description>Ｙ軸回転量(deg)</Description>
             <Minimum>-180</Minimum>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
@@ -108,14 +95,12 @@
         </Field>
         <Field Def="f32 startTransTime">
             <DisplayName>切り替え開始時補間時間</DisplayName>
-            <Description>切り替え開始時補間時間</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="f32 endTransTime">
             <DisplayName>切り替え終了時補間時間</DisplayName>
-            <Description>切り替え終了時補間時間</Description>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>15</SortID>
@@ -123,18 +108,15 @@
         <Field Def="u8 startTransType">
             <DisplayName>切り替え開始時補間タイプ</DisplayName>
             <Enum>CAMERA_INTERPOLATE_TYPE</Enum>
-            <Description>切り替え開始時補間タイプ</Description>
             <SortID>12</SortID>
         </Field>
         <Field Def="u8 endTransType">
             <DisplayName>切り替え終了時補間タイプ</DisplayName>
             <Enum>CAMERA_INTERPOLATE_TYPE</Enum>
-            <Description>切り替え終了時補間タイプ</Description>
             <SortID>14</SortID>
         </Field>
         <Field Def="u8 enableYReverse = 1">
             <DisplayName>左右反転の許可</DisplayName>
-            <Description>左右反転の許可</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -142,7 +124,6 @@
         </Field>
         <Field Def="u8 enableZReverse = 1">
             <DisplayName>前後反転の許可</DisplayName>
-            <Description>前後反転の許可</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -150,7 +131,6 @@
         </Field>
         <Field Def="u8 keepXAngle">
             <DisplayName>カメラの傾きを維持するか</DisplayName>
-            <Description>カメラの傾きを維持するか</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -158,7 +138,6 @@
         </Field>
         <Field Def="u8 addXAngleAxis">
             <DisplayName>軸の傾きを加算するか</DisplayName>
-            <Description>軸の傾きを加算するか</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
@@ -166,7 +145,6 @@
         </Field>
         <Field Def="dummy8 reserved1[2]">
             <DisplayName>ダミー</DisplayName>
-            <Description>ダミー</Description>
             <Maximum>180</Maximum>
             <Increment>0.1</Increment>
             <SortID>24</SortID>

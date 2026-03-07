@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u8 colorR">
             <DisplayName>R</DisplayName>
-            <Description>R</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u8 colorG">
             <DisplayName>G</DisplayName>
-            <Description>G</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u8 colorB">
             <DisplayName>B</DisplayName>
-            <Description>B</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="dummy8 reserved[1]">
             <DisplayName>予約領域</DisplayName>
-            <Description>予約領域</Description>
             <SortID>5</SortID>
         </Field>
     </Fields>

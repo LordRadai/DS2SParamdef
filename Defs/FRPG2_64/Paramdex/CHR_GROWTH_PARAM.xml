@@ -8,285 +8,244 @@
     <Fields>
         <Field Def="u16 soulLevelMax = 999">
             <DisplayName>最大ソウルレベル</DisplayName>
-            <Description>ソウルレベルの上限</Description>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u8 growthPointsPerLevelUp = 3">
             <DisplayName>獲得成長ポイント</DisplayName>
-            <Description>1レベル上がるごとに獲得できる成長ポイント</Description>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="dummy8 dummy[1]">
             <DisplayName>ダミー</DisplayName>
-            <Description>パディング用のダミー変数</Description>
             <SortID>42</SortID>
         </Field>
         <Field Def="f32 enemyOverKillSoulRate = 1">
             <DisplayName>エネミーソウル オーバーキル補正倍率</DisplayName>
-            <Description>エネミーオーバーキル時の補正倍率</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>3</SortID>
         </Field>
         <Field Def="f32 enemyFinishSoulRate = 1">
             <DisplayName>エネミーソウル フィニッシュ補正倍率</DisplayName>
-            <Description>エネミーフィニッシュ時の補正倍率</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>4</SortID>
         </Field>
         <Field Def="f32 enemyVeryEasySoulRate = 1">
             <DisplayName>エネミーソウル 難易度補正倍率 Very Easy</DisplayName>
-            <Description>エネミーソウル 難易度補正倍率 Very Easy</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>5</SortID>
         </Field>
         <Field Def="f32 enemyEasySoulRate = 1">
             <DisplayName>エネミーソウル 難易度補正倍率 Easy</DisplayName>
-            <Description>エネミーソウル 難易度補正倍率 Easy</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>6</SortID>
         </Field>
         <Field Def="f32 enemyNormalSoulRate = 1">
             <DisplayName>エネミーソウル 難易度補正倍率 Normal</DisplayName>
-            <Description>エネミーソウル 難易度補正倍率 Normal</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>7</SortID>
         </Field>
         <Field Def="f32 enemyHardSoulRate = 1">
             <DisplayName>エネミーソウル 難易度補正倍率 Hard</DisplayName>
-            <Description>エネミーソウル 難易度補正倍率 Hard</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>8</SortID>
         </Field>
         <Field Def="f32 enemyVeryHardSoulRate = 1">
             <DisplayName>エネミーソウル 難易度補正倍率 Very Hard</DisplayName>
-            <Description>エネミーソウル 難易度補正倍率 Very Hard</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>9</SortID>
         </Field>
         <Field Def="f32 enemyHellSoulRate = 1">
             <DisplayName>エネミーソウル 難易度補正倍率 Hell</DisplayName>
-            <Description>エネミーソウル 難易度補正倍率 Hell</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 enemyCoop1SoulRate = 1">
             <DisplayName>エネミーソウル 協力プレイ補正１</DisplayName>
-            <Description>エネミーソウル 協力プレイ補正１</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>11</SortID>
         </Field>
         <Field Def="f32 enemyCoop2SoulRate = 1">
             <DisplayName>エネミーソウル 協力プレイ補正２</DisplayName>
-            <Description>エネミーソウル 協力プレイ補正２</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>12</SortID>
         </Field>
         <Field Def="f32 enemyCoop3SoulRate = 1">
             <DisplayName>エネミーソウル 協力プレイ補正３</DisplayName>
-            <Description>エネミーソウル 協力プレイ補正３</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>13</SortID>
         </Field>
         <Field Def="f32 enemyCoop4SoulRate = 1">
             <DisplayName>エネミーソウル 協力プレイ補正４</DisplayName>
-            <Description>エネミーソウル 協力プレイ補正４</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>14</SortID>
         </Field>
         <Field Def="f32 enemyCoop5SoulRate = 1">
             <DisplayName>エネミーソウル 協力プレイ補正５</DisplayName>
-            <Description>エネミーソウル 協力プレイ補正５</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>15</SortID>
         </Field>
         <Field Def="f32 enemyCoop6SoulRate = 1">
             <DisplayName>エネミーソウル 協力プレイ補正６</DisplayName>
-            <Description>エネミーソウル 協力プレイ補正６</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>16</SortID>
         </Field>
         <Field Def="f32 enemyLap1SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率１</DisplayName>
-            <Description>エネミーソウル 周回補正倍率１</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>17</SortID>
         </Field>
         <Field Def="f32 enemyLap2SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率２</DisplayName>
-            <Description>エネミーソウル 周回補正倍率２</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>18</SortID>
         </Field>
         <Field Def="f32 enemyLap3SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率３</DisplayName>
-            <Description>エネミーソウル 周回補正倍率３</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>19</SortID>
         </Field>
         <Field Def="f32 enemyLap4SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率４</DisplayName>
-            <Description>エネミーソウル 周回補正倍率４</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>20</SortID>
         </Field>
         <Field Def="f32 enemyLap5SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率５</DisplayName>
-            <Description>エネミーソウル 周回補正倍率５</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>21</SortID>
         </Field>
         <Field Def="f32 enemyLap6SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率６</DisplayName>
-            <Description>エネミーソウル 周回補正倍率６</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>22</SortID>
         </Field>
         <Field Def="f32 enemyLap7SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率７</DisplayName>
-            <Description>エネミーソウル 周回補正倍率７</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>23</SortID>
         </Field>
         <Field Def="f32 enemyLap8SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率８</DisplayName>
-            <Description>エネミーソウル 周回補正倍率８</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>24</SortID>
         </Field>
         <Field Def="f32 enemyLap9SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率９</DisplayName>
-            <Description>エネミーソウル 周回補正倍率９</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>25</SortID>
         </Field>
         <Field Def="f32 enemyLap10SoulRate = 1">
             <DisplayName>エネミーソウル 周回補正倍率１０</DisplayName>
-            <Description>エネミーソウル 周回補正倍率１０</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>26</SortID>
         </Field>
         <Field Def="f32 enemyLevelMinSoulRate = 1">
             <DisplayName>エネミーソウル レベル補正倍率 最小値</DisplayName>
-            <Description>エネミーソウル レベル補正倍率 最小値</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>27</SortID>
         </Field>
         <Field Def="f32 enemyLevelMaxSoulRate = 1">
             <DisplayName>エネミーソウル レベル補正倍率 最大値</DisplayName>
-            <Description>エネミーソウル レベル補正倍率 最大値</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>28</SortID>
         </Field>
         <Field Def="f32 enemyHostBlackSoulRate = 1">
             <DisplayName>エネミーソウル ホスト-黒撃破</DisplayName>
-            <Description>エネミーソウル ホスト-黒撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>29</SortID>
         </Field>
         <Field Def="f32 enemyHostRedSoulRate = 1">
             <DisplayName>エネミーソウル ホスト-黒撃破</DisplayName>
-            <Description>エネミーソウル ホスト-赤撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>30</SortID>
         </Field>
         <Field Def="f32 enemyWhiteBlackSoulRate = 1">
             <DisplayName>エネミーソウル 白-黒撃破</DisplayName>
-            <Description>エネミーソウル 白-黒撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>31</SortID>
         </Field>
         <Field Def="f32 enemyWhiteRedSoulRate = 1">
             <DisplayName>エネミーソウル 白-赤撃破</DisplayName>
-            <Description>エネミーソウル 白-赤撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>32</SortID>
         </Field>
         <Field Def="f32 enemyBlueBlackSoulRate = 1">
             <DisplayName>エネミーソウル 青-黒撃破</DisplayName>
-            <Description>エネミーソウル 青-黒撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>33</SortID>
         </Field>
         <Field Def="f32 enemyBlueRedSoulRate = 1">
             <DisplayName>エネミーソウル 青-赤撃破</DisplayName>
-            <Description>エネミーソウル 青-赤撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>34</SortID>
         </Field>
         <Field Def="f32 enemyBlackHostSoulRate = 1">
             <DisplayName>エネミーソウル 黒-ホスト撃破</DisplayName>
-            <Description>エネミーソウル 黒-ホスト撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>35</SortID>
         </Field>
         <Field Def="f32 enemyBlackWhiteSoulRate = 1">
             <DisplayName>エネミーソウル 黒-白撃破</DisplayName>
-            <Description>エネミーソウル 黒-白撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>36</SortID>
         </Field>
         <Field Def="f32 enemyBlackBlueSoulRate = 1">
             <DisplayName>エネミーソウル 黒-青撃破</DisplayName>
-            <Description>エネミーソウル 黒-青撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>37</SortID>
         </Field>
         <Field Def="f32 enemyRedHostSoulRate = 1">
             <DisplayName>エネミーソウル 赤-ホスト撃破</DisplayName>
-            <Description>エネミーソウル 赤-ホスト撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>38</SortID>
         </Field>
         <Field Def="f32 enemyRedWhiteSoulRate = 1">
             <DisplayName>エネミーソウル 赤-白撃破</DisplayName>
-            <Description>エネミーソウル 赤-白撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>39</SortID>
         </Field>
         <Field Def="f32 enemyRedBlueSoulRate = 1">
             <DisplayName>エネミーソウル 赤-青撃破</DisplayName>
-            <Description>エネミーソウル 赤-青撃破</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>40</SortID>

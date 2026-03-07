@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 frequency = 1">
             <DisplayName>速度</DisplayName>
-            <Description>明滅の速度です。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>0.0099999998</Minimum>
             <Maximum>10</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="f32 min">
             <DisplayName>最小値</DisplayName>
-            <Description>明滅の最小値です。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>
@@ -26,7 +24,6 @@
         </Field>
         <Field Def="f32 max = 1">
             <DisplayName>最大値</DisplayName>
-            <Description>明滅の最大値です。</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Minimum>-10</Minimum>
             <Maximum>10</Maximum>

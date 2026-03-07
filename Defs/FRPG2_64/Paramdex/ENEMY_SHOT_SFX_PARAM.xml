@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u32 sfxId">
             <DisplayName>SFX ID</DisplayName>
-            <Description>SFX ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u32 dummyPolyId">
             <DisplayName>生成ダミポリ</DisplayName>
-            <Description>生成ダミポリID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

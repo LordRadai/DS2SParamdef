@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 animId = -1">
             <DisplayName>アニメID</DisplayName>
-            <Description>再生するアニメID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>999999</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="u16 initialFrameHead">
             <DisplayName>【開始】初期フレーム</DisplayName>
-            <Description>アニメ再生の初期フレームをランダムで指定するための区間</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -25,7 +23,6 @@
         </Field>
         <Field Def="u16 initialFrameTail">
             <DisplayName>【終了】初期フレーム</DisplayName>
-            <Description>アニメ再生の初期フレームをランダムで指定するための区間</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -34,7 +31,6 @@
         <Field Def="u8 isLoopAnim">
             <DisplayName>ループ再生するか</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>ループ再生するかどうか</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>10100</SortID>
@@ -78,7 +74,6 @@
         </Field>
         <Field Def="s32 sfxId0 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -87,7 +82,6 @@
         </Field>
         <Field Def="s32 sfxId1 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -96,7 +90,6 @@
         </Field>
         <Field Def="s32 sfxId2 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -105,7 +98,6 @@
         </Field>
         <Field Def="s32 sfxId3 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -114,7 +106,6 @@
         </Field>
         <Field Def="s32 sfxId4 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -123,7 +114,6 @@
         </Field>
         <Field Def="s32 sfxId5 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -132,7 +122,6 @@
         </Field>
         <Field Def="s32 sfxIdBreak0 = -1">
             <DisplayName>SFX ID</DisplayName>
-            <Description>表示するSFXのID(-1:なし)</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -142,7 +131,6 @@
         <Field Def="u8 sfxPoint0">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1100001</SortID>
@@ -150,7 +138,6 @@
         <Field Def="u8 sfxPoint1">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1200001</SortID>
@@ -158,7 +145,6 @@
         <Field Def="u8 sfxPoint2">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1300001</SortID>
@@ -166,7 +152,6 @@
         <Field Def="u8 sfxPoint3">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1400001</SortID>
@@ -174,7 +159,6 @@
         <Field Def="u8 sfxPoint4">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1500001</SortID>
@@ -182,7 +166,6 @@
         <Field Def="u8 sfxPoint5">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1600001</SortID>
@@ -190,14 +173,12 @@
         <Field Def="u8 sfxPointBreak0">
             <DisplayName>発生地点</DisplayName>
             <Enum>OBJ_RESIDENT_SFX_POINT_ENUM</Enum>
-            <Description>SFXの発生地点を指定する</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>2100001</SortID>
         </Field>
         <Field Def="u8 sfxDmyPolyId0 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -205,7 +186,6 @@
         </Field>
         <Field Def="u8 sfxDmyPolyId1 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -213,7 +193,6 @@
         </Field>
         <Field Def="u8 sfxDmyPolyId2 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -221,7 +200,6 @@
         </Field>
         <Field Def="u8 sfxDmyPolyId3 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -229,7 +207,6 @@
         </Field>
         <Field Def="u8 sfxDmyPolyId4 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -237,7 +214,6 @@
         </Field>
         <Field Def="u8 sfxDmyPolyId5 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -245,7 +221,6 @@
         </Field>
         <Field Def="u8 sfxDmyPolyIdBreak0 = 2">
             <DisplayName>ダミポリID</DisplayName>
-            <Description>表示するSFXのダミポリID</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -254,7 +229,6 @@
         <Field Def="u8 doesFollow0 = 1">
             <DisplayName>追従する</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>SFXが発生後もダミポリなどに追従するかどうか</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1100100</SortID>
@@ -262,7 +236,6 @@
         <Field Def="u8 doesFollow1 = 1">
             <DisplayName>追従する</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>SFXが発生後もダミポリなどに追従するかどうか</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1200100</SortID>
@@ -270,7 +243,6 @@
         <Field Def="u8 doesFollow2 = 1">
             <DisplayName>追従する</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>SFXが発生後もダミポリなどに追従するかどうか</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1300100</SortID>
@@ -278,7 +250,6 @@
         <Field Def="u8 doesFollow3 = 1">
             <DisplayName>追従する</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>SFXが発生後もダミポリなどに追従するかどうか</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1400100</SortID>
@@ -286,7 +257,6 @@
         <Field Def="u8 doesFollow4 = 1">
             <DisplayName>追従する</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>SFXが発生後もダミポリなどに追従するかどうか</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1500100</SortID>
@@ -294,7 +264,6 @@
         <Field Def="u8 doesFollow5 = 1">
             <DisplayName>追従する</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>SFXが発生後もダミポリなどに追従するかどうか</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1600100</SortID>

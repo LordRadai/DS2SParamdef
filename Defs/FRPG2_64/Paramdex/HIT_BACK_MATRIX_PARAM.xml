@@ -9,7 +9,6 @@
         <Field Def="u32 noneSize">
             <DisplayName>無</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>無</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -18,7 +17,6 @@
         <Field Def="u32 superSmallSize">
             <DisplayName>極小</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>極小</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -27,7 +25,6 @@
         <Field Def="u32 smallSize">
             <DisplayName>小</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>小</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -36,7 +33,6 @@
         <Field Def="u32 normalSize">
             <DisplayName>中</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>中</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -45,7 +41,6 @@
         <Field Def="u32 largeSize">
             <DisplayName>大</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>大</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -54,7 +49,6 @@
         <Field Def="u32 superLargeSize">
             <DisplayName>特大</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>特大</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -63,7 +57,6 @@
         <Field Def="u32 hyperLargeSize">
             <DisplayName>超特大</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>超特大</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>
@@ -72,7 +65,6 @@
         <Field Def="u32 ultraLargeSize">
             <DisplayName>超超特大</DisplayName>
             <Enum>HIT_BACK_WEIGHT_TYPE</Enum>
-            <Description>超超特大</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>31</Maximum>
             <Increment>1</Increment>

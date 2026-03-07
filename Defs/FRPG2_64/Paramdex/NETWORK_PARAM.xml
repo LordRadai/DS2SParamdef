@@ -54,7 +54,6 @@
         </Field>
         <Field Def="u32 reloadSignTotalCount = 1">
             <DisplayName>召喚サイン所持可能数上限(全体)</DisplayName>
-            <Description>?</Description>
             <Minimum>1</Minimum>
             <Maximum>20</Maximum>
             <Increment>1</Increment>
@@ -62,7 +61,6 @@
         </Field>
         <Field Def="u32 reloadSignCellCount = 1">
             <DisplayName>召喚サイン所持可能数上限(セル)</DisplayName>
-            <Description>?????估??????で</Description>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
@@ -100,21 +98,18 @@
         </Field>
         <Field Def="u32 cellGroupHorizontalRange = 1">
             <DisplayName>召喚サイン取得セル範囲(水平)</DisplayName>
-            <Description>で</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>113</SortID>
         </Field>
         <Field Def="u32 cellGroupTopRange = 1">
             <DisplayName>召喚サイン取得セル範囲(上方向)</DisplayName>
-            <Description>?</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>114</SortID>
         </Field>
         <Field Def="u32 cellGroupBottomRange = 1">
             <DisplayName>召喚サイン取得セル範囲(下方向)</DisplayName>
-            <Description>?????估?????</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>115</SortID>
@@ -182,7 +177,6 @@
         </Field>
         <Field Def="u32 reloadSignTotalCount = 1">
             <DisplayName>血文字取得数(全体)</DisplayName>
-            <Description>潛?????最??0???体?????</Description>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
@@ -190,7 +184,6 @@
         </Field>
         <Field Def="u32 reloadNewSignCellCount = 1">
             <DisplayName>血文字取得数(セル、新順)</DisplayName>
-            <Description>?体?????</Description>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
@@ -198,7 +191,6 @@
         </Field>
         <Field Def="u32 reloadRandomSignCellCount = 1">
             <DisplayName>血文字取得数(セル、ランダム )</DisplayName>
-            <Description>当げSoふ?くら??十漱????g杁?　</Description>
             <Minimum>1</Minimum>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
@@ -206,7 +198,6 @@
         </Field>
         <Field Def="u32 maxSignTotalCount = 1">
             <DisplayName>血文字所持可能数上限(全体)</DisplayName>
-            <Description>????g杁?　</Description>
             <Minimum>1</Minimum>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -214,7 +205,6 @@
         </Field>
         <Field Def="u32 maxSignCellCount = 1">
             <DisplayName>血文字所持可能数上限(セル)</DisplayName>
-            <Description>当げSoふ?くら??十漆u?O枉?でA　?　で当げSoふ?くら??十漆u?O枉?でA　?　で当げSoふ?くら??十漆u?O枉?でA　?　で当げSou??くら??潁搆?楢</Description>
             <Minimum>1</Minimum>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -240,14 +230,12 @@
         </Field>
         <Field Def="u32 maxWriteSignCount = 1">
             <DisplayName>書いた血文字履歴件数上限</DisplayName>
-            <Description>u?O枉?でA　?　で当げSoふ?くら??十漆u?O枉?でA　?　で当げSoふ?くら??十漆u?O枉?でA　?　で当げSou??くら??潁搆?楢</Description>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>311</SortID>
         </Field>
         <Field Def="u32 maxReadSignCount = 1">
             <DisplayName>読んだ血文字履歴件数上限</DisplayName>
-            <Description>当げSoふ?くら??十漆u?O枉?でA　?　で当げSoふ?くら??十漆u?O枉?でA　?　で当げSou??くら??潁搆?楢</Description>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>312</SortID>
@@ -260,28 +248,24 @@
         </Field>
         <Field Def="u32 cellGroupHorizontalRange = 1">
             <DisplayName>血文字取得セル範囲(水平)</DisplayName>
-            <Description>u?O枉?でA　?　で当げSoふ?くら??十漆u?O枉?でA　?　で当げSou??くら??潁搆?楢</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>314</SortID>
         </Field>
         <Field Def="u32 cellGroupTopRange = 1">
             <DisplayName>血文字取得セル範囲(上方向)</DisplayName>
-            <Description>当げSoふ?くら??十漆u?O枉?でA　?　で当げSou??くら??潁搆?楢</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>315</SortID>
         </Field>
         <Field Def="u32 cellGroupBottomRange = 1">
             <DisplayName>血文字取得セル範囲(下方向)</DisplayName>
-            <Description>u?O枉?でA　?　で当げSou??くら??潁搆?楢</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>316</SortID>
         </Field>
         <Field Def="u32 lifeTime = 1">
             <DisplayName>血文字データ保持期間上限[秒]</DisplayName>
-            <Description>当げSou??くら??潁搆?楢</Description>
             <Minimum>1</Minimum>
             <Maximum>1800</Maximum>
             <Increment>1</Increment>
@@ -313,28 +297,24 @@
         </Field>
         <Field Def="u32 reloadSignTotalCount = 1">
             <DisplayName>血痕取得数(全体)</DisplayName>
-            <Description>?????估??????で</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>405</SortID>
         </Field>
         <Field Def="u32 reloadSignCellCount = 1">
             <DisplayName>血痕取得数(セル)</DisplayName>
-            <Description>で</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>406</SortID>
         </Field>
         <Field Def="u32 maxSignTotalCount = 1">
             <DisplayName>血痕所持可能数上限(全体)</DisplayName>
-            <Description>?</Description>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
             <SortID>407</SortID>
         </Field>
         <Field Def="u32 maxSignCellCount = 1">
             <DisplayName>血痕所持可能数上限(セル)</DisplayName>
-            <Description>?????估?????</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>408</SortID>
@@ -365,28 +345,24 @@
         </Field>
         <Field Def="u32 cellGroupHorizontalRange = 1">
             <DisplayName>血痕取得セル範囲(水平)</DisplayName>
-            <Description>本当はu8くらいで十分?で</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>413</SortID>
         </Field>
         <Field Def="u32 cellGroupTopRange = 1">
             <DisplayName>血痕取得セル範囲(上方向)</DisplayName>
-            <Description>で</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>414</SortID>
         </Field>
         <Field Def="u32 cellGroupBottomRange = 1">
             <DisplayName>血痕取得セル範囲(下方向)</DisplayName>
-            <Description>漆?????最??0?S??????估?????</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>415</SortID>
         </Field>
         <Field Def="u32 lifeTime = 1">
             <DisplayName>血痕データ保持期間上限[秒]</DisplayName>
-            <Description>??????估?????</Description>
             <Minimum>1</Minimum>
             <Maximum>1800</Maximum>
             <Increment>1</Increment>
@@ -406,21 +382,18 @@
         </Field>
         <Field Def="u32 reloadGhostTotalCount = 1">
             <DisplayName>幻影取得数(全体)</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>500</SortID>
         </Field>
         <Field Def="u32 reloadGhostCellCount = 1">
             <DisplayName>幻影取得数(セル)</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Maximum>99</Maximum>
             <Increment>1</Increment>
             <SortID>501</SortID>
         </Field>
         <Field Def="u32 maxGhostTotalCount = 1">
             <DisplayName>幻影所持可能数上限(全体)</DisplayName>
-            <Description>本当はu16くらいで十分</Description>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
             <SortID>502</SortID>
@@ -487,14 +460,12 @@
         </Field>
         <Field Def="f32 minBonfireGhostValidRange = 1">
             <DisplayName>篝火幻影配置最小距離[秒]</DisplayName>
-            <Description>篝火からこの距離未満の場所には篝火幻影を配置しない</Description>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>513</SortID>
         </Field>
         <Field Def="f32 maxBonfireGhostValidRange = 1">
             <DisplayName>篝火幻影配置最大距離[秒]</DisplayName>
-            <Description>篝火からこの距離以上の場所には篝火幻影を配置しない</Description>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>514</SortID>
@@ -519,21 +490,18 @@
         </Field>
         <Field Def="u32 cellGroupHorizontalRange = 1">
             <DisplayName>幻影取得セル範囲(水平)</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>518</SortID>
         </Field>
         <Field Def="u32 cellGroupTopRange = 1">
             <DisplayName>幻影取得セル範囲(上方向)</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>519</SortID>
         </Field>
         <Field Def="u32 cellGroupBottomRange = 1">
             <DisplayName>幻影取得セル範囲(下方向)</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Maximum>1</Maximum>
             <Increment>1</Increment>
             <SortID>520</SortID>
@@ -565,7 +533,6 @@
         </Field>
         <Field Def="u32 maxCoopBlueSummonCount = 1">
             <DisplayName>救援青霊出現数上限</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -573,7 +540,6 @@
         </Field>
         <Field Def="u32 maxBellGuardSummonCount = 1">
             <DisplayName>鐘守灰霊出現数上限</DisplayName>
-            <Description>本当はu8くらいで十分</Description>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -665,7 +631,6 @@
         </Field>
         <Field Def="u8 abyssMultiplayLimit = 10">
             <DisplayName>深淵霊マルチプレイ回数</DisplayName>
-            <Description>深淵エリアで、深淵霊がホストに入ってこれる回数</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Minimum>1</Minimum>
             <Maximum>255</Maximum>
@@ -730,7 +695,6 @@
         </Field>
         <Field Def="u8 allAreaSearchRate_CoopBlue">
             <DisplayName>全域検索率：救援青霊[0-100]</DisplayName>
-            <Description>全域から侵入対象を検索する割合（％）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -738,7 +702,6 @@
         </Field>
         <Field Def="u8 allAreaSearchRate_VsBlue">
             <DisplayName>全域検索率：報復青霊[0-100]</DisplayName>
-            <Description>全域から侵入対象を検索する割合（％）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -746,7 +709,6 @@
         </Field>
         <Field Def="u8 allAreaSearchRate_BellGuard">
             <DisplayName>全域検索率：鐘守灰霊[0-100]</DisplayName>
-            <Description>全域から侵入対象を検索する割合（％）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -767,7 +729,6 @@
         </Field>
         <Field Def="f32 doorInvalidPlayAreaExtents = 1">
             <DisplayName>ドア付近プレイ領域無効化距離[m]</DisplayName>
-            <Description>マルチプレイ領域を区切る黒扉の周辺を、システム的に無効なプレイ領域（-1）にします。その際、無効領域を黒扉のOBJのバウンディングボックスの薄い方を、このパラメータで太らせます。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>9999</Maximum>
             <Increment>0.1</Increment>
@@ -800,7 +761,6 @@
         </Field>
         <Field Def="u8 mirrorKnightSignConvertRate = 50">
             <DisplayName>ミラーナイトサイン変換割合[0-100]</DisplayName>
-            <Description>ミラーナイトエリアに書いた闇霊サインが、ミラーナイトサインに変換される割合。０～１００を設定。</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>100</Maximum>
             <Increment>1</Increment>
@@ -822,7 +782,6 @@
         </Field>
         <Field Def="f32 mirrorKnightSignLifetime = 1">
             <DisplayName>ミラーナイトサイン寿命[秒]</DisplayName>
-            <Description>?Eイトから??のデ?庵イ?靫〉わるま奧のあんせび晥?]</Description>
             <Minimum>1</Minimum>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>

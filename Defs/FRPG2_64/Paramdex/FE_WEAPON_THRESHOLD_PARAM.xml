@@ -36,7 +36,6 @@
         </Field>
         <Field Def="f32 thresholdE = 0.4">
             <DisplayName>E以上評価の閾値</DisplayName>
-            <Description>これ以下はFとなり、影響なし( ゼロ )は空欄となります。</Description>
             <Minimum>0.0099999998</Minimum>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>

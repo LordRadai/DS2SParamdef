@@ -9,20 +9,17 @@
         <Field Def="u32 material">
             <DisplayName>材質</DisplayName>
             <Enum>MATERIAL_TYPE_ENUM</Enum>
-            <Description>材質</Description>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u32 subMaterial">
             <DisplayName>第二材質</DisplayName>
             <Enum>MATERIAL_TYPE_ENUM</Enum>
-            <Description>第二材質</Description>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="f32 moveSpeedRate = 1">
             <DisplayName>移動速度影響倍率</DisplayName>
-            <Description>移動速度影響倍率</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -30,7 +27,6 @@
         </Field>
         <Field Def="f32 moveRotateRate = 1">
             <DisplayName>旋回速度影響倍率</DisplayName>
-            <Description>旋回速度影響倍率</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
@@ -38,7 +34,6 @@
         </Field>
         <Field Def="u8 soundLevel">
             <DisplayName>音大きさ　加算値</DisplayName>
-            <Description>音大きさ　加算値</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>10</Maximum>
             <Increment>1</Increment>
@@ -47,14 +42,12 @@
         <Field Def="u8 isTorchOff">
             <DisplayName>松明消える</DisplayName>
             <Enum>MATERIAL_TORCH_OFF_TYPE_ENUM</Enum>
-            <Description>松明消える</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="u16 torchOffParam">
             <DisplayName>松明消火パラメータＩＤ</DisplayName>
-            <Description>松明消火パラメータＩＤ</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>9999</Maximum>
             <Increment>1</Increment>
@@ -63,7 +56,6 @@
         <Field Def="u8 isWaterSurface">
             <DisplayName>水面</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>水面</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1</SortID>
@@ -71,7 +63,6 @@
         <Field Def="u8 environment">
             <DisplayName>環境タイプ</DisplayName>
             <Enum>MATERIAL_ENVIRONMENT_TYPE_ENUM</Enum>
-            <Description>環境タイプ</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>1</SortID>
@@ -79,7 +70,6 @@
         <Field Def="u8 dodgeLimitCategory">
             <DisplayName>回避制限カテゴリ</DisplayName>
             <Enum>MATERIAL_DODGE_LIMIT_TYPE_ENUM</Enum>
-            <Description>回避制限カテゴリ</Description>
             <Maximum>3</Maximum>
             <Increment>1</Increment>
             <SortID>10</SortID>
@@ -87,14 +77,12 @@
         <Field Def="u8 isDisableIdleDamage">
             <DisplayName>待機中はダメージ無効</DisplayName>
             <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
-            <Description>待機中はダメージ無効</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>2</SortID>
         </Field>
         <Field Def="s32 damageId = -1">
             <DisplayName>ダメージID</DisplayName>
-            <Description>ダメージID</Description>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
             <Maximum>1e+09</Maximum>
@@ -103,7 +91,6 @@
         </Field>
         <Field Def="u32 fallWaterSfxId">
             <DisplayName>水中落下SFX</DisplayName>
-            <Description>水中落下SFX</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -111,35 +98,30 @@
         </Field>
         <Field Def="f32 dodgeLimitDistanceRateRollLight = 100">
             <DisplayName>回避減少距離割合ローリング</DisplayName>
-            <Description>回避減少距離割合ローリング</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 dodgeLimitDistanceRateStepLight = 100">
             <DisplayName>回避減少距離割合ステップ</DisplayName>
-            <Description>回避減少距離割合ステップ</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 dodgeLimitDistanceRateRollHeavy = 100">
             <DisplayName>回避減少距離割合重量ローリング</DisplayName>
-            <Description>回避減少距離割合重量ローリング</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="f32 dodgeLimitDistanceRateStepHeavy = 100">
             <DisplayName>回避減少距離割合重量ステップ</DisplayName>
-            <Description>回避減少距離割合重量ステップ</Description>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
         <Field Def="u32 takeWaterParamId">
             <DisplayName>着水SFXパラメータID</DisplayName>
-            <Description>着水SFXパラメータID(先頭)</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

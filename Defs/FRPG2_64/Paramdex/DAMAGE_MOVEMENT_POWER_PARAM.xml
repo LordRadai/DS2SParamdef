@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 power">
             <DisplayName>運動量[m/sec]</DisplayName>
-            <Description>運動量[m/sec]</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="f32 break_power">
             <DisplayName>破壊時の運動量[m/sec]</DisplayName>
-            <Description>破壊時の運動量[m/sec]</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>100</Maximum>
             <Increment>0.1</Increment>

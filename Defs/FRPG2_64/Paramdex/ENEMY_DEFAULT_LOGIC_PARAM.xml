@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u32 stateId">
             <DisplayName>キャラ起動ステートID</DisplayName>
-            <Description>キャラ起動ステートID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u32 upperLogickId">
             <DisplayName>上位ロジックID</DisplayName>
-            <Description>上位ロジックID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u32 lowerLogickId">
             <DisplayName>下位ロジックID</DisplayName>
-            <Description>下位ロジックID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="u32 lowerStartStateId">
             <DisplayName>下位ロジックステートID</DisplayName>
-            <Description>下位ロジックステートID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>

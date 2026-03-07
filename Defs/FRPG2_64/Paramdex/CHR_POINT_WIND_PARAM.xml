@@ -8,49 +8,42 @@
     <Fields>
         <Field Def="f32 priority">
             <DisplayName>優先度</DisplayName>
-            <Description>優先度</Description>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 radius">
             <DisplayName>半径[m]</DisplayName>
-            <Description>半径[m]</Description>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 minSpeed">
             <DisplayName>最小風力[m/s]</DisplayName>
-            <Description>最小風力[m/s]</Description>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 maxSpeed">
             <DisplayName>最大風力[m/s]</DisplayName>
-            <Description>最大風力[m/s]</Description>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 frequency">
             <DisplayName>周波数</DisplayName>
-            <Description>周波数</Description>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 gainStartDistance">
             <DisplayName>減衰開始処理</DisplayName>
-            <Description>減衰開始処理</Description>
             <Maximum>1000</Maximum>
             <Increment>0.1</Increment>
             <SortID>0</SortID>
         </Field>
         <Field Def="f32 fadeInTime">
             <DisplayName>フェードイン時間[sec]</DisplayName>
-            <Description>フェードイン時間[sec]</Description>
             <Maximum>100</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>0</SortID>

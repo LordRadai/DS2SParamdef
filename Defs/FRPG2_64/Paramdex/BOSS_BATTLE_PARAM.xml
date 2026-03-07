@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="u32 soulValue">
             <DisplayName>入手ソウル</DisplayName>
-            <Description>入手ソウル</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="u32 soulBulletId">
             <DisplayName>ソウルバレットID</DisplayName>
-            <Description>ソウルバレットID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="u32 itemLotId">
             <DisplayName>シングル時アイテム抽選ID</DisplayName>
-            <Description>シングル時アイテム抽選ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -32,14 +29,12 @@
         </Field>
         <Field Def="u32 itemLotIdMultiPlay">
             <DisplayName>マルチ時アイテム抽選ID</DisplayName>
-            <Description>マルチ時アイテム抽選ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <SortID>3100</SortID>
         </Field>
         <Field Def="u32 killedEventId">
             <DisplayName>撃破済みイベントフラグ</DisplayName>
-            <Description>撃破済みイベントフラグ(撃破時に自動的にONになる、開始時にOFFの場合アサートを出すして、ボス戦の演出等は何もしない)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -48,7 +43,6 @@
         <Field Def="u32 onceKilledEventId">
             <DisplayName>一度でも撃破済みイベントフラグ</DisplayName>
             <Enum>EVENT_FLAG_GLOBAL_EVENT</Enum>
-            <Description>一度でも撃破済みイベントフラグ(撃破時に自動的にONになる、開始時にOFFの場合アサートを出すして、ボス戦の演出等は何もしない)</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -57,7 +51,6 @@
         <Field Def="u32 bonfireEventValueId">
             <DisplayName>篝火周回用イベント変数ID</DisplayName>
             <Enum>EVENT_VALUE_global</Enum>
-            <Description>篝火周回用イベント変数ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -65,7 +58,6 @@
         </Field>
         <Field Def="u32 cameraParamId">
             <DisplayName>カメラパラメータID</DisplayName>
-            <Description>カメラパラメータID（開始時に有効になり、終了時ｊ戻る）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -73,7 +65,6 @@
         </Field>
         <Field Def="u32 lockParamId">
             <DisplayName>ロックパラメータID</DisplayName>
-            <Description>ロックパラメータID（開始時に有効になり、終了時ｊ戻る）</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -82,7 +73,6 @@
         <Field Def="u8 hpDispType1">
             <DisplayName>HPゲージ表示タイプ1</DisplayName>
             <Enum>BOSS_BATTLE_HP_DISP_TYPE</Enum>
-            <Description>HPゲージ表示タイプ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -91,7 +81,6 @@
         <Field Def="u8 hpDispType2">
             <DisplayName>HPゲージ表示タイプ2</DisplayName>
             <Enum>BOSS_BATTLE_HP_DISP_TYPE</Enum>
-            <Description>HPゲージ表示タイプ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -100,7 +89,6 @@
         <Field Def="u8 hpDispType3">
             <DisplayName>HPゲージ表示タイプ3</DisplayName>
             <Enum>BOSS_BATTLE_HP_DISP_TYPE</Enum>
-            <Description>HPゲージ表示タイプ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -109,7 +97,6 @@
         <Field Def="u8 killFeType">
             <DisplayName>撃破FEタイプ</DisplayName>
             <Enum>BOSS_BATTLE_KILL_FE_TYPE</Enum>
-            <Description>撃破FEタイプ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -117,7 +104,6 @@
         </Field>
         <Field Def="u8 genEventGroupId1">
             <DisplayName>ジェネレータイベントグループID1</DisplayName>
-            <Description>ジェネレータパラメータに設定されているイベントグループID。ボスの対象となる</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -125,7 +111,6 @@
         </Field>
         <Field Def="u8 genEventGroupId2">
             <DisplayName>ジェネレータイベントグループID2</DisplayName>
-            <Description>ジェネレータパラメータに設定されているイベントグループID。ボスの対象となる</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -133,7 +118,6 @@
         </Field>
         <Field Def="u8 genEventGroupId3">
             <DisplayName>ジェネレータイベントグループID3</DisplayName>
-            <Description>ジェネレータパラメータに設定されているイベントグループID。ボスの対象となる</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -142,7 +126,6 @@
         <Field Def="u8 roundSoulDropCategory">
             <DisplayName>周回ソウルドロップカテゴリ</DisplayName>
             <Enum>CHR_ROUND_DROP_SOUL_CATEGORY</Enum>
-            <Description>周回ソウルドロップカテゴリ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
@@ -150,7 +133,6 @@
         </Field>
         <Field Def="u32 bossNameTextId1">
             <DisplayName>ボス名テキストID1</DisplayName>
-            <Description>FEに表示するボス名テキストID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -158,7 +140,6 @@
         </Field>
         <Field Def="u32 bossNameTextId2">
             <DisplayName>ボス名テキストID2</DisplayName>
-            <Description>FEに表示するボス名テキストID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -166,7 +147,6 @@
         </Field>
         <Field Def="u32 bossNameTextId3">
             <DisplayName>ボス名テキストID3</DisplayName>
-            <Description>FEに表示するボス名テキストID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -174,7 +154,6 @@
         </Field>
         <Field Def="f32 feDispWaitTime">
             <DisplayName>撃破FEの待機時間</DisplayName>
-            <Description>撃破FEの待機時間</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>30</Maximum>
             <Increment>0.0099999998</Increment>
@@ -182,7 +161,6 @@
         </Field>
         <Field Def="u16 bonfireId">
             <DisplayName>篝火パラメータID</DisplayName>
-            <Description>篝火パラメータID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>65535</Maximum>
             <Increment>1</Increment>
@@ -190,12 +168,10 @@
         </Field>
         <Field Def="dummy8 aReserved3[2]">
             <DisplayName>予約</DisplayName>
-            <Description>予約</Description>
             <SortID>12001</SortID>
         </Field>
         <Field Def="f32 decLimitTime">
             <DisplayName>マルチプレイ制限時間減少量</DisplayName>
-            <Description>マルチプレイ制限時間減少量</Description>
             <DisplayFormat>%f</DisplayFormat>
             <Maximum>10000</Maximum>
             <Increment>0.1</Increment>

@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="f32 StartReactionLine = 0.1">
             <DisplayName>入力最低感度</DisplayName>
-            <Description>1.0なら感度１００</Description>
             <Maximum>1</Maximum>
             <Increment>0.0099999998</Increment>
             <SortID>1</SortID>
@@ -21,7 +20,6 @@
         </Field>
         <Field Def="u32 MaxSpeed = 60">
             <DisplayName>設定カーソル移動速度</DisplayName>
-            <Description>１秒間に移動するドット量</Description>
             <Maximum>1000</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>

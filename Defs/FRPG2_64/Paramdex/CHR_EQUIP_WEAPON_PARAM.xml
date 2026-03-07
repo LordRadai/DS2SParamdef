@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 behaviorId">
             <DisplayName>行動パラメータＩＤ</DisplayName>
-            <Description>行動パラメータID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -17,7 +16,6 @@
         </Field>
         <Field Def="s8 cullingId00 = -1">
             <DisplayName>カリンググループID1</DisplayName>
-            <Description>表示カリンググループの設定</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -27,7 +25,6 @@
         </Field>
         <Field Def="s8 cullingId01 = -1">
             <DisplayName>カリンググループID2</DisplayName>
-            <Description>表示カリンググループの設定</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -37,7 +34,6 @@
         </Field>
         <Field Def="dummy8 reserved00[6] = -1">
             <DisplayName>予備</DisplayName>
-            <Description>※カリンググループ予備</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -47,7 +43,6 @@
         </Field>
         <Field Def="s32 durability">
             <DisplayName>耐久度</DisplayName>
-            <Description>耐久度</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1000</Maximum>
@@ -57,7 +52,6 @@
         <Field Def="u32 material">
             <DisplayName>材質</DisplayName>
             <Enum>MATERIAL_TYPE_ENUM</Enum>
-            <Description>材質</Description>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -65,7 +59,6 @@
         </Field>
         <Field Def="u32 rightBrokenSfxId">
             <DisplayName>破損SFXID 右手</DisplayName>
-            <Description>破損時のSFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -74,7 +67,6 @@
         </Field>
         <Field Def="u32 leftBrokenSfxId">
             <DisplayName>破損SFXID 左手</DisplayName>
-            <Description>破損時のSFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -83,7 +75,6 @@
         </Field>
         <Field Def="u8 rightBrokenDummyPolyId">
             <DisplayName>破損SFXダミポリID 右手</DisplayName>
-            <Description>破損時のダミポリID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -92,7 +83,6 @@
         </Field>
         <Field Def="u8 leftBrokenDummyPolyId">
             <DisplayName>破損SFXダミポリID 左手</DisplayName>
-            <Description>破損時のダミポリID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -102,7 +92,6 @@
         <Field Def="u8 emissiveType">
             <DisplayName>自己照明種類</DisplayName>
             <Enum>CHR_EMISSIVE_TYPE</Enum>
-            <Description>自己照明の動作種類</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>3</Maximum>
@@ -111,7 +100,6 @@
         </Field>
         <Field Def="dummy8 reserved01[1] = -1">
             <DisplayName>予備</DisplayName>
-            <Description>※カリンググループ予備</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Minimum>-1</Minimum>
@@ -122,7 +110,6 @@
         <Field Def="s32 brokenSoundType">
             <DisplayName>破損サウンドタイプ</DisplayName>
             <Enum>EQUIP_BREAK_SOUND_MATERIAL_TYPE</Enum>
-            <Description>破損時のサウンドタイプ</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -131,7 +118,6 @@
         </Field>
         <Field Def="u32 residentSfxId00">
             <DisplayName>常駐SFXID</DisplayName>
-            <Description>常駐SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -140,7 +126,6 @@
         </Field>
         <Field Def="u32 residentSfxId01">
             <DisplayName>常駐SFXID</DisplayName>
-            <Description>常駐SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -149,7 +134,6 @@
         </Field>
         <Field Def="u32 residentSfxId02">
             <DisplayName>常駐SFXID</DisplayName>
-            <Description>常駐SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -158,7 +142,6 @@
         </Field>
         <Field Def="u32 residentSfxId03">
             <DisplayName>常駐SFXID</DisplayName>
-            <Description>常駐SFXID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>1e+09</Maximum>
@@ -168,7 +151,6 @@
         <Field Def="u8 residentSfxAttachType00">
             <DisplayName>常駐SFX追従タイプ</DisplayName>
             <Enum>CHR_RESIDENT_SFX_ATTACH_TYPE</Enum>
-            <Description>常駐SFX追従タイプ</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>31</SortID>
@@ -176,7 +158,6 @@
         <Field Def="u8 residentSfxAttachType01">
             <DisplayName>常駐SFX追従タイプ</DisplayName>
             <Enum>CHR_RESIDENT_SFX_ATTACH_TYPE</Enum>
-            <Description>常駐SFX追従タイプ</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>32</SortID>
@@ -184,7 +165,6 @@
         <Field Def="u8 residentSfxAttachType02">
             <DisplayName>常駐SFX追従タイプ</DisplayName>
             <Enum>CHR_RESIDENT_SFX_ATTACH_TYPE</Enum>
-            <Description>常駐SFX追従タイプ</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>33</SortID>
@@ -192,14 +172,12 @@
         <Field Def="u8 residentSfxAttachType03">
             <DisplayName>常駐SFX追従タイプ</DisplayName>
             <Enum>CHR_RESIDENT_SFX_ATTACH_TYPE</Enum>
-            <Description>常駐SFX追従タイプ</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>34</SortID>
         </Field>
         <Field Def="u8 residentSfxDummyPolyId00">
             <DisplayName>常駐SFX開始ID</DisplayName>
-            <Description>常駐SFX開始ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -208,7 +186,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyId01">
             <DisplayName>常駐SFX開始ID</DisplayName>
-            <Description>常駐SFX開始ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -217,7 +194,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyId02">
             <DisplayName>常駐SFX開始ID</DisplayName>
-            <Description>常駐SFX開始ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -226,7 +202,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyId03">
             <DisplayName>常駐SFX開始ID</DisplayName>
-            <Description>常駐SFX開始ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -235,7 +210,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyIdEnd00">
             <DisplayName>常駐SFX終了ID</DisplayName>
-            <Description>常駐SFX終了ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -244,7 +218,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyIdEnd01">
             <DisplayName>常駐SFX終了ID</DisplayName>
-            <Description>常駐SFX終了ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -253,7 +226,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyIdEnd02">
             <DisplayName>常駐SFX終了ID</DisplayName>
-            <Description>常駐SFX終了ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -262,7 +234,6 @@
         </Field>
         <Field Def="u8 residentSfxDummyPolyIdEnd03">
             <DisplayName>常駐SFX終了ID</DisplayName>
-            <Description>常駐SFX終了ID</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -271,7 +242,6 @@
         </Field>
         <Field Def="u8 residentSfxIdInterval00">
             <DisplayName>常駐SFX 追従ID間隔</DisplayName>
-            <Description>常駐SFX 追従ID間隔</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -280,7 +250,6 @@
         </Field>
         <Field Def="u8 residentSfxIdInterval01">
             <DisplayName>常駐SFX 追従ID間隔</DisplayName>
-            <Description>常駐SFX 追従ID間隔</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -289,7 +258,6 @@
         </Field>
         <Field Def="u8 residentSfxIdInterval02">
             <DisplayName>常駐SFX 追従ID間隔</DisplayName>
-            <Description>常駐SFX 追従ID間隔</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -298,7 +266,6 @@
         </Field>
         <Field Def="u8 residentSfxIdInterval03">
             <DisplayName>常駐SFX 追従ID間隔</DisplayName>
-            <Description>常駐SFX 追従ID間隔</Description>
             <DisplayFormat>%d</DisplayFormat>
             <EditFlags>Wrap</EditFlags>
             <Maximum>255</Maximum>
@@ -308,7 +275,6 @@
         <Field Def="u8 residentSfxSetType00">
             <DisplayName>常駐SFX開始</DisplayName>
             <Enum>CHR_RESIDENT_SFX_SET_TYPE</Enum>
-            <Description>常駐SFX開始</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>31</SortID>
@@ -316,7 +282,6 @@
         <Field Def="u8 residentSfxSetType01">
             <DisplayName>常駐SFX開始</DisplayName>
             <Enum>CHR_RESIDENT_SFX_SET_TYPE</Enum>
-            <Description>常駐SFX開始</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>32</SortID>
@@ -324,7 +289,6 @@
         <Field Def="u8 residentSfxSetType02">
             <DisplayName>常駐SFX開始</DisplayName>
             <Enum>CHR_RESIDENT_SFX_SET_TYPE</Enum>
-            <Description>常駐SFX開始</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>33</SortID>
@@ -332,7 +296,6 @@
         <Field Def="u8 residentSfxSetType03">
             <DisplayName>常駐SFX開始</DisplayName>
             <Enum>CHR_RESIDENT_SFX_SET_TYPE</Enum>
-            <Description>常駐SFX開始</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>34</SortID>
@@ -340,7 +303,6 @@
         <Field Def="u8 residentSfxEndType00">
             <DisplayName>常駐SFX終了</DisplayName>
             <Enum>CHR_RESIDENT_SFX_END_TYPE</Enum>
-            <Description>常駐SFX終了</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>31</SortID>
@@ -348,7 +310,6 @@
         <Field Def="u8 residentSfxEndType01">
             <DisplayName>常駐SFX終了</DisplayName>
             <Enum>CHR_RESIDENT_SFX_END_TYPE</Enum>
-            <Description>常駐SFX終了</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>32</SortID>
@@ -356,7 +317,6 @@
         <Field Def="u8 residentSfxEndType02">
             <DisplayName>常駐SFX終了</DisplayName>
             <Enum>CHR_RESIDENT_SFX_END_TYPE</Enum>
-            <Description>常駐SFX終了</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>33</SortID>
@@ -364,7 +324,6 @@
         <Field Def="u8 residentSfxEndType03">
             <DisplayName>常駐SFX終了</DisplayName>
             <Enum>CHR_RESIDENT_SFX_END_TYPE</Enum>
-            <Description>常駐SFX終了</Description>
             <EditFlags>Wrap</EditFlags>
             <Increment>1</Increment>
             <SortID>34</SortID>

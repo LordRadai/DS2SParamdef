@@ -8,7 +8,6 @@
     <Fields>
         <Field Def="s32 lv1">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -16,7 +15,6 @@
         </Field>
         <Field Def="s32 lv2">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -24,7 +22,6 @@
         </Field>
         <Field Def="s32 lv3">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -32,7 +29,6 @@
         </Field>
         <Field Def="s32 lv4">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -40,7 +36,6 @@
         </Field>
         <Field Def="s32 lv5">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -48,7 +43,6 @@
         </Field>
         <Field Def="s32 lv6">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv6</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -56,7 +50,6 @@
         </Field>
         <Field Def="s32 lv7">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv7</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -64,7 +57,6 @@
         </Field>
         <Field Def="s32 lv8">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv8</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -72,7 +64,6 @@
         </Field>
         <Field Def="s32 lv9">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv9</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -80,7 +71,6 @@
         </Field>
         <Field Def="s32 lv10">
             <DisplayName>必要ソウル</DisplayName>
-            <Description>Lv10</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -88,7 +78,6 @@
         </Field>
         <Field Def="s32 lv1">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -96,7 +85,6 @@
         </Field>
         <Field Def="s32 lv2">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>vL</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -104,7 +92,6 @@
         </Field>
         <Field Def="s32 lv3">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -112,7 +99,6 @@
         </Field>
         <Field Def="s32 lv4">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -120,7 +106,6 @@
         </Field>
         <Field Def="s32 lv5">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -128,7 +113,6 @@
         </Field>
         <Field Def="s32 lv6">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv6</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -136,7 +120,6 @@
         </Field>
         <Field Def="s32 lv7">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv7</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -144,7 +127,6 @@
         </Field>
         <Field Def="s32 lv8">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv8</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -152,7 +134,6 @@
         </Field>
         <Field Def="s32 lv9">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv9</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -160,7 +141,6 @@
         </Field>
         <Field Def="s32 lv10">
             <DisplayName>必要アイテムID</DisplayName>
-            <Description>Lv10</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>1e+09</Maximum>
             <Increment>1</Increment>
@@ -168,7 +148,6 @@
         </Field>
         <Field Def="s16 lv1">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv1</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -176,7 +155,6 @@
         </Field>
         <Field Def="s16 lv2">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv2</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -184,7 +162,6 @@
         </Field>
         <Field Def="s16 lv3">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv3</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -192,7 +169,6 @@
         </Field>
         <Field Def="s16 lv4">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv4</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -200,7 +176,6 @@
         </Field>
         <Field Def="s16 lv5">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv5</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -208,7 +183,6 @@
         </Field>
         <Field Def="s16 lv6">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv6</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -216,7 +190,6 @@
         </Field>
         <Field Def="s16 lv7">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv7</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -224,7 +197,6 @@
         </Field>
         <Field Def="s16 lv8">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv8</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -232,7 +204,6 @@
         </Field>
         <Field Def="s16 lv9">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv9</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>
@@ -240,7 +211,6 @@
         </Field>
         <Field Def="s16 lv10">
             <DisplayName>必要アイテム数</DisplayName>
-            <Description>Lv10</Description>
             <DisplayFormat>%d</DisplayFormat>
             <Maximum>999</Maximum>
             <Increment>1</Increment>

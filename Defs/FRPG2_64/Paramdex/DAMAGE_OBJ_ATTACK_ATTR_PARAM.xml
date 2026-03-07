@@ -8,14 +8,12 @@
     <Fields>
         <Field Def="u8 priority">
             <DisplayName>破壊優先度</DisplayName>
-            <Description>番号が大きい程、壊せるものが多い</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>1</SortID>
         </Field>
         <Field Def="dummy8 dummy[3]">
             <DisplayName>ダミー</DisplayName>
-            <Description>ダミー</Description>
             <Maximum>255</Maximum>
             <Increment>1</Increment>
             <SortID>3</SortID>
