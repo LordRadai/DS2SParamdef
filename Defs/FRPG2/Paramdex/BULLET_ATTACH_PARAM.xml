@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>BULLET_ATTACH_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 dummyPolyId">
+            <DisplayName>ダミポリID</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>401</SortID>
+        </Field>
+        <Field Def="f32 offsetPosX">
+            <DisplayName>位置オフセットＸ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 offsetPosY">
+            <DisplayName>位置オフセットＹ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 offsetPosZ">
+            <DisplayName>位置オフセットＺ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosX">
+            <DisplayName>位置オフセットＸ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosY">
+            <DisplayName>位置オフセットＹ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosZ">
+            <DisplayName>位置オフセットＺ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotX">
+            <DisplayName>角度オフセットＸ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotY">
+            <DisplayName>角度オフセットＹ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotZ">
+            <DisplayName>角度オフセットＺ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotX">
+            <DisplayName>角度オフセットＸ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotY">
+            <DisplayName>角度オフセットＹ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotZ">
+            <DisplayName>角度オフセットＺ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u8 dummyPolyId">
+            <DisplayName>ダミポリID</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>402</SortID>
+        </Field>
+        <Field Def="f32 offsetPosX">
+            <DisplayName>位置オフセットＸ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 offsetPosY">
+            <DisplayName>位置オフセットＹ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 offsetPosZ">
+            <DisplayName>位置オフセットＺ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosX">
+            <DisplayName>位置オフセットＸ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosY">
+            <DisplayName>位置オフセットＹ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosZ">
+            <DisplayName>位置オフセットＺ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotX">
+            <DisplayName>角度オフセットＸ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotY">
+            <DisplayName>角度オフセットＹ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotZ">
+            <DisplayName>角度オフセットＺ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotX">
+            <DisplayName>角度オフセットＸ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotY">
+            <DisplayName>角度オフセットＹ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotZ">
+            <DisplayName>角度オフセットＺ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="u8 dummyPolyId">
+            <DisplayName>ダミポリID</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>403</SortID>
+        </Field>
+        <Field Def="f32 offsetPosX">
+            <DisplayName>位置オフセットＸ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 offsetPosY">
+            <DisplayName>位置オフセットＹ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 offsetPosZ">
+            <DisplayName>位置オフセットＺ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosX">
+            <DisplayName>位置オフセットＸ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosY">
+            <DisplayName>位置オフセットＹ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosZ">
+            <DisplayName>位置オフセットＺ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotX">
+            <DisplayName>角度オフセットＸ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotY">
+            <DisplayName>角度オフセットＹ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotZ">
+            <DisplayName>角度オフセットＺ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotX">
+            <DisplayName>角度オフセットＸ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotY">
+            <DisplayName>角度オフセットＹ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotZ">
+            <DisplayName>角度オフセットＺ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>300</SortID>
+        </Field>
+        <Field Def="u8 dummyPolyId">
+            <DisplayName>ダミポリID</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[3]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>404</SortID>
+        </Field>
+        <Field Def="f32 offsetPosX">
+            <DisplayName>位置オフセットＸ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 offsetPosY">
+            <DisplayName>位置オフセットＹ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 offsetPosZ">
+            <DisplayName>位置オフセットＺ</DisplayName>
+            <Minimum>-100</Minimum>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosX">
+            <DisplayName>位置オフセットＸ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosY">
+            <DisplayName>位置オフセットＹ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="f32 offsetAccuracyPosZ">
+            <DisplayName>位置オフセットＺ精度</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotX">
+            <DisplayName>角度オフセットＸ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotY">
+            <DisplayName>角度オフセットＹ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="angle32 offsetRotZ">
+            <DisplayName>角度オフセットＺ</DisplayName>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotX">
+            <DisplayName>角度オフセットＸ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotY">
+            <DisplayName>角度オフセットＹ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+        <Field Def="angle32 offsetAccuracyRotZ">
+            <DisplayName>角度オフセットＺ精度</DisplayName>
+            <Maximum>180</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>400</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

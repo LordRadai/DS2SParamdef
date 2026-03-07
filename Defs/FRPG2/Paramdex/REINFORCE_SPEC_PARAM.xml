@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>REINFORCE_SPEC_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u32 attrSpec">
+            <DisplayName>属性強化可否</DisplayName>
+            <Enum>CUSTOM_ATTR_SPEC_PARAM_ENUM</Enum>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u32 attrCost">
+            <DisplayName>属性強化コスト</DisplayName>
+            <Enum>CUSTOM_ATTR_COST_PARAM_ENUM</Enum>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u32 reinforceCost">
+            <DisplayName>Lv強化コスト</DisplayName>
+            <Enum>REINFORCE_COST_PARAM_ENUM</Enum>
+            <SortID>3</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

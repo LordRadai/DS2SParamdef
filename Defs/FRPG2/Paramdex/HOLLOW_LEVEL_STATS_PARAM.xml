@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>HOLLOW_LEVEL_STATS_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 declineRateLifeForce">
+            <DisplayName>亡者レベルステータス 低下割合 生命力 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="f32 declineRateStayingPower">
+            <DisplayName>亡者レベルステータス 低下割合 持久力 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="f32 declineRateVitality">
+            <DisplayName>亡者レベルステータス 低下割合 体力 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="f32 declineRateStrength">
+            <DisplayName>亡者レベルステータス 低下割合 筋力 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="f32 declineRateDexterity">
+            <DisplayName>亡者レベルステータス 低下割合 技量 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="f32 declineRateIntelligence">
+            <DisplayName>亡者レベルステータス 低下割合 理力 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="f32 declineRateFaith">
+            <DisplayName>亡者レベルステータス 低下割合 信仰 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="f32 declineRateEndurance">
+            <DisplayName>亡者レベルステータス 低下割合 耐久力 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="f32 declineRateQuickness">
+            <DisplayName>亡者レベルステータス 低下割合 敏捷 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="f32 declineRateLuck">
+            <DisplayName>亡者レベルステータス 低下割合 運 [%]</DisplayName>
+            <Maximum>100</Maximum>
+            <Increment>0.1</Increment>
+            <SortID>10</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

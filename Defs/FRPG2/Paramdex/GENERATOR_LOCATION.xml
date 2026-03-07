@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>GENERATOR_LOCATION_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="f32 positionX">
+            <DisplayName>配置位置X</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-100000</Minimum>
+            <Maximum>100000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="f32 positionY">
+            <DisplayName>配置位置Y</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-100000</Minimum>
+            <Maximum>100000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>101</SortID>
+        </Field>
+        <Field Def="f32 positionZ">
+            <DisplayName>配置位置Z</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-100000</Minimum>
+            <Maximum>100000</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>102</SortID>
+        </Field>
+        <Field Def="f32 angleX">
+            <DisplayName>配置角度X</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="f32 angleY">
+            <DisplayName>配置角度Y</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>111</SortID>
+        </Field>
+        <Field Def="f32 angleZ">
+            <DisplayName>配置角度Z</DisplayName>
+            <DisplayFormat>%f</DisplayFormat>
+            <Minimum>-180</Minimum>
+            <Maximum>180</Maximum>
+            <Increment>0.0099999998</Increment>
+            <SortID>112</SortID>
+        </Field>
+        <Field Def="u8 settingType">
+            <DisplayName>配置タイプ</DisplayName>
+            <Enum>GENERATOR_LOCATION_SETTING_ENUM</Enum>
+            <DisplayFormat>%s</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>200</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved1[3]">
+            <DisplayName>予約</DisplayName>
+            <SortID>301</SortID>
+        </Field>
+        <Field Def="s32 refObjInstanceId">
+            <DisplayName>参照オブジェクトインスタンスID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>300</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>REINFORCE_COST_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="s32 lv1">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="s32 lv2">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="s32 lv3">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="s32 lv4">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="s32 lv5">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="s32 lv6">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="s32 lv7">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="s32 lv8">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="s32 lv9">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="s32 lv10">
+            <DisplayName>必要ソウル</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 lv1">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="s32 lv2">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="s32 lv3">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="s32 lv4">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="s32 lv5">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="s32 lv6">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="s32 lv7">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="s32 lv8">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="s32 lv9">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="s32 lv10">
+            <DisplayName>必要アイテムID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s16 lv1">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="s16 lv2">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="s16 lv3">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="s16 lv4">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="s16 lv5">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="s16 lv6">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="s16 lv7">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="s16 lv8">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="s16 lv9">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="s16 lv10">
+            <DisplayName>必要アイテム数</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_MULTIPLAY_PARAM</ParamType>
+    <DataVersion>2</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u16 hpPercent = 100">
+            <DisplayName>クライアント1名時 エネミー最大HP補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u16 hpDamagePercent = 100">
+            <DisplayName>クライアント1名時 エネミーHPダメージ補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u16 ailmentDamagePercent = 100">
+            <DisplayName>クライアント1名時 エネミー耐性ダメージ補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u16 staminaDamagePercent = 100">
+            <DisplayName>クライアント1名時 エネミー被スタミナ奪取量補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u16 poiseDamagePercent = 100">
+            <DisplayName>クライアント1名時 エネミー被強靭削り値補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u16 stunDamagePercent = 100">
+            <DisplayName>クライアント1名時 エネミー被気絶値補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u16 hpPercent = 100">
+            <DisplayName>クライアント2名時 エネミー最大HP補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u16 hpDamagePercent = 100">
+            <DisplayName>クライアント2名時 エネミーHPダメージ補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u16 ailmentDamagePercent = 100">
+            <DisplayName>クライアント2名時 エネミー耐性ダメージ補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u16 staminaDamagePercent = 100">
+            <DisplayName>クライアント2名時 エネミー被スタミナ奪取量補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u16 poiseDamagePercent = 100">
+            <DisplayName>クライアント2名時 エネミー被強靭削り値補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u16 stunDamagePercent = 100">
+            <DisplayName>クライアント2名時 エネミー被気絶値補正</DisplayName>
+            <Maximum>30000</Maximum>
+            <Increment>10</Increment>
+            <SortID>12</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

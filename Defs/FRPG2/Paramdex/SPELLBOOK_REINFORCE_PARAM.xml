@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SPELLBOOK_REINFORCE_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 slotNum = 1">
+            <DisplayName>スロット数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="s8 canUseCount1">
+            <DisplayName>スペルレベル１の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="s8 canUseCount2">
+            <DisplayName>スペルレベル２の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="s8 canUseCount3">
+            <DisplayName>スペルレベル３の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="s8 canUseCount4">
+            <DisplayName>スペルレベル４の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="s8 canUseCount5">
+            <DisplayName>スペルレベル５の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="s8 canUseCount6">
+            <DisplayName>スペルレベル６の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="s8 canUseCount7">
+            <DisplayName>スペルレベル７の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="s8 canUseCount8">
+            <DisplayName>スペルレベル８の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="s8 canUseCount9">
+            <DisplayName>スペルレベル９の使用回数</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="dummy8 padding[2]">
+            <DisplayName>ダミー</DisplayName>
+            <SortID>12</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>
