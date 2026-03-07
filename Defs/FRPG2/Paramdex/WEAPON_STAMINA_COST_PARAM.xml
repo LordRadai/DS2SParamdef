@@ -6,301 +6,301 @@
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>
     <Fields>
-        <Field Def="f32 1HNormal1st = 1">
+        <Field Def="f32 Nnormal1st1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 弱1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>1</SortID>
         </Field>
-        <Field Def="f32 1HNormal2nd = 1">
+        <Field Def="f32 normal2nd1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 弱2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>2</SortID>
         </Field>
-        <Field Def="f32 1HStrong1st = 1">
+        <Field Def="f32 strong1st1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 強1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>3</SortID>
         </Field>
-        <Field Def="f32 1HStrong2nd = 1">
+        <Field Def="f32 strong2nd1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 強2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>4</SortID>
         </Field>
-        <Field Def="f32 1HDash = 1">
+        <Field Def="f32 dash1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 ダッシュ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>5</SortID>
         </Field>
-        <Field Def="f32 1HRolling = 1">
+        <Field Def="f32 rolling1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 ローリング [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>6</SortID>
         </Field>
-        <Field Def="f32 1HStep = 1">
+        <Field Def="f32 step1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 ステップ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>7</SortID>
         </Field>
-        <Field Def="f32 1HDown = 1">
+        <Field Def="f32 down1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 ダウン [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>8</SortID>
         </Field>
-        <Field Def="f32 1HFall = 1">
+        <Field Def="f32 fall1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 落下 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>9</SortID>
         </Field>
-        <Field Def="f32 1HJump = 1">
+        <Field Def="f32 jump1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 片手 ジャンプ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>10</SortID>
         </Field>
-        <Field Def="f32 2HNormal1st = 1">
+        <Field Def="f32 normal1st2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 弱1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>11</SortID>
         </Field>
-        <Field Def="f32 2HNormal2nd = 1">
+        <Field Def="f32 normal2nd2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 弱2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>12</SortID>
         </Field>
-        <Field Def="f32 2HStrong1st = 1">
+        <Field Def="f32 strong1st2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 強1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>13</SortID>
         </Field>
-        <Field Def="f32 2HStrong2nd = 1">
+        <Field Def="f32 strong2nd2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 強2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>14</SortID>
         </Field>
-        <Field Def="f32 2HDash = 1">
+        <Field Def="f32 dash2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 ダッシュ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>15</SortID>
         </Field>
-        <Field Def="f32 2HRolling = 1">
+        <Field Def="f32 rolling2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 ローリング [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>16</SortID>
         </Field>
-        <Field Def="f32 2HStep = 1">
+        <Field Def="f32 step2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 ステップ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>17</SortID>
         </Field>
-        <Field Def="f32 2HDown = 1">
+        <Field Def="f32 down2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 ダウン [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>18</SortID>
         </Field>
-        <Field Def="f32 2HFall = 1">
+        <Field Def="f32 fall2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 落下 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>19</SortID>
         </Field>
-        <Field Def="f32 2HJump = 1">
+        <Field Def="f32 jump2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 両手 ジャンプ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>20</SortID>
         </Field>
-        <Field Def="f32 dual1HNormal1st = 1">
+        <Field Def="f32 normal1stDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 弱1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>21</SortID>
         </Field>
-        <Field Def="f32 dual1HNormal2nd = 1">
+        <Field Def="f32 normal2ndDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 弱2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>22</SortID>
         </Field>
-        <Field Def="f32 dual1HStrong1st = 1">
+        <Field Def="f32 strong1stDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 強1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>23</SortID>
         </Field>
-        <Field Def="f32 dual1HStrong2nd = 1">
+        <Field Def="f32 strong2ndDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 強2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>24</SortID>
         </Field>
-        <Field Def="f32 dual1HDash = 1">
+        <Field Def="f32 dashDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 ダッシュ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>25</SortID>
         </Field>
-        <Field Def="f32 dual1HRolling = 1">
+        <Field Def="f32 rollingDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 ローリング [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>26</SortID>
         </Field>
-        <Field Def="f32 dual1HStep = 1">
+        <Field Def="f32 stepDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 ステップ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>27</SortID>
         </Field>
-        <Field Def="f32 dual1HDown = 1">
+        <Field Def="f32 downDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 ダウン [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>28</SortID>
         </Field>
-        <Field Def="f32 dual1HFall = 1">
+        <Field Def="f32 fallDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 落下 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>29</SortID>
         </Field>
-        <Field Def="f32 dual1HJump = 1">
+        <Field Def="f32 jumpDual1H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流 ジャンプ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>30</SortID>
         </Field>
-        <Field Def="f32 dual2HNormal1st = 1">
+        <Field Def="f32 normal1stDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 弱1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>31</SortID>
         </Field>
-        <Field Def="f32 dual2Normal2nd = 1">
+        <Field Def="f32 normal2ndDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 弱2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>32</SortID>
         </Field>
-        <Field Def="f32 dual2Strong1st = 1">
+        <Field Def="f32 strong1stDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 強1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>33</SortID>
         </Field>
-        <Field Def="f32 dual2Strong2nd = 1">
+        <Field Def="f32 strong2ndDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 強2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>34</SortID>
         </Field>
-        <Field Def="f32 dual2Dash = 1">
+        <Field Def="f32 dashDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 ダッシュ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>35</SortID>
         </Field>
-        <Field Def="f32 dual2Rolling = 1">
+        <Field Def="f32 rollingDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 ローリング [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>36</SortID>
         </Field>
-        <Field Def="f32 dual2Step = 1">
+        <Field Def="f32 stepDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 ステップ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>37</SortID>
         </Field>
-        <Field Def="f32 dual2Down = 1">
+        <Field Def="f32 downDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 ダウン [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>38</SortID>
         </Field>
-        <Field Def="f32 dual2Fall = 1">
+        <Field Def="f32 fallDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 落下 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>39</SortID>
         </Field>
-        <Field Def="f32 jump = 1">
+        <Field Def="f32 jumpDual2H = 1">
             <DisplayName>攻撃消費スタミナ 倍率 二刀流両手 ジャンプ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>40</SortID>
         </Field>
-        <Field Def="f32 leftNormal1st = 1">
+        <Field Def="f32 normal1stLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 弱1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>41</SortID>
         </Field>
-        <Field Def="f32 leftNormal2nd = 1">
+        <Field Def="f32 normal2ndLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 弱2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>42</SortID>
         </Field>
-        <Field Def="f32 leftStrong1st = 1">
+        <Field Def="f32 strong1stLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 強1 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>43</SortID>
         </Field>
-        <Field Def="f32 leftStrong2nd = 1">
+        <Field Def="f32 strong2ndLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 強2 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>44</SortID>
         </Field>
-        <Field Def="f32 leftDash = 1">
+        <Field Def="f32 dashLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 ダッシュ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>45</SortID>
         </Field>
-        <Field Def="f32 leftRolling = 1">
+        <Field Def="f32 rollingLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 ローリング [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>46</SortID>
         </Field>
-        <Field Def="f32 leftStep = 1">
+        <Field Def="f32 stepLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 ステップ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>47</SortID>
         </Field>
-        <Field Def="f32 leftDown = 1">
+        <Field Def="f32 downLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 ダウン [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>48</SortID>
         </Field>
-        <Field Def="f32 leftFall = 1">
+        <Field Def="f32 fallLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 落下 [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
             <SortID>49</SortID>
         </Field>
-        <Field Def="f32 leftJump = 1">
+        <Field Def="f32 jumpLeft = 1">
             <DisplayName>攻撃消費スタミナ 倍率 左手 ジャンプ [倍]</DisplayName>
             <Maximum>10</Maximum>
             <Increment>0.1</Increment>
