@@ -42,8 +42,8 @@
         <bloodMessageCellGroupTopRange AltName="血文字取得セル範囲(上方向)"/>
         <bloodMessageCellGroupBottomRange AltName="血文字取得セル範囲(下方向)"/>
         <bloodMessageLifeTime AltName="血文字データ保持期間上限[秒]"/>
-        <unkA4/>
-        <unkA8/>
+        <areaBloodMessageReloadSignIntervalTime/>
+        <areaBloodMessageReloadUnknownCount/>
         <bloodstainKeyGuideRange AltName="キーガイド水平範囲[m]"/>
         <bloodstainKeyGuideHeight AltName="キーガイド垂直範囲[m]"/>
         <bloodstainKeyGuideRangePlayer AltName="プレイヤー血痕キーガイド水平範囲[m]"/>
@@ -62,11 +62,11 @@
         <bloodstainLifeTime AltName="血痕データ保持期間上限[秒]"/>
         <recordDeadingGhostTotalTime AltName="死亡幻影記録合計時間[秒]"/>
         <recordDeadingGhostExtensionTime AltName="死亡幻影記録延長時間[秒]"/>
-        <unkF4/>
-        <unkF8/>
-        <unkFC/>
-        <unk100/>
-        <unk104/>
+        <areaBloodstainReloadSignIntervalTime/>
+        <areaBloodstainReloadUnknownCount/>
+        <bloodstainPoolMinCullPriority/>
+        <bloodstainPoolMaxSignCount/>
+        <bloodstainPoolRadius/>
         <reloadGhostTotalCount AltName="幻影取得数(全体)"/>
         <reloadGhostCellCount AltName="幻影取得数(セル)"/>
         <maxGhostTotalCount AltName="幻影所持可能数上限(全体)"/>

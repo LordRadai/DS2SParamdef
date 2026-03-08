@@ -271,8 +271,17 @@
             <Increment>1</Increment>
             <SortID>317</SortID>
         </Field>
-        <Field Def="u32 unkA4"/>
-        <Field Def="u32 unkA8"/>
+        <Field Def="u32 areaBloodMessageReloadSignIntervalTime = 1">
+            <DisplayName>Area blood message reload time interval [sec]</DisplayName>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>318</SortID>
+        </Field>
+        <Field Def="u32 areaBloodMessageReloadUnknownCount">
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>319</SortID>
+        </Field>
         <Field Def="f32 bloodstainKeyGuideRange = 1">
             <DisplayName>キーガイド水平範囲[m]</DisplayName>
             <Maximum>1000</Maximum>
@@ -382,11 +391,29 @@
             <Increment>1</Increment>
             <SortID>418</SortID>
         </Field>
-        <Field Def="u32 unkF4"/>
-        <Field Def="u32 unkF8"/>
-        <Field Def="u32 unkFC"/>
-        <Field Def="u32 unk100"/>
-        <Field Def="f32 unk104"/>
+        <Field Def="u32 areaBloodstainReloadSignIntervalTime = 1">
+            <DisplayName>Area bloodstain reload time interval [sec]</DisplayName>
+            <Maximum>1000</Maximum>
+            <Increment>1</Increment>
+            <SortID>419</SortID>
+        </Field>
+        <Field Def="u32 areaBloodstainReloadUnknownCount = 1">
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>420</SortID>
+        </Field>
+        <Field Def="u32 bloodstainPoolMinCullPriority">
+            <Increment>1</Increment>
+            <SortID>421</SortID>
+        </Field>
+        <Field Def="u32 bloodstainPoolMaxSignCount">
+            <Increment>1</Increment>
+            <SortID>422</SortID>
+        </Field>
+        <Field Def="f32 bloodstainPoolRadius">
+            <Increment>1</Increment>
+            <SortID>422</SortID>
+        </Field>
         <Field Def="u32 reloadGhostTotalCount = 1">
             <DisplayName>幻影取得数(全体)</DisplayName>
             <Maximum>99</Maximum>
