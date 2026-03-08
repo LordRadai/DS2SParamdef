@@ -53,7 +53,7 @@
         <flyCtrlValue AltName="飛行制動率"/>
         <lockPointType AltName="ロックポイントタイプ"/>
         <lockDummy AltName="ロック制御ダミー"/>
-        <lockCameraCategory AltName="ロックカメラ補正カテゴリ" ProjectEnum="LOCK_ON_CAMERA_OFFSET_TYPE_ENUM"/>
+        <lockCameraCategory AltName="ロックカメラ補正カテゴリ" Refs="LockOnCameraOffsetParam"/>
         <lockDisableRadius AltName="ロック不可半径[m]"/>
         <lockDisableHeight AltName="ロック不可高さ[m]"/>
         <guardKnockBackRateSuperSmall AltName="ガードノックバック減少割合 ウェイト補正割合 極小"/>
@@ -225,11 +225,11 @@
         <damageUpperRotationAngleX AltName="ダメージ上半身捻り範囲 X"/>
         <damageUpperRotationAngleZ AltName="ダメージ上半身捻り範囲 Z"/>
         <damageUpperRotationAngleCenter AltName="ダメージ上半身捻り範囲　中央"/>
-        <environmentSfxRain AltName="環境SFX：雨" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
-        <environmentSfxWaterFall AltName="環境SFX：滝" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
-        <moveWindParamSmall AltName="移動風：小" ProjectEnum="CHR_POINT_WIND_PARAM_ENUM"/>
-        <moveWindParamMedium AltName="移動風：中" ProjectEnum="CHR_POINT_WIND_PARAM_ENUM"/>
-        <moveWindParamLarge AltName="移動風：大" ProjectEnum="CHR_POINT_WIND_PARAM_ENUM"/>
+        <environmentSfxRain AltName="環境SFX：雨" Refs="ChrFullBodySfxParam"/>
+        <environmentSfxWaterFall AltName="環境SFX：滝" Refs="ChrFullBodySfxParam"/>
+        <moveWindParamSmall AltName="移動風：小" Refs="ChrPointWindParam"/>
+        <moveWindParamMedium AltName="移動風：中" Refs="ChrPointWindParam"/>
+        <moveWindParamLarge AltName="移動風：大" Refs="ChrPointWindParam"/>
         <atkAutoHomingDistance AltName="接近オートホーミング 距離[m]"/>
         <atkAutoHomingSdAngle AltName="接近オートホーミング 左右角度[deg]"/>
         <atkAutoHomingUdAngle AltName="接近オートホーミング 上下角度[deg]"/>

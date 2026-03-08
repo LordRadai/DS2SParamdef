@@ -92,9 +92,9 @@
         <isDisallowMultiTarget AltName="複数ロックオン無効" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <isHollow AltName="亡者" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <isClothHitMap AltName="クロスがマップと当たる" ProjectEnum="BOOL_ENABLEDISABLE_TYPE"/>
-        <roundDropSoulCategory AltName="周回獲得ソウル補正カテゴリ" ProjectEnum="CHR_ROUND_DROP_SOUL_CATEGORY"/>
-        <itemLotId AltName="初週アイテム抽選ID（ホスト）" ProjectEnum="ITEM_LOT_PARAM_CHR_ENUM"/>
-        <itemLotIdForGuest AltName="初週アイテム抽選ID（ゲスト）" ProjectEnum="ITEM_LOT_PARAM_CHR_ENUM"/>
+        <roundDropSoulCategory AltName="周回獲得ソウル補正カテゴリ" Refs="ChrRoundDropSoulParam"/>
+        <itemLotId AltName="初週アイテム抽選ID（ホスト）" Refs="ItemLotParam2_Chr"/>
+        <itemLotIdForGuest AltName="初週アイテム抽選ID（ゲスト）" Refs="ItemLotParam2_Chr"/>
         <guardDelay AltName="ガード判定遅延時間[sec]"/>
         <hitPoint02 AltName="体力　2周目"/>
         <hitPoint03 AltName="体力　3周目"/>

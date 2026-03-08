@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMDEF XmlVersion="0">
-    <ParamType>SOUND_OBJECT_BREAK_PARAM</ParamType>
-    <DataVersion>1</DataVersion>
-    <BigEndian>true</BigEndian>
-    <Unicode>true</Unicode>
-    <FormatVersion>105</FormatVersion>
-    <Fields>
-        <Field Def="u8 type">
-            <DisplayName>種類</DisplayName>
-            <Enum>SOUND_OBJECT_BREAK_TYPE</Enum>
-            <DisplayFormat>%d</DisplayFormat>
-            <Maximum>255</Maximum>
-            <Increment>1</Increment>
-            <SortID>1</SortID>
-        </Field>
-        <Field Def="dummy8 aReserved[3]">
-            <DisplayName>予約領域</DisplayName>
-            <SortID>3</SortID>
-        </Field>
-    </Fields>
-</PARAMDEF>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <type AltName="種類" ProjectEnum="SOUND_OBJECT_BREAK_TYPE"/>
+        <aReserved AltName="予約領域"/>
+    </Field>
+</PARAMMETA>

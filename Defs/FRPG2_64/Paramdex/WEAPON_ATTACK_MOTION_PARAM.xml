@@ -1,137 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMDEF XmlVersion="0">
-    <ParamType>WEAPON_ATTACK_MOTION_PARAM</ParamType>
-    <DataVersion>1</DataVersion>
-    <BigEndian>true</BigEndian>
-    <Unicode>true</Unicode>
-    <FormatVersion>105</FormatVersion>
-    <Fields>
-        <Field Def="u32 attackAnim">
-            <DisplayName>攻撃アニメ</DisplayName>
-            <Enum>PLAYER_NORMAL_ATTACK_MOTION</Enum>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="u8 controlType">
-            <DisplayName>制御</DisplayName>
-            <Enum>WEAPON_ACTION_CONTROL_TYPES</Enum>
-            <Maximum>255</Maximum>
-            <Increment>1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="dummy8 dummy0[3]">
-            <DisplayName>ダミー</DisplayName>
-            <SortID>1011</SortID>
-        </Field>
-        <Field Def="f32 startPlaySpeed = 1">
-            <DisplayName>アニメ速度 開始部</DisplayName>
-            <Maximum>10</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 endPlaySpeed = 1">
-            <DisplayName>アニメ速度 終了部</DisplayName>
-            <Maximum>10</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 rotationSpeedScale = 1">
-            <DisplayName>旋回速度 倍率</DisplayName>
-            <Maximum>10</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 limitAngleScale = 1">
-            <DisplayName>限界角度 倍率</DisplayName>
-            <Maximum>10</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 predictPositionTime">
-            <DisplayName>位置予測 時間</DisplayName>
-            <Maximum>10</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 wristTiltRate">
-            <DisplayName>手首角度 割合</DisplayName>
-            <Minimum>-100</Minimum>
-            <Maximum>100</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 staggerHandMaxBlendWeight">
-            <DisplayName>攻撃軌跡ブレ 最大ブレンド率</DisplayName>
-            <Maximum>100</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 staggerPelvisMaxBlendWeight">
-            <DisplayName>ステータス不足 攻撃よれ 最大ブレンド率</DisplayName>
-            <Maximum>100</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="f32 attackPushBackRate">
-            <DisplayName>押し返し反映割合</DisplayName>
-            <Maximum>100</Maximum>
-            <Increment>0.1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="u32 damageId01">
-            <DisplayName>ダメージID_01</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="u32 damageId02">
-            <DisplayName>ダメージID_02</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="u32 damageId03">
-            <DisplayName>ダメージID_03</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>0</SortID>
-        </Field>
-        <Field Def="u32 bulletId01">
-            <DisplayName>バレットID_01</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>1000</SortID>
-        </Field>
-        <Field Def="u32 bulletDamageId01">
-            <DisplayName>バレットダメージID_01</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>1010</SortID>
-        </Field>
-        <Field Def="u32 bulletId02">
-            <DisplayName>バレットID_02</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>1000</SortID>
-        </Field>
-        <Field Def="u32 bulletDamageId02">
-            <DisplayName>バレットダメージID_02</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>1010</SortID>
-        </Field>
-        <Field Def="u32 bulletId03">
-            <DisplayName>バレットID_03</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>1000</SortID>
-        </Field>
-        <Field Def="u32 bulletDamageId03">
-            <DisplayName>バレットダメージID_03</DisplayName>
-            <Maximum>1e+09</Maximum>
-            <Increment>1</Increment>
-            <SortID>1010</SortID>
-        </Field>
-    </Fields>
-</PARAMDEF>
+<PARAMMETA XmlVersion="0">
+    <Field>
+        <attackAnim AltName="攻撃アニメ" ProjectEnum="PLAYER_NORMAL_ATTACK_MOTION"/>
+        <controlType AltName="制御" ProjectEnum="WEAPON_ACTION_CONTROL_TYPES"/>
+        <dummy0 AltName="ダミー"/>
+        <startPlaySpeed AltName="アニメ速度 開始部"/>
+        <endPlaySpeed AltName="アニメ速度 終了部"/>
+        <rotationSpeedScale AltName="旋回速度 倍率"/>
+        <limitAngleScale AltName="限界角度 倍率"/>
+        <predictPositionTime AltName="位置予測 時間"/>
+        <wristTiltRate AltName="手首角度 割合"/>
+        <staggerHandMaxBlendWeight AltName="攻撃軌跡ブレ 最大ブレンド率"/>
+        <staggerPelvisMaxBlendWeight AltName="ステータス不足 攻撃よれ 最大ブレンド率"/>
+        <attackPushBackRate AltName="押し返し反映割合"/>
+        <damageId01 AltName="ダメージID_01"/>
+        <damageId02 AltName="ダメージID_02"/>
+        <damageId03 AltName="ダメージID_03"/>
+        <bulletId01 AltName="バレットID_01"/>
+        <bulletDamageId01 AltName="バレットダメージID_01"/>
+        <bulletId02 AltName="バレットID_02"/>
+        <bulletDamageId02 AltName="バレットダメージID_02"/>
+        <bulletId03 AltName="バレットID_03"/>
+        <bulletDamageId03 AltName="バレットダメージID_03"/>
+    </Field>
+</PARAMMETA>

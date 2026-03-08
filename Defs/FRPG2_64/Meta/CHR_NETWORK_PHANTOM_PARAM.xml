@@ -2,17 +2,17 @@
 <PARAMMETA XmlVersion="0">
     <Field>
         <level0ShaderType AltName="制約レベル０シェーダー設定" ProjectEnum="CHR_VISUAL_TYPE"/>
-        <level0FullBodySfx AltName="制約レベル０ 適用全身SFX" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
-        <level1FullBodySfx AltName="制約レベル１ 適用全身SFX" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
-        <level2FullBodySfx AltName="制約レベル２ 適用全身SFX" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
-        <level3FullBodySfx AltName="制約レベル３ 適用全身SFX" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
+        <level0FullBodySfx AltName="制約レベル０ 適用全身SFX" Refs="ChrFullBodySfxParam"/>
+        <level1FullBodySfx AltName="制約レベル１ 適用全身SFX" Refs="ChrFullBodySfxParam"/>
+        <level2FullBodySfx AltName="制約レベル２ 適用全身SFX" Refs="ChrFullBodySfxParam"/>
+        <level3FullBodySfx AltName="制約レベル３ 適用全身SFX" Refs="ChrFullBodySfxParam"/>
         <entryMotionType AltName="出現モーション" ProjectEnum="PLAYER_MULTI_ENTRY_MOTION"/>
         <speedDownHpMinRate AltName="速度低下発生HP 最小[%]"/>
         <speedDownHpMaxRate AltName="速度低下発生HP 最大[%]"/>
         <speedDownRate AltName="速度低下割合[%]"/>
         <entrySfxId AltName="生成SFXID"/>
         <entryFullBodySfx AltName="生成全身SFXパラメータ"/>
-        <deadType AltName="死亡タイプ" ProjectEnum="DEAD_TYPE_PARAM_ID"/>
+        <deadType AltName="死亡タイプ" Refs="DeadTypeParam"/>
         <limitTime AltName="マルチプレイ制限時間[Sec]"/>
         <returnWaitTime AltName="マルチプレイ終了帰還待ち時間[sec]"/>
         <respawnPosTypeSuccess AltName="マルチ終了帰還位置 成功" ProjectEnum="MULT_END_RESPAWN_POS_TYPE"/>

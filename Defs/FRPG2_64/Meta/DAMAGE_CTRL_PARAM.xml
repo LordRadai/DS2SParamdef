@@ -44,7 +44,7 @@
         <windFrequency AltName="風：周波数"/>
         <windGinStartDistance AltName="風：減衰開始処理"/>
         <windLife AltName="風：延長寿命"/>
-        <windCateId AltName="風：影響カテゴリ" ProjectEnum="DAMAGE_WIND_CATE_ID"/>
+        <windCateId AltName="風：影響カテゴリ" Refs="DamageWindCateParam"/>
         <staggerTime AltName="よろけ時間"/>
         <staggerMoveRate AltName="よろけ移動倍率"/>
         <staggerRotRate AltName="よろけ旋回倍率"/>
@@ -52,7 +52,7 @@
         <headShotDisable AltName="ヘッドショット無効設定" ProjectEnum="BOOL_ENABLEDISABLE_TYPE"/>
         <isWet AltName="濡れる" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <damageImpactPowerType AltName="ダメージ衝撃力タイプ" ProjectEnum="DAMAGE_IMPACT_POWER_TYPE"/>
-        <wetId AltName="濡れカテゴリ" ProjectEnum="CHR_WET_PARAM_ID"/>
+        <wetId AltName="濡れカテゴリ" Refs="ChrWetParam"/>
         <pushBackRate AltName="押し返し反映割合[倍]"/>
         <poiseDamage AltName="強靭度削り値"/>
         <damageDistDecrementStart AltName="ダメージ減衰距離 開始"/>
