@@ -5,7 +5,7 @@
         <weaponModelId AltName="武器モデルID"/>
         <weaponReinforceId AltName="武器成長設定"/>
         <weaponActionCategoryId AltName="武器アクションカテゴリ設定"/>
-        <weaponTypeId AltName="武器タイプ" ProjectEnum="WEAPON_TYPE_PARAM_ID"/>
+        <weaponTypeId AltName="武器タイプ" Refs="WeaponTypeParam"/>
         <isAtkAutoHoming AltName="接近オートホーミング" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <weaponCategory AltName="武器系統" ProjectEnum="WEAPON_SIMPLE_CATEGORY"/>
         <clothCollidableId AltName="クロスコリジョンID"/>
@@ -20,7 +20,7 @@
         <materialId AltName="パラメータ　材質" ProjectEnum="MATERIAL_TYPE_ENUM"/>
         <meleeAttackBaseCost AltName="攻撃消費スタミナ 近接攻撃ベース値"/>
         <rangedAttackBaseCost AltName="攻撃消費スタミナ 射撃攻撃ベース値"/>
-        <costCategoryId AltName="攻撃消費スタミナ 倍率カテゴリ" ProjectEnum="WEAPON_STAMINA_COST_PARAM_ID"/>
+        <costCategoryId AltName="攻撃消費スタミナ 倍率カテゴリ" Refs="WeaponStaminaCostParam"/>
         <lockonAvailableDistanceScale AltName="ロックオン 攻撃有効距離 補正倍率 [倍]"/>
         <grabMotionRate AltName="投げつかみ 再生倍率 [倍]"/>
         <grabRotationSpeed AltName="投げつかみ 旋回加速度 [deg/sec]"/>

@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <aReserved AltName="(予約領域)"/>
-    </Field>
-</PARAMMETA>
+<PARAMDEF XmlVersion="0">
+    <ParamType>CHR_MODEL_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="dummy8 aReserved[4]">
+            <DisplayName>(予約領域)</DisplayName>
+            <SortID>2</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

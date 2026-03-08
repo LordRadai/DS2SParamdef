@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <damageCategory AltName="ダメージカテゴリ" ProjectEnum="DAMAGE_CTRL_PARAM_ENUM"/>
-        <childDamage AltName="子ダメージID"/>
-        <damageGroup AltName="ダメージグループID"/>
+        <damageCategory AltName="ダメージカテゴリ" Refs="DamageCtrlParam"/>
+        <childDamage AltName="子ダメージID" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
+        <damageGroup AltName="ダメージグループID" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
         <damage01 AltName="ダメージ値1"/>
         <damage02 AltName="ダメージ値2"/>
         <damage03 AltName="ダメージ値3"/>
@@ -50,9 +50,9 @@
         <traceSfxColor AltName="軌跡SFX追従ダミポリ色" ProjectEnum="DAMAGE_SFX_TRACE_DP_COLOR_ENUM"/>
         <traceSfxPos AltName="軌跡SFX位置"/>
         <overKilledBlowPower AltName="オーバーキル 吹き飛び初速[m/sec]"/>
-        <movementPowerType AltName="運動量" ProjectEnum="DAMAGE_MOVEMENT_POWER_TYPE"/>
-        <attackTypeRateType AltName="攻撃タイプ倍率" ProjectEnum="DAMAGE_ATTACK_TYPE_RATE_TYPE"/>
-        <styleRateType AltName="持ち方倍率" ProjectEnum="DAMAGE_STYLE_RATE_TYPE"/>
+        <movementPowerType AltName="運動量" Refs="DamageMovementPowerParam"/>
+        <attackTypeRateType AltName="攻撃タイプ倍率" Refs="DamageAttackTypeRateParam"/>
+        <styleRateType AltName="持ち方倍率" Refs="DamageStyleRateParam"/>
         <eventDamage AltName="イベントダメージ"/>
         <flipHitDummyPolyType AltName="弾きＨＩＴ 発生源タイプ" ProjectEnum="DAMAGE_DUMMY_POLY_TYPE"/>
         <flipHitDummyPolyId AltName="弾きＨＩＴ 発生源ダミポリID"/>

@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <colorR AltName="R"/>
-        <colorG AltName="G"/>
-        <colorB AltName="B"/>
-        <reserved AltName="予約領域"/>
-    </Field>
-</PARAMMETA>
+<PARAMDEF XmlVersion="0">
+    <ParamType>DAMAGE_SFX_TRACE_DP_COLOR_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 colorR">
+            <DisplayName>R</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 colorG">
+            <DisplayName>G</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 colorB">
+            <DisplayName>B</DisplayName>
+            <EditFlags>Wrap</EditFlags>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 reserved[1]">
+            <DisplayName>予約領域</DisplayName>
+            <SortID>5</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

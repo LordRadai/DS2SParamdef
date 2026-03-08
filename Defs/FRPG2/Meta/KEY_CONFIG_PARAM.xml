@@ -57,24 +57,24 @@
         <selectAdd AltName="決定[追加入力]" ProjectEnum="INPUT_ADD_KEY_TYPE"/>
         <cancel AltName="キャンセル" ProjectEnum="INPUT_KEY_TYPE"/>
         <cancelAdd AltName="キャンセル[追加入力]" ProjectEnum="INPUT_ADD_KEY_TYPE"/>
-        <unk58/>
-        <unk59/>
-        <unk60/>
-        <unk61/>
-        <unk62/>
-        <unk63/>
-        <unk64/>
-        <unk65/>
-        <unk66/>
-        <unk67/>
-        <unk68/>
-        <unk69/>
-        <unk70/>
-        <unk71/>
-        <unk72/>
-        <unk73/>
-        <unk74/>
-        <unk75/>
+        <unk58 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk59 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk60 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk61 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk62 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk63 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk64 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk65 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk66 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk67 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk68 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk69 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk70 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk71 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk72 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk73 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
+        <unk74 ProjectEnum="INPUT_KEY_TYPE"/>
+        <unk75 ProjectEnum="INPUT_ADD_KEY_TYPE"/>
         <padding AltName="パディング"/>
     </Field>
 </PARAMMETA>

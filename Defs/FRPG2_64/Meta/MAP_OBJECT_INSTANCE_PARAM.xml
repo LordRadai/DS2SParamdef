@@ -6,7 +6,7 @@
         <damageId0 AltName="《ダメージID スロット0》"/>
         <touchRegionScale AltName="《タッチ領域のスケール》"/>
         <movableRange AltName="《移動可能距離》"/>
-        <objType AltName="《OBJタイプ》" ProjectEnum="OBJ_TYPE_ENUM"/>
+        <objType AltName="《OBJタイプ》" Refs="MapObjectInstanceTypeParam"/>
         <objCtrlType AltName="《OBJ制御タイプ》" ProjectEnum="OBJ_CTRL_TYPE_ENUM"/>
         <objLabbel AltName="《ラベル》" ProjectEnum="OBJ_LABBEL_ENUM"/>
         <usableWhite AltName="《白霊使用可能》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>

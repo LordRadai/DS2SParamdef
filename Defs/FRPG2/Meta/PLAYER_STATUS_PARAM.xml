@@ -108,7 +108,7 @@
         <gestureSlot06 AltName="ジェスチャー 06 ID"/>
         <gestureSlot07 AltName="ジェスチャー 07 ID"/>
         <gestureSlot08 AltName="ジェスチャー 08 ID"/>
-        <vowType AltName="誓約" ProjectEnum="VOW_TYPES"/>
+        <vowType AltName="誓約" Refs="VowParam"/>
         <vowLevel AltName="誓約レベル"/>
         <vowContribution AltName="誓約貢献度"/>
     </Field>

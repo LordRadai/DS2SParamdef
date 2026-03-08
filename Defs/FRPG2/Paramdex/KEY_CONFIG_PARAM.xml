@@ -390,24 +390,96 @@
             <Increment>1</Increment>
             <SortID>57</SortID>
         </Field>
-        <Field Def="u8 unk58" />
-        <Field Def="u8 unk59" />
-        <Field Def="u8 unk60" />
-        <Field Def="u8 unk61" />
-        <Field Def="u8 unk62" />
-        <Field Def="u8 unk63" />
-        <Field Def="u8 unk64" />
-        <Field Def="u8 unk65" />
-        <Field Def="u8 unk66" />
-        <Field Def="u8 unk67" />
-        <Field Def="u8 unk68" />
-        <Field Def="u8 unk69" />
-        <Field Def="u8 unk70" />
-        <Field Def="u8 unk71" />
-        <Field Def="u8 unk72" />
-        <Field Def="u8 unk73" />
-        <Field Def="u8 unk74" />
-        <Field Def="u8 unk75" />
+        <Field Def="u8 unk58">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk59">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk60">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk61">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk62">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk63">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk64">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk65">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk66">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk67">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk68">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk69">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk70">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk71">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk72">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk73">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk74">
+            <Enum>INPUT_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
+        <Field Def="u8 unk75">
+            <Enum>INPUT_ADD_KEY_TYPE</Enum>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+        </Field>
         <Field Def="dummy8 padding[2]">
             <DisplayName>パディング</DisplayName>
             <SortID>76</SortID>

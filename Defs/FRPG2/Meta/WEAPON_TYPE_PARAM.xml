@@ -33,7 +33,7 @@
         <shootCategory AltName="装備設定 射撃設定" ProjectEnum="RANGE_WEAPON_CATEGORY"/>
         <weaponType AltName="装備設定 武器種別" ProjectEnum="WEAPON_TYPE"/>
         <attackSeCategory AltName="装備設定 攻撃SEカテゴリ" ProjectEnum="WEAPON_ATTACK_SE_CATEGORY"/>
-        <dualWieldingPermission AltName="装備設定 二刀流許可" ProjectEnum="DUAL_WIELDING_PERMISSION_ID"/>
+        <dualWieldingPermission AltName="装備設定 二刀流許可" Refs="DualWieldingPermissionParam"/>
         <weaponStabilizeBlengWeight AltName="装備揺れ押さえ 反映割合[%]"/>
         <weaponSpineTwistBlendWeight AltName="装備上半身捻り 反映割合[%]"/>
         <parryStabYawCorrectAngle AltName="スタブ 左右角度補正値 パリィブレイクスタブ [deg]"/>
@@ -106,7 +106,7 @@
         <snipeCameraParamId AltName="精密射撃カメラID"/>
         <canGuardAttack AltName="ガード付き攻撃許可" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <unk138/>
-        <mundaneRate AltName="mundaneRate"/>
+        <abyssRate AltName="Mundane damage rate"/>
         <dummy1 AltName="ダミー"/>
     </Field>
 </PARAMMETA>

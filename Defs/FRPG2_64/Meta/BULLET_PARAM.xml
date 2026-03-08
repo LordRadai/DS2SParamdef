@@ -74,12 +74,12 @@
         <explosionForceUp AltName="着弾を上向に固定" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <isDeleteEqualBulletId AltName="同一IDのバレットを削除する" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <pad4 AltName="パディング"/>
-        <childeBulletId AltName="子バレットID１"/>
-        <childeDamageId AltName="子バレットダメージID１"/>
-        <childeBulletId02 AltName="子バレットID２"/>
-        <childeDamageId02 AltName="子バレットダメージID２"/>
-        <childeBulletId03 AltName="子バレットID３"/>
-        <childeDamageId03 AltName="子バレットダメージID３"/>
+        <childeBulletId AltName="子バレットID１" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
+        <childeDamageId AltName="子バレットダメージID１" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
+        <childeBulletId02 AltName="子バレットID２" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
+        <childeDamageId02 AltName="子バレットダメージID２" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
+        <childeBulletId03 AltName="子バレットID３" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
+        <childeDamageId03 AltName="子バレットダメージID３" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
         <isChildeExplosion AltName="子バレット着弾生成" ProjectEnum="BOOL_ENABLEDISABLE_TYPE"/>
         <isChildeLife AltName="子バレット寿命生成" ProjectEnum="BOOL_ENABLEDISABLE_TYPE"/>
         <isChildeArea AltName="子バレット範囲侵入生成" ProjectEnum="BOOL_ENABLEDISABLE_TYPE"/>

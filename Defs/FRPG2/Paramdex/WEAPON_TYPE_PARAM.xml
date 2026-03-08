@@ -656,8 +656,8 @@
         <Field Def="u8 unk138">
             <SortID>5001</SortID>
         </Field>
-        <Field Def="u8 mundaneRate">
-            <DisplayName>mundaneRate</DisplayName>
+        <Field Def="u8 abyssRate">
+            <DisplayName>Mundane damage rate</DisplayName>
             <SortID>5002</SortID>
         </Field>
         <Field Def="dummy8 dummy1[1]">

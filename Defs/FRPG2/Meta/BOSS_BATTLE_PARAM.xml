@@ -17,7 +17,7 @@
         <genEventGroupId1 AltName="ジェネレータイベントグループID1"/>
         <genEventGroupId2 AltName="ジェネレータイベントグループID2"/>
         <genEventGroupId3 AltName="ジェネレータイベントグループID3"/>
-        <roundSoulDropCategory AltName="周回ソウルドロップカテゴリ" ProjectEnum="CHR_ROUND_DROP_SOUL_CATEGORY"/>
+        <roundSoulDropCategory AltName="周回ソウルドロップカテゴリ" Refs="ChrRoundDropSoulParam"/>
         <bossNameTextId1 AltName="ボス名テキストID1"/>
         <bossNameTextId2 AltName="ボス名テキストID2"/>
         <bossNameTextId3 AltName="ボス名テキストID3"/>

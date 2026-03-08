@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <modelId AltName="モデルID"/>
-        <type AltName="種類" ProjectEnum="SOUND_FOOT_TYPE"/>
-        <aReserved AltName="予約領域"/>
-    </Field>
-</PARAMMETA>
+<PARAMDEF XmlVersion="0">
+    <ParamType>SOUND_FOOT_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u16 modelId">
+            <DisplayName>モデルID</DisplayName>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>9999</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 type">
+            <DisplayName>種類</DisplayName>
+            <Enum>SOUND_FOOT_TYPE</Enum>
+            <DisplayFormat>%d</DisplayFormat>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="dummy8 aReserved[1]">
+            <DisplayName>予約領域</DisplayName>
+            <SortID>2</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

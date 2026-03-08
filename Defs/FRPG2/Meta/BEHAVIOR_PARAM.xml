@@ -7,7 +7,7 @@
         <action0GrabDamageId00 AltName="《行動0 投げダメージID_1》"/>
         <action0GrabDamageId01 AltName="《行動0 投げダメージID_2》"/>
         <action0GrabDamageId02 AltName="《行動0 投げダメージID_3》"/>
-        <action0AttackWalkMoveAttack AltName="《行動0 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action0AttackWalkMoveAttack AltName="《行動0 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action0AttackInvincible AltName="《行動0 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action0HandType AltName="《行動0 攻撃手》"/>
         <action0IsSpell AltName="《行動0 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -23,7 +23,7 @@
         <fAction0AttackAngle AltName="《行動0 角度補正[deg]》"/>
         <fAction0AttackRotateHigh AltName="《行動0 旋回補間開始距離[m]》"/>
         <fAction0AttackRotateLow AltName="《行動0 旋回補間終了距離[m]》"/>
-        <action0ChantSfx AltName="《行動0 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action0ChantSfx AltName="《行動0 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action0ReloadTimeMin AltName="《行動0 最小リロード時間》"/>
         <action0ReloadTimeMax AltName="《行動0 最大リロード時間》"/>
         <action1DamageId00 AltName="《行動1 ダメージID_1》"/>
@@ -32,7 +32,7 @@
         <action1GrabDamageId00 AltName="《行動1 投げダメージID_1》"/>
         <action1GrabDamageId01 AltName="《行動1 投げダメージID_2》"/>
         <action1GrabDamageId02 AltName="《行動1 投げダメージID_3》"/>
-        <action1AttackWalkMoveAttack AltName="《行動1 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action1AttackWalkMoveAttack AltName="《行動1 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action1AttackInvincible AltName="《行動1 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action1HandType AltName="《行動1 攻撃手》"/>
         <action1IsSpell AltName="《行動1 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -48,7 +48,7 @@
         <fAction1AttackAngle AltName="《行動1 角度補正[deg]》"/>
         <fAction1AttackRotateHigh AltName="《行動1 旋回補間開始距離[m]》"/>
         <fAction1AttackRotateLow AltName="《行動1 旋回補間終了距離[m]》"/>
-        <action1ChantSfx AltName="《行動1 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action1ChantSfx AltName="《行動1 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action1ReloadTimeMin AltName="《行動1 最小リロード時間》"/>
         <action1ReloadTimeMax AltName="《行動1 最大リロード時間》"/>
         <action2DamageId00 AltName="《行動2 ダメージID_1》"/>
@@ -57,7 +57,7 @@
         <action2GrabDamageId00 AltName="《行動2 投げダメージID_1》"/>
         <action2GrabDamageId01 AltName="《行動2 投げダメージID_2》"/>
         <action2GrabDamageId02 AltName="《行動2 投げダメージID_3》"/>
-        <action2AttackWalkMoveAttack AltName="《行動2 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action2AttackWalkMoveAttack AltName="《行動2 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action2AttackInvincible AltName="《行動2 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action2HandType AltName="《行動2 攻撃手》"/>
         <action2IsSpell AltName="《行動2 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -73,7 +73,7 @@
         <fAction2AttackAngle AltName="《行動2 角度補正[deg]》"/>
         <fAction2AttackRotateHigh AltName="《行動2 旋回補間開始距離[m]》"/>
         <fAction2AttackRotateLow AltName="《行動2 旋回補間終了距離[m]》"/>
-        <action2ChantSfx AltName="《行動2 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action2ChantSfx AltName="《行動2 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action2ReloadTimeMin AltName="《行動2 最小リロード時間》"/>
         <action2ReloadTimeMax AltName="《行動2 最大リロード時間》"/>
         <action3DamageId00 AltName="《行動3 ダメージID_1》"/>
@@ -82,7 +82,7 @@
         <action3GrabDamageId00 AltName="《行動3 投げダメージID_1》"/>
         <action3GrabDamageId01 AltName="《行動3 投げダメージID_2》"/>
         <action3GrabDamageId02 AltName="《行動3 投げダメージID_3》"/>
-        <action3AttackWalkMoveAttack AltName="《行動3 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action3AttackWalkMoveAttack AltName="《行動3 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action3AttackInvincible AltName="《行動3 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action3HandType AltName="《行動3 攻撃手》"/>
         <action3IsSpell AltName="《行動3 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -98,7 +98,7 @@
         <fAction3AttackAngle AltName="《行動3 角度補正[deg]》"/>
         <fAction3AttackRotateHigh AltName="《行動3 旋回補間開始距離[m]》"/>
         <fAction3AttackRotateLow AltName="《行動3 旋回補間終了距離[m]》"/>
-        <action3ChantSfx AltName="《行動3 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action3ChantSfx AltName="《行動3 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action3ReloadTimeMin AltName="《行動3 最小リロード時間》"/>
         <action3ReloadTimeMax AltName="《行動3 最大リロード時間》"/>
         <action4DamageId00 AltName="《行動4 ダメージID_1》"/>
@@ -107,7 +107,7 @@
         <action4GrabDamageId00 AltName="《行動4 投げダメージID_1》"/>
         <action4GrabDamageId01 AltName="《行動4 投げダメージID_2》"/>
         <action4GrabDamageId02 AltName="《行動4 投げダメージID_3》"/>
-        <action4AttackWalkMoveAttack AltName="《行動4 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action4AttackWalkMoveAttack AltName="《行動4 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action4AttackInvincible AltName="《行動4 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action4HandType AltName="《行動4 攻撃手》"/>
         <action4IsSpell AltName="《行動4 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -123,7 +123,7 @@
         <fAction4AttackAngle AltName="《行動4 角度補正[deg]》"/>
         <fAction4AttackRotateHigh AltName="《行動4 旋回補間開始距離[m]》"/>
         <fAction4AttackRotateLow AltName="《行動4 旋回補間終了距離[m]》"/>
-        <action4ChantSfx AltName="《行動4 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action4ChantSfx AltName="《行動4 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action4ReloadTimeMin AltName="《行動4 最小リロード時間》"/>
         <action4ReloadTimeMax AltName="《行動4 最大リロード時間》"/>
         <action5DamageId00 AltName="《行動5 ダメージID_1》"/>
@@ -132,7 +132,7 @@
         <action5GrabDamageId00 AltName="《行動5 投げダメージID_1》"/>
         <action5GrabDamageId01 AltName="《行動5 投げダメージID_2》"/>
         <action5GrabDamageId02 AltName="《行動5 投げダメージID_3》"/>
-        <action5AttackWalkMoveAttack AltName="《行動5 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action5AttackWalkMoveAttack AltName="《行動5 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action5AttackInvincible AltName="《行動5 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action5HandType AltName="《行動5 攻撃手》"/>
         <action5IsSpell AltName="《行動5 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -148,7 +148,7 @@
         <fAction5AttackAngle AltName="《行動5 角度補正[deg]》"/>
         <fAction5AttackRotateHigh AltName="《行動5 旋回補間開始距離[m]》"/>
         <fAction5AttackRotateLow AltName="《行動5 旋回補間終了距離[m]》"/>
-        <action5ChantSfx AltName="《行動5 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action5ChantSfx AltName="《行動5 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action5ReloadTimeMin AltName="《行動5 最小リロード時間》"/>
         <action5ReloadTimeMax AltName="《行動5 最大リロード時間》"/>
         <action6DamageId00 AltName="《行動6 ダメージID_1》"/>
@@ -157,7 +157,7 @@
         <action6GrabDamageId00 AltName="《行動6 投げダメージID_1》"/>
         <action6GrabDamageId01 AltName="《行動6 投げダメージID_2》"/>
         <action6GrabDamageId02 AltName="《行動6 投げダメージID_3》"/>
-        <action6AttackWalkMoveAttack AltName="《行動6 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action6AttackWalkMoveAttack AltName="《行動6 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action6AttackInvincible AltName="《行動6 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action6HandType AltName="《行動6 攻撃手》"/>
         <action6IsSpell AltName="《行動6 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -173,7 +173,7 @@
         <fAction6AttackAngle AltName="《行動6 角度補正[deg]》"/>
         <fAction6AttackRotateHigh AltName="《行動6 旋回補間開始距離[m]》"/>
         <fAction6AttackRotateLow AltName="《行動6 旋回補間終了距離[m]》"/>
-        <action6ChantSfx AltName="《行動6 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action6ChantSfx AltName="《行動6 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action6ReloadTimeMin AltName="《行動6 最小リロード時間》"/>
         <action6ReloadTimeMax AltName="《行動6 最大リロード時間》"/>
         <action7DamageId00 AltName="《行動7 ダメージID_1》"/>
@@ -182,7 +182,7 @@
         <action7GrabDamageId00 AltName="《行動7 投げダメージID_1》"/>
         <action7GrabDamageId01 AltName="《行動7 投げダメージID_2》"/>
         <action7GrabDamageId02 AltName="《行動7 投げダメージID_3》"/>
-        <action7AttackWalkMoveAttack AltName="《行動7 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action7AttackWalkMoveAttack AltName="《行動7 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action7AttackInvincible AltName="《行動7 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action7HandType AltName="《行動7 攻撃手》"/>
         <action7IsSpell AltName="《行動7 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -198,7 +198,7 @@
         <fAction7AttackAngle AltName="《行動7 角度補正[deg]》"/>
         <fAction7AttackRotateHigh AltName="《行動7 旋回補間開始距離[m]》"/>
         <fAction7AttackRotateLow AltName="《行動7 旋回補間終了距離[m]》"/>
-        <action7ChantSfx AltName="《行動7 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action7ChantSfx AltName="《行動7 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action7ReloadTimeMin AltName="《行動7 最小リロード時間》"/>
         <action7ReloadTimeMax AltName="《行動7 最大リロード時間》"/>
         <action8DamageId00 AltName="《行動8 ダメージID_1》"/>
@@ -207,7 +207,7 @@
         <action8GrabDamageId00 AltName="《行動8 投げダメージID_1》"/>
         <action8GrabDamageId01 AltName="《行動8 投げダメージID_2》"/>
         <action8GrabDamageId02 AltName="《行動8 投げダメージID_3》"/>
-        <action8AttackWalkMoveAttack AltName="《行動8 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action8AttackWalkMoveAttack AltName="《行動8 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action8AttackInvincible AltName="《行動8 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action8HandType AltName="《行動8 攻撃手》"/>
         <action8IsSpell AltName="《行動8 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -223,7 +223,7 @@
         <fAction8AttackAngle AltName="《行動8 角度補正[deg]》"/>
         <fAction8AttackRotateHigh AltName="《行動8 旋回補間開始距離[m]》"/>
         <fAction8AttackRotateLow AltName="《行動8 旋回補間終了距離[m]》"/>
-        <action8ChantSfx AltName="《行動8 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action8ChantSfx AltName="《行動8 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action8ReloadTimeMin AltName="《行動8 最小リロード時間》"/>
         <action8ReloadTimeMax AltName="《行動8 最大リロード時間》"/>
         <action9DamageId00 AltName="《行動9 ダメージID_1》"/>
@@ -232,7 +232,7 @@
         <action9GrabDamageId00 AltName="《行動9 投げダメージID_1》"/>
         <action9GrabDamageId01 AltName="《行動9 投げダメージID_2》"/>
         <action9GrabDamageId02 AltName="《行動9 投げダメージID_3》"/>
-        <action9AttackWalkMoveAttack AltName="《行動9 歩行攻撃ID》" ProjectEnum="ENEMY_ATTACK_TYPE"/>
+        <action9AttackWalkMoveAttack AltName="《行動9 歩行攻撃ID》" Refs="EnemyAttackMoveParam"/>
         <action9AttackInvincible AltName="《行動9 割り込み不可タイプ》" ProjectEnum="NON_INTERRUPTIBLE_TYPE"/>
         <action9HandType AltName="《行動9 攻撃手》"/>
         <action9IsSpell AltName="《行動9 スペルフラグ》" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
@@ -248,7 +248,7 @@
         <fAction9AttackAngle AltName="《行動9 角度補正[deg]》"/>
         <fAction9AttackRotateHigh AltName="《行動9 旋回補間開始距離[m]》"/>
         <fAction9AttackRotateLow AltName="《行動9 旋回補間終了距離[m]》"/>
-        <action9ChantSfx AltName="《行動9 詠唱SFX》" ProjectEnum="ENEMY_SHOT_SFX_PARAM_ENUM"/>
+        <action9ChantSfx AltName="《行動9 詠唱SFX》" Refs="EnemyShotSfxParam"/>
         <action9ReloadTimeMin AltName="《行動9 最小リロード時間》"/>
         <action9ReloadTimeMax AltName="《行動9 最大リロード時間》"/>
     </Field>

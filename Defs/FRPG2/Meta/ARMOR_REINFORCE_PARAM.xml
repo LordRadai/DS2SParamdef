@@ -28,8 +28,8 @@
         <maxLevel AltName="強化最大レベル"/>
         <dummy AltName="ダミー"/>
         <menuResistanceScale AltName="メニュー表示用 属性防御力補正倍率 [倍]"/>
-        <attrSpec AltName="属性強化可否" ProjectEnum="CUSTOM_ATTR_SPEC_PARAM_ENUM"/>
-        <attrCost AltName="属性強化コスト" ProjectEnum="CUSTOM_ATTR_COST_PARAM_ENUM"/>
-        <reinforceCost AltName="Lv強化コスト" ProjectEnum="REINFORCE_COST_PARAM_ENUM"/>
+        <attrSpec AltName="属性強化可否" Refs="CustomAttrSpecParam"/>
+        <attrCost AltName="属性強化コスト" Refs="CustomAttrCostParam"/>
+        <reinforceCost AltName="Lv強化コスト" Refs="ReinforceCostParam"/>
     </Field>
 </PARAMMETA>

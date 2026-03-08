@@ -1,6 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<PARAMMETA XmlVersion="0">
-  <Self Wiki="Defines parameters related to player weapon reinforcement." Row0Dummy="" />
-  <Field>
-  </Field>
-</PARAMMETA>
+<?xml version="1.0" encoding="utf-8"?>
+<PARAMDEF XmlVersion="0">
+  <ParamType>PLAYER_WEAPON_REINFORCE_PARAM</ParamType>
+  <Unk06>0</Unk06>
+  <BigEndian>False</BigEndian>
+  <Unicode>True</Unicode>
+  <Version>201</Version>
+  <Fields>
+    <Field Def="f32 Unk00" />
+  </Fields>
+</PARAMDEF>

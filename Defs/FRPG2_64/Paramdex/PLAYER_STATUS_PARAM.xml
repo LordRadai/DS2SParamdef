@@ -1,115 +1,700 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <genderType AltName="性別" ProjectEnum="PLAYER_GENDER_TYPE"/>
-        <livingType AltName="生死" ProjectEnum="PLAYER_HUMAN_CONDITIONS_TYPE"/>
-        <bodyType AltName="体型"/>
-        <pad01 AltName="パディング01"/>
-        <soulLevel AltName="ソウルレベル"/>
-        <lifeForceLevel AltName="生命力"/>
-        <soulPoint AltName="ソウル総量"/>
-        <stayingPowerLevel AltName="持久力"/>
-        <attunementLevel AltName="記憶力"/>
-        <vitalityLevel AltName="体力"/>
-        <strengthLevel AltName="筋力"/>
-        <dexterityLevel AltName="技量"/>
-        <intelligenceLevel AltName="理力"/>
-        <faithLevel AltName="信仰"/>
-        <enduranceLevel AltName="耐久力"/>
-        <quicknessLevel AltName="敏捷"/>
-        <luckLevel AltName="運"/>
-        <facePresetNo AltName="FG時顔プリセット番号"/>
-        <pad00 AltName="パディング00"/>
-        <beltItem01 AltName="ベルトスロット 01 [アイテム]"/>
-        <beltItem02 AltName="ベルトスロット 02 [アイテム]"/>
-        <beltItem03 AltName="ベルトスロット 03 [アイテム]"/>
-        <beltItem04 AltName="ベルトスロット 04 [アイテム]"/>
-        <beltItem05 AltName="ベルトスロット 05 [アイテム]"/>
-        <beltItem06 AltName="ベルトスロット 06 [アイテム]"/>
-        <beltItem07 AltName="ベルトスロット 07 [アイテム]"/>
-        <beltItem08 AltName="ベルトスロット 08 [アイテム]"/>
-        <beltItem09 AltName="ベルトスロット 09 [アイテム]"/>
-        <beltItem10 AltName="ベルトスロット 10 [アイテム]"/>
-        <beltItem01Num AltName="ベルトスロット .01 [アイテム数]"/>
-        <beltItem02Num AltName="ベルトスロット .02 [アイテム数]"/>
-        <beltItem03Num AltName="ベルトスロット .03 [アイテム数]"/>
-        <beltItem04Num AltName="ベルトスロット .04 [アイテム数]"/>
-        <beltItem05Num AltName="ベルトスロット .05 [アイテム数]"/>
-        <beltItem06Num AltName="ベルトスロット .06 [アイテム数]"/>
-        <beltItem07Num AltName="ベルトスロット .07 [アイテム数]"/>
-        <beltItem08Num AltName="ベルトスロット .08 [アイテム数]"/>
-        <beltItem09Num AltName="ベルトスロット .09 [アイテム数]"/>
-        <beltItem10Num AltName="ベルトスロット .10 [アイテム数]"/>
-        <spellSlotItem01 AltName="スペルスロット 01 アイテム"/>
-        <spellSlotItem02 AltName="スペルスロット 02 アイテム"/>
-        <spellSlotItem03 AltName="スペルスロット 03 アイテム"/>
-        <spellSlotItem04 AltName="スペルスロット 04 アイテム"/>
-        <spellSlotItem05 AltName="スペルスロット 05 アイテム"/>
-        <spellSlotItem06 AltName="スペルスロット 06 アイテム"/>
-        <spellSlotItem07 AltName="スペルスロット 07 アイテム"/>
-        <spellSlotItem08 AltName="スペルスロット 08 アイテム"/>
-        <spellSlotItem09 AltName="スペルスロット 09 アイテム"/>
-        <spellSlotItem10 AltName="スペルスロット 10 アイテム"/>
-        <rightWeapon01 AltName="右武器 01"/>
-        <rightWeapon02 AltName="右武器 02"/>
-        <rightWeapon03 AltName="右武器 03"/>
-        <leftWeapon01 AltName="左武器 01"/>
-        <leftWeapon02 AltName="左武器 02"/>
-        <leftWeapon03 AltName="左武器 03"/>
-        <headArmor AltName="頭防具"/>
-        <bodyArmor AltName="胴防具"/>
-        <armArmor AltName="腕防具"/>
-        <legArmor AltName="足防具"/>
-        <ringSlot01 AltName="指輪 01 ID"/>
-        <ringSlot02 AltName="指輪 02 ID"/>
-        <ringSlot03 AltName="指輪 03 ID"/>
-        <ringSlot04 AltName="指輪 04 ID"/>
-        <rightWeapon01Enhanced AltName="右武器 01 強化段階"/>
-        <rightWeapon01Attribute AltName="右武器 01 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyR1 AltName="パディング用ダミー"/>
-        <rightWeapon02Enhanced AltName="右武器 02 強化段階"/>
-        <rightWeapon02Attribute AltName="右武器 02 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyR2 AltName="パディング用ダミー"/>
-        <rightWeapon03Enhanced AltName="右武器 03 強化段階"/>
-        <rightWeapon03Attribute AltName="右武器 03 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyR3 AltName="パディング用ダミー"/>
-        <leftWeapon01Enhanced AltName="左武器 01 強化段階"/>
-        <leftWeapon01Attribute AltName="左武器 01 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyL1 AltName="パディング用ダミー"/>
-        <leftWeapon02Enhanced AltName="左武器 02 強化段階"/>
-        <leftWeapon02Attribute AltName="左武器 02 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyL2 AltName="パディング用ダミー"/>
-        <leftWeapon03Enhanced AltName="左武器 03 強化段階"/>
-        <leftWeapon03Attribute AltName="左武器 03 付与属性" ProjectEnum="PLAYER_EQUIP_ATTRIBUTE_TYPE"/>
-        <dummyL3 AltName="パディング用ダミー"/>
-        <headArmorEnhanced AltName="頭防具 強化段階"/>
-        <bodyArmorEnhanced AltName="胴防具 強化段階"/>
-        <armArmorEnhanced AltName="腕防具 強化段階"/>
-        <legArmorEnhanced AltName="足防具 強化段階"/>
-        <bagItemParam01 AltName="アイテムセット01"/>
-        <bagItemParam02 AltName="アイテムセット02"/>
-        <bagItemParam03 AltName="アイテムセット03"/>
-        <estusFlaskLvUsableCount AltName="エスト瓶強化レベル 使用回数"/>
-        <estusFlaskLvHealPoint AltName="エスト瓶強化レベル 回復量"/>
-        <dummy AltName="パディング用ダミー"/>
-        <arrowSlot01 AltName="矢 01 ID"/>
-        <arrowSlot02 AltName="矢 02 ID"/>
-        <boltSlot01 AltName="ボルト 01 ID"/>
-        <boltSlot02 AltName="ボルト 02 ID"/>
-        <arrowSlot01Num AltName="矢 01 本数"/>
-        <arrowSlot02Num AltName="矢 02 本数"/>
-        <boltSlot01Num AltName="ボルト 01 本数"/>
-        <boltSlot02Num AltName="ボルト 02 本数"/>
-        <gestureSlot01 AltName="ジェスチャー 01 ID"/>
-        <gestureSlot02 AltName="ジェスチャー 02 ID"/>
-        <gestureSlot03 AltName="ジェスチャー 03 ID"/>
-        <gestureSlot04 AltName="ジェスチャー 04 ID"/>
-        <gestureSlot05 AltName="ジェスチャー 05 ID"/>
-        <gestureSlot06 AltName="ジェスチャー 06 ID"/>
-        <gestureSlot07 AltName="ジェスチャー 07 ID"/>
-        <gestureSlot08 AltName="ジェスチャー 08 ID"/>
-        <vowType AltName="誓約" ProjectEnum="VOW_TYPES"/>
-        <vowLevel AltName="誓約レベル"/>
-        <vowContribution AltName="誓約貢献度"/>
-    </Field>
-</PARAMMETA>
+<PARAMDEF XmlVersion="0">
+    <ParamType>PLAYER_STATUS_PARAM</ParamType>
+    <DataVersion>10</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 genderType">
+            <DisplayName>性別</DisplayName>
+            <Enum>PLAYER_GENDER_TYPE</Enum>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>0</SortID>
+        </Field>
+        <Field Def="u8 livingType">
+            <DisplayName>生死</DisplayName>
+            <Enum>PLAYER_HUMAN_CONDITIONS_TYPE</Enum>
+            <Maximum>1</Maximum>
+            <Increment>1</Increment>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 bodyType">
+            <DisplayName>体型</DisplayName>
+            <Maximum>99</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="dummy8 pad01[1]">
+            <DisplayName>パディング01</DisplayName>
+            <SortID>121</SortID>
+        </Field>
+        <Field Def="u16 soulLevel">
+            <DisplayName>ソウルレベル</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u16 lifeForceLevel">
+            <DisplayName>生命力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u32 soulPoint">
+            <DisplayName>ソウル総量</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u16 stayingPowerLevel">
+            <DisplayName>持久力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u16 attunementLevel">
+            <DisplayName>記憶力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u16 vitalityLevel">
+            <DisplayName>体力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u16 strengthLevel">
+            <DisplayName>筋力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u16 dexterityLevel">
+            <DisplayName>技量</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u16 intelligenceLevel">
+            <DisplayName>理力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u16 faithLevel">
+            <DisplayName>信仰</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u16 enduranceLevel">
+            <DisplayName>耐久力</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u16 quicknessLevel">
+            <DisplayName>敏捷</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u16 luckLevel">
+            <DisplayName>運</DisplayName>
+            <Maximum>300</Maximum>
+            <Increment>1</Increment>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="s8 facePresetNo = -1">
+            <DisplayName>FG時顔プリセット番号</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>120</Maximum>
+            <Increment>1</Increment>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="dummy8 pad00[3]">
+            <DisplayName>パディング00</DisplayName>
+            <SortID>122</SortID>
+        </Field>
+        <Field Def="s32 beltItem01 = -1">
+            <DisplayName>ベルトスロット 01 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="s32 beltItem02 = -1">
+            <DisplayName>ベルトスロット 02 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="s32 beltItem03 = -1">
+            <DisplayName>ベルトスロット 03 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="s32 beltItem04 = -1">
+            <DisplayName>ベルトスロット 04 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="s32 beltItem05 = -1">
+            <DisplayName>ベルトスロット 05 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="s32 beltItem06 = -1">
+            <DisplayName>ベルトスロット 06 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="s32 beltItem07 = -1">
+            <DisplayName>ベルトスロット 07 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="s32 beltItem08 = -1">
+            <DisplayName>ベルトスロット 08 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="s32 beltItem09 = -1">
+            <DisplayName>ベルトスロット 09 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="s32 beltItem10 = -1">
+            <DisplayName>ベルトスロット 10 [アイテム]</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="u16 beltItem01Num">
+            <DisplayName>ベルトスロット .01 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>27</SortID>
+        </Field>
+        <Field Def="u16 beltItem02Num">
+            <DisplayName>ベルトスロット .02 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>28</SortID>
+        </Field>
+        <Field Def="u16 beltItem03Num">
+            <DisplayName>ベルトスロット .03 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>29</SortID>
+        </Field>
+        <Field Def="u16 beltItem04Num">
+            <DisplayName>ベルトスロット .04 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u16 beltItem05Num">
+            <DisplayName>ベルトスロット .05 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="u16 beltItem06Num">
+            <DisplayName>ベルトスロット .06 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>32</SortID>
+        </Field>
+        <Field Def="u16 beltItem07Num">
+            <DisplayName>ベルトスロット .07 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>33</SortID>
+        </Field>
+        <Field Def="u16 beltItem08Num">
+            <DisplayName>ベルトスロット .08 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>34</SortID>
+        </Field>
+        <Field Def="u16 beltItem09Num">
+            <DisplayName>ベルトスロット .09 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>35</SortID>
+        </Field>
+        <Field Def="u16 beltItem10Num">
+            <DisplayName>ベルトスロット .10 [アイテム数]</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>36</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem01 = -1">
+            <DisplayName>スペルスロット 01 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>38</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem02 = -1">
+            <DisplayName>スペルスロット 02 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>39</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem03 = -1">
+            <DisplayName>スペルスロット 03 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>40</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem04 = -1">
+            <DisplayName>スペルスロット 04 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>41</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem05 = -1">
+            <DisplayName>スペルスロット 05 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>42</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem06 = -1">
+            <DisplayName>スペルスロット 06 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>43</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem07 = -1">
+            <DisplayName>スペルスロット 07 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>44</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem08 = -1">
+            <DisplayName>スペルスロット 08 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>45</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem09 = -1">
+            <DisplayName>スペルスロット 09 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>46</SortID>
+        </Field>
+        <Field Def="s32 spellSlotItem10 = -1">
+            <DisplayName>スペルスロット 10 アイテム</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>47</SortID>
+        </Field>
+        <Field Def="s32 rightWeapon01 = -1">
+            <DisplayName>右武器 01</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>48</SortID>
+        </Field>
+        <Field Def="s32 rightWeapon02 = -1">
+            <DisplayName>右武器 02</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>49</SortID>
+        </Field>
+        <Field Def="s32 rightWeapon03 = -1">
+            <DisplayName>右武器 03</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>50</SortID>
+        </Field>
+        <Field Def="s32 leftWeapon01 = -1">
+            <DisplayName>左武器 01</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>51</SortID>
+        </Field>
+        <Field Def="s32 leftWeapon02 = -1">
+            <DisplayName>左武器 02</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>52</SortID>
+        </Field>
+        <Field Def="s32 leftWeapon03 = -1">
+            <DisplayName>左武器 03</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>53</SortID>
+        </Field>
+        <Field Def="s32 headArmor = -1">
+            <DisplayName>頭防具</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>54</SortID>
+        </Field>
+        <Field Def="s32 bodyArmor = -1">
+            <DisplayName>胴防具</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>55</SortID>
+        </Field>
+        <Field Def="s32 armArmor = -1">
+            <DisplayName>腕防具</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>56</SortID>
+        </Field>
+        <Field Def="s32 legArmor = -1">
+            <DisplayName>足防具</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>57</SortID>
+        </Field>
+        <Field Def="s32 ringSlot01 = -1">
+            <DisplayName>指輪 01 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>108</SortID>
+        </Field>
+        <Field Def="s32 ringSlot02 = -1">
+            <DisplayName>指輪 02 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>109</SortID>
+        </Field>
+        <Field Def="s32 ringSlot03 = -1">
+            <DisplayName>指輪 03 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 ringSlot04 = -1">
+            <DisplayName>指輪 04 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>111</SortID>
+        </Field>
+        <Field Def="u8 rightWeapon01Enhanced">
+            <DisplayName>右武器 01 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>58</SortID>
+        </Field>
+        <Field Def="u8 rightWeapon01Attribute">
+            <DisplayName>右武器 01 付与属性</DisplayName>
+            <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>60</SortID>
+        </Field>
+        <Field Def="dummy8 dummyR1[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>123</SortID>
+        </Field>
+        <Field Def="u8 rightWeapon02Enhanced">
+            <DisplayName>右武器 02 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>62</SortID>
+        </Field>
+        <Field Def="u8 rightWeapon02Attribute">
+            <DisplayName>右武器 02 付与属性</DisplayName>
+            <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>64</SortID>
+        </Field>
+        <Field Def="dummy8 dummyR2[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>124</SortID>
+        </Field>
+        <Field Def="u8 rightWeapon03Enhanced">
+            <DisplayName>右武器 03 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>66</SortID>
+        </Field>
+        <Field Def="u8 rightWeapon03Attribute">
+            <DisplayName>右武器 03 付与属性</DisplayName>
+            <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>68</SortID>
+        </Field>
+        <Field Def="dummy8 dummyR3[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>125</SortID>
+        </Field>
+        <Field Def="u8 leftWeapon01Enhanced">
+            <DisplayName>左武器 01 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>70</SortID>
+        </Field>
+        <Field Def="u8 leftWeapon01Attribute">
+            <DisplayName>左武器 01 付与属性</DisplayName>
+            <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>72</SortID>
+        </Field>
+        <Field Def="dummy8 dummyL1[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>126</SortID>
+        </Field>
+        <Field Def="u8 leftWeapon02Enhanced">
+            <DisplayName>左武器 02 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>74</SortID>
+        </Field>
+        <Field Def="u8 leftWeapon02Attribute">
+            <DisplayName>左武器 02 付与属性</DisplayName>
+            <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>76</SortID>
+        </Field>
+        <Field Def="dummy8 dummyL2[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>127</SortID>
+        </Field>
+        <Field Def="u8 leftWeapon03Enhanced">
+            <DisplayName>左武器 03 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>78</SortID>
+        </Field>
+        <Field Def="u8 leftWeapon03Attribute">
+            <DisplayName>左武器 03 付与属性</DisplayName>
+            <Enum>PLAYER_EQUIP_ATTRIBUTE_TYPE</Enum>
+            <Increment>1</Increment>
+            <SortID>80</SortID>
+        </Field>
+        <Field Def="dummy8 dummyL3[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>128</SortID>
+        </Field>
+        <Field Def="u8 headArmorEnhanced">
+            <DisplayName>頭防具 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>82</SortID>
+        </Field>
+        <Field Def="u8 bodyArmorEnhanced">
+            <DisplayName>胴防具 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>86</SortID>
+        </Field>
+        <Field Def="u8 armArmorEnhanced">
+            <DisplayName>腕防具 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>90</SortID>
+        </Field>
+        <Field Def="u8 legArmorEnhanced">
+            <DisplayName>足防具 強化段階</DisplayName>
+            <Maximum>10</Maximum>
+            <Increment>1</Increment>
+            <SortID>94</SortID>
+        </Field>
+        <Field Def="u32 bagItemParam01">
+            <DisplayName>アイテムセット01</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>120</SortID>
+        </Field>
+        <Field Def="u32 bagItemParam02">
+            <DisplayName>アイテムセット02</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>120</SortID>
+        </Field>
+        <Field Def="u32 bagItemParam03">
+            <DisplayName>アイテムセット03</DisplayName>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>120</SortID>
+        </Field>
+        <Field Def="u8 estusFlaskLvUsableCount">
+            <DisplayName>エスト瓶強化レベル 使用回数</DisplayName>
+            <Maximum>20</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u8 estusFlaskLvHealPoint">
+            <DisplayName>エスト瓶強化レベル 回復量</DisplayName>
+            <Maximum>20</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="dummy8 dummy[2]">
+            <DisplayName>パディング用ダミー</DisplayName>
+            <SortID>123</SortID>
+        </Field>
+        <Field Def="s32 arrowSlot01 = -1">
+            <DisplayName>矢 01 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 arrowSlot02 = -1">
+            <DisplayName>矢 02 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 boltSlot01 = -1">
+            <DisplayName>ボルト 01 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 boltSlot02 = -1">
+            <DisplayName>ボルト 02 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u16 arrowSlot01Num">
+            <DisplayName>矢 01 本数</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u16 arrowSlot02Num">
+            <DisplayName>矢 02 本数</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u16 boltSlot01Num">
+            <DisplayName>ボルト 01 本数</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="u16 boltSlot02Num">
+            <DisplayName>ボルト 02 本数</DisplayName>
+            <Maximum>999</Maximum>
+            <Increment>1</Increment>
+            <SortID>100</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot01 = -1">
+            <DisplayName>ジェスチャー 01 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot02 = -1">
+            <DisplayName>ジェスチャー 02 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot03 = -1">
+            <DisplayName>ジェスチャー 03 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot04 = -1">
+            <DisplayName>ジェスチャー 04 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot05 = -1">
+            <DisplayName>ジェスチャー 05 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot06 = -1">
+            <DisplayName>ジェスチャー 06 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot07 = -1">
+            <DisplayName>ジェスチャー 07 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="s32 gestureSlot08 = -1">
+            <DisplayName>ジェスチャー 08 ID</DisplayName>
+            <Minimum>-1</Minimum>
+            <Maximum>1e+09</Maximum>
+            <Increment>1</Increment>
+            <SortID>110</SortID>
+        </Field>
+        <Field Def="u8 vowType">
+            <DisplayName>誓約</DisplayName>
+            <Enum>VOW_TYPES</Enum>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u8 vowLevel">
+            <DisplayName>誓約レベル</DisplayName>
+            <Maximum>3</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u16 vowContribution">
+            <DisplayName>誓約貢献度</DisplayName>
+            <Maximum>255</Maximum>
+            <Increment>1</Increment>
+            <SortID>4</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>

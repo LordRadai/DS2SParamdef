@@ -7,7 +7,7 @@
         <deadHitDisableTime AltName="死亡時ヒット削除時間 [sec]"/>
         <deadSoulDropTime AltName="死亡時ソウルドロップ 開始時間 [sec]"/>
         <deadSfxTime AltName="死亡時SFX 開始時間 [sec]"/>
-        <deadSfxType AltName="死亡時SFXタイプ" ProjectEnum="CHR_FULLBODY_SFX_PARAM_ENUM"/>
+        <deadSfxType AltName="死亡時SFXタイプ" Refs="ChrFullBodySfxParam"/>
         <deadFadeDelay AltName="死亡時フェード開始時間[sec]"/>
         <deadFadeTime AltName="死亡時フェード時間[sec]"/>
         <deadSeId AltName="死亡時サウンドID"/>

@@ -7,8 +7,8 @@
         <dummy0 AltName="ダミー"/>
         <intelligence AltName="必要ステータス 理力"/>
         <faith AltName="必要ステータス 信仰"/>
-        <baseSpellBulletId AltName="ベースバレットID"/>
-        <baseSpellDamageId AltName="ベースダメージID"/>
+        <baseSpellBulletId AltName="ベースバレットID" Refs="BulletParam, EnemyBulletParam, SystemBulletParam"/>
+        <baseSpellDamageId AltName="ベースダメージID" Refs="EnemyDamageParam, PlayerDamageParam, SystemDamageParam"/>
         <single1HNormalChantTimeScale AltName="詠唱時間 補正倍率 片手 弱 [sec]"/>
         <single1HNormalHoldCastTime AltName="発動時間 片手 弱 [sec]"/>
         <single1HNormalAnimIdSpellChanting AltName="アニメ設定 詠唱 片手 弱" ProjectEnum="PLAYER_SPELL_CHANTING_MOTION"/>
@@ -85,7 +85,7 @@
         <usageCountLv9 AltName="使用回数Lv9"/>
         <usageCountLv10 AltName="使用回数Lv10"/>
         <dummy2 AltName="ダミー"/>
-        <soulConsumeParamId AltName="ソウル消費ID"/>
+        <soulConsumeParamId AltName="ソウル消費ID" Refs="SpellSoulConsumeParam"/>
         <baseLeftHandSpellBulletId AltName="ベースバレットID(左手)"/>
         <baseLeftHandSpellDamageId AltName="ベースダメージID(左手)"/>
     </Field>

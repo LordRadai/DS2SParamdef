@@ -6,8 +6,8 @@
         <waitTime AltName="待機時間[秒]"/>
         <defaultSfxId AltName="デフォルトSFXID（白・灰）"/>
         <multiPlaySfxId AltName="マルチプレイ時SFXID（黒）"/>
-        <frontKeyGuideParamId AltName="前から入る際のキーガイドパラメータID" ProjectEnum="KEY_GUIDE_PARAM_TYPE"/>
-        <backKeyGuideParamId AltName="後ろから入る際のキーガイドパラメータID" ProjectEnum="KEY_GUIDE_PARAM_TYPE"/>
+        <frontKeyGuideParamId AltName="前から入る際のキーガイドパラメータID" Refs="KeyGuideParam"/>
+        <backKeyGuideParamId AltName="後ろから入る際のキーガイドパラメータID" Refs="KeyGuideParam"/>
         <passFlagId AltName="開通時イベントフラグ"/>
         <enableKeyGuideFlagId AltName="キーガイド有効フラグ"/>
     </Field>

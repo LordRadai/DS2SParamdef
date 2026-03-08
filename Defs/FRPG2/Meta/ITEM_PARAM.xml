@@ -6,19 +6,19 @@
         <startSfxId AltName="アイテム開始SFXID"/>
         <actionSfxId AltName="アイテム発動SFXID"/>
         <effectSfxId AltName="アイテム効果SFXID"/>
-        <weaponParamId AltName="武器ID"/>
-        <armorParamId AltName="防具ID"/>
-        <arrowParamId AltName="矢ID"/>
-        <ringParamId AltName="指輪ID"/>
-        <spellParamId AltName="スペルID"/>
+        <weaponParamId AltName="武器ID" Refs="WeaponParam"/>
+        <armorParamId AltName="防具ID" Refs="ArmorParam"/>
+        <arrowParamId AltName="矢ID" Refs="ArrowParam"/>
+        <ringParamId AltName="指輪ID" Refs="RingParam"/>
+        <spellParamId AltName="スペルID" Refs="SpellParam"/>
         <gestureId AltName="ジェスチャーID"/>
         <sortId AltName="デフォルトソートID"/>
         <price AltName="販売ベース価格"/>
         <salePrice AltName="売却ベース価格"/>
         <motionSpeedRate AltName="アイテム使用モーション速度倍率(倍単位)"/>
         <weight AltName="重量(kg単位)"/>
-        <itemTypeParamId AltName="アイテムタイプ" ProjectEnum="ITEM_TYPE_PARAM_ID"/>
-        <itemUsageParamId AltName="使用方法" ProjectEnum="ITEM_USAGE_PARAM_ID"/>
+        <itemTypeParamId AltName="アイテムタイプ" Refs="ItemTypeParam"/>
+        <itemUsageParamId AltName="使用方法" Refs="ItemUsageParam"/>
         <getFrag AltName="入手フラグ"/>
         <maxNum AltName="１スロットストック個数"/>
         <spEffectTargetRegion AltName="特殊効果管理カテゴリ" ProjectEnum="SP_EFFECT_TARGET_REGION"/>

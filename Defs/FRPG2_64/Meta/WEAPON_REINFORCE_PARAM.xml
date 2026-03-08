@@ -21,7 +21,7 @@
         <maximumCurse AltName="呪攻撃力の最大値"/>
         <maxLevel AltName="強化最大レベル"/>
         <dummy AltName="ダミー"/>
-        <statsAffectId AltName="ステータス影響倍率設定" ProjectEnum="WEAPON_STATS_AFFECT_PARAM_ID"/>
+        <statsAffectId AltName="ステータス影響倍率設定" Refs="WeaponStatsAffectParam"/>
         <physical AltName="物理カット率 [%]"/>
         <magic AltName="魔力カット率 [%]"/>
         <thunder AltName="雷カット率 [%]"/>
@@ -60,8 +60,8 @@
         <addPhysicalRateByCrude AltName="属性変動値 物理(粗製)"/>
         <addPhysicalRateByEnchanted AltName="属性変動値 物理(魔力)"/>
         <addPhysicalRateByAbyss AltName="属性変動値 物理(深淵)"/>
-        <attrSpec AltName="属性強化可否" ProjectEnum="CUSTOM_ATTR_SPEC_PARAM_ENUM"/>
-        <attrCost AltName="属性強化コスト" ProjectEnum="CUSTOM_ATTR_COST_PARAM_ENUM"/>
-        <reinforceCost AltName="Lv強化コスト" ProjectEnum="REINFORCE_COST_PARAM_ENUM"/>
+        <attrSpec AltName="属性強化可否" Refs="CustomAttrSpecParam"/>
+        <attrCost AltName="属性強化コスト" Refs="CustomAttrCostParam"/>
+        <reinforceCost AltName="Lv強化コスト" Refs="ReinforceCostParam"/>
     </Field>
 </PARAMMETA>

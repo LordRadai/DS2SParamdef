@@ -2,7 +2,7 @@
 <PARAMMETA XmlVersion="0">
     <Field>
         <sizeType AltName="《小型/大型》" ProjectEnum="OBJ_SIZE_ENUM"/>
-        <weightType AltName="《重量》" ProjectEnum="OBJ_WEIGHT_TYPE_ENUM"/>
+        <weightType AltName="《重量》" Refs="MapObjectWeightParam"/>
         <breakAction AltName="《破壊可能行動》" ProjectEnum="OBJ_BREAK_ACTION_TYPE_ENUM"/>
         <durabilityType AltName="《荷重限界》" ProjectEnum="OBJ_UPPER_DURABILITY_TYPE_ENUM"/>
         <hp AltName="《HP》"/>

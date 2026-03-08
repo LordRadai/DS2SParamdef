@@ -44,16 +44,16 @@
         <bExFlag8 AltName="【通常】再入手可能/【確定取得】抽選終了後" ProjectEnum="BOOL_YESNO_TYPE"/>
         <bExFlag9 AltName="【通常】再入手可能/【確定取得】抽選終了後" ProjectEnum="BOOL_YESNO_TYPE"/>
         <bExFlag10 AltName="【通常】再入手可能/【確定取得】抽選終了後" ProjectEnum="BOOL_YESNO_TYPE"/>
-        <itemId1 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId2 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId3 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId4 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId5 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId6 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId7 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId8 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId9 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
-        <itemId10 AltName="アイテムID" ProjectEnum="ITEM_PARAM_ID_ENUM"/>
+        <itemId1 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId2 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId3 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId4 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId5 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId6 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId7 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId8 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId9 AltName="アイテムID" Refs="ItemParam"/>
+        <itemId10 AltName="アイテムID" Refs="ItemParam"/>
         <itemWeight1 AltName="抽選重み"/>
         <itemWeight2 AltName="抽選重み"/>
         <itemWeight3 AltName="抽選重み"/>

@@ -1,41 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PARAMMETA XmlVersion="0">
-    <Field>
-        <maxHp AltName="最大HP(≒回復上限値)" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <maxStamina AltName="最大スタミナ" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <maxLoadWeight AltName="最大装備荷重" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <spellSlotCount AltName="スペルスロット数" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <spellChantingSpeed AltName="スペル詠唱速度" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerPhysicalByStrength AltName="攻撃力 筋力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerPhysicalByDexterity AltName="攻撃力 技量" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerMagic AltName="魔力攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerFire AltName="炎攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerThunder AltName="雷攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerDark AltName="闇攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerPoison AltName="毒攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <powerBleed AltName="出血攻撃力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <defense AltName="防御力" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistanceMagic AltName="魔力耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistanceFire AltName="炎耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistanceThunder AltName="雷耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistanceDark AltName="闇耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistancePoison AltName="毒耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistanceBleed AltName="出血耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistancePetrify AltName="石化耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <resistanceCurse AltName="呪耐性" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <actionSpeed AltName="敏捷" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <fortitude AltName="強靭度" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <primaryLeftHand AltName="左手第一武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <secondaryLeftHand AltName="左手第二武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <thirdlyLeftHand AltName="左手第三武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <primaryRightHand AltName="右手第一武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <secondaryRightHand AltName="右手第二武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <thirdlyRightHan AltName="右手第三武器" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <defenseStrike AltName="対打撃" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <defenseSlash AltName="対斬撃" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <defenseThrust AltName="対刺突" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <defensePoise AltName="強靭度" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
-        <dummy00 AltName="ダミー0"/>
-        <dummy01 AltName="ダミー1"/>
-    </Field>
-</PARAMMETA>
+<PARAMDEF XmlVersion="0">
+    <ParamType>LEVELUP_STATUS_CALC_PARAM</ParamType>
+    <DataVersion>1</DataVersion>
+    <BigEndian>true</BigEndian>
+    <Unicode>true</Unicode>
+    <FormatVersion>105</FormatVersion>
+    <Fields>
+        <Field Def="u8 maxHp:1">
+            <DisplayName>最大HP(≒回復上限値)</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>1</SortID>
+        </Field>
+        <Field Def="u8 maxStamina:1">
+            <DisplayName>最大スタミナ</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>2</SortID>
+        </Field>
+        <Field Def="u8 maxLoadWeight:1">
+            <DisplayName>最大装備荷重</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>3</SortID>
+        </Field>
+        <Field Def="u8 spellSlotCount:1">
+            <DisplayName>スペルスロット数</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>4</SortID>
+        </Field>
+        <Field Def="u8 spellChantingSpeed:1">
+            <DisplayName>スペル詠唱速度</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>5</SortID>
+        </Field>
+        <Field Def="u8 powerPhysicalByStrength:1">
+            <DisplayName>攻撃力 筋力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>6</SortID>
+        </Field>
+        <Field Def="u8 powerPhysicalByDexterity:1">
+            <DisplayName>攻撃力 技量</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>7</SortID>
+        </Field>
+        <Field Def="u8 powerMagic:1">
+            <DisplayName>魔力攻撃力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>8</SortID>
+        </Field>
+        <Field Def="u8 powerFire:1">
+            <DisplayName>炎攻撃力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>9</SortID>
+        </Field>
+        <Field Def="u8 powerThunder:1">
+            <DisplayName>雷攻撃力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>10</SortID>
+        </Field>
+        <Field Def="u8 powerDark:1">
+            <DisplayName>闇攻撃力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>11</SortID>
+        </Field>
+        <Field Def="u8 powerPoison:1">
+            <DisplayName>毒攻撃力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>12</SortID>
+        </Field>
+        <Field Def="u8 powerBleed:1">
+            <DisplayName>出血攻撃力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>13</SortID>
+        </Field>
+        <Field Def="u8 defense:1">
+            <DisplayName>防御力</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>14</SortID>
+        </Field>
+        <Field Def="u8 resistanceMagic:1">
+            <DisplayName>魔力耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>15</SortID>
+        </Field>
+        <Field Def="u8 resistanceFire:1">
+            <DisplayName>炎耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>16</SortID>
+        </Field>
+        <Field Def="u8 resistanceThunder:1">
+            <DisplayName>雷耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>17</SortID>
+        </Field>
+        <Field Def="u8 resistanceDark:1">
+            <DisplayName>闇耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>18</SortID>
+        </Field>
+        <Field Def="u8 resistancePoison:1">
+            <DisplayName>毒耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>19</SortID>
+        </Field>
+        <Field Def="u8 resistanceBleed:1">
+            <DisplayName>出血耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>20</SortID>
+        </Field>
+        <Field Def="u8 resistancePetrify:1">
+            <DisplayName>石化耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>21</SortID>
+        </Field>
+        <Field Def="u8 resistanceCurse:1">
+            <DisplayName>呪耐性</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>22</SortID>
+        </Field>
+        <Field Def="u8 actionSpeed:1">
+            <DisplayName>敏捷</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>23</SortID>
+        </Field>
+        <Field Def="u8 fortitude:1">
+            <DisplayName>強靭度</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>24</SortID>
+        </Field>
+        <Field Def="u8 primaryLeftHand:1">
+            <DisplayName>左手第一武器</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>25</SortID>
+        </Field>
+        <Field Def="u8 secondaryLeftHand:1">
+            <DisplayName>左手第二武器</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>26</SortID>
+        </Field>
+        <Field Def="u8 thirdlyLeftHand:1">
+            <DisplayName>左手第三武器</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>27</SortID>
+        </Field>
+        <Field Def="u8 primaryRightHand:1">
+            <DisplayName>右手第一武器</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>28</SortID>
+        </Field>
+        <Field Def="u8 secondaryRightHand:1">
+            <DisplayName>右手第二武器</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>29</SortID>
+        </Field>
+        <Field Def="u8 thirdlyRightHan:1">
+            <DisplayName>右手第三武器</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>30</SortID>
+        </Field>
+        <Field Def="u8 defenseStrike:1">
+            <DisplayName>対打撃</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>31</SortID>
+        </Field>
+        <Field Def="u8 defenseSlash:1">
+            <DisplayName>対斬撃</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>32</SortID>
+        </Field>
+        <Field Def="u8 defenseThrust:1">
+            <DisplayName>対刺突</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>33</SortID>
+        </Field>
+        <Field Def="u8 defensePoise:1">
+            <DisplayName>強靭度</DisplayName>
+            <Enum>BOOL_CIRCLECROSS_TYPE</Enum>
+            <SortID>34</SortID>
+        </Field>
+        <Field Def="dummy8 dummy00:6">
+            <DisplayName>ダミー0</DisplayName>
+            <SortID>37</SortID>
+        </Field>
+        <Field Def="dummy8 dummy01[3]">
+            <DisplayName>ダミー1</DisplayName>
+            <SortID>38</SortID>
+        </Field>
+    </Fields>
+</PARAMDEF>
