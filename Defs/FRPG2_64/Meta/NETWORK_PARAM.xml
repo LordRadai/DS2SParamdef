@@ -132,7 +132,7 @@
         <reloadMKSignIntervalTime2 AltName="ミラーナイトサイン再取得待機時間[秒]"/>
         <mirrorKnightSignLifetime AltName="ミラーナイトサイン寿命[秒]"/>
         <reloadMKSignTotalCount AltName="ミラーナイトサインサイン所持可能数上限"/>
-        <unk1E0/>
+        <reloadMatchingAreaTime AltName="Matching Area Reacquisition Wait Time [sec]"/>
         <pad10 AltName="予約"/>
     </Field>
 </PARAMMETA>

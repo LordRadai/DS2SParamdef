@@ -802,7 +802,7 @@
             <Increment>1</Increment>
             <SortID>830</SortID>
         </Field>
-        <Field Def="f32 unk1E0"/>
+        <Field Def="f32 reloadMatchingAreaTime"/>
         <Field Def="dummy8 pad10[132]">
             <DisplayName>予約</DisplayName>
             <SortID>832</SortID>
