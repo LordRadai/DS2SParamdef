@@ -85,13 +85,17 @@ namespace Paramdex
 
     bool Enum::loadFromJson(const nlohmann::json& jsonData) 
     {
-        if (!jsonData.contains("Name") || !jsonData.contains("Type") || !jsonData["Name"].is_string() || !jsonData["Type"].is_string())
+        if (!jsonData.contains("Name") || !jsonData["Name"].is_string())
             return false;
+
         m_name = jsonData["Name"].get<std::string>();
-        m_type = jsonData["Type"].get<std::string>();
+        m_type = "";
+
+        if (jsonData.contains("Type"))
+            m_type = jsonData["Type"].get<std::string>();
 
         m_enumValues.clear();
-        if (jsonData.contains("Options") && jsonData["Options"].is_object()) 
+        if (jsonData.contains("Options") && jsonData["Options"].is_array()) 
         {
             for (const auto& option : jsonData["Options"])
             {
