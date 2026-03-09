@@ -16,7 +16,7 @@ namespace Paramdex
         if (std::regex_search(name, match, re))
         {
             // match[1] contains only the alphanumeric "name" portion (\w+)
-            m_name = match[1].str();
+            m_name = TiXmlHelpers::SToW(match[1].str().c_str());
 
             // Extract metadata
             m_bitSize = match[2].matched ? std::stoi(match[2]) : -1;
@@ -57,7 +57,7 @@ namespace Paramdex
             if (std::regex_search(def, match, re)) 
             {
                 m_type = match[1].str().c_str();
-                m_name = match[2].str().c_str();
+                m_name = TiXmlHelpers::SToW(match[2].str().c_str());
                 m_bitSize = match[3].matched ? std::stoi(match[3]) : -1;
                 m_arraySize = match[4].matched ? std::stoi(match[4]) : 1;
                 m_defaultValue = match[5].matched ? std::stof(match[5].str()) : 0.0f;
@@ -107,7 +107,7 @@ namespace Paramdex
 
         // 1. Build "Def" string
         std::stringstream ss;
-        ss << m_type << " " << m_name;
+        ss << m_type << " " << TiXmlHelpers::WToS(m_name);
         if (m_bitSize != -1) ss << ":" << m_bitSize;
         if (m_arraySize > 1 || (m_type == "dummy8" && m_arraySize == 1 && m_bitSize == -1)) ss << "[" << m_arraySize << "]";
 

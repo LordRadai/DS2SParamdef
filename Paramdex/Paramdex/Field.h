@@ -15,7 +15,7 @@ namespace Paramdex
 
 	class Field
 	{
-		std::string m_name;
+		std::wstring m_name;
 		std::string m_type;
 		int m_bitSize;
 		int m_arraySize;
@@ -37,8 +37,8 @@ namespace Paramdex
 
 		~Field() {}
 
-		const std::string& getName() const { return m_name; }
-		void setName(const std::string& name) { m_name = name; }
+		const std::wstring& getName() const { return m_name; }
+		void setName(const std::wstring& name) { m_name = name; }
 
 		const std::string& getType() const { return m_type; }
 		void setType(const std::string& type) { m_type = type; }

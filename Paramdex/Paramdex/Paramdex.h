@@ -48,7 +48,7 @@ namespace Paramdex
 		void addField(const Field& field) { m_fields.push_back(field); }
 		void clearFields() { m_fields.clear(); }
 
-		void removeField(const std::string& fieldName) 
+		void removeField(const std::wstring& fieldName) 
 		{
 			m_fields.erase(std::remove_if(m_fields.begin(), m_fields.end(), [&](const Field& f) { return f.getName() == fieldName; }), m_fields.end());
 		}
