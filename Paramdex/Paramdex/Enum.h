@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <unordered_map>
+#include <nlohmann/json.hpp>
 
 namespace Paramdex
 {
@@ -45,5 +46,7 @@ namespace Paramdex
 
 		bool loadFromTdf(const std::wstring& filePath);
 		bool saveToTdf(const std::wstring& filePath) const;
+
+		bool loadFromJson(const nlohmann::json& jsonData);
 	};
 }

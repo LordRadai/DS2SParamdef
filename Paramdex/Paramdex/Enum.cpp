@@ -82,4 +82,27 @@ namespace Paramdex
 
         return true;
     }
+
+    bool Enum::loadFromJson(const nlohmann::json& jsonData) 
+    {
+        if (!jsonData.contains("Name") || !jsonData.contains("Type") || !jsonData["Name"].is_string() || !jsonData["Type"].is_string())
+            return false;
+        m_name = jsonData["Name"].get<std::string>();
+        m_type = jsonData["Type"].get<std::string>();
+
+        m_enumValues.clear();
+        if (jsonData.contains("Options") && jsonData["Options"].is_object()) 
+        {
+            for (const auto& option : jsonData["Options"])
+            {
+                std::string id = option["ID"];
+                std::string name = option["Name"];
+
+                int value = std::stoi(id);
+                m_enumValues[name] = value;
+            }
+        }
+
+        return true;
+	}
 }
