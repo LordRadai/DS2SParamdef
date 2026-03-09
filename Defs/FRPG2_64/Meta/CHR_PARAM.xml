@@ -22,7 +22,7 @@
         <staminaCostMoveBase AltName="スタミナ消費量 ベース値"/>
         <deadType AltName="死亡タイプ１" Refs="DeadTypeParam"/>
         <deadType02 AltName="死亡タイプ２" Refs="DeadTypeParam"/>
-        <defaultEquipWeapon AltName="初期装備" Refs="DeadTypeParam"/>
+        <defaultEquipWeapon AltName="初期装備" ProjectEnum="ENEMY_WEAPON_TYPE"/>
         <equipWeaponAId00 AltName="所持装備 装備１武器ID"/>
         <equipWeaponAId01 AltName="所持装備 装備２武器ID"/>
         <equipWeaponAId02 AltName="所持装備 装備３武器ID"/>
