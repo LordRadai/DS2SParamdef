@@ -3,8 +3,8 @@
     <Field>
         <weaponId AltName="武器ID"/>
         <weaponModelId AltName="武器モデルID"/>
-        <weaponReinforceId AltName="武器成長設定"/>
-        <weaponActionCategoryId AltName="武器アクションカテゴリ設定"/>
+        <weaponReinforceId AltName="武器成長設定" Refs="WeaponReinforceParam"/>
+        <weaponActionCategoryId AltName="武器アクションカテゴリ設定" Refs="WeaponActionCategoryParam"/>
         <weaponTypeId AltName="武器タイプ" Refs="WeaponTypeParam"/>
         <isAtkAutoHoming AltName="接近オートホーミング" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <weaponCategory AltName="武器系統" ProjectEnum="WEAPON_SIMPLE_CATEGORY"/>

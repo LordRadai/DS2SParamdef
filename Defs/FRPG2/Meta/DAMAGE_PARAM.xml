@@ -67,7 +67,7 @@
         <dummy5 AltName="予約領域"/>
         <flipHitRadius AltName="弾きＨＩＴ 半径[m]"/>
         <flipHitLength AltName="弾きＨＩＴ 長さ[m]"/>
-        <grabParamId AltName="投げパラメータID"/>
+        <grabParamId AltName="投げパラメータID" Refs="GrabParam"/>
         <expandSize AltName="拡大サイズ[m]"/>
         <expandTime AltName="拡大時間[sec]"/>
     </Field>
