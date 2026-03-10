@@ -67,6 +67,7 @@ namespace Paramdex
 		int getSortID() const { return m_sortID; }
 		void setSortID(int sortID) { m_sortID = sortID; }
 
+		int getFieldSize() const;
 		int getMemoryRequirements() const;
 
 		template<typename T>

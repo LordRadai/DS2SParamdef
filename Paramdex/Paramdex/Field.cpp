@@ -24,22 +24,27 @@ namespace Paramdex
         }
 	}
 
+    int Field::getFieldSize() const
+    {
+        if (m_type == "u8" || m_type == "s8" || m_type == "dummy8")
+            return 1;
+        else if (m_type == "u16" || m_type == "s16")
+            return 2;
+        else if (m_type == "u32" || m_type == "s32" || m_type == "f32" || m_type == "angle32" || m_type == "b32")
+            return 4;
+        else if (m_type == "u64" || m_type == "s64" || m_type == "f64")
+            return 8;
+        else if (m_type == "fixstr")
+            return 1;
+        else if (m_type == "fixstrW")
+            return 2;
+        else
+            return 0;
+    }
+
 	int Field::getMemoryRequirements() const
 	{
-		if (m_type == "u8" || m_type == "s8" || m_type == "dummy8")
-			return 1 * std::fmax(1, m_arraySize);
-		else if (m_type == "u16" || m_type == "s16")
-			return 2 * std::fmax(1, m_arraySize);
-		else if (m_type == "u32" || m_type == "s32" || m_type == "f32" || m_type == "angle32" || m_type == "b32")
-			return 4 * std::fmax(1, m_arraySize);
-		else if (m_type == "u64" || m_type == "s64" || m_type == "f64")
-			return 8 * std::fmax(1, m_arraySize);
-		else if (m_type == "fixstr")
-			return std::fmax(1, m_arraySize);
-		else if (m_type == "fixstrW")
-			return 2 * std::fmax(1, m_arraySize);
-		else
-			return 0;
+		return getFieldSize() * m_arraySize;
 	}
 
     bool Field::loadFromXML(const tinyxml2::XMLElement* element) 
