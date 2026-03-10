@@ -3,9 +3,9 @@
     <Field>
         <intrudeEnable AltName="侵入可否" ProjectEnum="AREA_PARAM_INTRUDE_ENUM"/>
         <aReserved AltName="予約"/>
-        <lockOnId AltName="通常 ロックオン"/>
-        <lockOnIdDark AltName="暗闇 ロックオン"/>
-        <lockOnIdTorch AltName="光源 ロックオン"/>
+        <lockOnId AltName="通常 ロックオン" Refs="LockOnParam"/>
+        <lockOnIdDark AltName="暗闇 ロックオン" Refs="LockOnParam"/>
+        <lockOnIdTorch AltName="光源 ロックオン" Refs="LockOnParam"/>
         <isPriorityLockOnIdTorch AltName="外部光源 最優先" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <isAbyss AltName="深淵か" ProjectEnum="BOOL_CIRCLECROSS_TYPE"/>
         <waterMaterial AltName="水面材質"/>
