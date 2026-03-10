@@ -3767,7 +3767,7 @@
         {
           "Description": "",
           "ID": "100965",
-          "Name": "Dog and Mouse: Color ② Defeat《ID:100965》"
+          "Name": "Dog and Mouse: Color 2 Defeat《ID:100965》"
         },
         {
           "Description": "",
@@ -6844,7 +6844,7 @@
         {
           "Description": "",
           "ID": "100965",
-          "Name": "Dog and Mouse: Color ② Defeat《ID:100965》"
+          "Name": "Dog and Mouse: Color 2 Defeat《ID:100965》"
         },
         {
           "Description": "",
@@ -11289,7 +11289,7 @@
         {
           "Description": "",
           "ID": "25",
-          "Name": "Dog and Mouse: Color ② Number of defeats"
+          "Name": "Dog and Mouse: Color 2 Number of defeats"
         },
         {
           "Description": "",
@@ -12011,6 +12011,21 @@
           "Description": "",
           "ID": "23",
           "Name": "Backread safety between map connections"
+        },
+        {
+          "Description": "",
+          "ID": "24",
+          "Name": "24"
+        },
+        {
+          "Description": "",
+          "ID": "25",
+          "Name": "25"
+        },
+        {
+          "Description": "",
+          "ID": "26",
+          "Name": "Linked event"
         }
       ]
     },
@@ -12310,37 +12325,37 @@
         {
           "Description": "",
           "ID": "0",
-          "Name": "①"
+          "Name": "1"
         },
         {
           "Description": "",
           "ID": "1",
-          "Name": "①&②"
+          "Name": "1&2"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "①｜②"
+          "Name": "1|2"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "①&②&③"
+          "Name": "1&2&3"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "①|②|③"
+          "Name": "1|2|3"
         },
         {
           "Description": "",
           "ID": "5",
-          "Name": "(①&②)|③"
+          "Name": "(1&2)|3"
         },
         {
           "Description": "",
           "ID": "6",
-          "Name": "（①|②）&③"
+          "Name": "(1|2)&3"
         }
       ]
     },
@@ -12352,37 +12367,37 @@
         {
           "Description": "",
           "ID": "0",
-          "Name": "①"
+          "Name": "1"
         },
         {
           "Description": "",
           "ID": "1",
-          "Name": "①&②"
+          "Name": "1&2"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "①｜②"
+          "Name": "1|2"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "①&②&③"
+          "Name": "1&2&3"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "①|②|③"
+          "Name": "1|2|3"
         },
         {
           "Description": "",
           "ID": "5",
-          "Name": "(①&②)|③"
+          "Name": "(1&2)|3"
         },
         {
           "Description": "",
           "ID": "6",
-          "Name": "（①|②）&③"
+          "Name": "(1|2)&3"
         }
       ]
     },
@@ -15065,12 +15080,12 @@
         {
           "Description": "",
           "ID": "24",
-          "Name": "Hidden door ① (Insect key SFX)"
+          "Name": "Hidden door 1 (Insect key SFX)"
         },
         {
           "Description": "",
           "ID": "25",
-          "Name": "Hidden door ② (button press)"
+          "Name": "Hidden door 2 (button press)"
         },
         {
           "Description": "",
