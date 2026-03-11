@@ -67,7 +67,7 @@
         {
           "Description": "",
           "ID": "2",
-          "Name": "Great arrow"
+          "Name": "Oya"
         },
         {
           "Description": "",
@@ -1558,33 +1558,6 @@
     },
     {
       "Description": "",
-      "DisplayName": "DAMAGE_ATTACK_TYPE_RATE_TYPE",
-      "Name": "DAMAGE_ATTACK_TYPE_RATE_TYPE",
-      "Options": [
-        {
-          "Description": "",
-          "ID": "0",
-          "Name": "Weak"
-        },
-        {
-          "Description": "",
-          "ID": "1",
-          "Name": "Strong"
-        },
-        {
-          "Description": "",
-          "ID": "2",
-          "Name": "Jump"
-        },
-        {
-          "Description": "",
-          "ID": "3",
-          "Name": "Falling"
-        }
-      ]
-    },
-    {
-      "Description": "",
       "DisplayName": "DAMAGE_ATTRIBUTE",
       "Name": "DAMAGE_ATTRIBUTE",
       "Options": [
@@ -2159,41 +2132,6 @@
         },
         {
           "Description": "",
-          "ID": "40",
-          "Name": "40"
-        },
-        {
-          "Description": "",
-          "ID": "45",
-          "Name": "45"
-        },
-        {
-          "Description": "",
-          "ID": "50",
-          "Name": "50"
-        },
-        {
-          "Description": "",
-          "ID": "55",
-          "Name": "55"
-        },
-        {
-          "Description": "",
-          "ID": "60",
-          "Name": "60"
-        },
-        {
-          "Description": "",
-          "ID": "65",
-          "Name": "65"
-        },
-        {
-          "Description": "",
-          "ID": "70",
-          "Name": "70"
-        },
-        {
-          "Description": "",
           "ID": "1008",
           "Name": "Blood: green"
         },
@@ -2463,43 +2401,6 @@
     },
     {
       "Description": "",
-      "DisplayName": "DAMAGE_MOVEMENT_POWER_TYPE",
-      "Name": "DAMAGE_MOVEMENT_POWER_TYPE",
-      "Options": [
-        {
-          "Description": "",
-          "ID": "0",
-          "Name": "None"
-        },
-        {
-          "Description": "",
-          "ID": "1",
-          "Name": "Extremely small"
-        },
-        {
-          "Description": "",
-          "ID": "2",
-          "Name": "Small"
-        },
-        {
-          "Description": "",
-          "ID": "3",
-          "Name": "Medium"
-        },
-        {
-          "Description": "",
-          "ID": "4",
-          "Name": "Large"
-        },
-        {
-          "Description": "",
-          "ID": "5",
-          "Name": "Extra large"
-        }
-      ]
-    },
-    {
-      "Description": "",
       "DisplayName": "DAMAGE_OBJ_ATTACK_ATTR_ENUM",
       "Name": "DAMAGE_OBJ_ATTACK_ATTR_ENUM",
       "Options": [
@@ -2643,28 +2544,6 @@
     },
     {
       "Description": "",
-      "DisplayName": "DAMAGE_STYLE_RATE_TYPE",
-      "Name": "DAMAGE_STYLE_RATE_TYPE",
-      "Options": [
-        {
-          "Description": "",
-          "ID": "0",
-          "Name": "One hand"
-        },
-        {
-          "Description": "",
-          "ID": "1",
-          "Name": "Both hands"
-        },
-        {
-          "Description": "",
-          "ID": "2",
-          "Name": "Dual wielding"
-        }
-      ]
-    },
-    {
-      "Description": "",
       "DisplayName": "DAMAGE_WEAPON_TYPE",
       "Name": "DAMAGE_WEAPON_TYPE",
       "Options": [
@@ -2676,17 +2555,17 @@
         {
           "Description": "",
           "ID": "2",
-          "Name": "Small"
+          "Name": "小"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "Medium"
+          "Name": "中"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "Large"
+          "Name": "大"
         },
         {
           "Description": "",
@@ -2748,618 +2627,6 @@
           "Description": "",
           "ID": "1",
           "Name": "Both doors"
-        }
-      ]
-    },
-    {
-      "Description": "",
-      "DisplayName": "ENEMY_ATTACK_TYPE",
-      "Name": "ENEMY_ATTACK_TYPE",
-      "Options": [
-        {
-          "Description": "",
-          "ID": "0",
-          "Name": "Template"
-        },
-        {
-          "Description": "",
-          "ID": "1",
-          "Name": "Walking 1"
-        },
-        {
-          "Description": "",
-          "ID": "2",
-          "Name": "Walking 2"
-        },
-        {
-          "Description": "",
-          "ID": "3",
-          "Name": "Walking 3"
-        },
-        {
-          "Description": "",
-          "ID": "4",
-          "Name": "Walking 4"
-        },
-        {
-          "Description": "",
-          "ID": "5",
-          "Name": "Walking 5"
-        },
-        {
-          "Description": "",
-          "ID": "6",
-          "Name": "Walking 6"
-        },
-        {
-          "Description": "",
-          "ID": "7",
-          "Name": "Walking 7"
-        },
-        {
-          "Description": "",
-          "ID": "8",
-          "Name": "Walking 8"
-        },
-        {
-          "Description": "",
-          "ID": "9",
-          "Name": "Walking 9"
-        },
-        {
-          "Description": "",
-          "ID": "10",
-          "Name": "Walking 10"
-        },
-        {
-          "Description": "",
-          "ID": "11",
-          "Name": "Walking 11"
-        },
-        {
-          "Description": "",
-          "ID": "12",
-          "Name": "Walking 12"
-        },
-        {
-          "Description": "",
-          "ID": "13",
-          "Name": "Walking 13"
-        },
-        {
-          "Description": "",
-          "ID": "14",
-          "Name": "Walking 14"
-        },
-        {
-          "Description": "",
-          "ID": "15",
-          "Name": "Walking 15"
-        },
-        {
-          "Description": "",
-          "ID": "16",
-          "Name": "Walking 16"
-        },
-        {
-          "Description": "",
-          "ID": "17",
-          "Name": "Walking 17"
-        },
-        {
-          "Description": "",
-          "ID": "18",
-          "Name": "Walking 18"
-        },
-        {
-          "Description": "",
-          "ID": "19",
-          "Name": "Walking 19"
-        },
-        {
-          "Description": "",
-          "ID": "20",
-          "Name": "Spot 1"
-        },
-        {
-          "Description": "",
-          "ID": "21",
-          "Name": "Spot 2"
-        },
-        {
-          "Description": "",
-          "ID": "22",
-          "Name": "Spot 3"
-        },
-        {
-          "Description": "",
-          "ID": "23",
-          "Name": "Spot 4"
-        },
-        {
-          "Description": "",
-          "ID": "24",
-          "Name": "Spot 5"
-        },
-        {
-          "Description": "",
-          "ID": "25",
-          "Name": "Spot 6"
-        },
-        {
-          "Description": "",
-          "ID": "26",
-          "Name": "The spot 7"
-        },
-        {
-          "Description": "",
-          "ID": "27",
-          "Name": "Spot 8"
-        },
-        {
-          "Description": "",
-          "ID": "28",
-          "Name": "Spot 9"
-        },
-        {
-          "Description": "",
-          "ID": "29",
-          "Name": "Spot 10"
-        },
-        {
-          "Description": "",
-          "ID": "30",
-          "Name": "Spot 11"
-        },
-        {
-          "Description": "",
-          "ID": "31",
-          "Name": "Spot 12"
-        },
-        {
-          "Description": "",
-          "ID": "32",
-          "Name": "Spot 13"
-        },
-        {
-          "Description": "",
-          "ID": "33",
-          "Name": "Spot 14"
-        },
-        {
-          "Description": "",
-          "ID": "34",
-          "Name": "Spot 15"
-        },
-        {
-          "Description": "",
-          "ID": "35",
-          "Name": "Spot 16"
-        },
-        {
-          "Description": "",
-          "ID": "36",
-          "Name": "Spot 17"
-        },
-        {
-          "Description": "",
-          "ID": "37",
-          "Name": "Spot 18"
-        },
-        {
-          "Description": "",
-          "ID": "38",
-          "Name": "Spot 19"
-        },
-        {
-          "Description": "",
-          "ID": "39",
-          "Name": "Spot 20"
-        },
-        {
-          "Description": "",
-          "ID": "40",
-          "Name": "Spot 21"
-        },
-        {
-          "Description": "",
-          "ID": "41",
-          "Name": "Spot 22"
-        },
-        {
-          "Description": "",
-          "ID": "42",
-          "Name": "Spot 23"
-        },
-        {
-          "Description": "",
-          "ID": "43",
-          "Name": "Spot 24"
-        },
-        {
-          "Description": "",
-          "ID": "44",
-          "Name": "Spot 25"
-        },
-        {
-          "Description": "",
-          "ID": "45",
-          "Name": "Spot 26"
-        },
-        {
-          "Description": "",
-          "ID": "46",
-          "Name": "Spot 27"
-        },
-        {
-          "Description": "",
-          "ID": "47",
-          "Name": "Spot 28"
-        },
-        {
-          "Description": "",
-          "ID": "48",
-          "Name": "Shooting 1"
-        },
-        {
-          "Description": "",
-          "ID": "49",
-          "Name": "Shooting 2"
-        },
-        {
-          "Description": "",
-          "ID": "50",
-          "Name": "Shooting 3"
-        },
-        {
-          "Description": "",
-          "ID": "51",
-          "Name": "Shooting 4"
-        },
-        {
-          "Description": "",
-          "ID": "52",
-          "Name": "Shooting 5"
-        },
-        {
-          "Description": "",
-          "ID": "53",
-          "Name": "Shooting 6"
-        },
-        {
-          "Description": "",
-          "ID": "54",
-          "Name": "Shooting 7"
-        },
-        {
-          "Description": "",
-          "ID": "61",
-          "Name": "Slow walking 1"
-        },
-        {
-          "Description": "",
-          "ID": "62",
-          "Name": "Slow walking 2"
-        },
-        {
-          "Description": "",
-          "ID": "63",
-          "Name": "Slow walking 3"
-        },
-        {
-          "Description": "",
-          "ID": "64",
-          "Name": "Slow walking 4"
-        },
-        {
-          "Description": "",
-          "ID": "65",
-          "Name": "Slow walking 5"
-        },
-        {
-          "Description": "",
-          "ID": "66",
-          "Name": "Slow walking 6"
-        },
-        {
-          "Description": "",
-          "ID": "67",
-          "Name": "Slow walking 7"
-        },
-        {
-          "Description": "",
-          "ID": "68",
-          "Name": "Slow walking 8"
-        },
-        {
-          "Description": "",
-          "ID": "69",
-          "Name": "Slow walking 9"
-        },
-        {
-          "Description": "",
-          "ID": "70",
-          "Name": "Slow walking 10"
-        },
-        {
-          "Description": "",
-          "ID": "100",
-          "Name": "Mirror night 1"
-        },
-        {
-          "Description": "",
-          "ID": "105",
-          "Name": "Silver chariot 1"
-        },
-        {
-          "Description": "",
-          "ID": "106",
-          "Name": "Ornstein Action 18 Boost Thrust"
-        },
-        {
-          "Description": "",
-          "ID": "110",
-          "Name": "Kingdom Heavy Warrior 1"
-        },
-        {
-          "Description": "",
-          "ID": "111",
-          "Name": "Kingdom heavy warrior 2"
-        },
-        {
-          "Description": "",
-          "ID": "112",
-          "Name": "Wheel skeleton 1"
-        },
-        {
-          "Description": "",
-          "ID": "113",
-          "Name": "Artificial immortal 1"
-        },
-        {
-          "Description": "",
-          "ID": "114",
-          "Name": "Rogue 1"
-        },
-        {
-          "Description": "",
-          "ID": "500",
-          "Name": "Small general purpose 1 Speed ​​1.0x Turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "501",
-          "Name": "Small general purpose 2 Speed ​​1.0x Turning 180"
-        },
-        {
-          "Description": "",
-          "ID": "510",
-          "Name": "Small general purpose 10 speed 1.2 times rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "511",
-          "Name": "Small general purpose 11 speed 1.2 times turning 180"
-        },
-        {
-          "Description": "",
-          "ID": "520",
-          "Name": "Small general purpose 20 Speed ​​1.4 times Turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "521",
-          "Name": "Small general purpose 21 speed 1.4 times rotation 180"
-        },
-        {
-          "Description": "",
-          "ID": "530",
-          "Name": "Compact general-purpose 30, speed 1.6 times, turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "531",
-          "Name": "Small general purpose 31 speed 1.6 times rotation 180"
-        },
-        {
-          "Description": "",
-          "ID": "600",
-          "Name": "Small size discontinued 1 Speed ​​1.0 times Turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "601",
-          "Name": "Small size discontinued 2 Speed ​​1.0 times Turning 180"
-        },
-        {
-          "Description": "",
-          "ID": "610",
-          "Name": "Small size discontinued 10 Speed ​​1.2 times Turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "611",
-          "Name": "Small size discontinued 11 Speed ​​1.2 times Turning 180"
-        },
-        {
-          "Description": "",
-          "ID": "620",
-          "Name": "Small size discontinued 20 Speed ​​1.4 times Turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "621",
-          "Name": "Small size discontinued 21 Speed ​​1.4 times Turning 180"
-        },
-        {
-          "Description": "",
-          "ID": "630",
-          "Name": "Small size discontinued 30 Speed ​​1.6 times Turning 120"
-        },
-        {
-          "Description": "",
-          "ID": "631",
-          "Name": "Small size discontinued 31 Speed ​​1.6 times Turning 180"
-        },
-        {
-          "Description": "",
-          "ID": "1000",
-          "Name": "Boss General Purpose 1 Speed ​​1.0x Attack Turn 120"
-        },
-        {
-          "Description": "",
-          "ID": "1010",
-          "Name": "Boss general purpose 2 speed 1.0x attack rotation 180"
-        },
-        {
-          "Description": "",
-          "ID": "1020",
-          "Name": "Boss general purpose 3 speed 1.0x attack rotation 240"
-        },
-        {
-          "Description": "",
-          "ID": "1030",
-          "Name": "Boss general purpose 4 speed 1.0x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "1100",
-          "Name": "Boss general purpose 10 speed 1.2x attack rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "1110",
-          "Name": "Boss General Purpose 11 Speed ​​1.2x Attack Turn 180"
-        },
-        {
-          "Description": "",
-          "ID": "1120",
-          "Name": "Boss General Purpose 12 Speed ​​1.2x Attack Turn 240"
-        },
-        {
-          "Description": "",
-          "ID": "1130",
-          "Name": "Boss general purpose 13 speed 1.2x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "1200",
-          "Name": "Boss general purpose 20, speed 1.4x, attack rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "1210",
-          "Name": "Boss General Purpose 21 Speed ​​1.4x Attack Turn 180"
-        },
-        {
-          "Description": "",
-          "ID": "1220",
-          "Name": "Boss general purpose 22 speed 1.4x attack rotation 240"
-        },
-        {
-          "Description": "",
-          "ID": "1230",
-          "Name": "Boss general purpose 23 speed 1.4x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "1300",
-          "Name": "Boss general purpose 30, speed 1.6x, attack rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "1310",
-          "Name": "General purpose boss 31 Speed ​​1.6x Attack rotation 180"
-        },
-        {
-          "Description": "",
-          "ID": "1320",
-          "Name": "Boss general purpose 32 speed 1.6x attack rotation 240"
-        },
-        {
-          "Description": "",
-          "ID": "1330",
-          "Name": "Boss general purpose 33 speed 1.6x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "1400",
-          "Name": "Boss general purpose 40, speed 1.8x, attack rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "1410",
-          "Name": "General purpose boss 41 Speed ​​1.8x Attack rotation 180"
-        },
-        {
-          "Description": "",
-          "ID": "1420",
-          "Name": "Boss general purpose 42 speed 1.8x attack rotation 240"
-        },
-        {
-          "Description": "",
-          "ID": "1430",
-          "Name": "Boss general purpose 43 speed 1.8x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "1500",
-          "Name": "Boss general purpose 50, speed 2.0x, attack rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "1510",
-          "Name": "Boss General Purpose 51 Speed ​​2.0x Attack Turn 180"
-        },
-        {
-          "Description": "",
-          "ID": "1520",
-          "Name": "Boss general purpose 52 speed 2.0x attack rotation 240"
-        },
-        {
-          "Description": "",
-          "ID": "1530",
-          "Name": "Boss general purpose 53 speed 2.0x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "1600",
-          "Name": "Boss general purpose 60, speed 0.8x, attack rotation 120"
-        },
-        {
-          "Description": "",
-          "ID": "1610",
-          "Name": "Boss general purpose 61 speed 0.8x attack rotation 180"
-        },
-        {
-          "Description": "",
-          "ID": "1620",
-          "Name": "Boss general purpose 62 speed 0.8x attack rotation 240"
-        },
-        {
-          "Description": "",
-          "ID": "1630",
-          "Name": "Boss general purpose 63 speed 0.8x attack rotation 90"
-        },
-        {
-          "Description": "",
-          "ID": "2000",
-          "Name": "On the spot 120 turns with right foot Damipori 5"
-        },
-        {
-          "Description": "",
-          "ID": "2010",
-          "Name": "On the spot, right foot 180 turn Damipori 5"
-        },
-        {
-          "Description": "",
-          "ID": "2100",
-          "Name": "On the spot left foot 120 turns Damipori 6"
-        },
-        {
-          "Description": "",
-          "ID": "2110",
-          "Name": "On the spot left foot 180 turn Damipori 6"
         }
       ]
     },
@@ -4148,51 +3415,6 @@
           "Description": "",
           "ID": "101002",
           "Name": "Senior Titan Soldier: Defeated《ID:101002》"
-        },
-        {
-          "Description": "",
-          "ID": "101050",
-          "Name": "Elana: Defeated《ID:101050》"
-        },
-        {
-          "Description": "",
-          "ID": "101051",
-          "Name": "Sinh: Defeated《ID:101051》"
-        },
-        {
-          "Description": "",
-          "ID": "101053",
-          "Name": "Afflicted Graverobber, Ancient Soldier & Old Explorer: Defeated《ID:101053》"
-        },
-        {
-          "Description": "",
-          "ID": "101061",
-          "Name": "Fume Knight: Defeated《ID:101061》"
-        },
-        {
-          "Description": "",
-          "ID": "101062",
-          "Name": "Sir Alonne: Defeated《ID:101062》"
-        },
-        {
-          "Description": "",
-          "ID": "101063",
-          "Name": "Blue Smelter Demon: Defeated《ID:101063》"
-        },
-        {
-          "Description": "",
-          "ID": "101070",
-          "Name": "Burnt Ivory King: Defeated《ID:101070》"
-        },
-        {
-          "Description": "",
-          "ID": "101071",
-          "Name": "Aava: Defeated《ID:101071》"
-        },
-        {
-          "Description": "",
-          "ID": "101072",
-          "Name": "Lud & Zallen: Defeated《ID:101072》"
         },
         {
           "Description": "",
@@ -8173,6 +7395,11 @@
         },
         {
           "Description": "",
+          "ID": "202700",
+          "Name": "Pilgrim of the Abyss [Lottery in progress]《ID:202700》"
+        },
+        {
+          "Description": "",
           "ID": "202701",
           "Name": "Pilgrim of the Abyss [Scum Bottom_Appearance]《ID:202701》"
         },
@@ -8185,6 +7412,21 @@
           "Description": "",
           "ID": "202703",
           "Name": "Pilgrim of the Abyss [Shadow Forest_Appearance]《ID:202703》"
+        },
+        {
+          "Description": "",
+          "ID": "202704",
+          "Name": "Pilgrim of the Abyss [Scum Bottom_Encounter]《ID:202704》"
+        },
+        {
+          "Description": "",
+          "ID": "202705",
+          "Name": "Pilgrim of the Abyss [Drangraig_Encounter]《ID:202705》"
+        },
+        {
+          "Description": "",
+          "ID": "202706",
+          "Name": "Pilgrim of the Abyss [Shadow Forest_Encounter]《ID:202706》"
         },
         {
           "Description": "",
@@ -8598,6 +7840,26 @@
         },
         {
           "Description": "",
+          "ID": "203605",
+          "Name": "Female Knight [Can appear: Prison of Oblivion]《ID:203605》"
+        },
+        {
+          "Description": "",
+          "ID": "203606",
+          "Name": "Female Knight [Can appear: Tamari no Tani]《ID:203606》"
+        },
+        {
+          "Description": "",
+          "ID": "203607",
+          "Name": "Female Knight [Can appear: Hidden Port]《ID:203607》"
+        },
+        {
+          "Description": "",
+          "ID": "203608",
+          "Name": "Female Knight [Can appear: Scum Bottom]《ID:203608》"
+        },
+        {
+          "Description": "",
           "ID": "203610",
           "Name": "Female Knight [2nd encounter: Talk to: Part 1]《ID:203610》"
         },
@@ -8660,6 +7922,26 @@
           "Description": "",
           "ID": "203633",
           "Name": "Female Knight [4th encounter: Talk to: Part 4]《ID:203633》"
+        },
+        {
+          "Description": "",
+          "ID": "203640",
+          "Name": "Female Knight [Appearing: Prison of Oblivion]《ID:203640》"
+        },
+        {
+          "Description": "",
+          "ID": "203641",
+          "Name": "Female Knight [Appearing: Tamari no Tani]《ID:203641》"
+        },
+        {
+          "Description": "",
+          "ID": "203642",
+          "Name": "Female Knight [Appearing: Hidden Port]《ID:203642》"
+        },
+        {
+          "Description": "",
+          "ID": "203643",
+          "Name": "Female Knight [Appearing: Scum Bottom]《ID:203643》"
         },
         {
           "Description": "",
@@ -9949,51 +9231,6 @@
         },
         {
           "Description": "",
-          "ID": "50",
-          "Name": "Elana: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "51",
-          "Name": "Fume Knight: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "52",
-          "Name": "Aava: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "53",
-          "Name": "Sinh: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "61",
-          "Name": "Afflicted Graverobber, Ancient Soldier & Old Explorer: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "62",
-          "Name": "Sir Alonne: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "63",
-          "Name": "Blue Smelter Demon: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "65",
-          "Name": "Burnt Ivory King: Number of defeats"
-        },
-        {
-          "Description": "",
-          "ID": "66",
-          "Name": "Lud & Zallen: Number of defeats"
-        },
-        {
-          "Description": "",
           "ID": "100",
           "Name": "[Grave appearance] Dullahan"
         },
@@ -10854,37 +10091,37 @@
         {
           "Description": "",
           "ID": "0",
-          "Name": "1"
+          "Name": "①"
         },
         {
           "Description": "",
           "ID": "1",
-          "Name": "1&2"
+          "Name": "①&②"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "1|2"
+          "Name": "①｜②"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "1&2&3"
+          "Name": "①&②&③"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "1|2|3"
+          "Name": "①|②|③"
         },
         {
           "Description": "",
           "ID": "5",
-          "Name": "(1&2)|3"
+          "Name": "(①&②)|③"
         },
         {
           "Description": "",
           "ID": "6",
-          "Name": "(1|2)&3"
+          "Name": "（①|②）&③"
         }
       ]
     },
@@ -11058,17 +10295,17 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Small"
+          "Name": "小"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "Medium"
+          "Name": "中"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "Large"
+          "Name": "大"
         },
         {
           "Description": "",
@@ -11169,17 +10406,17 @@
         {
           "Description": "",
           "ID": "10",
-          "Name": "Fast"
+          "Name": "速"
         },
         {
           "Description": "",
           "ID": "20",
-          "Name": "Medium"
+          "Name": "中"
         },
         {
           "Description": "",
           "ID": "30",
-          "Name": "Slow"
+          "Name": "遅"
         },
         {
           "Description": "",
@@ -12762,22 +11999,22 @@
         {
           "Description": "",
           "ID": "2",
-          "Name": "Waterfall"
+          "Name": "滝"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "Rain"
+          "Name": "雨"
         },
         {
           "Description": "",
           "ID": "5",
-          "Name": "Poison"
+          "Name": "毒"
         },
         {
           "Description": "",
           "ID": "6",
-          "Name": "Oil"
+          "Name": "油"
         }
       ]
     },
@@ -13023,7 +12260,7 @@
         {
           "Description": "",
           "ID": "50",
-          "Name": "Greatsword"
+          "Name": "Oversized sword"
         },
         {
           "Description": "",
@@ -13038,27 +12275,27 @@
         {
           "Description": "",
           "ID": "80",
-          "Name": "Axe"
+          "Name": "斧"
         },
         {
           "Description": "",
           "ID": "90",
-          "Name": "Hammer"
+          "Name": "槌"
         },
         {
           "Description": "",
           "ID": "100",
-          "Name": "Spear"
+          "Name": "槍"
         },
         {
           "Description": "",
           "ID": "110",
-          "Name": "Fist"
+          "Name": "拳"
         },
         {
           "Description": "",
           "ID": "120",
-          "Name": "Whip"
+          "Name": "鞭"
         },
         {
           "Description": "",
@@ -13073,22 +12310,22 @@
         {
           "Description": "",
           "ID": "150",
-          "Name": "Shield"
+          "Name": "盾"
         },
         {
           "Description": "",
           "ID": "400",
-          "Name": "Helmet"
+          "Name": "兜"
         },
         {
           "Description": "",
           "ID": "410",
-          "Name": "Helmet"
+          "Name": "鎧"
         },
         {
           "Description": "",
           "ID": "420",
-          "Name": "Gauntlets"
+          "Name": "Kote"
         },
         {
           "Description": "",
@@ -13128,7 +12365,7 @@
         {
           "Description": "",
           "ID": "720",
-          "Name": "Source"
+          "Name": "Sauce"
         },
         {
           "Description": "",
@@ -15466,17 +14703,17 @@
         {
           "Description": "",
           "ID": "2",
-          "Name": "Small"
+          "Name": "小"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "Medium"
+          "Name": "中"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "Large"
+          "Name": "大"
         },
         {
           "Description": "",
@@ -15508,7 +14745,7 @@
         {
           "Description": "",
           "ID": "0",
-          "Name": "None"
+          "Name": "無"
         },
         {
           "Description": "",
@@ -15518,17 +14755,17 @@
         {
           "Description": "",
           "ID": "2",
-          "Name": "Small"
+          "Name": "小"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "Medium"
+          "Name": "中"
         },
         {
           "Description": "",
           "ID": "4",
-          "Name": "Large"
+          "Name": "大"
         },
         {
           "Description": "",
@@ -17366,7 +16603,7 @@
         {
           "Description": "",
           "ID": "32010270",
-          "Name": "Two-handed Extra Great Sword_One-handed Pursuit"
+          "Name": "両手特大剣_片手追討ち"
         },
         {
           "Description": "",
@@ -18715,7 +17952,7 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Bow"
+          "Name": "弓"
         },
         {
           "Description": "",
@@ -18762,7 +17999,7 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Bow"
+          "Name": "弓"
         },
         {
           "Description": "",
@@ -19400,7 +18637,7 @@
         {
           "Description": "",
           "ID": "4",
-          "Name": "Axe type"
+          "Name": "Ax type"
         },
         {
           "Description": "",
@@ -19479,12 +18716,12 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "Nail"
+          "Name": "爪"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "Fist"
+          "Name": "拳"
         },
         {
           "Description": "",
@@ -19499,7 +18736,7 @@
         {
           "Description": "",
           "ID": "5",
-          "Name": "Whip"
+          "Name": "鞭"
         },
         {
           "Description": "",
@@ -19509,7 +18746,7 @@
         {
           "Description": "",
           "ID": "7",
-          "Name": "Spear"
+          "Name": "槍"
         },
         {
           "Description": "",
@@ -19524,7 +18761,7 @@
         {
           "Description": "",
           "ID": "10",
-          "Name": "Sword"
+          "Name": "刀"
         },
         {
           "Description": "",
@@ -19564,27 +18801,27 @@
         {
           "Description": "",
           "ID": "18",
-          "Name": "One handed axe"
+          "Name": "One handed ax"
         },
         {
           "Description": "",
           "ID": "19",
-          "Name": "Two-handed axe"
+          "Name": "Two-handed ax"
         },
         {
           "Description": "",
           "ID": "20",
-          "Name": "Two-handed long axe"
+          "Name": "Two-handed long ax"
         },
         {
           "Description": "",
           "ID": "21",
-          "Name": "Cane"
+          "Name": "杖"
         },
         {
           "Description": "",
           "ID": "22",
-          "Name": "Bell"
+          "Name": "鈴"
         },
         {
           "Description": "",
