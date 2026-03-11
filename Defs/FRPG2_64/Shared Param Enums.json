@@ -13643,6 +13643,26 @@
           "Description": "",
           "ID": "39",
           "Name": "Wall torch"
+        },
+        {
+          "Description": "",
+          "ID": "40",
+          "Name": "40"
+        },
+        {
+          "Description": "",
+          "ID": "41",
+          "Name": "41"
+        },
+        {
+          "Description": "",
+          "ID": "42",
+          "Name": "42"
+        },
+        {
+          "Description": "",
+          "ID": "Play go door",
+          "Name": "43"
         }
       ]
     },
