@@ -42,8 +42,8 @@
         <bloodMessageCellGroupTopRange AltName="血文字取得セル範囲(上方向)"/>
         <bloodMessageCellGroupBottomRange AltName="血文字取得セル範囲(下方向)"/>
         <bloodMessageLifeTime AltName="血文字データ保持期間上限[秒]"/>
-        <areaBloodMessageReloadSignIntervalTime/>
-        <areaBloodMessageReloadUnknownCount/>
+        <unkA4/>
+        <unkA8/>
         <bloodstainKeyGuideRange AltName="キーガイド水平範囲[m]"/>
         <bloodstainKeyGuideHeight AltName="キーガイド垂直範囲[m]"/>
         <bloodstainKeyGuideRangePlayer AltName="プレイヤー血痕キーガイド水平範囲[m]"/>
@@ -62,11 +62,11 @@
         <bloodstainLifeTime AltName="血痕データ保持期間上限[秒]"/>
         <recordDeadingGhostTotalTime AltName="死亡幻影記録合計時間[秒]"/>
         <recordDeadingGhostExtensionTime AltName="死亡幻影記録延長時間[秒]"/>
-        <areaBloodstainReloadSignIntervalTime/>
-        <areaBloodstainReloadUnknownCount/>
-        <bloodstainPoolMinCullPriority/>
-        <bloodstainPoolMaxSignCount/>
-        <bloodstainPoolRadius/>
+        <unkF4/>
+        <unkF8/>
+        <unkFC/>
+        <unk100/>
+        <unk104/>
         <reloadGhostTotalCount AltName="幻影取得数(全体)"/>
         <reloadGhostCellCount AltName="幻影取得数(セル)"/>
         <maxGhostTotalCount AltName="幻影所持可能数上限(全体)"/>
@@ -132,7 +132,7 @@
         <reloadMKSignIntervalTime2 AltName="ミラーナイトサイン再取得待機時間[秒]"/>
         <mirrorKnightSignLifetime AltName="ミラーナイトサイン寿命[秒]"/>
         <reloadMKSignTotalCount AltName="ミラーナイトサインサイン所持可能数上限"/>
-        <reloadMatchingAreaTime AltName="Matching Area Reacquisition Wait Time [sec]"/>
+        <unk1E0/>
         <pad10 AltName="予約"/>
     </Field>
 </PARAMMETA>

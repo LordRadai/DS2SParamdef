@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMMETA XmlVersion="0">
     <Field>
-        <material AltName="材質" ProjectEnum="MATERIAL_TYPE_ENUM"/>
-        <subMaterial AltName="第二材質" ProjectEnum="MATERIAL_TYPE_ENUM"/>
+        <material AltName="材質" Refs="MaterialParam"/>
+        <subMaterial AltName="第二材質" Refs="MaterialParam"/>
         <moveSpeedRate AltName="移動速度影響倍率"/>
         <moveRotateRate AltName="旋回速度影響倍率"/>
         <soundLevel AltName="音大きさ　加算値"/>

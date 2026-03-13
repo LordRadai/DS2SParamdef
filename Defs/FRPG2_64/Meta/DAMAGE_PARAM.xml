@@ -45,7 +45,7 @@
         <spEffectTargetRegion AltName="特殊効果管理カテゴリ" ProjectEnum="SP_EFFECT_TARGET_REGION"/>
         <spEffectDuplication AltName="特殊効果の重複判定" ProjectEnum="SP_EFFECT_DUPLICATION"/>
         <materialSize AltName="サイズ" ProjectEnum="DAMAGE_MATERIAL_SIZE"/>
-        <material AltName="材質" ProjectEnum="MATERIAL_TYPE_ENUM"/>
+        <material AltName="材質" Refs="MaterialParam"/>
         <traceSfx AltName="軌跡SFX"/>
         <traceSfxColor AltName="軌跡SFX追従ダミポリ色" ProjectEnum="DAMAGE_SFX_TRACE_DP_COLOR_ENUM"/>
         <traceSfxPos AltName="軌跡SFX位置"/>
