@@ -10295,17 +10295,17 @@
         {
           "Description": "",
           "ID": "1",
-          "Name": "小"
+          "Name": "Small"
         },
         {
           "Description": "",
           "ID": "2",
-          "Name": "中"
+          "Name": "Medium"
         },
         {
           "Description": "",
           "ID": "3",
-          "Name": "大"
+          "Name": "Large"
         },
         {
           "Description": "",
@@ -10315,7 +10315,7 @@
         {
           "Description": "",
           "ID": "5",
-          "Name": "Extra large"
+          "Name": "Extra extra large"
         },
         {
           "Description": "",
