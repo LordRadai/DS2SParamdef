@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMDEF XmlVersion="0">
     <ParamType>WEAPON_PARAM</ParamType>
-    <DataVersion>23</DataVersion>
+    <DataVersion>24</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>

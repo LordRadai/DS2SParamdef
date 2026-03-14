@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMDEF XmlVersion="0">
     <ParamType>BEHAVIOR_PARAM</ParamType>
-    <DataVersion>12</DataVersion>
+    <DataVersion>13</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMDEF XmlVersion="0">
     <ParamType>DAMAGE_PARAM</ParamType>
-    <DataVersion>19</DataVersion>
+    <DataVersion>20</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>

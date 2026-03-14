@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMDEF XmlVersion="0">
     <ParamType>PLAYER_COMMON_PARAM</ParamType>
-    <DataVersion>22</DataVersion>
+    <DataVersion>27</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>

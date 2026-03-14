@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PARAMDEF XmlVersion="0">
     <ParamType>FE_WEAPON_THRESHOLD_PARAM</ParamType>
-    <DataVersion>1</DataVersion>
+    <DataVersion>2</DataVersion>
     <BigEndian>true</BigEndian>
     <Unicode>true</Unicode>
     <FormatVersion>105</FormatVersion>
