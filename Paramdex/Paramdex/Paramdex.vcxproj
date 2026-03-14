@@ -114,6 +114,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)build\$(Platform)\$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <ExternalIncludePath>$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath);</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|Win32'">
     <OutDir>$(SolutionDir)lib\$(Platform)\$(Configuration)\</OutDir>
