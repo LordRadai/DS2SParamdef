@@ -1,4 +1,4 @@
-# DS2SParamdef
+# FRPG2Paramdef
 Library of DS2 paramdefs, and a C++ paramdex implementation for reading them.
 
 ## Writing Paramdefs
