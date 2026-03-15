@@ -86,9 +86,9 @@
         <bodyArmorEnhanced AltName="胴防具 強化段階"/>
         <armArmorEnhanced AltName="腕防具 強化段階"/>
         <legArmorEnhanced AltName="足防具 強化段階"/>
-        <bagItemParam01 AltName="アイテムセット01"/>
-        <bagItemParam02 AltName="アイテムセット02"/>
-        <bagItemParam03 AltName="アイテムセット03"/>
+        <bagItemParam01 AltName="アイテムセット01" Refs="PlayerStatusItemParam"/>
+        <bagItemParam02 AltName="アイテムセット02" Refs="PlayerStatusItemParam"/>
+        <bagItemParam03 AltName="アイテムセット03" Refs="PlayerStatusItemParam"/>
         <estusFlaskLvUsableCount AltName="エスト瓶強化レベル 使用回数"/>
         <estusFlaskLvHealPoint AltName="エスト瓶強化レベル 回復量"/>
         <dummy AltName="パディング用ダミー"/>
